@@ -1,9 +1,17 @@
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
+import Navigation from "./components/Navigation";
+import Home from "./page/Home";
 
 function App() {
   return (
     <div>
-      <h1>Catanauan, Tour Guide</h1>
+      {/* <Navigation /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
