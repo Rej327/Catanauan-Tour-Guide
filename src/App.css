@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "CocoGothic_trial";
+  src: url("./fonts/CocoGothic_trial.ttf");
+}
+@font-face {
+  font-family: "CocoGothic-Bold_trial";
+  src: url("./fonts/CocoGothic-Bold_trial.ttf");
+}
+@font-face {
+  font-family: "Mistrully";
+  src: url("./fonts/Mistrully.ttf");
+}
+@font-face {
+  font-family: "CatchyMager-Normal";
+  src: url("./fonts/CatchyMager-Normal.ttf");
+}
+
+.bodyColor {
+  color: #012854;
+}
+
+.cardColor {
+  color: #f9dba9;
+}
+
+.subBodyColor {
+  color: #fffbf3;
+}
+
+.arrowBg {
+  color: #fef3dc;
+}
