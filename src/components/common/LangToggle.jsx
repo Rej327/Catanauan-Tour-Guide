@@ -33,7 +33,9 @@ const LangToggle = () => {
       <Stack align="center" direction="row">
         <Switch
           size="lg"
-          colorScheme="orange"
+          className="border-2 rounded-full border-[#012854]"
+          colorScheme="none"
+          checked={"background:none"}
           isChecked={isEng}
           onChange={handleChange}
         />
