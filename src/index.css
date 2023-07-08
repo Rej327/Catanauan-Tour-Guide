@@ -19,6 +19,10 @@
   src: url("./fonts/CatchyMager-Normal.ttf");
 }
 
+.categoryColor {
+  color: #2f3935;
+}
+
 .bodyColor {
   color: #012854;
 }
