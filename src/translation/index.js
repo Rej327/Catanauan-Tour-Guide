@@ -5,11 +5,12 @@ export const en = {
     listOfBeaches: "List Of Beaches",
   },
   category: {
-    beaches: "beaches",
-    hotels: "hotels",
-    restaurants: "restaurants",
-    falls: "falls",
-    banks: "banks",
+    resorts: "RESORTS",
+    hotels: "HOTELS",
+    restaurants: "RESTAURANTS",
+    falls: "FALLS",
+    banks: "BANKS",
+    transportation: "TRANSPORTATION",
   },
 
   beaches: [
@@ -39,11 +40,12 @@ export const fil = {
     listOfBeaches: "Listahan ng mga dagat",
   },
   category: {
-    beaches: "dagat",
-    hotels: "matutuluyan",
-    restaurants: "kainan",
-    falls: "talon",
-    banks: "banko",
+    resorts: "RESORTS",
+    hotels: "HOTELS",
+    restaurants: "RESTAWRAN",
+    falls: "TALON",
+    banks: "BANGKO",
+    transportation: "TRANSPORTASYON",
   },
   beaches: [
     {
