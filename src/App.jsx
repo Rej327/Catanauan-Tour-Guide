@@ -7,6 +7,7 @@ import { createContext } from "react";
 import { ENGLISH_LANGUAGE } from "../src/constants/index";
 import Beaches from "./page/Beaches";
 import { en, fil } from "./translation/index";
+import "./navigationToogle.css";
 
 export const LangContext = createContext(null);
 
