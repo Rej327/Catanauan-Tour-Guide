@@ -9,7 +9,7 @@ const Home = () => {
     <div>
       <Navigation />
       <Hero />
-      <PlanAhead className="my-12 md:my-24 px-2" />
+      <PlanAhead className="py-12 md:py-24 px-2" />
       {/* <Sample /> */}
     </div>
   );
