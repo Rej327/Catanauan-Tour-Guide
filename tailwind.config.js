@@ -9,10 +9,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        title: ["Mistrully", "sans-serif"],
-        head: ["CocoGothic-Bold_trial", "sans-serif"],
-        sub: ["CatchyMager-Normal", "sans-serif"],
-        body: ["CocoGothic_trial", "sans-serif"],
+        title: ["CatchyMager-Normal", "sans-serif"],
+        header: ["Mistrully", "sans-serif"],
+        body: ["Josefin Sans", "sans-serif"],
       },
     },
   },
