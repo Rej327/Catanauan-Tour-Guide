@@ -22,7 +22,7 @@ function App() {
     } else setLanguage(fil);
   }, []);
   return (
-    <div>
+    <div className="bg-[#fffaf2]">
       <LangContext.Provider
         value={{ language, setLanguage, toggleLang, setToggleLang }}
       >

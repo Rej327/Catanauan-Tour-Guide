@@ -19,6 +19,15 @@
   src: url("./fonts/CatchyMager-Normal.ttf");
 }
 
+p {
+  color: #012854;
+  font-family: "Josefin Sans", "sans-serif";
+}
+
+.categoryColor {
+  color: #2f3935;
+}
+
 .bodyColor {
   color: #012854;
 }
