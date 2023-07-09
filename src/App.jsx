@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Navigation from "./components/Navigation";
+import Navigation from "./components/common/Navigation";
 import Home from "./page/Home";
 import { useContext, useEffect, useState } from "react";
 import { createContext } from "react";

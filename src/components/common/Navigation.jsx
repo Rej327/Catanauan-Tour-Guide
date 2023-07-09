@@ -1,7 +1,7 @@
 import React from "react";
-import { logo } from "../assets";
-import LangToggle from "./common/LangToggle";
-import NavigationToggle from "./common/NavigationToogle";
+import { logo } from "../../assets";
+import LangToggle from "./LangToggle";
+import NavigationToggle from "./NavigationToogle";
 
 const Navigation = () => {
   return (
