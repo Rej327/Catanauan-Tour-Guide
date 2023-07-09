@@ -13,6 +13,16 @@ export const en = {
     transportation: "TRANSPORTATION",
   },
 
+  plan_section: {
+    plan_a_head: "Plan A Head",
+    get_the_most: "Get the most out of your visit",
+    traveler_guides: "Traveler Guides",
+    getting_here: "Getting Here",
+    getting_around: "Getting Around",
+    cultures: "Culture",
+    accomodations: "Accomodation"
+  },
+
   beaches: [
     {
       id: 1,
@@ -47,6 +57,17 @@ export const fil = {
     banks: "BANGKO",
     transportation: "TRANSPORTASYON",
   },
+
+  plan_section: {
+    plan_a_head: "Plan A Head",
+    get_the_most: "Sulitin ang iyong pagbisita",
+    traveler_guides: "Gabay sa Manlalakbay",
+    getting_here: "Papunta dito",
+    getting_around: "Paglilibot",
+    cultures: "Kultura",
+    accomodations: "Akomodasyon"
+  },
+
   beaches: [
     {
       id: 1,
