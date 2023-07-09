@@ -10,7 +10,7 @@ const Home = () => {
       <Navigation />
       <Hero />
       <PlanAhead className="my-12 md:my-24 px-2" />
-      <Sample />
+      {/* <Sample /> */}
     </div>
   );
 };
