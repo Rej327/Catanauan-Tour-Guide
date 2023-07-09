@@ -26,7 +26,7 @@ const Hero = () => {
           <SearchBar />
           <div>
           <HeroCategory />
-          <BsChevronCompactDown onClick={handleScroll} className="text-white opacity-60 mx-auto text-6xl -mt-10 hover:opacity-100 duration-300 delay-75 cursor-pointer" />
+          <BsChevronCompactDown onClick={handleScroll} className="text-white opacity-60 mx-auto text-6xl -mt-5 sm:-mt-10 hover:opacity-100 duration-300 delay-75 cursor-pointer" />
           </div>
         </div>
       </div>
