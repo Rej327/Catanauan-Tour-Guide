@@ -22,7 +22,7 @@ button::before {
   top: 0;
   left: 0;
   z-index: -1;
-  transition: width 700ms ease-in-out;
+  transition: width 300ms ease-in-out;
   display: inline-block;
 }
 
