@@ -1,7 +1,9 @@
 export { default as hero } from "./HeroSection/hero.jpg";
 export { default as logo } from "./logo.png";
-export { default as guides } from "./PlanAhead/guides.svg";
-export { default as gettingHere } from "./PlanAhead/gettingHere.svg";
-export { default as gettingAround } from "./PlanAhead/gettingAround.svg";
-export { default as culture } from "./PlanAhead/culture.svg";
-export { default as accomodation } from "./PlanAhead/accomodation.svg";
+export { default as guides } from "./PlanAheadSection/guides.svg";
+export { default as gettingHere } from "./PlanAheadSection/gettingHere.svg";
+export { default as gettingAround } from "./PlanAheadSection/gettingAround.svg";
+export { default as culture } from "./PlanAheadSection/culture.svg";
+export { default as accomodation } from "./PlanAheadSection/accomodation.svg";
+export { default as adv } from "./AdventureSection/adv.jpg";
+export { default as adv1 } from "./AdventureSection/adv1.jpg";
