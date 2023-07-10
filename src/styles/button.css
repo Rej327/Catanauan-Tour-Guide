@@ -1,0 +1,31 @@
+button {
+  position: relative;
+  background-color: #f1be66;
+  border-radius: 5px;
+  box-shadow: #6e4600 0px 4px 0px 0px;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+  z-index: 1;
+  overflow: hidden;
+}
+
+button::before {
+  content: "";
+  background-color: #f1be66;
+  width: 0;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: width 700ms ease-in-out;
+  display: inline-block;
+}
+
+button:hover::before {
+  width: 100%;
+}
