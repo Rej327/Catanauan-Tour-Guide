@@ -1,9 +1,9 @@
 import React from "react";
 import { adv, adv1 } from "../../assets";
 
-const Adventure = () => {
+const Adventure = ({ className }) => {
   return (
-    <div className="w-full">
+    <div className={`w-full ${className}`}>
       <div className="max-w-[1240px] mx-auto px-5">
         <div className="w-auto">
           <p className="font-bold text-2xl md:text-3xl lg:text-4xl tracking-wider">
