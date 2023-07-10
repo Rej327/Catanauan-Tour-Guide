@@ -1,5 +1,4 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import "./App.css";
 import Navigation from "./components/common/Navigation";
 import Home from "./page/Home";
 import { useContext, useEffect, useState } from "react";
@@ -7,7 +6,7 @@ import { createContext } from "react";
 import { ENGLISH_LANGUAGE } from "../src/constants/index";
 import Beaches from "./page/Beaches";
 import { en, fil } from "./translation/index";
-import "./navigationToogle.css";
+import "./styles/navigationToogle.css";
 
 export const LangContext = createContext(null);
 
