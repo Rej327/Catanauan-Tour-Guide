@@ -4,14 +4,12 @@ import HeroCategory from "./HeroCategory";
 import { BsChevronCompactDown } from "react-icons/bs";
 
 const Hero = () => {
-
   const handleScroll = () => {
     window.scrollTo({
       top: window.innerHeight,
       behavior: "smooth",
     });
   };
-
 
   return (
     <div className="w-full">
@@ -25,8 +23,11 @@ const Hero = () => {
           </p>
           <SearchBar />
           <div>
-          <HeroCategory />
-          <BsChevronCompactDown onClick={handleScroll} className="text-white opacity-60 mx-auto text-6xl -mt-5 sm:-mt-10 hover:opacity-100 duration-300 delay-75 cursor-pointer" />
+            <HeroCategory />
+            <BsChevronCompactDown
+              onClick={handleScroll}
+              className="text-white opacity-60 mx-auto text-6xl -mt-5 sm:-mt-10 hover:opacity-100 duration-300 delay-75 cursor-pointer"
+            />
           </div>
         </div>
       </div>

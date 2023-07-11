@@ -15,7 +15,7 @@ const PlanAhead = ({ className }) => {
   return (
     <>
       {/* MAX SMARTPHONE SCREEN */}
-      <div className={`max-w-[1300px] mx-auto md:hidden ${className}`}>
+      <div className={`max-w-[1300px] mx-auto sm:hidden ${className}`}>
         <table className="mx-auto">
           <tr>
             <td className="w-[400px] h-[7rem]">
