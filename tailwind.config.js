@@ -7,6 +7,12 @@ export default {
     "./components/**/*.{html,js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      sm: "640px",
+      md: "767px",
+      lg: "1023px",
+      bs: "14439px",
+    },
     extend: {
       fontFamily: {
         title: ["CatchyMager-Normal", "sans-serif"],
