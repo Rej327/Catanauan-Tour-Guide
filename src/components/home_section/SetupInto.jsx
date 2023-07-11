@@ -17,8 +17,8 @@ const SetupInto = ({ className }) => {
                 whats on around Catanauan.
               </p>
               <Button
+                className="globalButton font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
                 label="What's On"
-                className="text-[#F1BE66] font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
               />
             </div>
           </div>
