@@ -10,7 +10,7 @@ function NextArrow(props) {
   const { onClick } = props;
   return (
     <CarouselButton
-      className="hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 right-0"
+      className="hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 right-0 top-[40%]"
       onClick={onClick}
     />
   );
@@ -20,13 +20,13 @@ function PrevArrow(props) {
   const { onClick } = props;
   return (
     <CarouselButton
-      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758]"
+      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 left-0 bottom-[51.5%]"
       onClick={onClick}
     />
   );
 }
 
-const Carousel = () => {
+const Carousel = ({ className }) => {
   const { language } = useContext(LangContext);
 
   const settings = {
@@ -40,20 +40,20 @@ const Carousel = () => {
 
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1200,
         settings: {
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          slidesToShow: 2,
+          slidesToScroll: 2,
           infinite: true,
           dots: true,
         },
       },
       {
-        breakpoint: 768,
+        breakpoint: 800,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
-          initialSlide: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
       {
@@ -67,21 +67,16 @@ const Carousel = () => {
   };
 
   return (
-    <div className="max-w-[1200px] mx-auto border-2">
+    <div className={`max-w-[1200px] mx-auto ${className}`}>
       <div>
         <Slider {...settings}>
           {language?.main?.resorts.map((data) => (
-            <div
-              key={data.id}
-              className="py-2 flex flex-col justify-center items-center border-2"
-            >
-              <img
-                src={data.img}
-                alt="resorts"
-                className="w-[300px] h-[300px]"
-              />
-              <p>{data.title}</p>
-              <p>{data.desc}</p>
+            <div key={data.id} className="px-5">
+              <img src={data.img} alt="resorts" className="w-auto" />
+              <div className="w-full bg-white">
+                <p>{data.title}</p>
+                <p>{data.desc}</p>
+              </div>
             </div>
           ))}
         </Slider>
