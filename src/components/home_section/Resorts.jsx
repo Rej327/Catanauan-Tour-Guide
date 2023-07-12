@@ -22,7 +22,7 @@ const Resorts = ({ className }) => {
           </p>
           <p className="text-[#d4a148] my-5">— See all beach</p>
         </div>
-        <div className="ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
+        <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
           <Carousel />
         </div>
       </div>
