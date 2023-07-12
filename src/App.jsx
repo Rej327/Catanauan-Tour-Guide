@@ -8,6 +8,7 @@ import Beaches from "./page/Beaches";
 import { en, fil } from "./translation/index";
 import "./styles/navigationToogle.css";
 import "./styles/button.css";
+import "./styles/slideArrow.css";
 
 export const LangContext = createContext(null);
 
