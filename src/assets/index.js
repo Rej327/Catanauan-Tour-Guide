@@ -8,3 +8,4 @@ export { default as accomodation } from "./PlanAheadSection/accomodation.svg";
 export { default as adv } from "./AdventureSection/adv.jpg";
 export { default as adv1 } from "./AdventureSection/adv1.jpg";
 export { default as stepinto } from "./StepInto/stepinto.jpg";
+export { default as hotelandresto } from "./HotelAndResto/hotelandresto.jpg";
