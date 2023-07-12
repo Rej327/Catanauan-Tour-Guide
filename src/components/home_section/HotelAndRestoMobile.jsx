@@ -1,9 +1,10 @@
 import React from "react";
 import Slider from "react-slick";
-import HotelAndRestoCarouselItem from "./HotelAndRestoCarouselItem";
 import SlideArrow from "../common/SlideArrow";
+import HotelCarouselSection from "./HotelCarouselSection";
+import RestoCarouselSection from "./RestoCarouselSection";
 
-const HotelAndResto = ({ className }) => {
+const HotelAndRestoMobile = ({ className }) => {
   const settings = {
     infinite: true,
     speed: 1500,
@@ -17,7 +18,7 @@ const HotelAndResto = ({ className }) => {
     <Slider className={`overflow-hidden ${className}`} {...settings}>
       <div className="bg-[url(./assets/HotelAndResto/hotelandresto.jpg)] w-auto bg-cover bg-center h-screen">
         <div className="relative bg-black bg-opacity-60 w-full h-screen flex items-center flex-col justify-center">
-          <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-4xl tracking-wide">
+          <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-xl md:text-3xl text-4xl tracking-wide">
             Looking for a place to stay or eat during your next trip?
           </p>
           <div className="absolute bottom-[5rem] flex max-w-[300px] opacity-50 items-center justify-center gap-10">
@@ -29,11 +30,14 @@ const HotelAndResto = ({ className }) => {
           </div>
         </div>
       </div>
-      <div className="h-screen overflow-hidden">
-        <HotelAndRestoCarouselItem />
+      <div>
+        <HotelCarouselSection className="w-full" />
+      </div>
+      <div>
+        <RestoCarouselSection className="w-full" />
       </div>
     </Slider>
   );
 };
 
-export default HotelAndResto;
+export default HotelAndRestoMobile;
