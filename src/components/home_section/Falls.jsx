@@ -42,7 +42,7 @@ const Falls = ({ className }) => {
             </p>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto">
+        <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto -mt-5">
           {language?.main?.resorts.slice(0, 3).map((data) => (
             <div
               key={data.id}
