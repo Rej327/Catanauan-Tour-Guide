@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
+import Button from "../common/Button";
 
 const Banks = ({ className }) => {
   const { language } = useContext(LangContext);
@@ -44,16 +45,18 @@ const Banks = ({ className }) => {
             <p className="font-header hashColor text-4xl"># Banks</p>
           </div>
         </div>
-        <div className="mx-auto max-w-[350px] md:max-w-[400px] lg:max-w-[1300px] h-[250px] -mt-5">
-          <Carousel>
-            {language?.main?.resorts.map((data) => (
-              <div key={data.id} className="px-5">
-                <img src={data.img} alt="resorts" className="w-auto" />
-                <p>{data.title}</p>
-                <p>{data.desc}</p>
-              </div>
-            ))}
-          </Carousel>
+        <div className="mx-auto max-w-[450px] lg:max-w-[1300px] -mt-5 lg:mt-0">
+          <div className="mx-auto">
+            <Carousel>
+              {language?.main?.resorts.map((data) => (
+                <div key={data.id} className="px-5">
+                  <img src={data.img} alt="resorts" className="w-auto" />
+                  <p>{data.title}</p>
+                  <p>{data.desc}</p>
+                </div>
+              ))}
+            </Carousel>
+          </div>
         </div>
       </div>
     </div>

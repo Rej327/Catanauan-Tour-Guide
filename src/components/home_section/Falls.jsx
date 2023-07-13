@@ -42,24 +42,21 @@ const Falls = ({ className }) => {
             </p>
           </div>
         </div>
-        <div className="mx-auto max-w-[1300px] -mt-5 lg:mt-0">
-          <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto">
-            {language?.main?.resorts.slice(0, 3).map((data) => (
-              <div
-                key={data.id}
-                className="px-5 max-w-[400px] md:max-w-[300px] lg:max-w-[400px] mx-auto"
-              >
-                <img src={data.img} alt="resorts" className="w-auto" />
-              </div>
-            ))}
-          </div>
-
-          <div className="w-fit mx-auto ">
-            <Button
-              className="my-10 mx-auto text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
-              label="MORE"
-            />
-          </div>
+        <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto">
+          {language?.main?.resorts.slice(0, 3).map((data) => (
+            <div
+              key={data.id}
+              className="px-5 max-w-[400px] md:max-w-[300px] lg:max-w-[400px] mx-auto"
+            >
+              <img src={data.img} alt="resorts" className="w-auto" />
+            </div>
+          ))}
+        </div>
+        <div className="w-fit mx-auto ">
+          <Button
+            className="my-10 mx-auto text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
+            label="MORE"
+          />
         </div>
       </div>
     </div>
