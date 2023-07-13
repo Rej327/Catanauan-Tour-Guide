@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Carousel from "../common/Carousel";
+import { LangContext } from "../../App";
 
 const Resorts = ({ className }) => {
+  const { language } = useContext(LangContext);
+
   return (
     <div className={`w-full ${className}`}>
       {/* DESKTOP SIZE */}
@@ -23,7 +26,17 @@ const Resorts = ({ className }) => {
           <p className="text-[#d4a148] my-5">— See all beach</p>
         </div>
         <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
-          <Carousel />
+          <Carousel>
+            {language?.main?.resorts.map((data) => (
+              <div key={data.id} className="px-5">
+                <img src={data.img} alt="resorts" className="w-auto" />
+                <div className="w-full bg-white">
+                  <p>{data.title}</p>
+                  <p>{data.desc}</p>
+                </div>
+              </div>
+            ))}
+          </Carousel>
         </div>
       </div>
     </div>
