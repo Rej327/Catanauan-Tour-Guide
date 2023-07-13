@@ -21,6 +21,7 @@ const Banks = ({ className }) => {
                 Your one-stop shop for banking need, even when you're on
                 vacation.
               </p>
+              <p className="text-[#d4a148] mt-5">— See all bank</p>
             </div>
           </div>
         </div>
@@ -37,6 +38,7 @@ const Banks = ({ className }) => {
             <p className="text-xl">
               Your one-stop shop for banking need, even when you're on vacation.
             </p>
+            <p className="text-[#d4a148] mt-5">— See all bank</p>
           </div>
           <div className="w-fit ml-auto pr-24">
             <p className="font-header hashColor text-4xl"># Banks</p>
