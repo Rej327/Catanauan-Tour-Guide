@@ -22,8 +22,8 @@ const Home = () => {
       <Resorts className="py-6 md:py-12" />
       <HotelAndRestoDesktop className="hidden lg:block my-12" />
       <HotelAndRestoMobile className="mt-[30%] md:mt-[15%] lg:hidden" />
-      <Falls className="pt-12 pb-6 md:py-12" />
-      <Banks className="pt-12 pb-6 md:py-12" />
+      <Falls className="pt-12 pb-6 md:py-6" />
+      <Banks className="py-6" />
       {/* <Sample /> */}
     </div>
   );
