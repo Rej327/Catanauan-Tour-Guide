@@ -8,7 +8,7 @@ function NextArrow(props) {
   const { onClick } = props;
   return (
     <CarouselButton
-      className="hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 right-0 top-[40%]"
+      className="hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 right-0 top-[44%]"
       onClick={onClick}
     />
   );
@@ -18,7 +18,7 @@ function PrevArrow(props) {
   const { onClick } = props;
   return (
     <CarouselButton
-      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 left-0 bottom-[51.5%]"
+      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 left-0 bottom-[42.5%]"
       onClick={onClick}
     />
   );
