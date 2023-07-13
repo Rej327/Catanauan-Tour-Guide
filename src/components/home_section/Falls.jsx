@@ -28,7 +28,7 @@ const Falls = ({ className }) => {
       </div>
       {/* ITEM */}
       <div className="relative max-w-[1300px] mx-auto">
-        <div className="hidden md:block lg:flex items-center justify-between -mt-56 mb-12 px-2 ">
+        <div className="hidden md:block lg:flex items-center justify-between -mt-56 mb-12 px-2 md:px-10">
           <div className="w-fit lg:ml-[7%]">
             <p className="font-header hashColor text-4xl"># Falls</p>
           </div>
