@@ -8,7 +8,7 @@ import SetupInto from "../components/home_section/SetupInto";
 import Resorts from "../components/home_section/Resorts";
 import HotelAndRestoDesktop from "../components/home_section/HotelAndRestoDesktop";
 import HotelAndRestoMobile from "../components/home_section/HotelAndRestoMobile";
-import Banks from "../components/home_section/Banks";
+import Falls from "../components/home_section/Falls";
 
 const Home = () => {
   return (
@@ -21,7 +21,7 @@ const Home = () => {
       <Resorts className="py-6 md:py-12" />
       <HotelAndRestoDesktop className="hidden lg:block my-12" />
       <HotelAndRestoMobile className="mt-[30%] md:mt-[15%] lg:hidden" />
-      <Banks className="pt-12 pb-6 md:py-12" />
+      <Falls className="pt-12 pb-6 md:py-12" />
       {/* <Sample /> */}
     </div>
   );

@@ -1,8 +1,9 @@
 import React, { useContext } from "react";
 import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
+import Button from "../common/Button";
 
-const Banks = ({ className }) => {
+const Falls = ({ className }) => {
   const { language } = useContext(LangContext);
   return (
     <div className={`w-full ${className}`}>
@@ -41,18 +42,28 @@ const Banks = ({ className }) => {
             </p>
           </div>
         </div>
-        <div className="mx-auto max-w-[350px] md:max-w-[350px] lg:max-w-[1300px] h-[250px] -mt-5 lg:mt-0">
-          <Carousel>
-            {language?.main?.resorts.map((data) => (
-              <div key={data.id} className="px-5">
+        <div className="mx-auto border-2 max-w-[1300px] -mt-5 lg:mt-0">
+          <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto">
+            {language?.main?.resorts.slice(0, 3).map((data) => (
+              <div
+                key={data.id}
+                className="px-5 max-w-[400px] md:max-w-[300px] lg:max-w-[400px] mx-auto"
+              >
                 <img src={data.img} alt="resorts" className="w-auto" />
               </div>
             ))}
-          </Carousel>
+          </div>
+
+          <div className="w-fit mx-auto ">
+            <Button
+              className="my-10 mx-auto text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
+              label="MORE"
+            />
+          </div>
         </div>
       </div>
     </div>
   );
 };
 
-export default Banks;
+export default Falls;
