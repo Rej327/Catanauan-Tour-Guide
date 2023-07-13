@@ -19,7 +19,7 @@ const Home = () => {
       <Adventure className="py-6 md:py-12 px-2" />
       <SetupInto className="py-6 md:py-12" />
       <Resorts className="py-6 md:py-12" />
-      <HotelAndRestoDesktop className="hidden lg:block" />
+      <HotelAndRestoDesktop className="hidden lg:block my-12" />
       <HotelAndRestoMobile className="mt-[30%] md:mt-[15%] lg:hidden" />
       <Banks className="pt-12 pb-6 md:py-12" />
       {/* <Sample /> */}
