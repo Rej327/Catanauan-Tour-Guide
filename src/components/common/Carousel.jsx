@@ -1,10 +1,8 @@
-import React, { useContext } from "react";
+import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import ArrowButton from "./ArrowButton";
 import CarouselButton from "./CarouselButton";
-import { LangContext } from "../../App";
 
 function NextArrow(props) {
   const { onClick } = props;
@@ -26,9 +24,7 @@ function PrevArrow(props) {
   );
 }
 
-const Carousel = ({ className }) => {
-  const { language } = useContext(LangContext);
-
+const Carousel = ({ className, children }) => {
   const settings = {
     dots: true,
     infinite: true,
@@ -69,17 +65,7 @@ const Carousel = ({ className }) => {
   return (
     <div className={`max-w-[1200px] mx-auto ${className}`}>
       <div>
-        <Slider {...settings}>
-          {language?.main?.resorts.map((data) => (
-            <div key={data.id} className="px-5">
-              <img src={data.img} alt="resorts" className="w-auto" />
-              <div className="w-full bg-white">
-                <p>{data.title}</p>
-                <p>{data.desc}</p>
-              </div>
-            </div>
-          ))}
-        </Slider>
+        <Slider {...settings}>{children}</Slider>
       </div>
     </div>
   );
