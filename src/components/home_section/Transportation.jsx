@@ -12,7 +12,7 @@ const Transportation = ({ className, id }) => {
         <div className="max-sm:hidden w-full h-[400px]"></div>
         <div className="w-full flex flex-col justify-center h-[400px] bg-[#FCE9CB]">
           <div className="max-w-[600px]">
-            <div className="max-w-[350px] h-full ml-auto px-10">
+            <div className="md:max-w-[350px] h-full ml-auto px-2 md:px-10">
               <p className="font-header hashColor text-4xl my-10">
                 # Transportation
               </p>

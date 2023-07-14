@@ -31,7 +31,7 @@ const Home = () => {
       />
       <Falls id="falls" className="pt-12 pb-6 md:py-6" />
       <Banks id="banks" className="py-6" />
-      <Transportation id="transportation" className="py-6 md:py-12" />
+      <Transportation id="transportation" className="py-6 md:py-24" />
       {/* <Sample /> */}
     </div>
   );
