@@ -10,6 +10,7 @@ import HotelAndRestoDesktop from "../components/home_section/HotelAndRestoDeskto
 import HotelAndRestoMobile from "../components/home_section/HotelAndRestoMobile";
 import Falls from "../components/home_section/Falls";
 import Banks from "../components/home_section/Banks";
+import Transportation from "../components/home_section/Transportation";
 
 const Home = () => {
   return (
@@ -24,6 +25,7 @@ const Home = () => {
       <HotelAndRestoMobile className="mt-[30%] md:mt-[15%] lg:hidden" />
       <Falls className="pt-12 pb-6 md:py-6" />
       <Banks className="py-6" />
+      <Transportation className="py-6 md:py-12" />
       {/* <Sample /> */}
     </div>
   );
