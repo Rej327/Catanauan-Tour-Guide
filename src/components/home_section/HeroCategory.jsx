@@ -26,7 +26,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("hotelandrestomobile")}
           className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body text-[#2f3935] text-xs font-bold tracking-widest">
@@ -34,7 +34,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("hotelandrestomobile")}
           className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body text-[#2f3935] text-xs font-bold tracking-widest">

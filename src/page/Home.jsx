@@ -27,7 +27,7 @@ const Home = () => {
         className="hidden lg:block my-12"
       />
       <HotelAndRestoMobile
-        id="hotelandresto"
+        id="hotelandrestomobile"
         className="mt-[30%] md:mt-[15%] lg:hidden"
       />
       <Falls id="falls" className="pt-12 pb-6 md:py-6" />
