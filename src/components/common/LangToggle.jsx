@@ -22,7 +22,7 @@ const LangToggle = () => {
       toast({
         title: "Translated to Filipino Language",
         status: "success",
-        duration: 9000,
+        duration: 3000,
         position: "top",
         isClosable: true,
       });
@@ -33,7 +33,7 @@ const LangToggle = () => {
       toast({
         title: "Translated to English Language",
         status: "success",
-        duration: 9000,
+        duration: 3000,
         position: "top",
         isClosable: true,
       });
