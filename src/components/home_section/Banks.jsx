@@ -3,10 +3,10 @@ import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
 
-const Banks = ({ className }) => {
+const Banks = ({ className, id }) => {
   const { language } = useContext(LangContext);
   return (
-    <div className={`w-full ${className}`}>
+    <div id={id} className={`w-full ${className}`}>
       <div className="w-full flex">
         <div className="w-full lg:w-[60%] max-sm:h-[350px] h-[300px] bg-[#FCE9CB] flex flex-col justify-center">
           {/* MOBILE & TABLET */}

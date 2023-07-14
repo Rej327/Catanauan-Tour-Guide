@@ -20,12 +20,18 @@ const Home = () => {
       <PlanAhead className="py-6 md:py-12 md:mt-12 px-2" />
       <Adventure className="py-6 md:py-12 px-2" />
       <SetupInto className="py-6 md:py-12" />
-      <Resorts className="py-6 md:py-12" />
-      <HotelAndRestoDesktop className="hidden lg:block my-12" />
-      <HotelAndRestoMobile className="mt-[30%] md:mt-[15%] lg:hidden" />
-      <Falls className="pt-12 pb-6 md:py-6" />
-      <Banks className="py-6" />
-      <Transportation className="py-6 md:py-12" />
+      <Resorts id="resorts" className="py-6 md:py-12" />
+      <HotelAndRestoDesktop
+        id="hotelandresto"
+        className="hidden lg:block my-12"
+      />
+      <HotelAndRestoMobile
+        id="hotelandresto"
+        className="mt-[30%] md:mt-[15%] lg:hidden"
+      />
+      <Falls id="falls" className="pt-12 pb-6 md:py-6" />
+      <Banks id="banks" className="py-6" />
+      <Transportation id="transportation" className="py-6 md:py-12" />
       {/* <Sample /> */}
     </div>
   );

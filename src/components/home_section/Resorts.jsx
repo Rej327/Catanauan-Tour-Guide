@@ -2,11 +2,11 @@ import React, { useContext } from "react";
 import Carousel from "../common/Carousel";
 import { LangContext } from "../../App";
 
-const Resorts = ({ className }) => {
+const Resorts = ({ className, id }) => {
   const { language } = useContext(LangContext);
 
   return (
-    <div className={`w-full ${className}`}>
+    <div id={id} className={`w-full ${className}`}>
       {/* DESKTOP SIZE */}
       <div className="w-full flex">
         <div className="w-full h-[400px] bg-[#FCE9CB]"></div>

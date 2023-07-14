@@ -7,7 +7,6 @@ const Hero = () => {
   const handleScroll = () => {
     window.scrollTo({
       top: window.innerHeight,
-      behavior: "smooth",
     });
   };
 

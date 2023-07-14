@@ -3,10 +3,10 @@ import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
 
-const Falls = ({ className }) => {
+const Falls = ({ className, id }) => {
   const { language } = useContext(LangContext);
   return (
-    <div className={`w-full ${className}`}>
+    <div id={id} className={`w-full ${className}`}>
       <div className="w-full flex">
         <div className="hidden lg:block w-[40%] h-[300px]"></div>
         <div className="w-full lg:w-[60%] max-sm:h-[350px] h-[300px] bg-[#FCE9CB] flex flex-col justify-center">
