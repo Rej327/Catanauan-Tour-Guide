@@ -63,3 +63,65 @@
 .arrowButton:hover::before {
   width: 100%;
 }
+
+/* FOOTER BUTTON */
+.footerButton {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #012854;
+  font-family: "Montserrat", sans-serif;
+  box-shadow: 0px 6px 24px 0px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  border: none;
+}
+
+.footerButton:after {
+  content: " ";
+  width: 0%;
+  height: 100%;
+  background: #f1be66;
+  position: absolute;
+  transition: all 0.4s ease-in-out;
+  right: 0;
+}
+
+.footerButton:hover::after {
+  right: auto;
+  left: 0;
+  width: 100%;
+}
+
+.footerButton span {
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  padding: 13px 20px;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  z-index: 20;
+  transition: all 0.3s ease-in-out;
+}
+
+.footerButton:hover span {
+  color: #012854;
+  animation: scaleUp 0.3s ease-in-out;
+}
+
+@keyframes scaleUp {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(0.95);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}

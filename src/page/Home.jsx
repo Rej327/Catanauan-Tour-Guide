@@ -11,6 +11,7 @@ import HotelAndRestoMobile from "../components/home_section/HotelAndRestoMobile"
 import Falls from "../components/home_section/Falls";
 import Banks from "../components/home_section/Banks";
 import Transportation from "../components/home_section/Transportation";
+import Footer from "../components/common/Footer";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
       <Falls id="falls" className="pt-12 pb-6 md:py-6" />
       <Banks id="banks" className="py-6" />
       <Transportation id="transportation" className="py-6 md:py-24" />
+      <Footer className="pt-44 md:pt-24" />
       {/* <Sample /> */}
     </div>
   );
