@@ -2,6 +2,7 @@ import React, { useContext, useEffect } from "react";
 import SearchBar from "../common/SearchBar";
 import HeroCategory from "./HeroCategory";
 import { BsChevronCompactDown } from "react-icons/bs";
+import ArrowDown from "../common/ArrowDown";
 
 const Hero = () => {
   const handleScroll = () => {
@@ -23,10 +24,7 @@ const Hero = () => {
           <SearchBar iconStyle="subBodyColor" />
           <div>
             <HeroCategory />
-            <BsChevronCompactDown
-              onClick={handleScroll}
-              className="text-white opacity-60 mx-auto text-6xl -mt-5 sm:-mt-10 hover:opacity-100 duration-300 delay-75 cursor-pointer"
-            />
+            <ArrowDown className="-mt-5 sm:-mt-10" />
           </div>
         </div>
       </div>
