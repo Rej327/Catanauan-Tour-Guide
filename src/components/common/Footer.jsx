@@ -1,10 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import { logo, mail } from "../../assets";
 import Button from "./Button";
 import FooterButton from "./FooterButton";
 import { CiFacebook } from "react-icons/ci";
+import { LangContext } from "../../App";
 
 const Footer = ({ className }) => {
+  const { language } = useContext(LangContext);
+
+  const handleScrollClick = (id) => {
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView();
+    }
+  };
+
   return (
     <div className={`w-full ${className}`}>
       <div className="w-full bg-[#FCE9CB] rounded-t-2xl">
@@ -31,38 +41,88 @@ const Footer = ({ className }) => {
         {/* LAST SECTION */}
         <div className="w-full flex flex-col gap-2 pt-10 pb-2 bg-[#F9DBA9] px-2 rounded-t-2xl">
           <div className="max-w-[1300px] mx-auto">
-            <div className="max-w-[1300px] md:justify-center lg:justify-between flex flex-wrap gap-8 lg:gap-[8rem]">
-              <div className="flex flex-col max-w-[300px]">
+            <div className="max-w-[1300px] lg:w-[1300px] md:justify-center lg:justify-between flex flex-wrap gap-8 lg:gap-0">
+              <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Discover</p>
-                <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
-                  <p>Resorts</p>
-                  <p>Hotels</p>
-                  <p>Restaurants</p>
-                  <p>Banks</p>
-                  <p>Falls</p>
-                  <p>Transportation</p>
+                <div className="grid grid-cols-2 justify-around gap-2 mt-4">
+                  <p
+                    onClick={() => handleScrollClick("resorts")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.resorts}
+                  </p>
+                  <p
+                    onClick={() => handleScrollClick("hotelandresto")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.hotels}
+                  </p>
+                  <p
+                    onClick={() => handleScrollClick("hotelandresto")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.restaurants}
+                  </p>
+                  <p
+                    onClick={() => handleScrollClick("falls")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.falls}
+                  </p>
+                  <p
+                    onClick={() => handleScrollClick("banks")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.banks}
+                  </p>
+                  <p
+                    onClick={() => handleScrollClick("transportation")}
+                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                  >
+                    {language.category?.transportation}
+                  </p>
                 </div>
               </div>
               {/* NEXT ITEM */}
-              <div className="flex flex-col max-w-[300px]">
+              <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Useful Links</p>
                 <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
-                  <p>What's on</p>
-                  <p>Travel guides</p>
-                  <p>Getting here</p>
-                  <p>Getting around</p>
-                  <p>Culture</p>
-                  <p>Accomodation</p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    What's on
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    {language.plan_section?.traveler_guides}
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    {language.plan_section?.getting_here}
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    {language.plan_section?.getting_around}
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    {language.plan_section?.cultures}
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    {language.plan_section?.accomodation}
+                  </p>
                 </div>
               </div>
               {/* NEXT ITEM */}
-              <div className="flex flex-col max-w-[300px]">
+              <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Legal</p>
                 <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
-                  <p>Terms of use</p>
-                  <p>Cookie policy</p>
-                  <p>Accesibility</p>
-                  <p>Consumer Privacy</p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    Terms of use
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    Cookie policy
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    Accesibility
+                  </p>
+                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                    Consumer Privacy
+                  </p>
                 </div>
               </div>
               <div className="flex flex-col gap-4 max-w-[200px] items-center">
@@ -70,13 +130,13 @@ const Footer = ({ className }) => {
                   Where to stay in Catanauan
                 </p>
                 <div className="w-fit">
-                  <FooterButton />
+                  <FooterButton>Accomodation</FooterButton>
                 </div>
               </div>
             </div>
             <div className="max-w-[1300px] mt-10 mx-auto flex flex-wrap gap-4 max-sm:flex-col-reverse justify-between">
               <div className="w-fit flex flex-col gap-2">
-                <div className="flex gap-1 justify-center items-center">
+                <div className="flex gap-1 justify-center items-center max-sm:mt-5">
                   <img src={logo} className="w-20" alt="logo" />
                   <p className="w-[150px] font-bold">
                     Catanauan, Quezon Travel Guide
@@ -84,11 +144,11 @@ const Footer = ({ className }) => {
                 </div>
                 <p className="font-bold text-sm">© 2023. All rights reserved</p>
               </div>
-              <div className="w-fit flex flex-col gap-2">
+              <div className=" w-fit md:mt-auto">
                 <p className="font-bold tracking-widest">
                   FIND AND FOLLOW DISCOVER CATANAUAN
                 </p>
-                <CiFacebook className="text-5xl text-[#012854] md:mx-auto mb-5 hover:text-blue-700 duration-300 delay-75 cursor-pointer hover:translate-y-1" />
+                <CiFacebook className="text-[3rem] text-[#012854] md:mx-auto   lg:mb-o hover:text-blue-700 duration-300 delay-75 cursor-pointer hover:translate-y-1" />
               </div>
             </div>
           </div>
