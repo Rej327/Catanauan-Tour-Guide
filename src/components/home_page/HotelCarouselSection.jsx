@@ -1,6 +1,7 @@
 import React from "react";
 import { hc1, hc2 } from "../../assets";
 import Button from "../common/Button";
+import { Link } from "react-router-dom";
 
 const HotelCarouselSection = ({ className }) => {
   return (
@@ -13,7 +14,9 @@ const HotelCarouselSection = ({ className }) => {
             Wether you're looking for a place to relax and unwind or a place to
             host a business meeting, we have the perfect hotel for you.
           </p>
-          <Button className="text-black text-xl px-6 py-2" label="View" />
+          <Link to="/hotels">
+            <Button className="text-black text-xl px-6 py-2" label="View" />
+          </Link>
         </div>
         <div className="h-[100%] w-[50%] max-sm:hidden">
           <img src={hc2} alt="Image" className="h-full w-full object-cover" />

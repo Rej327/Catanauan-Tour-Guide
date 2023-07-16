@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import Carousel from "../common/Carousel";
 import { LangContext } from "../../App";
+import { Link } from "react-router-dom";
 
 const Resorts = ({ className, id }) => {
   const { language } = useContext(LangContext);
@@ -14,7 +15,7 @@ const Resorts = ({ className, id }) => {
       </div>
       <div className="relative max-w-[1300px] mx-auto px-2 md:px-[2rem] lg:px-[3rem] -mt-[23rem]">
         <div className="md:absolute lg:-mt-[10rem] max-w-[300px]">
-          <p className="font-header hashColor text-4xl mt-10"># Beaches</p>
+          <p className="font-header hashColor text-4xl mt-10"># Resorts</p>
           <p className="text-4xl font-bold tracking-wide my-5">
             Unmissable <br />
             Experience
@@ -23,7 +24,11 @@ const Resorts = ({ className, id }) => {
             See our endless beach and resorts, perfect for swimming, sunbathing,
             and surfing.
           </p>
-          <p className="text-[#d4a148] my-5">— See all beach</p>
+          <Link to="/resorts">
+            <p className="text-[#d4a148] my-5 hover:translate-x-2 hover:font-bold duration-300">
+              — See all resort
+            </p>
+          </Link>
         </div>
         <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
           <Carousel>

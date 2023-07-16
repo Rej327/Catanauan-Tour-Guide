@@ -1,6 +1,7 @@
 import React from "react";
 import { rc1, rc2 } from "../../assets";
 import Button from "../common/Button";
+import { Link } from "react-router-dom";
 
 const RestoCarouselSection = ({ className }) => {
   return (
@@ -13,7 +14,9 @@ const RestoCarouselSection = ({ className }) => {
             Wether you're in the mood for fine dining or casual fare, we have a
             restaurant that will satisfy your cravings.
           </p>
-          <Button className="text-black text-xl px-6 py-2" label="View" />
+          <Link to="/restaurants">
+            <Button className="text-black text-xl px-6 py-2" label="View" />
+          </Link>
         </div>
         <div className="h-[100%] w-[50%] max-sm:hidden">
           <img src={rc2} alt="Image" className="h-full w-full object-cover" />
