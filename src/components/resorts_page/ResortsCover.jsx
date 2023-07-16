@@ -4,7 +4,7 @@ import Cover from "../common/Cover";
 const ResortsCover = () => {
   return (
     <Cover
-      bgImage="bg-[url(./assets/ResortsPage/resortcover.jpg)]"
+      bgImage="bg-[url(./assets/PageCover/resortcover.jpg)]"
       header=" Place to relax and unwind"
       selectedPage="Resorts"
       title=" Discover Pools and Beach Resorts in Catanauan"
