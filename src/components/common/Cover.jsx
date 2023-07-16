@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useEffect } from "react";
 import ArrowDown from "./ArrowDown";
+import { Link } from "react-router-dom";
 
 const Cover = ({
   className,
@@ -9,6 +10,10 @@ const Cover = ({
   title,
   context,
 }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className={`w-full ${className}`}>
       <div className={`bg-fixed bg-cover bg-center h-screen ${bgImage}`}>
@@ -22,9 +27,11 @@ const Cover = ({
       <div className="py-20 px-2">
         <div className="max-w-[1300px] mx-auto flex flex-col items-center justify-center gap-10 text-center ">
           <div className="flex gap-2">
-            <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
-              Home
-            </p>
+            <Link to="/">
+              <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
+                Home
+              </p>
+            </Link>
             <p> | </p>
             <p className="font-bold underline underline-offset-8">
               {selectedPage}

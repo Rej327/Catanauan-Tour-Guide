@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Sample from "../components/Sample";
 import Hero from "../components/home_page/Hero";
 import Navigation from "../components/common/Navigation";
@@ -14,6 +14,10 @@ import Transportation from "../components/home_page/Transportation";
 import Footer from "../components/common/Footer";
 
 const Home = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div>
       <Navigation />
