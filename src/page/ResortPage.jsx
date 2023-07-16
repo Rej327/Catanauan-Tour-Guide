@@ -1,14 +1,14 @@
 import React from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
-import Cover from "../components/resorts_page/Cover";
+import ResortsCover from "../components/resorts_page/ResortsCover";
 
 const ResortPage = () => {
   return (
     <div>
       <NavigatonInOtherPage />
       <div>
-        <Cover />
+        <ResortsCover />
       </div>
       <Footer />
     </div>
