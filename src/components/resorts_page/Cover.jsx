@@ -1,7 +1,7 @@
 import React from "react";
 import ArrowDown from "../common/ArrowDown";
 
-const Cover = () => {
+const Cover = ({ className }) => {
   const handleScroll = () => {
     window.scrollTo({
       top: window.innerHeight,
@@ -9,7 +9,7 @@ const Cover = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className={`w-full ${className}`}>
       <div className="bg-[url(./assets/ResortsPage/resortcover.jpg)] bg-cover bg-center h-screen">
         <div className="relative bg-black bg-opacity-60 w-full h-screen flex items-center flex-col justify-center ">
           <p className="text-4xl lg:text-5xl text-white font-title text-center tracking-wider">
