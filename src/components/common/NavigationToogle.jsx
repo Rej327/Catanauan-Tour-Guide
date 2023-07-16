@@ -1,8 +1,8 @@
 import React from "react";
 
-const NavigationToggle = () => {
+const NavigationToggle = ({ className }) => {
   return (
-    <div>
+    <div className={`${className}`}>
       <input
         className="menu-icon"
         type="checkbox"
