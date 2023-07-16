@@ -1,16 +1,16 @@
 import React from "react";
 import Sample from "../components/Sample";
-import Hero from "../components/home_section/Hero";
+import Hero from "../components/home_page/Hero";
 import Navigation from "../components/common/Navigation";
-import PlanAhead from "../components/home_section/PlanAhead";
-import Adventure from "../components/home_section/Adventure";
-import SetupInto from "../components/home_section/SetupInto";
-import Resorts from "../components/home_section/Resorts";
-import HotelAndRestoDesktop from "../components/home_section/HotelAndRestoDesktop";
-import HotelAndRestoMobile from "../components/home_section/HotelAndRestoMobile";
-import Falls from "../components/home_section/Falls";
-import Banks from "../components/home_section/Banks";
-import Transportation from "../components/home_section/Transportation";
+import PlanAhead from "../components/home_page/PlanAhead";
+import Adventure from "../components/home_page/Adventure";
+import SetupInto from "../components/home_page/SetupInto";
+import Resorts from "../components/home_page/Resorts";
+import HotelAndRestoDesktop from "../components/home_page/HotelAndRestoDesktop";
+import HotelAndRestoMobile from "../components/home_page/HotelAndRestoMobile";
+import Falls from "../components/home_page/Falls";
+import Banks from "../components/home_page/Banks";
+import Transportation from "../components/home_page/Transportation";
 import Footer from "../components/common/Footer";
 
 const Home = () => {

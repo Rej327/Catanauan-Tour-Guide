@@ -9,6 +9,7 @@ import { en, fil } from "./translation/index";
 import "./styles/navigationToogle.css";
 import "./styles/button.css";
 import "./styles/slideArrow.css";
+import ResortPage from "./page/ResortPage";
 
 export const LangContext = createContext(null);
 
@@ -31,6 +32,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/beaches/:id" element={<Beaches />} />
+            <Route path="/resorts/" element={<ResortPage />} />
           </Routes>
         </BrowserRouter>
       </LangContext.Provider>

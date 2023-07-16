@@ -1,9 +1,9 @@
 import React from "react";
 
-const FooterButton = () => {
+const FooterButton = ({ className, children }) => {
   return (
-    <button className="footerButton">
-      <span>Accomodation</span>
+    <button className={`footerButton ${className}`}>
+      <span>{children}</span>
     </button>
   );
 };

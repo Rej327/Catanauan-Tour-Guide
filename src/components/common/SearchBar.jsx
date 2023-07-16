@@ -20,7 +20,7 @@ const SearchBar = ({
         onChange={onChange}
       />
       <div className=" h-[40px] w-[50px] absolute right-0 grid place-content-center cursor-pointer">
-        <BsSearch className="subBodyColor" />
+        <BsSearch className={`${iconStyle}`} />
       </div>
     </div>
   );
