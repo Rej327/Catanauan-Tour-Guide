@@ -12,7 +12,7 @@ const NavigatonInOtherPage = () => {
             <p className="text-3xl font-header">DiscoverCatanauan</p>
             <SearchBar
               containerStyle="hidden lg:block w-[800px]"
-              className="hidden lg:block w-[800px] bg-white focus:text-black placeholder:text-[#012854]"
+              className="hidden lg:block w-[800px] bg-white focus:text-black placeholder:text-black"
               iconStyle="bodyColor"
             />
             <div className="flex gap-5 items-center">
