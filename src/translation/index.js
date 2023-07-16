@@ -47,12 +47,12 @@ export const en = {
     listOfBeaches: "List Of Beaches",
   },
   category: {
-    resorts: "RESORTS",
-    hotels: "HOTELS",
-    restaurants: "RESTAURANTS",
-    falls: "FALLS",
-    banks: "BANKS",
-    transportation: "TRANSPORTATION",
+    resorts: "resorts",
+    hotels: "hotels",
+    restaurants: "restaurants",
+    falls: "falls",
+    banks: "banks",
+    transportation: "transportation",
   },
 
   plan_section: {
@@ -143,12 +143,12 @@ export const fil = {
     listOfBeaches: "Listahan ng mga dagat",
   },
   category: {
-    resorts: "RESORTS",
-    hotels: "HOTELS",
-    restaurants: "RESTAWRAN",
-    falls: "TALON",
-    banks: "BANGKO",
-    transportation: "TRANSPORTASYON",
+    resorts: "resorts",
+    hotels: "hotels",
+    restaurants: "restawran",
+    falls: "talon",
+    banks: "bangko",
+    transportation: "transportasyon",
   },
 
   plan_section: {
