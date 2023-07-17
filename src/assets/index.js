@@ -14,3 +14,5 @@ export { default as hc1 } from "./HotelAndResto/hc1.jpg";
 export { default as hc2 } from "./HotelAndResto/hc2.jpg";
 export { default as rc1 } from "./HotelAndResto/rc1.jpg";
 export { default as rc2 } from "./HotelAndResto/rc2.jpg";
+export { default as history } from "./PlanAHeadPage/history.png";
+export { default as history2 } from "./PlanAHeadPage/history2.jfif";
