@@ -92,7 +92,9 @@ const PlanAhead = ({ className }) => {
                     {language.plan_section?.accomodations}
                   </p>
                 </div>
-                <ArrowButton className="ml-auto" />
+                <Link to="/accomodation">
+                  <ArrowButton className="ml-auto" />
+                </Link>
               </div>
             </td>
           </tr>
@@ -169,7 +171,9 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.accomodations}
                     </p>
                   </div>
-                  <ArrowButton className="ml-auto" />
+                  <Link to="/accomodation">
+                    <ArrowButton className="ml-auto" />
+                  </Link>
                 </div>
               </td>
             </tr>

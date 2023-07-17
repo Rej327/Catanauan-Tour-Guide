@@ -13,6 +13,7 @@ import ResortPage from "./page/ResortPage";
 import RestoPage from "./page/RestoPage";
 import HotelPage from "./page/HotelPage";
 import TravelerGuides from "./page/TravelerGuides";
+import Accomodation from "./page/Accomodation";
 
 export const LangContext = createContext(null);
 
@@ -40,6 +41,7 @@ function App() {
             <Route path="/restaurants/" element={<RestoPage />} />
             <Route path="/hotels/" element={<HotelPage />} />
             <Route path="/traveler-guides/" element={<TravelerGuides />} />
+            <Route path="/accomodation/" element={<Accomodation />} />
           </Routes>
         </BrowserRouter>
       </LangContext.Provider>
