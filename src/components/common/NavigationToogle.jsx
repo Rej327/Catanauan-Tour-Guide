@@ -21,11 +21,7 @@ const NavigationToggle = ({ className }) => {
           <li>
             <a href="/Contact-us">Contact Us</a>
           </li>
-          <li>
-            <a href="https://www.facebook.com/saldy.resultay.9" target="_blank">
-              Reservation
-            </a>
-          </li>
+          <li>Reservation</li>
         </ul>
       </nav>
     </div>
