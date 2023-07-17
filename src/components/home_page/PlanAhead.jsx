@@ -8,6 +8,7 @@ import {
 } from "../../assets";
 import ArrowButton from "../common/ArrowButton";
 import { LangContext } from "../../App";
+import { Link } from "react-router-dom";
 
 const PlanAhead = ({ className }) => {
   const { language } = useContext(LangContext);
@@ -37,7 +38,9 @@ const PlanAhead = ({ className }) => {
                     {language.plan_section?.traveler_guides}
                   </p>
                 </div>
-                <ArrowButton className="ml-auto" />
+                <Link to="/traveler-guides">
+                  <ArrowButton className="ml-auto" />
+                </Link>
               </div>
             </td>
           </tr>
@@ -118,7 +121,9 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.traveler_guides}
                     </p>
                   </div>
-                  <ArrowButton className="ml-auto" />
+                  <Link to="/traveler-guides">
+                    <ArrowButton className="ml-auto" />
+                  </Link>
                 </div>
               </td>
               <td className="w-[400px] h-[7rem] border border-[#676767]">

@@ -12,6 +12,7 @@ import "./styles/slideArrow.css";
 import ResortPage from "./page/ResortPage";
 import RestoPage from "./page/RestoPage";
 import HotelPage from "./page/HotelPage";
+import TravelerGuides from "./page/TravelerGuides";
 
 export const LangContext = createContext(null);
 
@@ -38,6 +39,7 @@ function App() {
             <Route path="/restaurants/" element={<RestoPage />} />
             <Route path="/restaurants/" element={<RestoPage />} />
             <Route path="/hotels/" element={<HotelPage />} />
+            <Route path="/traveler-guides/" element={<TravelerGuides />} />
           </Routes>
         </BrowserRouter>
       </LangContext.Provider>
