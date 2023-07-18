@@ -9,11 +9,13 @@ import { en, fil } from "./translation/index";
 import "./styles/navigationToogle.css";
 import "./styles/button.css";
 import "./styles/slideArrow.css";
+import "./styles/loader.css";
 import ResortPage from "./page/ResortPage";
 import RestoPage from "./page/RestoPage";
 import HotelPage from "./page/HotelPage";
 import TravelerGuides from "./page/TravelerGuides";
 import Accomodation from "./page/Accomodation";
+import Loader from "./components/common/Loader";
 
 export const LangContext = createContext(null);
 
@@ -27,24 +29,43 @@ function App() {
       setLanguage(en);
     } else setLanguage(fil);
   }, []);
+
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsLoading(false);
+    }, 2000); // Simulating a loading delay of 2 seconds
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="bg-[#fffaf2]">
-      <LangContext.Provider
-        value={{ language, setLanguage, toggleLang, setToggleLang }}
-      >
-        <BrowserRouter>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/beaches/:id" element={<Beaches />} />
-            <Route path="/resorts/" element={<ResortPage />} />
-            <Route path="/restaurants/" element={<RestoPage />} />
-            <Route path="/restaurants/" element={<RestoPage />} />
-            <Route path="/hotels/" element={<HotelPage />} />
-            <Route path="/traveler-guides/" element={<TravelerGuides />} />
-            <Route path="/accomodation/" element={<Accomodation />} />
-          </Routes>
-        </BrowserRouter>
-      </LangContext.Provider>
+    <div>
+      {isLoading ? (
+        <div className="w-full bg-white h-screen flex justify-center items-center">
+          <Loader />
+        </div>
+      ) : (
+        <div className="bg-[#fffaf2]">
+          <LangContext.Provider
+            value={{ language, setLanguage, toggleLang, setToggleLang }}
+          >
+            <BrowserRouter>
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/beaches/:id" element={<Beaches />} />
+                <Route path="/resorts/" element={<ResortPage />} />
+                <Route path="/restaurants/" element={<RestoPage />} />
+                <Route path="/restaurants/" element={<RestoPage />} />
+                <Route path="/hotels/" element={<HotelPage />} />
+                <Route path="/traveler-guides/" element={<TravelerGuides />} />
+                <Route path="/accomodation/" element={<Accomodation />} />
+              </Routes>
+            </BrowserRouter>
+          </LangContext.Provider>
+        </div>
+      )}
     </div>
   );
 }
