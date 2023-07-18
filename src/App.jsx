@@ -1,15 +1,17 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navigation from "./components/common/Navigation";
-import Home from "./page/Home";
 import { useContext, useEffect, useState } from "react";
 import { createContext } from "react";
 import { ENGLISH_LANGUAGE } from "../src/constants/index";
-import Beaches from "./page/Beaches";
+
 import { en, fil } from "./translation/index";
 import "./styles/navigationToogle.css";
 import "./styles/button.css";
 import "./styles/slideArrow.css";
 import "./styles/loader.css";
+import Home from "./page/Home";
+import WhatsOn from "./page/WhatsOn";
+import Beaches from "./page/Beaches";
 import ResortPage from "./page/ResortPage";
 import RestoPage from "./page/RestoPage";
 import HotelPage from "./page/HotelPage";
@@ -53,8 +55,9 @@ function App() {
           >
             <BrowserRouter>
               <Routes>
-                <Route path="/" element={<Home />} />
                 <Route path="/beaches/:id" element={<Beaches />} />
+                <Route path="/" element={<Home />} />
+                <Route path="/whats-on" element={<WhatsOn />} />
                 <Route path="/resorts/" element={<ResortPage />} />
                 <Route path="/restaurants/" element={<RestoPage />} />
                 <Route path="/restaurants/" element={<RestoPage />} />
