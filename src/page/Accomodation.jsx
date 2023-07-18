@@ -13,7 +13,7 @@ const Accomodation = () => {
   return (
     <div>
       <NavigatonInOtherPage />
-      <div className="">
+      <div>
         <AccomodationHeader />
         <AccSection_1 className="pb-10" />
         <AccSection_2 className="py-5 rounded-t-2xl" />
