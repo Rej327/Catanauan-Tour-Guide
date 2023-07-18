@@ -1,5 +1,6 @@
 import React from "react";
 import Button from "../common/Button";
+import { Link } from "react-router-dom";
 
 const SetupInto = ({ className }) => {
   return (
@@ -16,10 +17,12 @@ const SetupInto = ({ className }) => {
                 great outdoors. Start your summer off right with our guide to
                 whats on around Catanauan.
               </p>
-              <Button
-                className="globalButton font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
-                label="What's On"
-              />
+              <Link to="/whats-on">
+                <Button
+                  className="globalButton font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
+                  label="What's On"
+                />
+              </Link>
             </div>
           </div>
         </div>
