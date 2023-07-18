@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const PlanAHeadHeader = ({ className, selectedPage, icon }) => {
+const ReusableHeader = ({ className, selectedPage, icon }) => {
   return (
     <div
       className={`max-w-[1300px] mx-auto flex flex-col justify-center ${className}`}
@@ -23,4 +23,4 @@ const PlanAHeadHeader = ({ className, selectedPage, icon }) => {
   );
 };
 
-export default PlanAHeadHeader;
+export default ReusableHeader;
