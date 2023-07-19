@@ -3,7 +3,7 @@ import { banks } from "../../../assets";
 import { BsPhone, BsFacebook } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 
-const ResortItemContent_2 = () => {
+const EventItemContent_2 = () => {
   return (
     <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] p-4">
       <div className="flex flex-col gap-4">
@@ -32,4 +32,4 @@ const ResortItemContent_2 = () => {
   );
 };
 
-export default ResortItemContent_2;
+export default EventItemContent_2;
