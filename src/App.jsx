@@ -9,6 +9,7 @@ import "./styles/navigationToogle.css";
 import "./styles/button.css";
 import "./styles/slideArrow.css";
 import "./styles/loader.css";
+import "./styles/shadow.css";
 import Home from "./page/Home";
 import WhatsOn from "./page/WhatsOn";
 import Beaches from "./page/Beaches";
@@ -20,6 +21,7 @@ import Accomodation from "./page/Accomodation";
 import Loader from "./components/common/Loader";
 import BankItemPage from "./page/BankItemPage";
 import ResortItemPage from "./page/ResortItemPage";
+import EventItemPage from "./page/EventItemPage";
 
 export const LangContext = createContext(null);
 
@@ -69,6 +71,7 @@ function App() {
                 {/* ITEM COMPONENTS BY ID */}
                 <Route path="/banks/" element={<BankItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
+                <Route path="/event/" element={<EventItemPage />} />
               </Routes>
             </BrowserRouter>
           </LangContext.Provider>
