@@ -18,6 +18,7 @@ import HotelPage from "./page/HotelPage";
 import TravelerGuides from "./page/TravelerGuides";
 import Accomodation from "./page/Accomodation";
 import Loader from "./components/common/Loader";
+import BankItemPage from "./page/BankItemPage";
 
 export const LangContext = createContext(null);
 
@@ -64,6 +65,8 @@ function App() {
                 <Route path="/hotels/" element={<HotelPage />} />
                 <Route path="/traveler-guides/" element={<TravelerGuides />} />
                 <Route path="/accomodation/" element={<Accomodation />} />
+                {/* ITEM COMPONENTS BY ID */}
+                <Route path="/banks/" element={<BankItemPage />} />
               </Routes>
             </BrowserRouter>
           </LangContext.Provider>
