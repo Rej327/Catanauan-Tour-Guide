@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ItemHeader = ({ className, selectedPage, textStyle }) => {
+const ItemHeader = ({ className, selectedPage, textStyle, titleContainer }) => {
   return (
     <div
       className={`max-w-[1300px] px-2 mx-auto flex flex-col justify-center ${className}`}
@@ -17,7 +17,7 @@ const ItemHeader = ({ className, selectedPage, textStyle }) => {
           {selectedPage}
         </p>
       </div>
-      <div className="mb-10">
+      <div className={`mb-10 ${titleContainer}`}>
         <p className={`font-bold text-3xl md:text-4xl ${textStyle}`}>
           {selectedPage}
         </p>
