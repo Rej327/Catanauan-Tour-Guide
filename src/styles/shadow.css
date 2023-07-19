@@ -1,0 +1,11 @@
+.borderShadow {
+  border-radius: 0px;
+  background: none;
+  box-shadow: 30px 30px 0px #fce9cb, 0px 0px 0px #ffffe5;
+}
+
+.advShadow {
+  border-radius: 0px;
+  background: none;
+  box-shadow: 30px 30px 0px #f9dba9, 0px 0px 0px #ffffe5;
+}
