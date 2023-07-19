@@ -43,7 +43,7 @@ const BankItemContent_1 = () => {
           </button>
         </Link>
       </div>
-      <div className="mt-2 py-5 border-t-2 border-gray-300">
+      <div className="mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <Carousel>
