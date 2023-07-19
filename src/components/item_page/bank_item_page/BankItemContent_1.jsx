@@ -36,12 +36,15 @@ const BankItemContent_1 = () => {
       >
         {show ? "- Read Less" : "+ Read More"}
       </p>
-      <div className="mb-5">
+      <div className="mb-5 flex gap-4">
         <Link to="https://www.landbank.com/" target="_blank">
           <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
             <p className="text-base">Visit Website &#8594;</p>
           </button>
         </Link>
+        <button className="bg-none border-[1px] border-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] hover:border-[#F9DBA9] duration-300 delay-75">
+          <p className="text-base">Book Now &#8594;</p>
+        </button>
       </div>
       <div className="mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
