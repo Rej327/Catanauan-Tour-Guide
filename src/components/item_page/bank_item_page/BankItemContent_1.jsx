@@ -2,6 +2,7 @@ import { Button, Collapse } from "@chakra-ui/react";
 import React, { useContext, useState } from "react";
 import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
+import { Link } from "react-router-dom";
 
 const BankItemContent_1 = () => {
   const [show, setShow] = useState(false);
@@ -36,9 +37,11 @@ const BankItemContent_1 = () => {
         {show ? "- Read Less" : "+ Read More"}
       </p>
       <div className="mb-5">
-        <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
-          <p className="text-base">Visit Website &#8594;</p>
-        </button>
+        <Link to="https://www.landbank.com/" target="_blank">
+          <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
+            <p className="text-base">Visit Website &#8594;</p>
+          </button>
+        </Link>
       </div>
       <div className="mt-2 py-5 border-t-2 border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
