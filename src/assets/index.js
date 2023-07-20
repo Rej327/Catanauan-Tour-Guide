@@ -1,6 +1,7 @@
 export { default as hero } from "./HeroSection/hero.jpg";
 export { default as logo } from "./logo.png";
 export { default as mail } from "./mail.svg";
+export { default as legal } from "./legal.svg";
 export { default as guides } from "./PlanAheadSection/guides.svg";
 export { default as gettingHere } from "./PlanAheadSection/gettingHere.svg";
 export { default as gettingAround } from "./PlanAheadSection/gettingAround.svg";
