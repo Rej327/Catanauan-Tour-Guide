@@ -24,6 +24,7 @@ import ResortItemPage from "./page/ResortItemPage";
 import EventItemPage from "./page/EventItemPage";
 import TermOfUsePage from "./page/TermOfUsePage";
 import AccesibilityPage from "./page/AccesibilityPage";
+import CookiePage from "./page/CookiePage";
 import Cookie from "./components/common/Cookie";
 
 export const LangContext = createContext(null);
@@ -79,6 +80,7 @@ function App() {
                 {/* LEGAL PAGE */}
                 <Route path="/term-of-use/" element={<TermOfUsePage />} />
                 <Route path="/accesibility/" element={<AccesibilityPage />} />
+                <Route path="/cookie-policy/" element={<CookiePage />} />
               </Routes>
             </BrowserRouter>
           </LangContext.Provider>
