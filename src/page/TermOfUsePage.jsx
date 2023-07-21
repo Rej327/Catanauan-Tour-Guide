@@ -1,8 +1,8 @@
 import React from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
-import TermOfUseHeader from "../components/legal_page/TermOfUseHeader";
-import TermOfUseBody from "../components/legal_page/TermOfUseBody";
+import TermOfUseBody from "../components/legal_page/term_of_use_page/TermOfUseBody";
+import TermOfUseHeader from "../components/legal_page/term_of_use_page/TermOfUseHeader";
 
 const TermOfUsePage = () => {
   return (

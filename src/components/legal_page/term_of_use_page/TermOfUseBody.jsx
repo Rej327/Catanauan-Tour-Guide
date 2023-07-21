@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { LangContext } from "../../App";
+import { LangContext } from "../../../App";
 
 const TermOfUseBody = () => {
   const { language } = useContext(LangContext);

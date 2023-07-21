@@ -1,6 +1,6 @@
 import React from "react";
-import ReusableHeader from "../common/ReusableHeader";
-import { legal } from "../../assets";
+import ReusableHeader from "../../common/ReusableHeader";
+import { legal } from "../../../assets";
 
 const TermOfUsuHeader = () => {
   return (
