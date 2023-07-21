@@ -24,6 +24,7 @@ import ResortItemPage from "./page/ResortItemPage";
 import EventItemPage from "./page/EventItemPage";
 import TermOfUsePage from "./page/TermOfUsePage";
 import AccesibilityPage from "./page/AccesibilityPage";
+import Cookie from "./components/common/Cookie";
 
 export const LangContext = createContext(null);
 
@@ -56,6 +57,7 @@ function App() {
         </div>
       ) : (
         <div className="bg-[#fffaf2]">
+          <Cookie />
           <LangContext.Provider
             value={{ language, setLanguage, toggleLang, setToggleLang }}
           >
