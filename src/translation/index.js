@@ -143,6 +143,69 @@ export const en = {
           "If you have any questions, concerns, or feedback regarding these Terms of Use or our website, please contact us at [your email address].",
       },
     ],
+    id: 2,
+    accesibility: [
+      {
+        id: 1,
+        title: "Clear and Consistent Design:",
+        content:
+          "Our website maintains a clear and consistent layout to assist users in navigating and understanding the content easily.",
+      },
+      {
+        id: 2,
+        title: "Text Alternatives (Alt Text):",
+        content:
+          "We provide alternative text descriptions for all non-text content, such as images and multimedia, to ensure that screen readers can convey the information accurately.",
+      },
+      {
+        id: 3,
+        title: "Descriptive Links:",
+        content:
+          "Hyperlinks are written descriptively to provide context and information about the linked content.",
+      },
+      {
+        id: 4,
+        title: "Keyboard Navigation:",
+        content:
+          "Our website can be navigated using keyboard-only controls, making it accessible to users who cannot use a mouse.",
+      },
+      {
+        id: 5,
+        title: "Readable Font and Contrast:",
+        content:
+          "The website uses a readable font type and maintains sufficient color contrast between text and background to enhance readability.",
+      },
+      {
+        id: 6,
+        title: "Responsible Media:",
+        content:
+          "Videos and audio content on the website include captions, transcripts, or audio descriptions to make them accessible to users with hearing impairments.",
+      },
+      {
+        id: 7,
+        title: "Skip to Content:",
+        content:
+          "We include a 'Skip to Content' link at the top of the page to allow screen reader users to skip repetitive navigation elements and directly access the main content.",
+      },
+      {
+        id: 8,
+        title: "Consistent Navigation Structure:",
+        content:
+          "The website's navigation is designed in a consistent manner to help users find their way around the content efficiently.",
+      },
+      {
+        id: 9,
+        title: "Continued Improvement:",
+        content:
+          "While we strive to maintain accessibility on our website, we acknowledge that there might be areas that require further improvement. We are committed to regular reviews and updates to enhance the accessibility of our content continually.",
+      },
+      {
+        id: 10,
+        title: "Contact Us:",
+        content:
+          "Your feedback and suggestions regarding the accessibility of our website are essential to us. If you encounter any barriers or have difficulty accessing any part of our website, please contact us at [your email address]. We will work diligently to address your concerns and ensure that everyone can enjoy a positive experience on our tour guide content website. Thank you for your support and commitment to accessibility.",
+      },
+    ],
   },
 };
 
@@ -298,6 +361,69 @@ export const fil = {
         title: " Makipag-ugnayan sa Amin:",
         content:
           "Kung mayroon kayong mga katanungan, alalahanin, o puna tungkol sa Mga Tuntunin ng Paggamit na ito o sa aming website, mangyaring makipag-ugnayan sa amin sa [iyong email address].",
+      },
+    ],
+    id: 2,
+    accesibility: [
+      {
+        id: 1,
+        title: "Malinaw at Consistent na Disenyo:",
+        content:
+          "Ang aming website ay nagtataglay ng malinaw at consistent na disenyo upang matulungan ang mga user sa pag-navigate at pag-unawa sa nilalaman nang madali.",
+      },
+      {
+        id: 2,
+        title: "Alternatibong Teksto (Alt Text):",
+        content:
+          "Nagbibigay kami ng alternatibong teksto para sa lahat ng hindi-textong nilalaman, tulad ng mga larawan at multimedia, upang matiyak na maiparating nang wasto ng mga screen reader ang impormasyon.",
+      },
+      {
+        id: 3,
+        title: "Mga Deskriptibong Link:",
+        content:
+          "Ang mga hyperlink ay isinusulat nang may deskripsyon upang magbigay ng konteksto at impormasyon tungkol sa nilalaman ng kaugnay na link.",
+      },
+      {
+        id: 4,
+        title: "Keyboard na Navigasyon:",
+        content:
+          "Ang aming website ay ma-navigate gamit lamang ang keyboard controls, na nagiging accessible sa mga user na hindi maaaring gumamit ng mouse.",
+      },
+      {
+        id: 5,
+        title: "Readable na Font at Kontrast:",
+        content:
+          "Ginagamit ng website ang readable na font type at iniingatan ang sapat na kontrast ng kulay sa pagitan ng teksto at background upang mapabuti ang pagbasa.",
+      },
+      {
+        id: 6,
+        title: "Responsableng Media:",
+        content:
+          "Ang mga video at audio content sa website ay may mga captions, transcript, o audio descriptions upang maging accessible sa mga user na may mga hearing impairment.",
+      },
+      {
+        id: 7,
+        title: "Laktawan patungo sa Nilalaman:",
+        content:
+          "Kasama sa aming website ang 'Laktawan patungo sa Nilalaman' na link sa tuktok ng pahina upang payagan ang mga user na gumamit ng screen reader na laktawan ang paulit-ulit na mga elemento ng navigation at direktang ma-access ang pangunahing nilalaman.",
+      },
+      {
+        id: 8,
+        title: "Consistent na Estruktura ng Navigasyon:",
+        content:
+          "Ang pag-navigate sa website ay disenyo nang consistent upang matulungan ang mga user na mahanap nang madali ang nilalaman.",
+      },
+      {
+        id: 9,
+        title: "Patuloy na Pagpapaunlad:",
+        content:
+          "Bagamat itinataguyod namin ang accessibility sa aming website, kinikilala namin na maaaring may mga bahagi na nangangailangan ng karagdagang pagpapaunlad. Taimtim kaming nakatuon sa pagsusuri at pag-update upang palakasin ang accessibility ng aming nilalaman nang patuloy.",
+      },
+      {
+        id: 10,
+        title: "Makipag-ugnayan sa Amin:",
+        content:
+          "Mahalaga sa amin ang iyong feedback at mga mungkahi tungkol sa accessibility ng aming website. Kung mayroon kang anumang mga hadlang o nahihirapang ma-access ang anumang bahagi ng aming website, mangyaring makipag-ugnayan sa amin sa [iyong email address]. Magsisikap kaming tugunan ang iyong mga alalahanin at matiyak na ang lahat ay makakaranas ng positibong karanasan sa aming tour guide content website. Salamat sa inyong suporta at dedikasyon sa accessibility.",
       },
     ],
   },
