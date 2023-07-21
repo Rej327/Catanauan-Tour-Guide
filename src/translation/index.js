@@ -206,6 +206,57 @@ export const en = {
           "Your feedback and suggestions regarding the accessibility of our website are essential to us. If you encounter any barriers or have difficulty accessing any part of our website, please contact us at [your email address]. We will work diligently to address your concerns and ensure that everyone can enjoy a positive experience on our tour guide content website. Thank you for your support and commitment to accessibility.",
       },
     ],
+    id: 3,
+    cookie: [
+      {
+        id: 1,
+        title: "Cookie Policy",
+        content:
+          "This Cookie Policy explains how our website uses cookies and similar tracking technologies to provide you with a better browsing experience and to understand how you use our subscribe section. By using our website and subscribing to our services, you consent to the use of cookies as described in this policy.",
+      },
+      {
+        id: 2,
+        title: "What are Cookies?",
+        content:
+          "Cookies are small text files that are placed on your device (computer, tablet, or mobile) when you visit a website. They are widely used to enhance website functionality and improve user experiences. Cookies cannot harm your device or access personal information stored on it.",
+      },
+      {
+        id: 3,
+        title: "How We Use Cookies",
+        content:
+          "Our website uses cookies to collect information about your visit and interaction with our subscribe section. We use these cookies for the following purposes:\n\nEssential Cookies: These cookies are necessary for the proper functioning of our subscribe section. They enable you to access and use our subscription service securely and efficiently.\n\nFunctional Cookies: Functional cookies enhance the user experience by remembering your preferences and settings. They help us provide a more personalized and user-friendly subscription service.",
+      },
+      {
+        id: 4,
+        title: "Third-Party Cookies",
+        content:
+          "We may also allow third-party service providers, such as analytics and advertising partners, to place cookies on your device. These cookies enable them to collect information about your interactions with our subscribe section and other websites you visit. The use of cookies by these third parties is subject to their own privacy and cookie policies.",
+      },
+      {
+        id: 5,
+        title: "Managing Cookies",
+        content:
+          "You have the option to manage your cookie preferences through your browser settings. You can choose to accept or reject cookies, delete existing cookies, or receive notifications when new cookies are being sent. However, please note that disabling certain cookies may affect the functionality of our subscribe section and limit your access to some features.",
+      },
+      {
+        id: 6,
+        title: "Consent",
+        content:
+          "By continuing to use our website and subscribing to our services, you consent to the use of cookies as outlined in this Cookie Policy. If you do not agree with the use of cookies, please refrain from using our subscription service.",
+      },
+      {
+        id: 7,
+        title: "Updates to this Policy",
+        content:
+          "We may update this Cookie Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. Any updates will be posted on this page, and the effective date will be indicated at the top of the policy.",
+      },
+      {
+        id: 8,
+        title: "Contact Us",
+        content:
+          "If you have any questions or concerns about this Cookie Policy, please contact us at [your email address]. Thank you for choosing our subscription service, and we hope you enjoy your experience on our website!",
+      },
+    ],
   },
 };
 
@@ -424,6 +475,57 @@ export const fil = {
         title: "Makipag-ugnayan sa Amin:",
         content:
           "Mahalaga sa amin ang iyong feedback at mga mungkahi tungkol sa accessibility ng aming website. Kung mayroon kang anumang mga hadlang o nahihirapang ma-access ang anumang bahagi ng aming website, mangyaring makipag-ugnayan sa amin sa [iyong email address]. Magsisikap kaming tugunan ang iyong mga alalahanin at matiyak na ang lahat ay makakaranas ng positibong karanasan sa aming tour guide content website. Salamat sa inyong suporta at dedikasyon sa accessibility.",
+      },
+    ],
+    id: 3,
+    cookie: [
+      {
+        id: 1,
+        title: "Patakaran sa Cookies",
+        content:
+          "Ang Patakaran sa Cookies na ito ay nagpapaliwanag kung paano ginagamit ng aming website ang cookies at mga katulad na teknolohiyang pangsubaybay upang magbigay sa iyo ng mas magandang karanasan sa pag-browse at maunawaan kung paano mo ginagamit ang aming seksyon para sa pag-subscribe. Sa pamamagitan ng paggamit ng aming website at pag-subscribe sa aming mga serbisyo, sumasang-ayon ka sa paggamit ng cookies ayon sa paglalarawan na ito.",
+      },
+      {
+        id: 2,
+        title: "Ano ang Cookies?",
+        content:
+          "Ang cookies ay maliit na mga tekstong file na inilalagay sa iyong aparato (computer, tablet, o mobile) kapag binisita mo ang isang website. Ito ay malawakang ginagamit upang mapabuti ang pagganap ng website at mapabuti ang karanasan ng mga gumagamit. Hindi makapipinsala ang mga cookies sa iyong aparato o makakakuha ng personal na impormasyon na naka-imbak dito.",
+      },
+      {
+        id: 3,
+        title: "Paano Namin Ginagamit ang Cookies",
+        content:
+          "Ginagamit ng aming website ang cookies upang kolektahin ang impormasyon tungkol sa iyong pagdalaw at pakikipag-ugnayan sa aming seksyon para sa pag-subscribe. Ginagamit namin ang mga cookies na ito para sa mga sumusunod na layunin:\n\nEssential Cookies: Ang mga cookies na ito ay kinakailangan para sa tamang pag-andar ng aming seksyon para sa pag-subscribe. Ito ay nagbibigay-daan sa iyo na ma-access at magamit ang aming subscription service nang ligtas at mabilis.\n\nFunctional Cookies: Ang functional cookies ay nagpapabuti sa karanasan ng gumagamit sa pamamagitan ng pagtanda ng iyong mga preference at mga setting. Tumutulong ito sa amin na magbigay ng mas personalisadong at user-friendly na subscription service.",
+      },
+      {
+        id: 4,
+        title: "Third-Party Cookies",
+        content:
+          "Maaari rin naming payagan ang mga third-party service provider, tulad ng mga analytics at advertising partners, na ilagay ang mga cookies sa iyong aparato. Ang mga cookies na ito ay nagpapahintulot sa kanila na kolektahin ang impormasyon tungkol sa iyong pakikipag-ugnayan sa aming seksyon para sa pag-subscribe at iba pang mga website na iyong binibisita. Ang paggamit ng cookies ng mga third parties ay sakop ng kanilang sariling patakaran sa privacy at cookies.",
+      },
+      {
+        id: 5,
+        title: "Pamamahala ng Cookies",
+        content:
+          "May opsiyon kang pamahalaan ang iyong mga preference sa cookies sa pamamagitan ng iyong mga setting sa browser. Maaari mong piliin na tanggapin o tanggihan ang mga cookies, burahin ang mga umiiral na cookies, o tumanggap ng mga notification kapag may mga bagong cookies na ipinapadala. Gayunpaman, tandaan na ang pag-disable ng ilang mga cookies ay maaaring makaapekto sa pagganap ng aming seksyon para sa pag-subscribe at ma-limitahan ang iyong pag-access sa ilang mga tampok.",
+      },
+      {
+        id: 6,
+        title: "Pakikipagpayag",
+        content:
+          "Sa pagpapatuloy mo sa paggamit ng aming website at pag-subscribe sa aming mga serbisyo, sumasang-ayon ka sa paggamit ng cookies ayon sa paglalarawan na ito. Kung hindi mo sang-ayonan ang paggamit ng cookies, mangyaring huwag gamitin ang aming subscription service.",
+      },
+      {
+        id: 7,
+        title: "Mga Pagbabago sa Patakaran na Ito",
+        content:
+          "Maaari naming i-update ang Patakaran sa Cookies na ito mula sa panahon sa panahon upang sumalamin ng mga pagbabago sa aming mga gawi o para sa iba pang mga kadahilanan sa operasyon, legal, o regulasyon. Ang anumang mga pagbabago ay ilalathala sa pahinang ito, at ang petsa ng epektibo ay ipapakita sa itaas ng patakaran.",
+      },
+      {
+        id: 8,
+        title: "Makipag-ugnayan sa Amin",
+        content:
+          "Kung mayroon kang anumang mga tanong o alalahanin tungkol sa Patakaran sa Cookies na ito, mangyaring makipag-ugnayan sa amin sa [iyong email address]. Salamat sa pagpili mo sa aming subscription service, at umaasa kami na magugustuhan mo ang iyong karanasan sa aming website!",
       },
     ],
   },
