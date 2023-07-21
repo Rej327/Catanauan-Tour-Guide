@@ -4,6 +4,7 @@ import Button from "./Button";
 import FooterButton from "./FooterButton";
 import { CiFacebook } from "react-icons/ci";
 import { LangContext } from "../../App";
+import { Link } from "react-router-dom";
 
 const Footer = ({ className }) => {
   const { language } = useContext(LangContext);
@@ -111,15 +112,21 @@ const Footer = ({ className }) => {
               <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Legal</p>
                 <div className="text-base grid grid-cols-1 justify-around gap-2 mt-4">
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    Terms of use
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    Cookie policy
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    Accesibility
-                  </p>
+                  <Link to="/term-of-use">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      Terms of use
+                    </p>
+                  </Link>
+                  <Link to="/cookie-policy">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      Cookie policy
+                    </p>
+                  </Link>
+                  <Link to="/accesibility">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      Accesibility
+                    </p>
+                  </Link>
                 </div>
               </div>
               <div className="flex flex-col gap-4 max-w-[200px] items-center">
