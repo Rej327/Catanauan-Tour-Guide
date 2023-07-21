@@ -110,7 +110,7 @@ const Footer = ({ className }) => {
               {/* NEXT ITEM */}
               <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Legal</p>
-                <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
+                <div className="text-base grid grid-cols-1 justify-around gap-2 mt-4">
                   <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
                     Terms of use
                   </p>
@@ -119,9 +119,6 @@ const Footer = ({ className }) => {
                   </p>
                   <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
                     Accesibility
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    Consumer Privacy
                   </p>
                 </div>
               </div>
