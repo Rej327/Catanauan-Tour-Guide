@@ -18,3 +18,4 @@ export { default as history } from "./PlanAHeadPage/history.png";
 export { default as history2 } from "./PlanAHeadPage/history2.jfif";
 export { default as banks } from "./BanksItem/banks.jpg";
 export { default as terms } from "./LegalPage/terms.svg";
+export { default as accesibility } from "./LegalPage/accesibility.svg";
