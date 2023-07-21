@@ -23,6 +23,7 @@ import BankItemPage from "./page/BankItemPage";
 import ResortItemPage from "./page/ResortItemPage";
 import EventItemPage from "./page/EventItemPage";
 import TermOfUsePage from "./page/TermOfUsePage";
+import AccesibilityPage from "./page/AccesibilityPage";
 
 export const LangContext = createContext(null);
 
@@ -75,6 +76,7 @@ function App() {
                 <Route path="/event/" element={<EventItemPage />} />
                 {/* LEGAL PAGE */}
                 <Route path="/term-of-use/" element={<TermOfUsePage />} />
+                <Route path="/accesibility/" element={<AccesibilityPage />} />
               </Routes>
             </BrowserRouter>
           </LangContext.Provider>
