@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import AccesibilityHeader from "../components/legal_page/accecibility_page/AccesibilityHeader";
 import AccesibilityBody from "../components/legal_page/accecibility_page/AccesibilityBody";
 
 const AccesibilityPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <NavigatonInOtherPage />

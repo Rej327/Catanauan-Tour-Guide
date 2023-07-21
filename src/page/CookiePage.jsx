@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import CookieHeader from "../components/legal_page/cookie_page/CookieHeader";
 import CookieBody from "../components/legal_page/cookie_page/CookieBody";
 
-const TermOfUsePage = () => {
+const CookiePage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div>
       <NavigatonInOtherPage />
@@ -17,4 +20,4 @@ const TermOfUsePage = () => {
   );
 };
 
-export default TermOfUsePage;
+export default CookiePage;
