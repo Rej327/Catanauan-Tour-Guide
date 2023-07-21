@@ -1,7 +1,6 @@
 export { default as hero } from "./HeroSection/hero.jpg";
 export { default as logo } from "./logo.png";
 export { default as mail } from "./mail.svg";
-export { default as legal } from "./legal.svg";
 export { default as guides } from "./PlanAheadSection/guides.svg";
 export { default as gettingHere } from "./PlanAheadSection/gettingHere.svg";
 export { default as gettingAround } from "./PlanAheadSection/gettingAround.svg";
@@ -18,3 +17,4 @@ export { default as rc2 } from "./HotelAndResto/rc2.jpg";
 export { default as history } from "./PlanAHeadPage/history.png";
 export { default as history2 } from "./PlanAHeadPage/history2.jfif";
 export { default as banks } from "./BanksItem/banks.jpg";
+export { default as terms } from "./LegalPage/terms.svg";
