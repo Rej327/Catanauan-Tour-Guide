@@ -6,7 +6,7 @@ const AccSection_2 = ({ className }) => {
   return (
     <div className={`w-full bg-[#FEFEFF] ${className}`}>
       <div className="max-w-[1300px] flex flex-col mx-auto">
-        <div className="flex flex-col gap-4 my-5 px-2">
+        <div className="flex flex-col gap-4 my-5 px-4">
           <p className="text-2xl font-bold">
             Explore Towns and Experience Local Culture
           </p>

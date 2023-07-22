@@ -20,7 +20,7 @@ const BankItem = ({ className }) => {
         />
       </div>
       <div className="flex flex-wrap justify-between">
-        <div className="my-10 px-2">
+        <div className="my-10 px-4">
           <BankItemContent_1 />
         </div>
         <div className="mx-auto">

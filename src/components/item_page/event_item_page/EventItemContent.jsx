@@ -3,7 +3,7 @@ import { banks } from "../../../assets";
 
 const EventItemContent = () => {
   return (
-    <div className="w-full py-10 px-2 bg-[#FEFEFF] rounded-t-2xl">
+    <div className="w-full py-10 px-4 bg-[#FEFEFF] rounded-t-2xl">
       <div className="max-w-[1000px] mx-auto flex flex-col gap-4">
         <p className="text-2xl md:text-4xl font-bold">
           There are a number of different activities that you can do while

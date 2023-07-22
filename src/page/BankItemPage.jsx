@@ -10,7 +10,7 @@ const BankItemPage = () => {
   return (
     <div>
       <NavigatonInOtherPage />
-      <div className="px-2 pb-2">
+      <div className="pb-2">
         <BankItem />
       </div>
       <Footer />
