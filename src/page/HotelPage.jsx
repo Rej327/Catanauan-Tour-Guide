@@ -2,17 +2,21 @@ import React from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import HotelCover from "../components/hotel_page/HotelCover";
+import HotelBody from "../components/hotel_page/HotelBody";
 
-const ResortPage = () => {
+const HotelPage = () => {
   return (
     <div>
       <NavigatonInOtherPage />
-      <div>
+      <div className="mb-10">
         <HotelCover />
+        <HotelBody />
+        <HotelBody />
+        <HotelBody />
       </div>
       <Footer />
     </div>
   );
 };
 
-export default ResortPage;
+export default HotelPage;
