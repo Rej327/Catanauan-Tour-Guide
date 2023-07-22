@@ -2,6 +2,8 @@ import React from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import RestoCover from "../components/resto_page/RestoCover";
+import RestoBodyDesktop from "../components/resto_page/RestoBodyDesktop";
+import RestoBodyMobile from "../components/resto_page/RestoBodyMobile";
 
 const ResortPage = () => {
   return (
@@ -9,6 +11,8 @@ const ResortPage = () => {
       <NavigatonInOtherPage />
       <div>
         <RestoCover />
+        <RestoBodyDesktop />
+        <RestoBodyMobile />
       </div>
       <Footer />
     </div>
