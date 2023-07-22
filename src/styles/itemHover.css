@@ -1,0 +1,11 @@
+.restoItems .itemImg {
+  transform: scale(1); /* Initial scale, no change */
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: 0.15s;
+}
+
+.restoItems:hover .itemImg {
+  transform: scale(1.1); /* Increase the scale factor as desired */
+  transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
+  transition-delay: 0.15s;
+}
