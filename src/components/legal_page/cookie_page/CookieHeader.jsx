@@ -4,7 +4,7 @@ import { cookie } from "../../../assets";
 
 const CookieHeader = () => {
   return (
-    <div className="px-2">
+    <div>
       <ReusableHeader selectedPage="Cookie Policy" icon={cookie} />
     </div>
   );

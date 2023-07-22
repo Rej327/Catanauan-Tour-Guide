@@ -4,7 +4,7 @@ import { accesibility } from "../../../assets";
 
 const AccesibilityHeader = () => {
   return (
-    <div className="px-2">
+    <div>
       <ReusableHeader selectedPage="Accesibility" icon={accesibility} />
     </div>
   );

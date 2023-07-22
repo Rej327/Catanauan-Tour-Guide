@@ -11,7 +11,7 @@ const TravelerGuides = () => {
   return (
     <div>
       <NavigatonInOtherPage />
-      <div className="px-2">
+      <div>
         <GuidesHeader />
         <GuidesBody className="pb-6" />
       </div>

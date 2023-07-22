@@ -16,7 +16,7 @@ const WhatsOnCover = () => {
           </p>
         </div>
       </div>
-      <div className="py-20 px-2">
+      <div className="py-20 px-4">
         <div className="max-w-[1300px] mx-auto flex flex-col items-center justify-center gap-10 text-center ">
           <div className="flex gap-2 text-sm">
             <Link to="/">
