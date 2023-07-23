@@ -42,14 +42,6 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
-          className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
-        >
-          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
-          </p>
-        </div>
-        <div
           onClick={() => handleScrollClick("falls")}
           className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
@@ -58,11 +50,11 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("transportation")}
+          onClick={() => handleScrollClick("banks")}
           className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.transportation}
+            {language.category?.banks}
           </p>
         </div>
       </div>
@@ -78,7 +70,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("hotelandresto")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
+          className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
             {language.category?.hotels}
@@ -93,27 +85,19 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
-        >
-          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
-          </p>
-        </div>
-        <div
           onClick={() => handleScrollClick("falls")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
+          className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
             {language.category?.falls}
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("transportation")}
+          onClick={() => handleScrollClick("banks")}
           className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
         >
-          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-wide">
-            {language.category?.transportation}
+          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
+            {language.category?.banks}
           </p>
         </div>
       </div>
@@ -145,14 +129,6 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
-        >
-          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
-          </p>
-        </div>
-        <div
           onClick={() => handleScrollClick("falls")}
           className="w-[8rem] h-[8rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
         >
@@ -161,11 +137,11 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("transportation")}
+          onClick={() => handleScrollClick("banks")}
           className="w-[8rem] h-[8rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
         >
-          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-wide">
-            {language.category?.transportation}
+          <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
+            {language.category?.banks}
           </p>
         </div>
       </div>
