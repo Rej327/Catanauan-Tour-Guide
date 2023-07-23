@@ -27,6 +27,7 @@ import TermOfUsePage from "./page/TermOfUsePage";
 import AccesibilityPage from "./page/AccesibilityPage";
 import CookiePage from "./page/CookiePage";
 import Cookie from "./components/common/Cookie";
+import HotelItemPage from "./page/HotelItemPage";
 
 export const LangContext = createContext(null);
 
@@ -66,18 +67,22 @@ function App() {
             <BrowserRouter>
               <Routes>
                 <Route path="/beaches/:id" element={<Beaches />} />
+                {/* HOME PAGE / LANDING PAGE */}
                 <Route path="/" element={<Home />} />
+                {/* OTHER PAGES */}
                 <Route path="/whats-on" element={<WhatsOn />} />
                 <Route path="/resorts/" element={<ResortPage />} />
                 <Route path="/restaurants/" element={<RestoPage />} />
                 <Route path="/restaurants/" element={<RestoPage />} />
                 <Route path="/hotels/" element={<HotelPage />} />
+                {/* PLAN A HEAD PAGES */}
                 <Route path="/traveler-guides/" element={<TravelerGuides />} />
                 <Route path="/accomodation/" element={<Accomodation />} />
                 {/* ITEM COMPONENTS BY ID */}
                 <Route path="/banks/" element={<BankItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
                 <Route path="/event/" element={<EventItemPage />} />
+                <Route path="/hotelss/" element={<HotelItemPage />} />
                 {/* LEGAL PAGE */}
                 <Route path="/term-of-use/" element={<TermOfUsePage />} />
                 <Route path="/accesibility/" element={<AccesibilityPage />} />
