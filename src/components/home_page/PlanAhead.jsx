@@ -136,7 +136,9 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.getting_here}
                     </p>
                   </div>
-                  <ArrowButton className="ml-auto" />
+                  <Link to="/getting-here">
+                    <ArrowButton className="ml-auto" />
+                  </Link>
                 </div>
               </td>
             </tr>
