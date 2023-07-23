@@ -4,7 +4,7 @@ import Footer from "../components/common/Footer";
 import GuidesBody from "../components/planahead_item_page/travelerguides_page/GuidesBody";
 import GuidesHeader from "../components/planahead_item_page/travelerguides_page/GuidesHeader";
 
-const TravelerGuides = () => {
+const TravelerGuidesPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -20,4 +20,4 @@ const TravelerGuides = () => {
   );
 };
 
-export default TravelerGuides;
+export default TravelerGuidesPage;

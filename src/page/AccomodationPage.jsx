@@ -5,7 +5,7 @@ import AccomodationHeader from "../components/planahead_item_page/accomodation_p
 import AccSection_1 from "../components/planahead_item_page/accomodation_page/AccSection_1";
 import AccSection_2 from "../components/planahead_item_page/accomodation_page/AccSection_2";
 
-const Accomodation = () => {
+const AccomodationPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -23,4 +23,4 @@ const Accomodation = () => {
   );
 };
 
-export default Accomodation;
+export default AccomodationPage;
