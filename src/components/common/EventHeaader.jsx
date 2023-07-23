@@ -1,7 +1,18 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const EventHeader = ({ className, selectedPage, textStyle, imgCover }) => {
+const EventHeader = ({
+  className,
+  selectedPage,
+  textStyle,
+  imgCover,
+  category,
+}) => {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
   return (
     <div
       className={`max-w-[1300px] px-4 mx-auto flex flex-col justify-center ${className}`}
@@ -12,6 +23,13 @@ const EventHeader = ({ className, selectedPage, textStyle, imgCover }) => {
             Home
           </p>
         </Link>
+        <p> | </p>
+        <p
+          onClick={handleGoBack}
+          className="hover:font-bold hover:underline underline-offset-8 cursor-pointer"
+        >
+          {category}
+        </p>
         <p> | </p>
         <p className={`font-bold underline underline-offset-8 ${textStyle}`}>
           {selectedPage}

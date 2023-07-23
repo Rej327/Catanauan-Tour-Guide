@@ -11,6 +11,7 @@ const EventItem = ({ className }) => {
         <EventHeader
           selectedPage="Island Hopping Catanauan + Maniwaya Island"
           imgCover={banks}
+          category="Your next adventure starts here!"
         />
       </div>
       <EventItemContent />
