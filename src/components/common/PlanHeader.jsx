@@ -1,7 +1,12 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
-const ReusableHeader = ({ className, selectedPage, icon }) => {
+const PlanHeader = ({ className, selectedPage, icon, category }) => {
+  const navigate = useNavigate();
+
+  const handleGoBack = () => {
+    navigate(-1);
+  };
   return (
     <div
       className={`max-w-[1300px] px-4 mx-auto flex flex-col justify-center ${className}`}
@@ -13,6 +18,13 @@ const ReusableHeader = ({ className, selectedPage, icon }) => {
           </p>
         </Link>
         <p> | </p>
+        <p
+          onClick={handleGoBack}
+          className="hover:font-bold hover:underline underline-offset-8 cursor-pointer"
+        >
+          Plan A Head
+        </p>
+        <p> | </p>
         <p className="font-bold underline underline-offset-8">{selectedPage}</p>
       </div>
       <div className="flex gap-4 mb-10 items-center">
@@ -23,4 +35,4 @@ const ReusableHeader = ({ className, selectedPage, icon }) => {
   );
 };
 
-export default ReusableHeader;
+export default PlanHeader;

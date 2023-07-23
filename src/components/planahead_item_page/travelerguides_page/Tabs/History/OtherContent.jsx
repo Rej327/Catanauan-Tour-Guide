@@ -1,5 +1,5 @@
 import React from "react";
-import { history2 } from "../../../../assets";
+import { history2 } from "../../../../../assets";
 
 const OtherContent = () => {
   return (

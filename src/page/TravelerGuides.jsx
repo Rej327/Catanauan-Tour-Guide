@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import Footer from "../components/common/Footer";
-import GuidesHeader from "../components/travelerguides_page/GuidesHeader";
-import GuidesBody from "../components/travelerguides_page/GuidesBody";
+import GuidesBody from "../components/planahead_item_page/travelerguides_page/GuidesBody";
+import GuidesHeader from "../components/planahead_item_page/travelerguides_page/GuidesHeader";
 
 const TravelerGuides = () => {
   useEffect(() => {

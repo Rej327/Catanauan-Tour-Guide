@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
-import { Link } from "react-router-dom";
-import { guides } from "../../assets";
-import ReusableHeader from "../common/ReusableHeader";
-import { LangContext } from "../../App";
+import { LangContext } from "../../../App";
+import { guides } from "../../../assets";
+import PlanHeader from "../../common/PlanHeader";
 
 const GuidesHeader = () => {
   const { language } = useContext(LangContext);
 
   return (
-    <ReusableHeader
+    <PlanHeader
       selectedPage={language.plan_section?.traveler_guides}
       icon={guides}
     />

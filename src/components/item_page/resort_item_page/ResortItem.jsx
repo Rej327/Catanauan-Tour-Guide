@@ -9,7 +9,11 @@ const ResortItem = ({ className }) => {
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
-        <ItemHeader selectedPage="Catanauan Cove Whitesand Beach Resort" />
+        <ItemHeader
+          selectedPage="Catanauan Cove Whitesand Beach Resort"
+          category="Resorts"
+          linkPage="/resorts"
+        />
       </div>
       <div className="flex flex-wrap justify-between">
         <div className=" px-2">

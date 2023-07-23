@@ -10,7 +10,7 @@ const BankItem = ({ className }) => {
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
-        <ItemHeader selectedPage="LandBank" />
+        <ItemHeader selectedPage="LandBank" category="Banks" />
       </div>
       <div>
         <img

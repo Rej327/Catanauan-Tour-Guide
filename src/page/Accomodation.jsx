@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import Footer from "../components/common/Footer";
-import AccomodationHeader from "../components/accomodation_page/AccomodationHeader";
-import AccSection_1 from "../components/accomodation_page/AccSection_1";
-import AccSection_2 from "../components/accomodation_page/AccSection_2";
+import AccomodationHeader from "../components/planahead_item_page/accomodation_page/AccomodationHeader";
+import AccSection_1 from "../components/planahead_item_page/accomodation_page/AccSection_1";
+import AccSection_2 from "../components/planahead_item_page/accomodation_page/AccSection_2";
 
 const Accomodation = () => {
   useEffect(() => {

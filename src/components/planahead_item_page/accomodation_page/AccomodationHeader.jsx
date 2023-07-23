@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
-import ReusableHeader from "../common/ReusableHeader";
-import { LangContext } from "../../App";
-import { accomodation } from "../../assets";
+import { LangContext } from "../../../App";
+import PlanHeader from "../../common/PlanHeader";
+import { accomodation } from "../../../assets";
 
 const AccomodationHeader = () => {
   const { language } = useContext(LangContext);
 
   return (
-    <ReusableHeader
+    <PlanHeader
       selectedPage={language.plan_section?.accomodations}
       icon={accomodation}
     />

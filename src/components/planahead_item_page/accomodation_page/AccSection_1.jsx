@@ -1,5 +1,5 @@
 import React from "react";
-import { hc1 } from "../../assets";
+import { hc1 } from "../../../assets";
 
 const AccSection_1 = ({ className }) => {
   return (

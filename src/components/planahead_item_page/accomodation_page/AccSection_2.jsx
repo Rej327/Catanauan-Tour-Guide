@@ -1,6 +1,6 @@
 import React from "react";
-import { hc2 } from "../../assets";
 import { Link } from "react-router-dom";
+import { hc2 } from "../../../assets";
 
 const AccSection_2 = ({ className }) => {
   return (
