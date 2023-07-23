@@ -1,11 +1,11 @@
 import React from "react";
-import ReusableHeader from "../../common/ReusableHeader";
+import LegalHeader from "../../common/LegalHeader";
 import { accesibility } from "../../../assets";
 
 const AccesibilityHeader = () => {
   return (
     <div>
-      <ReusableHeader selectedPage="Accesibility" icon={accesibility} />
+      <LegalHeader selectedPage="Accesibility" icon={accesibility} />
     </div>
   );
 };

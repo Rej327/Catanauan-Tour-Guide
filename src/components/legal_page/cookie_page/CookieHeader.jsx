@@ -1,11 +1,11 @@
 import React from "react";
-import ReusableHeader from "../../common/ReusableHeader";
+import LegalHeader from "../../common/LegalHeader";
 import { cookie } from "../../../assets";
 
 const CookieHeader = () => {
   return (
     <div>
-      <ReusableHeader selectedPage="Cookie Policy" icon={cookie} />
+      <LegalHeader selectedPage="Cookie Policy" icon={cookie} />
     </div>
   );
 };

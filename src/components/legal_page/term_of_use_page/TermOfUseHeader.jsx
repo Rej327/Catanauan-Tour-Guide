@@ -1,11 +1,11 @@
 import React from "react";
-import ReusableHeader from "../../common/ReusableHeader";
+import LegalHeader from "../../common/LegalHeader";
 import { terms } from "../../../assets";
 
 const TermOfUsuHeader = () => {
   return (
     <div className="px-2">
-      <ReusableHeader selectedPage="Term of Use" icon={terms} />
+      <LegalHeader selectedPage="Term of Use" icon={terms} />
     </div>
   );
 };
