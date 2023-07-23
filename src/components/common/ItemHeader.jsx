@@ -1,7 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const ItemHeader = ({ className, selectedPage, textStyle }) => {
+const ItemHeader = ({
+  className,
+  selectedPage,
+  textStyle,
+  category,
+  linkPage,
+}) => {
   return (
     <div
       className={`max-w-[1300px] px-4 mx-auto flex flex-col justify-center ${className}`}
@@ -10,6 +16,12 @@ const ItemHeader = ({ className, selectedPage, textStyle }) => {
         <Link to="/">
           <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
             Home
+          </p>
+        </Link>
+        <p> | </p>
+        <Link to={linkPage}>
+          <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
+            {category}
           </p>
         </Link>
         <p> | </p>
