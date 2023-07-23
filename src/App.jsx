@@ -17,8 +17,9 @@ import Beaches from "./page/Beaches";
 import ResortPage from "./page/ResortPage";
 import RestoPage from "./page/RestoPage";
 import HotelPage from "./page/HotelPage";
-import TravelerGuides from "./page/TravelerGuides";
-import Accomodation from "./page/Accomodation";
+import TravelerGuidesPage from "./page/TravelerGuidesPage";
+import AccomodationPage from "./page/AccomodationPage";
+import GettingHerePage from "./page/GettingHerePage";
 import Loader from "./components/common/Loader";
 import BankItemPage from "./page/BankItemPage";
 import ResortItemPage from "./page/ResortItemPage";
@@ -76,8 +77,12 @@ function App() {
                 <Route path="/restaurants/" element={<RestoPage />} />
                 <Route path="/hotels/" element={<HotelPage />} />
                 {/* PLAN A HEAD PAGES */}
-                <Route path="/traveler-guides/" element={<TravelerGuides />} />
-                <Route path="/accomodation/" element={<Accomodation />} />
+                <Route
+                  path="/traveler-guides/"
+                  element={<TravelerGuidesPage />}
+                />
+                <Route path="/accomodation/" element={<AccomodationPage />} />
+                <Route path="/getting-here/" element={<GettingHerePage />} />
                 {/* ITEM COMPONENTS BY ID */}
                 <Route path="/banks/" element={<BankItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
