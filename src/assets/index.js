@@ -22,3 +22,4 @@ export { default as accesibility } from "./LegalPage/accesibility.svg";
 export { default as cookie } from "./LegalPage/cookie.svg";
 export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
 export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
+export { default as falls } from "./PageCover/falls.jpg";
