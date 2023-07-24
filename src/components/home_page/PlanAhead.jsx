@@ -68,7 +68,9 @@ const PlanAhead = ({ className }) => {
                     {language.plan_section?.getting_around}
                   </p>
                 </div>
-                <ArrowButton className="ml-auto" />
+                <Link to="/getting-around">
+                  <ArrowButton className="ml-auto" />
+                </Link>
               </div>
             </td>
           </tr>
@@ -153,7 +155,9 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.getting_around}
                     </p>
                   </div>
-                  <ArrowButton className="ml-auto" />
+                  <Link to="/getting-around">
+                    <ArrowButton className="ml-auto" />
+                  </Link>
                 </div>
               </td>
               <td className="w-[400px] h-[7rem] border border-[#676767]">
