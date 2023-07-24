@@ -1,5 +1,5 @@
 import React from "react";
-import { history } from "../../../../../assets";
+import { bybus } from "../../../../../assets";
 import BusOtherContent from "./BusOtherContent";
 
 const BusContent = () => {
@@ -17,7 +17,7 @@ const BusContent = () => {
           so derived.
         </p>
         <img
-          src={history}
+          src={bybus}
           alt="Catanauan Image"
           className="w-full h-[18rem] object-cover"
         />

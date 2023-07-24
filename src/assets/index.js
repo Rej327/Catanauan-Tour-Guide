@@ -20,3 +20,5 @@ export { default as banks } from "./BanksItem/banks.jpg";
 export { default as terms } from "./LegalPage/terms.svg";
 export { default as accesibility } from "./LegalPage/accesibility.svg";
 export { default as cookie } from "./LegalPage/cookie.svg";
+export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
+export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
