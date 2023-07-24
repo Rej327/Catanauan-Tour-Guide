@@ -10,7 +10,7 @@ import React from "react";
 import { BsPhone, BsFacebook } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
 
-const BankItemContent_2 = () => {
+const RestoItemContent_2 = () => {
   return (
     <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] mt-10 p-4">
       <div className="flex flex-col gap-4">
@@ -74,4 +74,4 @@ const BankItemContent_2 = () => {
   );
 };
 
-export default BankItemContent_2;
+export default RestoItemContent_2;

@@ -1,30 +1,34 @@
 import React from "react";
 import ItemHeader from "../../common/ItemHeader";
-import { banks } from "../../../assets";
-import BankItemContent_1 from "./BankItemContent_1";
-import BankItemContent_2 from "./BankItemContent_2";
+import { banks, rc1 } from "../../../assets";
+import RestoItemContent_1 from "./RestoItemContent_1";
+import RestoItemContent_2 from "./RestoItemContent_2";
 import Map from "../../common/Map";
 import { Link } from "react-router-dom";
 
-const BankItem = ({ className }) => {
+const RestoItem = ({ className }) => {
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
-        <ItemHeader selectedPage="LandBank" category="Banks" />
+        <ItemHeader
+          selectedPage="V & V Dinner"
+          category="Restaurant"
+          linkPage="/restaurants"
+        />
       </div>
       <div>
         <img
-          src={banks}
+          src={rc1}
           alt="Bank Image"
           className="w-full h-[60vh] object-cover"
         />
       </div>
       <div className="flex flex-wrap justify-between">
         <div className="my-10 px-4">
-          <BankItemContent_1 />
+          <RestoItemContent_1 />
         </div>
         <div className="mx-auto">
-          <BankItemContent_2 />
+          <RestoItemContent_2 />
           <Map />
           <div className="my-5 w-fit mx-auto mb-10">
             <Link to="https://goo.gl/maps/UJfmMe1CEADWHCRCA" target="_blank">
@@ -39,4 +43,4 @@ const BankItem = ({ className }) => {
   );
 };
 
-export default BankItem;
+export default RestoItem;

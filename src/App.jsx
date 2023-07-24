@@ -21,7 +21,7 @@ import TravelerGuidesPage from "./page/TravelerGuidesPage";
 import AccomodationPage from "./page/AccomodationPage";
 import GettingHerePage from "./page/GettingHerePage";
 import Loader from "./components/common/Loader";
-import BankItemPage from "./page/BankItemPage";
+import RestoItemPage from "./page/RestoItemPage";
 import ResortItemPage from "./page/ResortItemPage";
 import EventItemPage from "./page/EventItemPage";
 import TermOfUsePage from "./page/TermOfUsePage";
@@ -84,7 +84,7 @@ function App() {
                 <Route path="/accomodation/" element={<AccomodationPage />} />
                 <Route path="/getting-here/" element={<GettingHerePage />} />
                 {/* ITEM COMPONENTS BY ID */}
-                <Route path="/banks/" element={<BankItemPage />} />
+                <Route path="/restaurantss/" element={<RestoItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
                 <Route path="/event/" element={<EventItemPage />} />
                 <Route path="/hotelss/" element={<HotelItemPage />} />
