@@ -20,6 +20,7 @@ import HotelPage from "./page/HotelPage";
 import TravelerGuidesPage from "./page/TravelerGuidesPage";
 import AccomodationPage from "./page/AccomodationPage";
 import GettingHerePage from "./page/GettingHerePage";
+import GettingAroundPage from "./page/GettingAroundPage";
 import Loader from "./components/common/Loader";
 import RestoItemPage from "./page/RestoItemPage";
 import ResortItemPage from "./page/ResortItemPage";
@@ -83,6 +84,10 @@ function App() {
                 />
                 <Route path="/accomodation/" element={<AccomodationPage />} />
                 <Route path="/getting-here/" element={<GettingHerePage />} />
+                <Route
+                  path="/getting-around/"
+                  element={<GettingAroundPage />}
+                />
                 {/* ITEM COMPONENTS BY ID */}
                 <Route path="/restaurantss/" element={<RestoItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
