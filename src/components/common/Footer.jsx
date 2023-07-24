@@ -46,66 +46,82 @@ const Footer = ({ className }) => {
               <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Discover</p>
                 <div className="grid grid-cols-2 justify-around gap-2 mt-4">
-                  <p
-                    onClick={() => handleScrollClick("resorts")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.resorts}
-                  </p>
-                  <p
-                    onClick={() => handleScrollClick("hotelandresto")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.hotels}
-                  </p>
-                  <p
-                    onClick={() => handleScrollClick("hotelandresto")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.restaurants}
-                  </p>
-                  <p
-                    onClick={() => handleScrollClick("falls")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.falls}
-                  </p>
-                  <p
-                    onClick={() => handleScrollClick("banks")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.banks}
-                  </p>
-                  <p
-                    onClick={() => handleScrollClick("transportation")}
-                    className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
-                  >
-                    {language.category?.transportation}
-                  </p>
+                  <Link to="/resorts">
+                    <p
+                      onClick={() => handleScrollClick("resorts")}
+                      className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                    >
+                      {language.category?.resorts}
+                    </p>
+                  </Link>
+                  <Link to="/hotels">
+                    <p
+                      onClick={() => handleScrollClick("hotelandresto")}
+                      className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                    >
+                      {language.category?.hotels}
+                    </p>
+                  </Link>
+                  <Link to="/restaurants">
+                    <p
+                      onClick={() => handleScrollClick("hotelandresto")}
+                      className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                    >
+                      {language.category?.restaurants}
+                    </p>
+                  </Link>
+                  <Link to="/falls">
+                    <p
+                      onClick={() => handleScrollClick("falls")}
+                      className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                    >
+                      {language.category?.falls}
+                    </p>
+                  </Link>
+                  <Link to="/transportation">
+                    <p
+                      onClick={() => handleScrollClick("transportation")}
+                      className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
+                    >
+                      {language.category?.transportation}
+                    </p>
+                  </Link>
                 </div>
               </div>
               {/* NEXT ITEM */}
               <div className="flex flex-col max-w-[400px]">
                 <p className="font-bold tracking-wider text-sm">Useful Links</p>
                 <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    What's on
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    {language.plan_section?.traveler_guides}
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    {language.plan_section?.getting_here}
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    {language.plan_section?.getting_around}
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    {language.plan_section?.cultures}
-                  </p>
-                  <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                    {language.plan_section?.accomodation}
-                  </p>
+                  <Link to="/whats-on">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      What's on
+                    </p>
+                  </Link>
+                  <Link to="/traveler-guides">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      {language.plan_section?.traveler_guides}
+                    </p>
+                  </Link>
+                  <Link to="/getting-here">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      {language.plan_section?.getting_here}
+                    </p>
+                  </Link>
+                  <Link to="/getting-around">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      {language.plan_section?.getting_around}
+                    </p>
+                  </Link>
+                  <Link to="/culture">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      {language.plan_section?.cultures}
+                    </p>
+                  </Link>
+                  <Link to="/accomodation">
+                    <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
+                      {language.plan_section?.accomodation}
+                    </p>
+                  </Link>
                 </div>
               </div>
               {/* NEXT ITEM */}
@@ -134,7 +150,9 @@ const Footer = ({ className }) => {
                   Where to stay in Catanauan
                 </p>
                 <div className="w-fit">
-                  <FooterButton>Accomodation</FooterButton>
+                  <Link to="/accomodation">
+                    <FooterButton>Accomodation</FooterButton>
+                  </Link>
                 </div>
               </div>
             </div>
