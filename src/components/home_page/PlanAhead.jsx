@@ -83,7 +83,9 @@ const PlanAhead = ({ className }) => {
                     {language.plan_section?.cultures}
                   </p>
                 </div>
-                <ArrowButton className="ml-auto" />
+                <Link to="/culture">
+                  <ArrowButton className="ml-auto" />
+                </Link>
               </div>
             </td>
           </tr>
@@ -168,7 +170,9 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.cultures}
                     </p>
                   </div>
-                  <ArrowButton className="ml-auto" />
+                  <Link to="/culture">
+                    <ArrowButton className="ml-auto" />
+                  </Link>
                 </div>
               </td>
               <td className="w-[400px] h-[7rem] border border-[#676767]">
