@@ -13,7 +13,7 @@ const TabsBody = () => {
   return (
     <div className="w-full">
       <Tabs position="relative" variant="unstyled">
-        <TabList gap="1rem" maxWidth="400px" justifyContent="space-between">
+        <TabList gap="1rem">
           <Tab>
             <p className="font-bold">Bus</p>
           </Tab>
