@@ -31,6 +31,7 @@ import CookiePage from "./page/CookiePage";
 import Cookie from "./components/common/Cookie";
 import HotelItemPage from "./page/HotelItemPage";
 import FallsPage from "./page/FallsPage";
+import CulturePage from "./page/CulturePage";
 
 export const LangContext = createContext(null);
 
@@ -86,6 +87,7 @@ function App() {
                 />
                 <Route path="/accomodation/" element={<AccomodationPage />} />
                 <Route path="/getting-here/" element={<GettingHerePage />} />
+                <Route path="/culture/" element={<CulturePage />} />
                 <Route
                   path="/getting-around/"
                   element={<GettingAroundPage />}
