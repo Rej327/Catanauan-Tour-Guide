@@ -3,7 +3,7 @@ import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
 
-const Banks = ({ className, id }) => {
+const Transportations = ({ className, id }) => {
   const { language } = useContext(LangContext);
   return (
     <div id={id} className={`w-full ${className}`}>
@@ -13,16 +13,17 @@ const Banks = ({ className, id }) => {
           <div className="lg:hidden flex flex-col my-12 px-2 md:px-10">
             <div className="w-fit">
               <div className="w-fit">
-                <p className="font-header hashColor text-4xl"># Banks</p>
+                <p className="font-header hashColor text-4xl">
+                  # Transportation
+                </p>
               </div>
               <p className="text-4xl font-bold tracking-wide my-5">
-                Banking that's convinient and easy
+                Your ride to anywhere!
               </p>
               <p className="text-xl">
-                Your one-stop shop for banking need, even when you're on
-                vacation.
+                Get where you need to go affordably and easily
               </p>
-              <p className="text-[#d4a148] mt-5">— See all bank</p>
+              <p className="text-[#d4a148] mt-5">— More</p>
             </div>
           </div>
         </div>
@@ -34,15 +35,15 @@ const Banks = ({ className, id }) => {
         <div className="hidden lg:flex items-center -mt-56 mb-12 px-2 lg:px-12 ">
           <div className="w-fit">
             <p className="text-4xl font-bold tracking-wide my-5">
-              Banking that's convinient and easy
+              Your ride to anywhere!
             </p>
             <p className="text-xl">
-              Your one-stop shop for banking need, even when you're on vacation.
+              Get where you need to go affordably and easily
             </p>
-            <p className="text-[#d4a148] mt-5">— See all bank</p>
+            <p className="text-[#d4a148] mt-5">— More</p>
           </div>
           <div className="w-fit ml-auto pr-24">
-            <p className="font-header hashColor text-4xl"># Banks</p>
+            <p className="font-header hashColor text-4xl"># Transportations</p>
           </div>
         </div>
         <div className="mx-auto max-w-[450px] lg:max-w-[1300px] -mt-5 lg:mt-0">
@@ -63,4 +64,4 @@ const Banks = ({ className, id }) => {
   );
 };
 
-export default Banks;
+export default Transportations;

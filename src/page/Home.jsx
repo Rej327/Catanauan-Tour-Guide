@@ -9,8 +9,9 @@ import Resorts from "../components/home_page/Resorts";
 import HotelAndRestoDesktop from "../components/home_page/HotelAndRestoDesktop";
 import HotelAndRestoMobile from "../components/home_page/HotelAndRestoMobile";
 import Falls from "../components/home_page/Falls";
-import Banks from "../components/home_page/Banks";
+import Banks from "../components/home_page/Tranportation";
 import Footer from "../components/common/Footer";
+import Transportations from "../components/home_page/Tranportation";
 
 const Home = () => {
   useEffect(() => {
@@ -34,7 +35,7 @@ const Home = () => {
         className="mt-[30%] md:mt-[15%] lg:hidden"
       />
       <Falls id="falls" className="pt-12 pb-6 md:py-6" />
-      <Banks id="banks" className="py-6 md:py-24" />
+      <Transportations id="transportation" className="py-6 md:py-24" />
       <Footer className="pt-6" />
       {/* <Sample /> */}
     </div>

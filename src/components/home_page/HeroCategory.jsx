@@ -50,11 +50,11 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
+          onClick={() => handleScrollClick("transportation")}
           className="w-[7rem] h-[3rem] bg-white bg-opacity-40 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
+            {language.category?.transportation}
           </p>
         </div>
       </div>
@@ -93,11 +93,11 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
+          onClick={() => handleScrollClick("transportation")}
           className="w-[7rem] h-[7rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
+            {language.category?.transportation}
           </p>
         </div>
       </div>
@@ -137,11 +137,11 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("banks")}
+          onClick={() => handleScrollClick("transportation")}
           className="w-[8rem] h-[8rem] bg-white bg-opacity-40 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-[#2f3935] text-xs font-bold tracking-widest">
-            {language.category?.banks}
+            {language.category?.transportation}
           </p>
         </div>
       </div>
