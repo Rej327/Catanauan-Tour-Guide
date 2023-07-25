@@ -1,3 +1,4 @@
+/* RESTAURANT ITEM HOVER EFFECTS */
 .restoItems .itemImg {
   transform: scale(1); /* Initial scale, no change */
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -20,4 +21,32 @@
   transform: scale(1.1); /* Increase the scale factor as desired */
   transition: transform 0.5s cubic-bezier(0.215, 0.61, 0.355, 1);
   transition-delay: 0.15s;
+}
+
+/* FALLS SECTION IN HOME PAGE HOVER EFFECTS */
+
+.fallsContainer {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.fallsContainer img {
+  transition: transform 0.3s ease;
+}
+
+.fallsContainer p {
+  position: relative;
+  left: 0;
+  transition: left 0.3s ease;
+}
+
+.fallsContainer:hover img {
+  transform: scale(
+    1.2
+  ); /* You can adjust the scaling factor as per your preference */
+}
+
+.fallsContainer:hover p {
+  left: 10px;
 }

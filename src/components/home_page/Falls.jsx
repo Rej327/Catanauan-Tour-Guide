@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
+import { Link } from "react-router-dom";
 
 const Falls = ({ className, id }) => {
   const { language } = useContext(LangContext);
@@ -46,17 +47,23 @@ const Falls = ({ className, id }) => {
           {language?.main?.resorts.slice(0, 3).map((data) => (
             <div
               key={data.id}
-              className="px-5 max-w-[400px] md:max-w-[300px] lg:max-w-[400px] mx-auto"
+              className="rounded-lg fallsContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
             >
-              <img src={data.img} alt="resorts" className="w-auto" />
+              <div className="overflow-hidden rounded-lg">
+                <img src={data.img} alt="resorts" className=" rounded-lg " />
+              </div>
+              <p className="text-lg px-4 py-2">Talisay Falls</p>
             </div>
           ))}
         </div>
-        <div className="w-fit mx-auto ">
-          <Button
-            className="my-10 mx-auto text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
-            label="MORE"
-          />
+
+        <div className="w-fit mt-10 h-fit mx-auto ">
+          <Link to="/falls">
+            <Button
+              className="mx-auto w-fit text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
+              label="MORE"
+            />
+          </Link>
         </div>
       </div>
     </div>
