@@ -26,7 +26,7 @@ const NavigationToogle = ({ iconColor }) => {
           <DrawerHeader size="xs">
             <p className="font-header text-2xl mt-10">Discover Catanauan</p>
           </DrawerHeader>
-          <DrawerBody>
+          <DrawerBody className="relative flex flex-col">
             <div className="flex flex-col">
               <Link to="/">
                 <p className="text-lg font-bold px-4 hover:bg-[#F5F5F5] delay-75 duration-75 py-[9px]">
@@ -39,6 +39,8 @@ const NavigationToogle = ({ iconColor }) => {
                   What's On
                 </p>
               </Link>
+            </div>
+            <div className="absolute flex flex-col gap-4 bottom-4">
               <Link to="https://goo.gl/maps/cUbvaPVpQQsL4dqe8" target="_blank">
                 <FooterButton>What's Nearby</FooterButton>
               </Link>
