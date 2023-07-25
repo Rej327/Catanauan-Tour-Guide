@@ -33,9 +33,11 @@ const Resorts = ({ className, id }) => {
         <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
           <Carousel>
             {language?.main?.resorts.map((data) => (
-              <div key={data.id} className="px-5">
-                <img src={data.img} alt="resorts" className="w-auto" />
-                <div className="w-full bg-white">
+              <div key={data.id} className="px-5 homeItemContainer">
+                <div className="overflow-hidden">
+                  <img src={data.img} alt="resorts" className="w-auto" />
+                </div>
+                <div className="w-full bg-white py-4 px-2">
                   <p>{data.title}</p>
                   <p>{data.desc}</p>
                 </div>

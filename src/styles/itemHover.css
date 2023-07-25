@@ -25,28 +25,28 @@
 
 /* FALLS SECTION IN HOME PAGE HOVER EFFECTS */
 
-.fallsContainer {
+.homeItemContainer {
   position: relative;
   overflow: hidden;
   display: inline-block;
 }
 
-.fallsContainer img {
+.homeItemContainer img {
   transition: transform 0.3s ease;
 }
 
-.fallsContainer p {
+.homeItemContainer p {
   position: relative;
   left: 0;
   transition: left 0.3s ease;
 }
 
-.fallsContainer:hover img {
+.homeItemContainer:hover img {
   transform: scale(
     1.2
   ); /* You can adjust the scaling factor as per your preference */
 }
 
-.fallsContainer:hover p {
+.homeItemContainer:hover p {
   left: 10px;
 }

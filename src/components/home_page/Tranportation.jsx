@@ -49,11 +49,19 @@ const Transportations = ({ className, id }) => {
         <div className="mx-auto max-w-[450px] lg:max-w-[1300px] -mt-5 lg:mt-0">
           <div className="mx-auto">
             <Carousel>
-              {language?.main?.resorts.map((data) => (
-                <div key={data.id} className="px-5">
-                  <img src={data.img} alt="resorts" className="w-auto" />
-                  <p>{data.title}</p>
-                  <p>{data.desc}</p>
+              {language?.main?.resorts.slice(0, 3).map((data) => (
+                <div
+                  key={data.id}
+                  className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
+                >
+                  <div className="overflow-hidden rounded-lg">
+                    <img
+                      src={data.img}
+                      alt="resorts"
+                      className=" rounded-lg "
+                    />
+                  </div>
+                  <p className="text-lg px-4 py-2">Vehicle Name</p>
                 </div>
               ))}
             </Carousel>

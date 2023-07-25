@@ -47,7 +47,7 @@ const Falls = ({ className, id }) => {
           {language?.main?.resorts.slice(0, 3).map((data) => (
             <div
               key={data.id}
-              className="rounded-lg fallsContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
+              className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
             >
               <div className="overflow-hidden rounded-lg">
                 <img src={data.img} alt="resorts" className=" rounded-lg " />
