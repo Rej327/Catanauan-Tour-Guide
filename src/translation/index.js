@@ -62,7 +62,7 @@ export const en = {
     getting_here: "Getting Here",
     getting_around: "Getting Around",
     cultures: "Culture",
-    accomodations: "Accomodation",
+    accomodations: "Accommodation",
   },
 
   beaches: [

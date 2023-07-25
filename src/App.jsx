@@ -5,7 +5,6 @@ import { createContext } from "react";
 import { ENGLISH_LANGUAGE } from "../src/constants/index";
 
 import { en, fil } from "./translation/index";
-import "./styles/navigationToogle.css";
 import "./styles/button.css";
 import "./styles/slideArrow.css";
 import "./styles/loader.css";
@@ -85,7 +84,7 @@ function App() {
                   path="/traveler-guides/"
                   element={<TravelerGuidesPage />}
                 />
-                <Route path="/accomodation/" element={<AccomodationPage />} />
+                <Route path="/accommodation/" element={<AccomodationPage />} />
                 <Route path="/getting-here/" element={<GettingHerePage />} />
                 <Route path="/culture/" element={<CulturePage />} />
                 <Route

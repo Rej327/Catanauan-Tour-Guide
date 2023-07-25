@@ -150,7 +150,7 @@ const Footer = ({ className }) => {
                   Where to stay in Catanauan
                 </p>
                 <div className="w-fit">
-                  <Link to="/accomodation">
+                  <Link to="/accommodation">
                     <FooterButton>Accomodation</FooterButton>
                   </Link>
                 </div>
