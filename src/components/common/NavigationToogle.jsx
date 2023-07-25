@@ -39,8 +39,12 @@ const NavigationToogle = ({ iconColor }) => {
                   What's On
                 </p>
               </Link>
-              <FooterButton>What's Nearby</FooterButton>
-              <FooterButton>Accomodation</FooterButton>
+              <Link to="https://goo.gl/maps/cUbvaPVpQQsL4dqe8" target="_blank">
+                <FooterButton>What's Nearby</FooterButton>
+              </Link>
+              <Link to="/accommodation">
+                <FooterButton>Accomodation</FooterButton>
+              </Link>
             </div>
           </DrawerBody>
         </DrawerContent>

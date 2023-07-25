@@ -2,6 +2,7 @@ import React from "react";
 import FooterButton from "./FooterButton";
 import SearchBar from "./SearchBar";
 import NavigationToogle from "./NavigationToogle";
+import { Link } from "react-router-dom";
 
 const NavigatonInOtherPage = () => {
   return (
@@ -16,9 +17,11 @@ const NavigatonInOtherPage = () => {
               iconStyle="bodyColor"
             />
             <div className="flex gap-5 items-center">
-              <FooterButton className="hidden lg:flex">
-                What's Nearby
-              </FooterButton>
+              <Link to="https://goo.gl/maps/cUbvaPVpQQsL4dqe8" target="_blank">
+                <FooterButton className="hidden lg:flex">
+                  What's Nearby
+                </FooterButton>
+              </Link>
               <NavigationToogle />
             </div>
           </div>
