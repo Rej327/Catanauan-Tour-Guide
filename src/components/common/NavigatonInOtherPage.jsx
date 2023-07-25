@@ -1,7 +1,7 @@
 import React from "react";
-import NavigationToggle from "./NavigationToogle";
 import FooterButton from "./FooterButton";
 import SearchBar from "./SearchBar";
+import NavigationToogle from "./NavigationToogle";
 
 const NavigatonInOtherPage = () => {
   return (
@@ -19,7 +19,7 @@ const NavigatonInOtherPage = () => {
               <FooterButton className="hidden lg:flex">
                 What's Nearby
               </FooterButton>
-              <NavigationToggle />
+              <NavigationToogle />
             </div>
           </div>
         </div>

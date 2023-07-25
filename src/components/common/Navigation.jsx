@@ -1,7 +1,7 @@
 import React from "react";
 import { logo } from "../../assets";
 import LangToggle from "./LangToggle";
-import NavigationToggle from "./NavigationToogle";
+import NavigationToogle from "./NavigationToogle";
 
 const Navigation = () => {
   return (
@@ -14,9 +14,9 @@ const Navigation = () => {
       <div className="flex gap-5">
         <div className="flex gap-1">
           <LangToggle />
-          <p className="text-body text-xl bodyColor">en/fil</p>
+          <p className="text-body text-xl text-[#FFFBF3]">en/fil</p>
         </div>
-        <NavigationToggle />
+        <NavigationToogle iconColor="border-[#FFFBF3]" />
       </div>
     </div>
   );
