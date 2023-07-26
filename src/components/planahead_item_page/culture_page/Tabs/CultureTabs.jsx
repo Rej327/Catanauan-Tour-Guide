@@ -7,9 +7,10 @@ import {
   TabPanels,
   Tabs,
 } from "@chakra-ui/react";
-import Content from "./Content";
+import FiestaContent from "./Fiesta/FiestaContent";
+import FestivalContent from "./Festival/FestivalContent";
 
-const FiestaTab = () => {
+const CultureTabs = () => {
   return (
     <div className="w-full">
       <Tabs position="relative" variant="unstyled">
@@ -32,11 +33,10 @@ const FiestaTab = () => {
         />
         <TabPanels>
           <TabPanel>
-            {/* Tab 1 */}
-            <Content />
+            <FestivalContent />
           </TabPanel>
           <TabPanel>
-            <p>two!</p>
+            <FiestaContent />
           </TabPanel>
           <TabPanel>
             <p>three!</p>
@@ -47,4 +47,4 @@ const FiestaTab = () => {
   );
 };
 
-export default FiestaTab;
+export default CultureTabs;

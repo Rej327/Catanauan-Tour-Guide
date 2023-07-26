@@ -1,10 +1,10 @@
 import React from "react";
-import FiestaTab from "./Tabs/Fiesta/FiestaTab";
+import CultureTabs from "./Tabs/CultureTabs";
 
 const CultureBody = ({ className }) => {
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
-      <FiestaTab />
+      <CultureTabs />
     </div>
   );
 };
