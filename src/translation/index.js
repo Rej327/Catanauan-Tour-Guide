@@ -55,6 +55,8 @@ export const en = {
     transportation: "transportation",
   },
 
+  // PLAN A HEAD SECTION IN HOME PAGE
+
   plan_section: {
     plan_a_head: "Plan A Head",
     get_the_most: "Get the most out of your visit",
@@ -63,6 +65,22 @@ export const en = {
     getting_around: "Getting Around",
     cultures: "Culture",
     accomodations: "Accommodation",
+  },
+
+  // PLAN A HEAD PAGES
+
+  plan_page: {
+    gettinng_here: {
+      title: "History",
+      content:
+        "The existence of Catanauan as a pueblo (town) was first recorded in the map of Father Pedro Murillo dated on 1734. The petition dated 1685 of Bishop Andres Gonzales of Nueva Caceres, now known as Naga City in the Bicol Region, requesting the king of Spain to have Masbater and the Pueblo of Catanauan assigned to Recollect Order was reflective of the early creation of Catanauan. The recognized foundation date of the Municipality was January 20, 1686.In the late 18th and 19th century, there were frequent Moro raids. These occurrences prompted the people to construct two small stone forts or watch towers (magkatanawan) mounted with artillery. Santa Maria watch tower was located at Lot 21 psc-2 near the present wharf is located. Castillo watch tower stood at the intersection of present Rizal and Boncan Street. Hence, the name Catanauan was so derived. The landscape of Catanauan is described as hilly, rolling and mountainous with isolated flat lands. The existing rivers and creeks serve as potential for effective drainage, more especially the Catanauan River. Catanauan is politically subdivided into 46 barangays. Each barangay consists of puroks and some have sitios. When it comes to econmy one of the major agricultural trades by the populace is copra buying and selling.",
+    },
+
+    cultures: {
+      title: "Boling - Boling Festival",
+      content:
+        "`Boling-Boling` is an old age practice particular to Catanauanins, which is celebrated annually starting on the Sunday and ends on Tuesday preceding Ash Wednesday and signals the start of the Lenten Season. Participants roam around the town garbed in any costume they may fancy. Most of them wear colourful clown-like clothes while others imitate anybody whom they despise and make fun of them. It is the Pinoy version of carnival. No one can tell exactly when and how this practice started, not even the oldest resident of this town located at the heart of Bondoc Peninsula. Senior women wearing brightly coloured dresses and hats with flowers sing and dance from one house to another to solicit cash donations, half of which is given to the local Parish Church for its expenses during the Lenten Season activities and the other half for their own group's civic projects. Boling-Boling comes from the Visayan word Boling, which means dirt. This reminds us that we are sinners and that we need to repent, do some spiritual cleansing and get ourselves ready for the Lenten Season. In earlier times, Catanauanins had a grandiose merry-making during the Boling-Boling as, starting the following day, which is Ash Wednesday, they will keep silent suspending all merry-makings until the Black Saturday in reverence to the Lenten Season. Some men skimpily clad in their undergarments put on mud or grease with charcoal all over their bodies and roam around the town trying to scare young women and children for fun.",
+    },
   },
 
   beaches: [
@@ -326,6 +344,8 @@ export const fil = {
     transportation: "transportasyon",
   },
 
+  // PLAN A HEAD SECTION IN HOME PAGE
+
   plan_section: {
     plan_a_head: "Plan A Head",
     get_the_most: "Sulitin ang iyong pagbisita",
@@ -334,6 +354,21 @@ export const fil = {
     getting_around: "Paglilibot",
     cultures: "Kultura",
     accomodations: "Akomodasyon",
+  },
+
+  // PLAN A HEAD PAGES
+
+  plan_page: {
+    gettinng_here: {
+      title: "KASAYSAYAN",
+      content:
+        "Ang pagkakaroon ng Catanauan bilang isang pueblo (bayan) ay unang naitala sa mapa ni Padre Pedro Murillo na may petsang 1734. Ang petisyon na may petsang 1685 ni Obispo Andres Gonzales ng Nueva Caceres, na kilala ngayon bilang Lungsod ng Naga sa Rehiyon ng Bicol, na humihiling sa hari ng Espanya na magkaroon ng Masbater at ang Pueblo ng Catanalect na unang itinalaga sa Representasyon ng Catanalect. Ang kinikilalang petsa ng pundasyon ng Munisipyo ay Enero 20, 1686. Sa huling bahagi ng ika-18 at ika-19 na siglo, nagkaroon ng madalas na pagsalakay ng mga Moro. Ang mga pangyayaring ito ang nag-udyok sa mga tao na magtayo ng dalawang maliliit na batong kuta o watch tower (magkatanawan) na nilagyan ng artilerya. Ang Santa Maria watch tower ay matatagpuan sa Lot 21 psc-2 malapit sa kasalukuyang pantalan. Ang Castillo watch tower ay nakatayo sa intersection ng kasalukuyang Rizal at Boncan Street. Kaya naman, ang pangalang Catanauan ay hinango. Ang tanawin ng Catanauan ay inilalarawan bilang maburol, gumugulong at bulubundukin na may hiwalay na patag na lupain. Ang mga kasalukuyang ilog at sapa ay nagsisilbing potensyal para sa mabisang pagpapatuyo, lalo na ang Ilog Catanauan. Ang bayan ng Catanauan ay nahahati sa 46 na mga barangay. Bawat barangay ay binubuo ng mga purok at may mga sitio. Pagdating sa ekonomiya ang isa sa mga pangunahing kalakalan ng agrikultura ng mga tao ay ang pagbili at pagbebenta ng copra.",
+    },
+    cultures: {
+      title: "Boling - Boling Festival",
+      content:
+        "Ang `Boling-Boling` ay isang pagsasanay sa katandaan partikular sa mga Catanauanin, na ipinagdiriwang taun-taon simula sa Linggo at magtatapos sa Martes bago ang Miyerkules ng Abo at hudyat ng pagsisimula ng Lenten Season. Ang mga kalahok ay gumagala sa paligid ng bayan na nakasuot ng anumang costume na maaari nilang magustuhan. Karamihan sa kanila ay nagsusuot ng makukulay na damit na parang payaso habang ang iba ay ginagaya ang sinumang kanilang hinahamak at pinagtatawanan. Ito ay ang bersyon ng Pinoy ng karnabal. Walang makapagsasabi nang eksakto kung kailan at paano nagsimula ang pagsasanay na ito, kahit ang pinakamatandang residente ng bayang ito na matatagpuan sa gitna ng Bondoc Peninsula. Ang mga matatandang kababaihan na may suot na matingkad na kulay na mga damit at mga sumbrero na may mga bulaklak ay kumakanta at sumasayaw mula sa isang bahay patungo sa isa pa upang humingi ng mga donasyong pera, kalahati nito ay ibinibigay sa lokal na Parish Church para sa mga gastusin nito sa mga aktibidad sa Panahon ng Kuwaresma at ang kalahati naman ay para sa mga civic project ng kanilang sariling grupo. Ang Boling-Boling ay mula sa salitang Bisaya na Boling, na ang ibig sabihin ay dumi. Ito ay nagpapaalala sa atin na tayo ay makasalanan at kailangan nating magsisi, gumawa ng ilang espirituwal na paglilinis at ihanda ang ating sarili para sa Panahon ng Kuwaresma. Noong unang panahon, ang mga Catanauanin ay nagkaroon ng napakagandang pagsasaya sa panahon ng Boling-Boling dahil, simula sa susunod na araw, na Miyerkules ng Abo, sila ay mananatiling tahimik na sinuspinde ang lahat ng mga pagsasaya hanggang sa Black Saturday bilang paggalang sa Panahon ng Kuwaresma. Ang ilang mga lalaki ay matipid na nakasuot ng kanilang mga panloob na damit na naglalagay ng putik o mantika na may uling sa buong katawan at gumagala sa paligid ng bayan na sinusubukang takutin ang mga kabataang babae at mga bata para sa kasiyahan.",
+    },
   },
 
   beaches: [
