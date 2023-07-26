@@ -23,3 +23,7 @@ export { default as cookie } from "./LegalPage/cookie.svg";
 export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
 export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
 export { default as falls } from "./PageCover/falls.jpg";
+export { default as festival_0 } from "./PlanAHeadPage/Cultures/festival_0.jpg";
+export { default as festival_1 } from "./PlanAHeadPage/Cultures/festival_1.jpg";
+export { default as festival_2 } from "./PlanAHeadPage/Cultures/festival_2.jpg";
+export { default as festival_3 } from "./PlanAHeadPage/Cultures/festival_3.jpg";
