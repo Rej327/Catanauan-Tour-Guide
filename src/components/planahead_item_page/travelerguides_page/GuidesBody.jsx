@@ -1,10 +1,10 @@
 import React from "react";
-import HistoryTab from "./Tabs/History/HistoryTab";
+import GuidesTab from "./Tabs/GuidesTab";
 
 const GuidesBody = ({ className }) => {
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
-      <HistoryTab />
+      <GuidesTab />
     </div>
   );
 };

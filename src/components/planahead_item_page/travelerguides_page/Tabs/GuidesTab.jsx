@@ -7,9 +7,9 @@ import {
   TabPanels,
   Tabs,
 } from "@chakra-ui/react";
-import Content from "./Content";
+import HistoryContent from "./History/HistoryContent";
 
-const HistoryTab = () => {
+const GuidesTab = () => {
   return (
     <div className="w-full">
       <Tabs position="relative" variant="unstyled">
@@ -33,7 +33,7 @@ const HistoryTab = () => {
         <TabPanels>
           <TabPanel>
             {/* Tab 1 */}
-            <Content />
+            <HistoryContent />
           </TabPanel>
           <TabPanel>
             <p>two!</p>
@@ -47,4 +47,4 @@ const HistoryTab = () => {
   );
 };
 
-export default HistoryTab;
+export default GuidesTab;
