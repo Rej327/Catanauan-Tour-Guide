@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import OtherContent from "./OtherContent";
-import { festival_3, history } from "../../../../../assets";
+import { festival_3 } from "../../../../../assets";
 import { LangContext } from "../../../../../App";
 
 const FestivalContent = () => {
