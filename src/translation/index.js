@@ -55,6 +55,15 @@ export const en = {
     transportation: "transportation",
   },
 
+  //RESORT SECTION IN HOME PAGE
+  resorts_section: {
+    head: "# Resorts",
+    title: "Unmissable Experience",
+    content:
+      "See our endless beach and resorts, perfect for swimming, sunbathing, and surfing.",
+    btn_txt: "— See all resort",
+  },
+
   //STEP INTO SUMMER SECTION IN HOME PAGE
 
   whats_on_section: {
@@ -354,6 +363,15 @@ export const fil = {
     falls: "talon",
     banks: "bangko",
     transportation: "transportasyon",
+  },
+
+  //RESORT SECTION IN HOME PAGE
+  resorts_section: {
+    head: "# Resorts",
+    title: "Imperdible Karanasan",
+    content:
+      "Tuklasin ang dalampasigan at mga resort, perpekto para sa paglangoy, pagbababad sa araw, at pag-surf.",
+    btn_txt: "— Tingnan ang lahat ng resort",
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE

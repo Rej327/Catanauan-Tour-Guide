@@ -15,18 +15,16 @@ const Resorts = ({ className, id }) => {
       </div>
       <div className="relative max-w-[1300px] mx-auto px-2 md:px-[2rem] lg:px-[3rem] -mt-[23rem]">
         <div className="md:absolute lg:-mt-[10rem] max-w-[300px]">
-          <p className="font-header hashColor text-4xl mt-10"># Resorts</p>
+          <p className="font-header hashColor text-4xl mt-10">
+            {language?.resorts_section?.head}
+          </p>
           <p className="text-4xl font-bold tracking-wide my-5">
-            Unmissable <br />
-            Experience
+            {language?.resorts_section?.title}
           </p>
-          <p className="text-xl">
-            See our endless beach and resorts, perfect for swimming, sunbathing,
-            and surfing.
-          </p>
+          <p className="text-xl">{language?.resorts_section?.content}</p>
           <Link to="/resorts">
             <p className="text-[#d4a148] my-5 hover:translate-x-2 hover:font-bold duration-300">
-              — See all resort
+              {language?.resorts_section?.btn_txt}
             </p>
           </Link>
         </div>
