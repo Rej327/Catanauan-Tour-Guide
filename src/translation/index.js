@@ -84,6 +84,13 @@ export const en = {
     btn_txt: "MORE",
   },
 
+  //TRANSPORTATION SECTION IN HOME PAGE
+  transportation_section: {
+    head: "# Transportations",
+    title: "Your ride to anywhere!",
+    content: "Get where you need to go affordably and easily",
+    btn_txt: "— More",
+  },
   //STEP INTO SUMMER SECTION IN HOME PAGE
   whats_on_section: {
     title: "STEP INTO SUMMER",
@@ -406,6 +413,14 @@ export const fil = {
     btn_txt: "HIGIT PA",
   },
 
+  //TRANSPORTATION SECTION IN HOME PAGE
+  transportation_section: {
+    head: "# Transportasyon",
+    title: "Sakay na patungo saan mang lugar!",
+    content:
+      "Pumunta kung saan ka man pupunta nang abot-kayang presyo at madali.",
+    btn_txt: "— Higit pa",
+  },
   //STEP INTO SUMMER SECTION IN HOME PAGE
   whats_on_section: {
     title: "LAKBAY SA TAGINIT",

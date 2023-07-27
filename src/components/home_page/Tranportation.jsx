@@ -14,16 +14,18 @@ const Transportations = ({ className, id }) => {
             <div className="w-fit">
               <div className="w-fit">
                 <p className="font-header hashColor text-4xl">
-                  # Transportation
+                  {language?.transportation_section?.head}
                 </p>
               </div>
               <p className="text-4xl font-bold tracking-wide my-5">
-                Your ride to anywhere!
+                {language?.transportation_section?.title}
               </p>
               <p className="text-xl">
-                Get where you need to go affordably and easily
+                {language?.transportation_section?.content}
               </p>
-              <p className="text-[#d4a148] mt-5">— More</p>
+              <p className="text-[#d4a148] mt-5">
+                {language?.transportation_section?.btn_txt}
+              </p>
             </div>
           </div>
         </div>
@@ -35,15 +37,19 @@ const Transportations = ({ className, id }) => {
         <div className="hidden lg:flex items-center -mt-56 mb-12 px-2 lg:px-12 ">
           <div className="w-fit">
             <p className="text-4xl font-bold tracking-wide my-5">
-              Your ride to anywhere!
+              {language?.transportation_section?.title}
             </p>
             <p className="text-xl">
-              Get where you need to go affordably and easily
+              {language?.transportation_section?.content}
             </p>
-            <p className="text-[#d4a148] mt-5">— More</p>
+            <p className="text-[#d4a148] mt-5">
+              {language?.transportation_section?.btn_txt}
+            </p>
           </div>
           <div className="w-fit ml-auto pr-24">
-            <p className="font-header hashColor text-4xl"># Transportations</p>
+            <p className="font-header hashColor text-4xl">
+              {language?.transportation_section?.head}
+            </p>
           </div>
         </div>
         <div className="mx-auto max-w-[450px] lg:max-w-[1300px] -mt-5 lg:mt-0">
