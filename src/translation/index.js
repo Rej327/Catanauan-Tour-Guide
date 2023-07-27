@@ -403,7 +403,7 @@ export const fil = {
     title: "Yakapin ang Kadakilaan ng Kalikasan!",
     content:
       "Tuklasin ang kahiwagaan at kagandahan ng mga Talon, kung saan ang kadakilaan ng kalikasan ay kumikislap sa harap ng iyong mga mata.",
-    btn_txt: "IBA PA",
+    btn_txt: "HIGIT PA",
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE
