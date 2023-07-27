@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useContext } from "react";
 import Button from "../common/Button";
 import { Link } from "react-router-dom";
+import { LangContext } from "../../App";
 
 const SetupInto = ({ className }) => {
+  const { language } = useContext(LangContext);
   return (
     <div className={`w-full ${className}`}>
       <div className="bg-[url(./assets/StepInto/stepinto.jpg)] bg-fixed bg-cover  h-[450px]">
@@ -10,17 +12,15 @@ const SetupInto = ({ className }) => {
           <div className="max-w-[1300px] px-2">
             <div className="w-fit max-md:mx-2 max-lg:mx-10 mx-auto text-center md:px-0 lg:ml-[50%] md:text-right">
               <p className="w-fit max-sm:mx-auto ml-auto text-white text-2xl md:text-4xl tracking-widest font-bold">
-                STEP INTO SUMMER
+                {language?.whats_on_section?.title}
               </p>
               <p className="text-white text-lg my-5 max-w-[1500px]">
-                With sunnier days and longer evenings. It's time to embrace the
-                great outdoors. Start your summer off right with our guide to
-                whats on around Catanauan.
+                {language?.whats_on_section?.content}
               </p>
               <Link to="/whats-on">
                 <Button
                   className="globalButton font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
-                  label="What's On"
+                  label={language?.whats_on_section?.btn_txt}
                 />
               </Link>
             </div>

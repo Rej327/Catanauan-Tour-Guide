@@ -55,6 +55,15 @@ export const en = {
     transportation: "transportation",
   },
 
+  //STEP INTO SUMMER SECTION IN HOME PAGE
+
+  whats_on_section: {
+    title: "STEP INTO SUMMER",
+    content:
+      "With sunnier days and longer evenings. It's time to embrace the great outdoors. Start your summer off right with our guide to whats on around Catanauan.",
+    btn_txt: "What's On",
+  },
+
   // PLAN A HEAD SECTION IN HOME PAGE
 
   plan_section: {
@@ -345,6 +354,15 @@ export const fil = {
     falls: "talon",
     banks: "bangko",
     transportation: "transportasyon",
+  },
+
+  //STEP INTO SUMMER SECTION IN HOME PAGE
+
+  whats_on_section: {
+    title: "LAKBAY SA TAGINIT",
+    content:
+      "Sa mas maliwanag na mga araw at mas mahabang mga gabi, panahon na upang yakapin ang kagandahan ng kalikasan. Simulan ang iyong tag-init nang tama sa pamamagitan ng aming gabay sa mga aktibidad sa paligid ng Catanauan.",
+    btn_txt: "Ano ang Meron",
   },
 
   // PLAN A HEAD SECTION IN HOME PAGE
