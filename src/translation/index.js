@@ -64,6 +64,17 @@ export const en = {
     btn_txt: "— See all resort",
   },
 
+  //HOTEL AND RESTO SECTION IN HOME PAGE
+  hotel_resto_section: {
+    cover: "Looking for a place to stay or eat during your next trip?",
+    hotel_content:
+      "Wether you're looking for a place to relax and unwind or a place to host a business meeting, we have the perfect hotel for you.",
+    resto_content:
+      "Wether you're in the mood for fine dining or casual fare, we have a restaurant that will satisfy your cravings.",
+    btn_txt: "View",
+    swipe_txt: "SLIDE TO VIEW",
+  },
+
   //STEP INTO SUMMER SECTION IN HOME PAGE
 
   whats_on_section: {
@@ -299,17 +310,11 @@ export const en = {
   },
 };
 
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
-//FILIPINO TRANSLATION
+//FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
+//FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
+//FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
+//FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
+//FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
 
 export const fil = {
   main: {
@@ -372,6 +377,18 @@ export const fil = {
     content:
       "Tuklasin ang dalampasigan at mga resort, perpekto para sa paglangoy, pagbababad sa araw, at pag-surf.",
     btn_txt: "— Tingnan ang lahat ng resort",
+  },
+
+  //HOTEL AND RESTO SECTION IN HOME PAGE
+  hotel_resto_section: {
+    cover:
+      "Naghahanap ka ba ng matutuluyan o lugar kung saan kakain sa iyong susunod na biyahe?",
+    hotel_content:
+      "Sa anumang pagkakataon, mahanap ang tamang lugar para magpahinga at magrelaks o maganap ng pulong pangnegosyo, mayroon kaming perpektong hotel para sa iyo.",
+    resto_content:
+      "Sa anumang mood mo, maging ito man ay handa o kahit casual na pagkain, mayroon kaming restaurant na tutugon sa iyong mga pagnanasa.",
+    btn_txt: "Tingnan",
+    swipe_txt: "MAG SWIPE PARA TINGNAN",
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE
