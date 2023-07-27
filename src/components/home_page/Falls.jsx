@@ -13,15 +13,16 @@ const Falls = ({ className, id }) => {
         <div className="w-full lg:w-[60%] max-sm:h-[350px] h-[300px] bg-[#FCE9CB] flex flex-col justify-center">
           <div className="md:hidden items-center justify-between px-2 ">
             <div className="w-fit lg:ml-[7%]">
-              <p className="font-header hashColor text-4xl"># Falls</p>
+              <p className="font-header hashColor text-4xl">
+                {language?.falls_section?.head}
+              </p>
             </div>
             <div className="w-fit ml-auto">
               <p className="text-4xl font-bold tracking-wide my-5">
-                Embrace Nature's Majesty!
+                {language?.falls_section?.title}
               </p>
-              <p className="text-xl">
-                Discover the enchanting beauty of Falls, where nature's majesty
-                unfolds before your eyes.
+              <p className="max-w-[700px] text-xl">
+                {language?.falls_section?.content}
               </p>
             </div>
           </div>
@@ -31,15 +32,16 @@ const Falls = ({ className, id }) => {
       <div className="relative max-w-[1300px] mx-auto">
         <div className="hidden md:block lg:flex items-center justify-between -mt-56 mb-12 px-2 md:pl-10">
           <div className="w-fit lg:ml-[7%]">
-            <p className="font-header hashColor text-4xl md:pr-10"># Falls</p>
+            <p className="font-header hashColor text-4xl md:pr-10">
+              {language?.falls_section?.head}
+            </p>
           </div>
           <div className="w-fit ml-auto">
             <p className="text-4xl font-bold tracking-wide my-5">
-              Embrace Nature's Majesty!
+              {language?.falls_section?.title}
             </p>
-            <p className="text-xl">
-              Discover the enchanting beauty of Falls, where nature's majesty
-              unfolds before your eyes.
+            <p className="max-w-[700px] text-xl">
+              {language?.falls_section?.content}
             </p>
           </div>
         </div>

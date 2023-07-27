@@ -75,6 +75,15 @@ export const en = {
     swipe_txt: "SLIDE TO VIEW",
   },
 
+  //FALLS SECTION IN HOME PAGE
+  falls_section: {
+    head: "# Falls",
+    title: "Embrace Natures Majesty!",
+    content:
+      "Discover the enchanting beauty of Falls, where natures majesty unfolds before your eyes.",
+    btn_txt: "MORE",
+  },
+
   //STEP INTO SUMMER SECTION IN HOME PAGE
   whats_on_section: {
     title: "STEP INTO SUMMER",
@@ -386,6 +395,15 @@ export const fil = {
       "Sa anumang mood mo, maging ito man ay handa o kahit casual na pagkain, mayroon kaming restaurant na tutugon sa iyong mga pagnanasa.",
     btn_txt: "Tingnan",
     swipe_txt: "MAG SWIPE PARA TINGNAN",
+  },
+
+  //FALLS SECTION IN HOME PAGE
+  falls_section: {
+    head: "# Talon",
+    title: "Yakapin ang Kadakilaan ng Kalikasan!",
+    content:
+      "Tuklasin ang kahiwagaan at kagandahan ng mga Talon, kung saan ang kadakilaan ng kalikasan ay kumikislap sa harap ng iyong mga mata.",
+    btn_txt: "IBA PA",
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE
