@@ -76,7 +76,6 @@ export const en = {
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE
-
   whats_on_section: {
     title: "STEP INTO SUMMER",
     content:
@@ -85,7 +84,6 @@ export const en = {
   },
 
   // PLAN A HEAD SECTION IN HOME PAGE
-
   plan_section: {
     plan_a_head: "Plan A Head",
     get_the_most: "Get the most out of your visit",
@@ -97,7 +95,6 @@ export const en = {
   },
 
   // PLAN A HEAD PAGES
-
   plan_page: {
     traveler_guides: {
       title: "History",
@@ -392,7 +389,6 @@ export const fil = {
   },
 
   //STEP INTO SUMMER SECTION IN HOME PAGE
-
   whats_on_section: {
     title: "LAKBAY SA TAGINIT",
     content:
@@ -401,7 +397,6 @@ export const fil = {
   },
 
   // PLAN A HEAD SECTION IN HOME PAGE
-
   plan_section: {
     plan_a_head: "Plan A Head",
     get_the_most: "Sulitin ang iyong pagbisita",
@@ -413,7 +408,6 @@ export const fil = {
   },
 
   // PLAN A HEAD PAGES
-
   plan_page: {
     traveler_guides: {
       title: "KASAYSAYAN",
