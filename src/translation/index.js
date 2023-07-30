@@ -158,7 +158,7 @@ export const en = {
       rts: "Town Trip",
       rts_link: "https://goo.gl/maps/hxGBjANtW5KVivxH8",
       fare: "15.00 - 20.00",
-      direction: "https://goo.gl/maps/D9NSenKrauPYDpSY7",
+      direction: "https://goo.gl/maps/x6JHZr2JXE31ngwC8",
     },
     {
       id: 2,
