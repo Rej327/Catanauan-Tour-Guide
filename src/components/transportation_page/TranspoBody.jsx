@@ -56,7 +56,7 @@ const TranspoBody = () => {
             </div>
             <div className="w-fit">
               <Link to={data.direction} target="_blank">
-                <p className="w-auto text-[#f1be66] hover:translate-x-5 duration-300">
+                <p className="w-auto text-[#f1be66] hover:translate-x-5 duration-300 hover:font-bold">
                   Get Direction &#8594;
                 </p>
               </Link>
