@@ -1,4 +1,13 @@
-import { adv1, bbctoda, bidatoda, catoda, tacatoda } from "../assets";
+import {
+  adv1,
+  bbctoda,
+  bidatoda,
+  busstop_1,
+  busstop_2,
+  catoda,
+  gumacat,
+  tacatoda,
+} from "../assets";
 
 //ENGLISH TRANSLATION
 
@@ -192,6 +201,39 @@ export const en = {
       rts_link: "https://goo.gl/maps/wRBbxjX2Qhb42xd88",
       fare: "30.00 - 40.00",
       direction: "https://goo.gl/maps/iQFjneEv8DxG1NWg9",
+    },
+    {
+      id: 5,
+      img: gumacat,
+      toda: "GUMACAT",
+      loc: "H8WF+5F8, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/FVFfybrcyi7XttpY9",
+      rts: "Catanauan, Quezon vv Gumaca, Quezon",
+      rts_link: "https://goo.gl/maps/yqwkrDiXpRHJESGk7",
+      fare: "150.00",
+      direction: "https://goo.gl/maps/J6PY4zYt17GuJd378",
+    },
+    {
+      id: 6,
+      img: busstop_1,
+      toda: "Bus Stop near Rotonda",
+      loc: "H8WF+66R, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/twGbLAfPKCgPK4jh9",
+      rts: "Outside Town",
+      rts_link: "https://goo.gl/maps/ptBvM4TChUVVM4sS7",
+      fare: "15.00 +",
+      direction: "https://goo.gl/maps/1ehZAsNbYfYkJhjF7",
+    },
+    {
+      id: 7,
+      img: busstop_2,
+      toda: "Bus Stop near Total Gas Station",
+      loc: "H8WF+5F8, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/NeaA3pv4oY87jGsk7",
+      rts: "Outside Catanauan",
+      rts_link: "https://goo.gl/maps/DwsxBFM3LZgziiMEA",
+      fare: "15.00 +",
+      direction: "https://goo.gl/maps/YnCvf6qvNqTFgjLYA",
     },
   ],
 
