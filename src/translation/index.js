@@ -167,7 +167,8 @@ export const en = {
       rts: "Town Trip",
       rts_link: "https://goo.gl/maps/hxGBjANtW5KVivxH8",
       fare: "15.00 - 20.00",
-      direction: "https://goo.gl/maps/D9NSenKrauPYDpSY7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5955809,122.3227882",
     },
     {
       id: 2,
@@ -178,7 +179,8 @@ export const en = {
       rts: "Town Proper vv Brgy. San Isidro",
       rts_link: "https://goo.gl/maps/LfWYjedEDgeY1EmQ8",
       fare: "30.00",
-      direction: "https://www.google.com/maps/dir/{{value}}/Goldilocks,+H8WF%2B47P,+Catanauan,+Quezon/",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.595849,122.323001",
     },
     {
       id: 3,
@@ -189,7 +191,8 @@ export const en = {
       rts: "Town Proper vv Brgy. Mangarong",
       rts_link: "https://goo.gl/maps/BtHr7FWemHQy2Lp88",
       fare: "30.00",
-      direction: "https://goo.gl/maps/MDmbSXuv6Fcatp168",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Goldilocks,+H8WF%2B47P,+Catanauan,+Quezon",
     },
     {
       id: 4,
@@ -200,18 +203,20 @@ export const en = {
       rts: "Town Proper vv Brgy. Catumbo",
       rts_link: "https://goo.gl/maps/wRBbxjX2Qhb42xd88",
       fare: "30.00 - 40.00",
-      direction: "https://www.google.com/maps/dir/{{value}}/13.595863,122.322948/",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.595863,122.322948/",
     },
     {
       id: 5,
       img: gumacat,
-      toda: "GUMACATs",
+      toda: "GUMACAT",
       loc: "H8WF+5F8, Catanauan, Quezon",
       loc_link: "https://goo.gl/maps/FVFfybrcyi7XttpY9",
       rts: "Catanauan, Quezon vv Gumaca, Quezon",
       rts_link: "https://goo.gl/maps/yqwkrDiXpRHJESGk7",
       fare: "150.00",
-      direction: "https://www.google.com/maps/dir/{{value}}/Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon/",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5953002,122.3237367",
     },
     {
       id: 6,
@@ -222,7 +227,8 @@ export const en = {
       rts: "Outside Catanauan, Quezon",
       rts_link: "https://goo.gl/maps/ptBvM4TChUVVM4sS7",
       fare: "15.00 +",
-      direction: "https://www.google.com/maps/dir/{{value}}/Catanauan+Cove+White-Sand+Beach+Resort,+Catanauan,+Quezon/",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5956244,122.3229387",
     },
     {
       id: 7,
@@ -233,7 +239,8 @@ export const en = {
       rts: "Outside Catanauan, Quezon",
       rts_link: "https://goo.gl/maps/DwsxBFM3LZgziiMEA",
       fare: "15.00 +",
-      direction: "https://goo.gl/maps/YnCvf6qvNqTFgjLYA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/A3+Breadhouse+-+Home+of+Special+Uraro+Cookies,+H8VG%2BCVM,+Catanauan,+Quezon",
     },
   ],
 
@@ -563,6 +570,94 @@ export const fil = {
         sm: 10,
         xl: 20,
       },
+    },
+  ],
+
+  //TRANSPORTATIONS PAGE
+  transportations_page: [
+    {
+      id: 1,
+      img: catoda,
+      toda: "CATODA",
+      loc: "H8VF+J3M, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/4ReU2Rjei52PpaEH7",
+      rts: "Bayan",
+      rts_link: "https://goo.gl/maps/hxGBjANtW5KVivxH8",
+      fare: "15.00 - 20.00",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5955809,122.3227882",
+    },
+    {
+      id: 2,
+      img: bbctoda,
+      toda: "BBCTODA",
+      loc: "H8WF+85W Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/affUCbs6vuyVDLXE8",
+      rts: "Bayan vv Brgy. San Isidro",
+      rts_link: "https://goo.gl/maps/LfWYjedEDgeY1EmQ8",
+      fare: "30.00",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.595849,122.323001",
+    },
+    {
+      id: 3,
+      img: bidatoda,
+      toda: "BIDATODA",
+      loc: "H8WF+47P, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/T6V2r1qfz13mLeEJ6",
+      rts: "Bayan vv Brgy. Mangarong",
+      rts_link: "https://goo.gl/maps/BtHr7FWemHQy2Lp88",
+      fare: "30.00",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Goldilocks,+H8WF%2B47P,+Catanauan,+Quezon",
+    },
+    {
+      id: 4,
+      img: tacatoda,
+      toda: "TACATODA",
+      loc: "H8WF+85W Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/affUCbs6vuyVDLXE8",
+      rts: "Bayan vv Brgy. Catumbo",
+      rts_link: "https://goo.gl/maps/wRBbxjX2Qhb42xd88",
+      fare: "30.00 - 40.00",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.595863,122.322948/",
+    },
+    {
+      id: 5,
+      img: gumacat,
+      toda: "GUMACAT",
+      loc: "H8WF+5F8, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/FVFfybrcyi7XttpY9",
+      rts: "Catanauan, Quezon vv Gumaca, Quezon",
+      rts_link: "https://goo.gl/maps/yqwkrDiXpRHJESGk7",
+      fare: "150.00",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5953002,122.3237367",
+    },
+    {
+      id: 6,
+      img: busstop_1,
+      toda: "Bus Stop malapit sa Rotonda",
+      loc: "H8WF+66R, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/twGbLAfPKCgPK4jh9",
+      rts: "Labas ng Bayan",
+      rts_link: "https://goo.gl/maps/ptBvM4TChUVVM4sS7",
+      fare: "15.00 +",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.5956244,122.3229387",
+    },
+    {
+      id: 7,
+      img: busstop_2,
+      toda: "Bus Stop malapit sa Total Gas Station",
+      loc: "H8WF+5F8, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/NeaA3pv4oY87jGsk7",
+      rts: "Labas ng Bayan",
+      rts_link: "https://goo.gl/maps/DwsxBFM3LZgziiMEA",
+      fare: "15.00 +",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/A3+Breadhouse+-+Home+of+Special+Uraro+Cookies,+H8VG%2BCVM,+Catanauan,+Quezon",
     },
   ],
 
