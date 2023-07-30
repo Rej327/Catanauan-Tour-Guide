@@ -1,4 +1,4 @@
-import { adv1 } from "../assets";
+import { adv1, bbctoda, bidatoda, catoda, tacatoda } from "../assets";
 
 //ENGLISH TRANSLATION
 
@@ -144,6 +144,54 @@ export const en = {
         sm: 10,
         xl: 20,
       },
+    },
+  ],
+
+  //TRANSPORTATIONS PAGE
+  transportations_page: [
+    {
+      id: 1,
+      img: catoda,
+      toda: "CATODA",
+      loc: "H8VF+J3M, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/4ReU2Rjei52PpaEH7",
+      rts: "Town Trip",
+      rts_link: "https://goo.gl/maps/hxGBjANtW5KVivxH8",
+      fare: "15.00 - 20.00",
+      direction: "https://goo.gl/maps/AJcV1jFLpxFMTAkE7",
+    },
+    {
+      id: 2,
+      img: bbctoda,
+      toda: "BBCTODA",
+      loc: "H8WF+85W Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/affUCbs6vuyVDLXE8",
+      rts: "Town Proper vv Brgy. San Isidro",
+      rts_link: "https://goo.gl/maps/LfWYjedEDgeY1EmQ8",
+      fare: "30.00",
+      direction: "https://goo.gl/maps/Q59ZLR5nPv55Nd347",
+    },
+    {
+      id: 3,
+      img: bidatoda,
+      toda: "BIDATODA",
+      loc: "H8WF+47P, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/T6V2r1qfz13mLeEJ6",
+      rts: "Town Proper vv Brgy. Mangarong",
+      rts_link: "https://goo.gl/maps/BtHr7FWemHQy2Lp88",
+      fare: "30.00",
+      direction: "https://goo.gl/maps/TgZzaY4ioCWsDyFr9",
+    },
+    {
+      id: 4,
+      img: tacatoda,
+      toda: "TACATODA",
+      loc: "H8WF+85W Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/affUCbs6vuyVDLXE8",
+      rts: "Town Proper vv Brgy. Catumbo",
+      rts_link: "https://goo.gl/maps/wRBbxjX2Qhb42xd88",
+      fare: "30.00 - 40.00",
+      direction: "https://goo.gl/maps/Q59ZLR5nPv55Nd347",
     },
   ],
 
