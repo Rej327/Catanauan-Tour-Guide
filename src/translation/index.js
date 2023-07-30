@@ -158,7 +158,7 @@ export const en = {
       rts: "Town Trip",
       rts_link: "https://goo.gl/maps/hxGBjANtW5KVivxH8",
       fare: "15.00 - 20.00",
-      direction: "https://goo.gl/maps/AJcV1jFLpxFMTAkE7",
+      direction: "https://goo.gl/maps/D9NSenKrauPYDpSY7",
     },
     {
       id: 2,
@@ -169,7 +169,7 @@ export const en = {
       rts: "Town Proper vv Brgy. San Isidro",
       rts_link: "https://goo.gl/maps/LfWYjedEDgeY1EmQ8",
       fare: "30.00",
-      direction: "https://goo.gl/maps/Q59ZLR5nPv55Nd347",
+      direction: "https://goo.gl/maps/1BkPFAwMvniVhWLw8",
     },
     {
       id: 3,
@@ -180,7 +180,7 @@ export const en = {
       rts: "Town Proper vv Brgy. Mangarong",
       rts_link: "https://goo.gl/maps/BtHr7FWemHQy2Lp88",
       fare: "30.00",
-      direction: "https://goo.gl/maps/TgZzaY4ioCWsDyFr9",
+      direction: "https://goo.gl/maps/MDmbSXuv6Fcatp168",
     },
     {
       id: 4,
@@ -191,7 +191,7 @@ export const en = {
       rts: "Town Proper vv Brgy. Catumbo",
       rts_link: "https://goo.gl/maps/wRBbxjX2Qhb42xd88",
       fare: "30.00 - 40.00",
-      direction: "https://goo.gl/maps/Q59ZLR5nPv55Nd347",
+      direction: "https://goo.gl/maps/iQFjneEv8DxG1NWg9",
     },
   ],
 
