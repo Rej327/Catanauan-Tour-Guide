@@ -10,7 +10,7 @@ import { Tooltip } from "@chakra-ui/react";
 const TranspoBody = () => {
   const { language } = useContext(LangContext);
   return (
-    <div className="max-w-[1300px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-10 px-2">
+    <div className="max-w-[1300px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-10">
       {language.transportations_page.map((data) => (
         <div
           key={data.id}
