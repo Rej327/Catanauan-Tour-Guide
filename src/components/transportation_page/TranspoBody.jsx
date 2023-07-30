@@ -10,7 +10,7 @@ import { Tooltip } from "@chakra-ui/react";
 const TranspoBody = () => {
   const { language } = useContext(LangContext);
   return (
-    <div className="max-w-[1300px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-10">
+    <div className="max-w-[1350px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-5">
       {language.transportations_page.map((data) => (
         <div
           key={data.id}
@@ -19,7 +19,7 @@ const TranspoBody = () => {
           <div className="rounded-xl w-full  overflow-hidden">
             <img
               src={data.img}
-              className="w-full itemImg object-cover rounded-xl"
+              className="w-full max-h-[320px] itemImg object-cover rounded-xl"
             />
           </div>
           <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
