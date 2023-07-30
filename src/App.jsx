@@ -38,7 +38,11 @@ export const LangContext = createContext(null);
 function App() {
   const [language, setLanguage] = useState({});
   const [toggleLang, setToggleLang] = useState(true);
-  const [startingPoint, setStartingPoint] = useState({latitude: '', longitude: '', error: ''})
+  const [startingPoint, setStartingPoint] = useState({
+    latitude: "",
+    longitude: "",
+    error: "",
+  });
   const getLanguage = localStorage.getItem("lang");
 
   useEffect(() => {
@@ -58,23 +62,23 @@ function App() {
   }, []);
 
   useEffect(() => {
-      const success = (val) => {
-        if (!!val?.coords?.latitude && !!val?.coords?.longitude) {
-          setStartingPoint({
-            lat:val?.coords?.latitude,
-            long: val?.coords?.longitude
-          })
-        }
-    }
-    const error = (val) => {
-        console.log('location', val)
+    const success = (val) => {
+      if (!!val?.coords?.latitude && !!val?.coords?.longitude) {
         setStartingPoint({
-          ...startingPoint,
-          error: true
-        })
-    }
+          lat: val?.coords?.latitude,
+          long: val?.coords?.longitude,
+        });
+      }
+    };
+    const error = (val) => {
+      console.log("location", val);
+      setStartingPoint({
+        lat: 13.595173,
+        long: 122.32296,
+      });
+    };
     navigator.geolocation.getCurrentPosition(success, error);
-  }, [])
+  }, []);
 
   return (
     <div>
@@ -86,7 +90,13 @@ function App() {
         <div className="bg-[#fffaf2]">
           <Cookie />
           <LangContext.Provider
-            value={{ language, setLanguage, toggleLang, setToggleLang, startingPoint }}
+            value={{
+              language,
+              setLanguage,
+              toggleLang,
+              setToggleLang,
+              startingPoint,
+            }}
           >
             <BrowserRouter>
               <Routes>
