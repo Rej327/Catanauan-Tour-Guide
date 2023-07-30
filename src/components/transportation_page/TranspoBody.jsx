@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { rc1 } from "../../assets";
 import { ImLocation } from "react-icons/im";
 import { SiAlwaysdata } from "react-icons/si";
@@ -6,9 +6,14 @@ import { PiHandCoinsDuotone } from "react-icons/pi";
 import { LangContext } from "../../App";
 import { Link } from "react-router-dom";
 import { Tooltip } from "@chakra-ui/react";
+import { useState } from "react";
+import { getDirection } from "../helper";
 
 const TranspoBody = () => {
-  const { language } = useContext(LangContext);
+  const { language, startingPoint } = useContext(LangContext);
+
+  console.log('startingPoint', startingPoint)
+
   return (
     <div className="max-w-[1350px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-5">
       {language.transportations_page.map((data) => (
@@ -55,7 +60,7 @@ const TranspoBody = () => {
               </Tooltip>
             </div>
             <div className="w-fit">
-              <Link to={data.direction} target="_blank">
+              <Link to={getDirection(data.direction, startingPoint)} target="_blank">
                 <p className="w-auto text-[#f1be66] hover:translate-x-5 duration-300 hover:font-bold">
                   Get Direction &#8594;
                 </p>
