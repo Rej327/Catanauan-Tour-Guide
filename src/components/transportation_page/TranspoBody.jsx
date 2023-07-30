@@ -14,12 +14,12 @@ const TranspoBody = () => {
       {language.transportations_page.map((data) => (
         <div
           key={data.id}
-          className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl"
+          className="max-w-[320px] resortItems flex flex-col gap-2 bg-white rounded-xl"
         >
           <div className="rounded-xl w-full  overflow-hidden">
             <img
               src={data.img}
-              className="w-full itemImg h-[250px] object-cover rounded-xl"
+              className="w-full itemImg object-cover rounded-xl"
             />
           </div>
           <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
