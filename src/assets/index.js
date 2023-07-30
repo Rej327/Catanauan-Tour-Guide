@@ -33,3 +33,13 @@ export { default as history_2 } from "./PlanAHeadPage/TravelerGuides/history_2.j
 export { default as history_3 } from "./PlanAHeadPage/TravelerGuides/history_3.png";
 export { default as history_4 } from "./PlanAHeadPage/TravelerGuides/history_4.jpg";
 // PLAN A HEAD PAGE IMAGES
+
+//TRANSPORTATIONS PAGE ITEMS//
+export { default as bbctoda } from "./TransportationsPage/bbctoda.jpg";
+export { default as bidatoda } from "./TransportationsPage/bidatoda.webp";
+export { default as catoda } from "./TransportationsPage/catoda.webp";
+export { default as tacatoda } from "./TransportationsPage/tacatoda.jpg";
+export { default as gumacat } from "./TransportationsPage/gumacat.webp";
+export { default as busstop_1 } from "./TransportationsPage/busstop_1.webp";
+export { default as busstop_2 } from "./TransportationsPage/busstop_2.webp";
+//TRANSPORTATIONS PAGE ITEMS//
