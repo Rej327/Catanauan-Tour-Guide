@@ -34,7 +34,7 @@ export { default as history_3 } from "./PlanAHeadPage/TravelerGuides/history_3.p
 export { default as history_4 } from "./PlanAHeadPage/TravelerGuides/history_4.jpg";
 // PLAN A HEAD PAGE IMAGES
 
-//TRANSPORTATIONS PAGE ITEMS//
+//TRANSPORTATIONS PAGE//
 export { default as bbctoda } from "./TransportationsPage/bbctoda.jpg";
 export { default as bidatoda } from "./TransportationsPage/bidatoda.webp";
 export { default as catoda } from "./TransportationsPage/catoda.webp";
@@ -42,4 +42,13 @@ export { default as tacatoda } from "./TransportationsPage/tacatoda.jpg";
 export { default as gumacat } from "./TransportationsPage/gumacat.webp";
 export { default as busstop_1 } from "./TransportationsPage/busstop_1.webp";
 export { default as busstop_2 } from "./TransportationsPage/busstop_2.webp";
-//TRANSPORTATIONS PAGE ITEMS//
+//TRANSPORTATIONS PAGE//
+
+//RESTAURANTS PAGE//
+export { default as antonios } from "./RestaurantsPage/antonios.webp";
+export { default as caferoman } from "./RestaurantsPage/caferoman.webp";
+export { default as eunilos } from "./RestaurantsPage/eunilos.webp";
+export { default as presko } from "./RestaurantsPage/presko.webp";
+export { default as seacret } from "./RestaurantsPage/seacret.webp";
+export { default as vv } from "./RestaurantsPage/vv.webp";
+//RESTAURANTS PAGE//
