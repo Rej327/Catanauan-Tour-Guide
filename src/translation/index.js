@@ -1,12 +1,18 @@
 import {
   adv1,
+  antonios,
   bbctoda,
   bidatoda,
   busstop_1,
   busstop_2,
+  caferoman,
   catoda,
+  eunilos,
   gumacat,
+  presko,
+  seacret,
   tacatoda,
+  vv,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -243,6 +249,52 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/A3+Breadhouse+-+Home+of+Special+Uraro+Cookies,+H8VG%2BCVM,+Catanauan,+Quezon",
     },
   ],
+
+  //RESTAURANTS PAGE
+  restaurants_page: {
+    id: 0,
+    category_all: [
+      {
+        id: 0,
+        img: antonios,
+        title: "Antonio's Place Restaurants",
+        btn_txt: "View",
+      },
+      {
+        id: 1,
+        img: caferoman,
+        title: "Cafe Roman (Garden, Food, Coffee)",
+        btn_txt: "View",
+      },
+      {
+        id: 2,
+        img: eunilos,
+        title: "Eunilo's Cuisine",
+        btn_txt: "View",
+      },
+      {
+        id: 3,
+        img: presko,
+        title: "Presko Brews Coffee Shop",
+        btn_txt: "View",
+      },
+      {
+        id: 4,
+        img: seacret,
+        title: "Seacret Avenue",
+        btn_txt: "View",
+      },
+      {
+        id: 6,
+        img: vv,
+        title: "V & V Diner",
+        btn_txt: "View",
+      },
+    ],
+
+    id: 1,
+    category_pubs: [{}],
+  },
 
   // LEGAL PAGE
   legal: {
@@ -660,6 +712,52 @@ export const fil = {
         "https://www.google.com/maps/dir/{{value}}/A3+Breadhouse+-+Home+of+Special+Uraro+Cookies,+H8VG%2BCVM,+Catanauan,+Quezon",
     },
   ],
+
+  // RESTAURANTS PAGE
+  restaurants_page: {
+    id: 0,
+    category_all: [
+      {
+        id: 0,
+        img: antonios,
+        title: "Antonio's Place Restaurants",
+        btn_txt: "View",
+      },
+      {
+        id: 1,
+        img: caferoman,
+        title: "Cafe Roman (Garden, Food, Coffee)",
+        btn_txt: "View",
+      },
+      {
+        id: 2,
+        img: eunilos,
+        title: "Eunilo's Cuisine",
+        btn_txt: "View",
+      },
+      {
+        id: 3,
+        img: presko,
+        title: "Presko Brews Coffee Shop",
+        btn_txt: "View",
+      },
+      {
+        id: 4,
+        img: seacret,
+        title: "Seacret Avenue",
+        btn_txt: "View",
+      },
+      {
+        id: 6,
+        img: vv,
+        title: "V & V Diner",
+        btn_txt: "View",
+      },
+    ],
+
+    id: 1,
+    category_pubs: [{}],
+  },
 
   // LEGAL PAGE
   legal: {
