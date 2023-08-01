@@ -4,7 +4,7 @@ import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
 import { Link } from "react-router-dom";
 
-const BankItemContent_1 = () => {
+const BankItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
 
   const handleToggle = () => setShow(!show);
@@ -37,25 +37,44 @@ const BankItemContent_1 = () => {
         {show ? "- Read Less" : "+ Read More"}
       </p>
       <div className="mb-5 flex gap-4">
-        <Link to="https://www.landbank.com/" target="_blank">
-          <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
-            <p className="text-base">Visit Website &#8594;</p>
+        {dataInfo.website && (
+          <Link to={dataInfo.website} target="_blank">
+            <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
+              <p className="text-base">Visit Website &#8594;</p>
+            </button>
+          </Link>
+        )}
+        <Link to={dataInfo.bookNow} target="_blank">
+          <button className="bg-none border-[1px] border-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] hover:border-[#F9DBA9] duration-300 delay-75">
+            <p className="text-base">Book Now &#8594;</p>
           </button>
         </Link>
-        <button className="bg-none border-[1px] border-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] hover:border-[#F9DBA9] duration-300 delay-75">
-          <p className="text-base">Book Now &#8594;</p>
-        </button>
       </div>
       <div className="mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <Carousel>
-            {language?.main?.resorts.map((data) => (
-              <div key={data.id} className="px-5">
-                <img src={data.img} alt="resorts" className="w-auto" />
-                <div className="w-full bg-white">
-                  <p>{data.title}</p>
-                  <p>{data.desc}</p>
+            {language.restaurants_page.category_all.map((data) => (
+              <div
+                key={data.id}
+                className="rounded-2xl relative restoItems w-fit h-fit"
+              >
+                <div className="absolute z-10 bottom-0 bg-black bg-opacity-50 flex px-2 flex-col justify-center items-center w-[250px] h-[75px]">
+                  <p className="text-lg text-[#fefeff] text-center">
+                    {data.title}
+                  </p>
+                  <Link to={`/restaurants/${data.id}`}>
+                    <p className="text-[#f9dba9] text-base hover:underline underline-offset-8 hover:cursor-pointer">
+                      {data.btn_txt}
+                    </p>
+                  </Link>
+                </div>
+                <div className="w-[250px] h-[250px] overflow-hidden">
+                  <img
+                    src={data.img}
+                    alt={`${data.title} Image`}
+                    className="w-full h-full object-cover itemImg"
+                  />
                 </div>
               </div>
             ))}

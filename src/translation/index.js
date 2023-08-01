@@ -259,7 +259,25 @@ export const en = {
         img: antonios,
         title: "Antonio's Place Restaurants",
         btn_txt: "View",
+        //DATA
+        number: "(+63) 906-213-2683",
+        callNumber: "tel:(+63) 906-213-2683",
+        address: "Barangay 03, P.Burgos St.Cor.Gov.Perez",
+        fbPage:
+          "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
+        hrs1: "9:00am - 9:00pm",
+        hrs2: "9:00am - 9:00pm",
+        hrs3: "9:00am - 9:00pm",
+        hrs4: "9:00am - 9:00pm",
+        hrs5: "9:00am - 9:00pm",
+        hrs6: "9:00am - 9:00pm",
+        hrs7: "9:00am - 9:00pm",
+        website: "",
+        bookNow:
+          "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
+        //PHOTOS
       },
+
       {
         id: 1,
         img: caferoman,

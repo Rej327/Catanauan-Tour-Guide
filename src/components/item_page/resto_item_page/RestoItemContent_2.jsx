@@ -9,26 +9,40 @@ import {
 import React from "react";
 import { BsPhone, BsFacebook } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
+import { Link } from "react-router-dom";
 
-const RestoItemContent_2 = () => {
+const RestoItemContent_2 = ({
+  number,
+  callNumber,
+  address,
+  fbPage,
+  hrs1,
+  hrs2,
+  hrs3,
+  hrs4,
+  hrs5,
+  hrs6,
+  hrs7,
+}) => {
   return (
     <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] mt-10 p-4">
       <div className="flex flex-col gap-4">
         <div className="flex gap-2 items-center">
           <BsPhone className="text-[#F9DBA9]" />
-          <p>(+63)-999-999-9999</p>
+          <Link to={callNumber}>
+            <p>{number}</p>
+          </Link>
         </div>
         <div className="flex gap-2 items-center">
-          <ImLocation className="text-[#F9DBA9] text-2xl" />
-          <p className="leading-4">
-            Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-            Quezon
-          </p>
+          <ImLocation className="text-[#F9DBA9] text-base" />
+          <p className="leading-4">{address}</p>
         </div>
-        <div className="flex gap-2 items-center">
-          <BsFacebook className="text-[#F9DBA9]" />
-          <p>Facebook Page</p>
-        </div>
+        <Link to={fbPage} target="_blank">
+          <div className="flex gap-2 items-center">
+            <BsFacebook className="text-[#F9DBA9]" />
+            <p>Facebook Page</p>
+          </div>
+        </Link>
       </div>
       <Accordion
         my="4"
@@ -58,13 +72,13 @@ const RestoItemContent_2 = () => {
                 <p>Sunday</p>
               </div>
               <div>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
+                <p>{hrs1}</p>
+                <p>{hrs2}</p>
+                <p>{hrs3}</p>
+                <p>{hrs4}</p>
+                <p>{hrs5}</p>
+                <p>{hrs6}</p>
+                <p>{hrs7}</p>
               </div>
             </div>
           </AccordionPanel>

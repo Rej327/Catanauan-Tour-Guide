@@ -1,34 +1,65 @@
-import React from "react";
+import React, { useContext, useEffect, useMemo, useState } from "react";
 import ItemHeader from "../../common/ItemHeader";
 import { banks, rc1 } from "../../../assets";
 import RestoItemContent_1 from "./RestoItemContent_1";
 import RestoItemContent_2 from "./RestoItemContent_2";
 import Map from "../../common/Map";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import { LangContext } from "../../../App";
+import { data } from "autoprefixer";
 
 const RestoItem = ({ className }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
+  // const [viewPrice, setViewPrice] = useState(false);
+  const { language } = useContext(LangContext);
+  const params = useParams();
+
+  const dataInfo = useMemo(() => {
+    const data = language?.restaurants_page.category_all?.find(
+      (data) => data.id == params.id
+    );
+    return data;
+  }, [language, params]);
+
+  console.log(dataInfo);
+
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
         <ItemHeader
-          selectedPage="V & V Dinner"
+          selectedPage={dataInfo.title}
           category="Restaurant"
           linkPage="/restaurants"
         />
       </div>
       <div>
         <img
-          src={rc1}
-          alt="Bank Image"
+          src={dataInfo.img}
+          alt={`${dataInfo.title} Image`}
           className="w-full h-[60vh] object-cover"
         />
       </div>
       <div className="flex flex-wrap justify-between">
         <div className="my-10 px-4">
-          <RestoItemContent_1 />
+          <RestoItemContent_1 dataInfo={dataInfo} />
         </div>
         <div className="mx-auto">
-          <RestoItemContent_2 />
+          <RestoItemContent_2
+            number={dataInfo.number}
+            callNumber={dataInfo.callNumber}
+            address={dataInfo.address}
+            fbPage={dataInfo.fbPage}
+            hrs1={dataInfo.hrs1}
+            hrs2={dataInfo.hrs2}
+            hrs3={dataInfo.hrs3}
+            hrs4={dataInfo.hrs4}
+            hrs5={dataInfo.hrs5}
+            hrs6={dataInfo.hrs6}
+            hrs7={dataInfo.hrs7}
+          />
           <Map />
           <div className="my-5 w-fit mx-auto mb-10">
             <Link to="https://goo.gl/maps/UJfmMe1CEADWHCRCA" target="_blank">

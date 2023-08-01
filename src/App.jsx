@@ -127,7 +127,7 @@ function App() {
                   element={<GettingAroundPage />}
                 />
                 {/* ITEM COMPONENTS BY ID */}
-                <Route path="/restaurantss/" element={<RestoItemPage />} />
+                <Route path="/restaurants/:id" element={<RestoItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
                 <Route path="/event/" element={<EventItemPage />} />
                 <Route path="/hotelss/" element={<HotelItemPage />} />
