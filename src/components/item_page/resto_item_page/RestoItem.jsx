@@ -7,6 +7,7 @@ import Map from "../../common/Map";
 import { Link, useParams } from "react-router-dom";
 import { LangContext } from "../../../App";
 import { data } from "autoprefixer";
+import { getDirection } from "../../helper";
 
 const RestoItem = ({ className }) => {
   useEffect(() => {
@@ -14,7 +15,7 @@ const RestoItem = ({ className }) => {
   }, []);
 
   // const [viewPrice, setViewPrice] = useState(false);
-  const { language } = useContext(LangContext);
+  const { language, startingPoint } = useContext(LangContext);
   const params = useParams();
 
   const dataInfo = useMemo(() => {
@@ -51,6 +52,7 @@ const RestoItem = ({ className }) => {
             number={dataInfo.number}
             callNumber={dataInfo.callNumber}
             address={dataInfo.address}
+            loc_link={dataInfo.add_link}
             fbPage={dataInfo.fbPage}
             hrs1={dataInfo.hrs1}
             hrs2={dataInfo.hrs2}
@@ -62,7 +64,10 @@ const RestoItem = ({ className }) => {
           />
           <Map />
           <div className="my-5 w-fit mx-auto mb-10">
-            <Link to="https://goo.gl/maps/UJfmMe1CEADWHCRCA" target="_blank">
+            <Link
+              to={getDirection(dataInfo.direction, startingPoint)}
+              target="_blank"
+            >
               <button className="bg-none border-[1px] border-[#f1be66] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
                 <p className="text-base">Get Direction &#8594;</p>
               </button>

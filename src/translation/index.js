@@ -263,8 +263,6 @@ export const en = {
         number: "(+63) 906-213-2683",
         callNumber: "tel:(+63) 906-213-2683",
         address: "Barangay 03, P.Burgos St.Cor.Gov.Perez",
-        fbPage:
-          "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
         hrs1: "9:00am - 9:00pm",
         hrs2: "9:00am - 9:00pm",
         hrs3: "9:00am - 9:00pm",
@@ -272,7 +270,13 @@ export const en = {
         hrs5: "9:00am - 9:00pm",
         hrs6: "9:00am - 9:00pm",
         hrs7: "9:00am - 9:00pm",
+        //LINKS
         website: "",
+        add_link: "https://goo.gl/maps/fyDpPWo5GXgATRbR7",
+        direction:
+          "https://www.google.com/maps/dir/{{value}}/H8VC%2BGCG+Antonio's+Place,+Gov+Perez+St,+Catanauan,+Quezon",
+        fbPage:
+          "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
         bookNow:
           "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
         //PHOTOS

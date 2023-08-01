@@ -16,6 +16,7 @@ const RestoItemContent_2 = ({
   callNumber,
   address,
   fbPage,
+  loc_link,
   hrs1,
   hrs2,
   hrs3,
@@ -35,7 +36,9 @@ const RestoItemContent_2 = ({
         </div>
         <div className="flex gap-2 items-center">
           <ImLocation className="text-[#F9DBA9] text-base" />
-          <p className="leading-4">{address}</p>
+          <Link to={loc_link} target="_blank">
+            <p className="leading-4">{address}</p>
+          </Link>
         </div>
         <Link to={fbPage} target="_blank">
           <div className="flex gap-2 items-center">
