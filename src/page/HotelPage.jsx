@@ -11,8 +11,6 @@ const HotelPage = () => {
       <div className="mb-10">
         <HotelCover />
         <HotelBody />
-        <HotelBody />
-        <HotelBody />
       </div>
       <Footer />
     </div>
