@@ -1,5 +1,6 @@
 import {
   adv1,
+  alfredos_cover,
   antonios,
   bbctoda,
   bidatoda,
@@ -9,6 +10,7 @@ import {
   caferoman,
   capatoda,
   catoda,
+  centropen_cover,
   eunilos,
   gumacat,
   lopezcat,
@@ -166,6 +168,34 @@ export const en = {
         sm: 10,
         xl: 20,
       },
+    },
+  ],
+
+  //HOTELS PAGE
+  hotels_page: [
+    {
+      id: 1,
+      img: alfredos_cover,
+      category: "Hotel and Restaurant",
+      title: "Alfredos Hotel and Restaurant",
+      location: "Brgy. Poblacion 09, Catanauan, Quezon",
+      loc_link: "https://goo.gl/maps/241md1aJGVxHvciz7",
+      btn_more_txt: "+ More",
+      btn_visit_txt: "Visit Page",
+      btn_visit_link: "https://www.facebook.com/newalfredos",
+      btn_prices_txt: "Check Prices",
+    },
+    {
+      id: 2,
+      img: centropen_cover,
+      category: "Hotel and Restaurant",
+      title: "Centropen Hotel and Restaurant",
+      location: "Barangay 10, Zone 1 Don Abella Drive",
+      loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
+      btn_more_txt: "+ More",
+      btn_visit_txt: "Visit Page",
+      btn_visit_link: "https://www.facebook.com/centropenhotel",
+      btn_prices_txt: "Check Prices",
     },
   ],
 
