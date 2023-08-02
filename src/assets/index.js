@@ -42,6 +42,13 @@ export { default as tacatoda } from "./TransportationsPage/tacatoda.jpg";
 export { default as gumacat } from "./TransportationsPage/gumacat.webp";
 export { default as busstop_1 } from "./TransportationsPage/busstop_1.webp";
 export { default as busstop_2 } from "./TransportationsPage/busstop_2.webp";
+export { default as bucanaidtoda } from "./TransportationsPage/bucanaidtoda.webp";
+export { default as capatoda } from "./TransportationsPage/capatoda.webp";
+export { default as lopezcat } from "./TransportationsPage/lopezcat.webp";
+export { default as mpbtoda } from "./TransportationsPage/mpbtoda.webp";
+export { default as msstoda } from "./TransportationsPage/msstoda.webp";
+export { default as tiictoda } from "./TransportationsPage/tiictoda.webp";
+export { default as titotoda } from "./TransportationsPage/titotoda.webp";
 //TRANSPORTATIONS PAGE//
 
 //RESTAURANTS PAGE//
