@@ -59,3 +59,8 @@ export { default as presko } from "./RestaurantsPage/presko.webp";
 export { default as seacret } from "./RestaurantsPage/seacret.webp";
 export { default as vv } from "./RestaurantsPage/vv.webp";
 //RESTAURANTS PAGE//
+
+//HOTELS PAGE//
+export { default as alfredos_cover } from "./HotelAndResto/Alfredos/alfredos_cover.webp";
+export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_cover.webp";
+//HOTELS PAGE//
