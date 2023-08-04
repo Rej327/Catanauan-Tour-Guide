@@ -17,6 +17,13 @@ import {
   lopezcat,
   mpbtoda,
   msstoda,
+  places_img_10,
+  places_img_11,
+  places_img_12,
+  places_img_13,
+  places_img_14,
+  places_img_15,
+  places_img_16,
   places_img_2,
   places_img_3,
   places_img_4,
@@ -258,7 +265,28 @@ export const en = {
           },
           {
             img: places_img_9,
-          }
+          },
+          {
+            img: places_img_10,
+          },
+          {
+            img: places_img_11,
+          },
+          {
+            img: places_img_12,
+          },
+          {
+            img: places_img_13,
+          },
+          {
+            img: places_img_14,
+          },
+          {
+            img: places_img_15,
+          },
+          {
+            img: places_img_16,
+          },
         ]
       },
     },
