@@ -43,9 +43,7 @@ const GalleryModal = ({ dataInfo }) => {
               </div>
               <div className="w-full py-2">
                 <p className="text-2xl tracking-widest mt-5 mb-2"> - Food's</p>
-                <div className="flex flex-wrap gap-4 justify-evenly">
-                  <img src="" alt="" className="w-[300px] h-[300px] border-2" />
-                </div>
+                <WSPGallery setData={dataInfo?.gallery?.foods} />
               </div>
             </div>
           </ModalBody>

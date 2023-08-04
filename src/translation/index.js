@@ -13,6 +13,35 @@ import {
   centropen_cover,
   emmas_cover,
   eunilos,
+  foods_img_0,
+  foods_img_1,
+  foods_img_10,
+  foods_img_11,
+  foods_img_12,
+  foods_img_13,
+  foods_img_14,
+  foods_img_15,
+  foods_img_16,
+  foods_img_17,
+  foods_img_18,
+  foods_img_19,
+  foods_img_2,
+  foods_img_20,
+  foods_img_21,
+  foods_img_22,
+  foods_img_23,
+  foods_img_24,
+  foods_img_25,
+  foods_img_26,
+  foods_img_27,
+  foods_img_28,
+  foods_img_3,
+  foods_img_4,
+  foods_img_5,
+  foods_img_6,
+  foods_img_7,
+  foods_img_8,
+  foods_img_9,
   gumacat,
   lopezcat,
   mpbtoda,
@@ -287,7 +316,96 @@ export const en = {
           {
             img: places_img_16,
           },
-        ]
+        ],
+        foods: [
+          {
+            img: foods_img_0,
+          },
+          {
+            img: foods_img_1,
+          },
+          {
+            img: foods_img_2,
+          },
+          {
+            img: foods_img_3,
+          },
+          {
+            img: foods_img_4,
+          },
+          {
+            img: foods_img_5,
+          },
+          {
+            img: foods_img_6,
+          },
+          {
+            img: foods_img_7,
+          },
+          {
+            img: foods_img_8,
+          },
+          {
+            img: foods_img_9,
+          },
+          {
+            img: foods_img_10,
+          },
+          {
+            img: foods_img_11,
+          },
+          {
+            img: foods_img_12,
+          },
+          {
+            img: foods_img_13,
+          },
+          {
+            img: foods_img_14,
+          },
+          {
+            img: foods_img_15,
+          },
+          {
+            img: foods_img_16,
+          },
+          {
+            img: foods_img_17,
+          },
+          {
+            img: foods_img_18,
+          },
+          {
+            img: foods_img_19,
+          },
+          {
+            img: foods_img_20,
+          },
+          {
+            img: foods_img_21,
+          },
+          {
+            img: foods_img_22,
+          },
+          {
+            img: foods_img_23,
+          },
+          {
+            img: foods_img_24,
+          },
+          {
+            img: foods_img_25,
+          },
+          {
+            img: foods_img_26,
+          },
+          {
+            img: foods_img_27,
+          },
+          {
+            img: foods_img_28,
+          },
+        ],
       },
     },
     {

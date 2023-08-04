@@ -88,5 +88,36 @@ export { default as places_img_14 } from "./HotelAndResto/Alfredos/Places/img_14
 export { default as places_img_15 } from "./HotelAndResto/Alfredos/Places/img_15.webp";
 export { default as places_img_16 } from "./HotelAndResto/Alfredos/Places/img_16.webp";
 //----PLACES
+//----FOODS
+export { default as foods_img_0 } from "./HotelAndResto/Alfredos/Foods/img_0.webp";
+export { default as foods_img_1 } from "./HotelAndResto/Alfredos/Foods/img_1.webp";
+export { default as foods_img_2 } from "./HotelAndResto/Alfredos/Foods/img_2.webp";
+export { default as foods_img_3 } from "./HotelAndResto/Alfredos/Foods/img_3.webp";
+export { default as foods_img_4 } from "./HotelAndResto/Alfredos/Foods/img_4.webp";
+export { default as foods_img_5 } from "./HotelAndResto/Alfredos/Foods/img_5.webp";
+export { default as foods_img_6 } from "./HotelAndResto/Alfredos/Foods/img_6.webp";
+export { default as foods_img_7 } from "./HotelAndResto/Alfredos/Foods/img_7.webp";
+export { default as foods_img_8 } from "./HotelAndResto/Alfredos/Foods/img_8.webp";
+export { default as foods_img_9 } from "./HotelAndResto/Alfredos/Foods/img_9.webp";
+export { default as foods_img_10 } from "./HotelAndResto/Alfredos/Foods/img_10.webp";
+export { default as foods_img_11 } from "./HotelAndResto/Alfredos/Foods/img_11.webp";
+export { default as foods_img_12 } from "./HotelAndResto/Alfredos/Foods/img_12.webp";
+export { default as foods_img_13 } from "./HotelAndResto/Alfredos/Foods/img_13.webp";
+export { default as foods_img_14 } from "./HotelAndResto/Alfredos/Foods/img_14.webp";
+export { default as foods_img_15 } from "./HotelAndResto/Alfredos/Foods/img_15.webp";
+export { default as foods_img_16 } from "./HotelAndResto/Alfredos/Foods/img_16.webp";
+export { default as foods_img_17 } from "./HotelAndResto/Alfredos/Foods/img_17.webp";
+export { default as foods_img_18 } from "./HotelAndResto/Alfredos/Foods/img_18.webp";
+export { default as foods_img_19 } from "./HotelAndResto/Alfredos/Foods/img_19.webp";
+export { default as foods_img_20 } from "./HotelAndResto/Alfredos/Foods/img_20.webp";
+export { default as foods_img_21 } from "./HotelAndResto/Alfredos/Foods/img_21.webp";
+export { default as foods_img_22 } from "./HotelAndResto/Alfredos/Foods/img_22.webp";
+export { default as foods_img_23 } from "./HotelAndResto/Alfredos/Foods/img_23.webp";
+export { default as foods_img_24 } from "./HotelAndResto/Alfredos/Foods/img_24.webp";
+export { default as foods_img_25 } from "./HotelAndResto/Alfredos/Foods/img_25.webp";
+export { default as foods_img_26 } from "./HotelAndResto/Alfredos/Foods/img_26.webp";
+export { default as foods_img_27 } from "./HotelAndResto/Alfredos/Foods/img_27.webp";
+export { default as foods_img_28 } from "./HotelAndResto/Alfredos/Foods/img_28.webp";
+//----FOODS
 //ALFREDOS HOTEL AND RESTAURAN ITEMS//
 //HOTELS PAGE//
