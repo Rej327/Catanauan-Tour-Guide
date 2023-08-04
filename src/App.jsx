@@ -10,6 +10,7 @@ import "./styles/slideArrow.css";
 import "./styles/loader.css";
 import "./styles/shadow.css";
 import "./styles/itemHover.css";
+import "./styles/wspGallery.css";
 import Home from "./page/Home";
 import WhatsOn from "./page/WhatsOn";
 import Beaches from "./page/Beaches";
@@ -130,7 +131,7 @@ function App() {
                 <Route path="/restaurants/:id" element={<RestoItemPage />} />
                 <Route path="/resortss/" element={<ResortItemPage />} />
                 <Route path="/event/" element={<EventItemPage />} />
-                <Route path="/hotelss/" element={<HotelItemPage />} />
+                <Route path="/hotels/:id" element={<HotelItemPage />} />
                 {/* LEGAL PAGE */}
                 <Route path="/term-of-use/" element={<TermOfUsePage />} />
                 <Route path="/accesibility/" element={<AccesibilityPage />} />
