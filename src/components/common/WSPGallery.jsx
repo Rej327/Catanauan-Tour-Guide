@@ -55,12 +55,12 @@ const WSPGallery = ({ setData }) => {
         </div>
       )}
 
-      <div className="flex flex-wrap gap-4 justify-between max-w-[1300px] mx-auto py-4 px-2">
+      <div className="flex flex-wrap gap-4 last:justify-normal justify-between items-center max-w-[1300px] mx-auto py-4 px-2">
         {setData &&
           setData?.map((slide, index) => {
             return (
               <div
-                className="single overflow-hidden mx-auto rounded-lg"
+                className="single overflow-hidden max-lg:mx-auto rounded-lg"
                 key={index}
                 onClick={() => handleOpenModal(index)}
               >

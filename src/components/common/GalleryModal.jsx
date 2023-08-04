@@ -1,5 +1,4 @@
 import {
-  Button,
   Modal,
   ModalBody,
   ModalCloseButton,
@@ -9,8 +8,7 @@ import {
   ModalOverlay,
   useDisclosure,
 } from "@chakra-ui/react";
-import React, { useContext } from "react";
-import { LangContext } from "../../App";
+import React from "react";
 import WSPGallery from "./WSPGallery";
 
 const GalleryModal = ({ dataInfo }) => {
@@ -28,11 +26,13 @@ const GalleryModal = ({ dataInfo }) => {
         <ModalOverlay />
         <ModalContent>
           <ModalHeader>
-            <p>Gallery</p>
+            <div className="max-w-[1300px] mx-auto">
+              <p>Gallery</p>
+            </div>
           </ModalHeader>
           <ModalCloseButton />
           <ModalBody>
-            <div className="max-w-[1300px] px-4">
+            <div className="max-w-[1300px] mx-auto px-4">
               <div className="w-full py-5 border-b-2">
                 <p className="text-2xl tracking-widest mt-5 mb-2"> - Room's</p>
                 <WSPGallery setData={dataInfo?.gallery?.rooms} />
