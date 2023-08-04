@@ -27,7 +27,7 @@ const GalleryModal = ({ dataInfo }) => {
         <ModalContent>
           <ModalHeader>
             <div className="max-w-[1300px] mx-auto">
-              <p>Gallery</p>
+              <p className="text-2xl tracking-widest">Gallery</p>
             </div>
           </ModalHeader>
           <ModalCloseButton />
