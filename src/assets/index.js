@@ -63,4 +63,13 @@ export { default as vv } from "./RestaurantsPage/vv.webp";
 //HOTELS PAGE//
 export { default as alfredos_cover } from "./HotelAndResto/Alfredos/alfredos_cover.webp";
 export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_cover.webp";
+export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
+//--ALFREDOS HOTEL AND RESTAURAN ITEMS//
+//----ROOMS
+export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
+export { default as rooms_img_1 } from "./HotelAndResto/Alfredos/Rooms/img_1.webp";
+export { default as rooms_img_2 } from "./HotelAndResto/Alfredos/Rooms/img_2.webp";
+export { default as rooms_img_3 } from "./HotelAndResto/Alfredos/Rooms/img_3.webp";
+//----ROOMS
+//ALFREDOS HOTEL AND RESTAURAN ITEMS//
 //HOTELS PAGE//
