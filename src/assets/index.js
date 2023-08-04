@@ -119,5 +119,13 @@ export { default as foods_img_26 } from "./HotelAndResto/Alfredos/Foods/img_26.w
 export { default as foods_img_27 } from "./HotelAndResto/Alfredos/Foods/img_27.webp";
 export { default as foods_img_28 } from "./HotelAndResto/Alfredos/Foods/img_28.webp";
 //----FOODS
+//----MENU
+export { default as menu_img_0 } from "./HotelAndResto/Alfredos/Menu/menu_img_0.webp";
+export { default as menu_img_1 } from "./HotelAndResto/Alfredos/Menu/menu_img_1.webp";
+export { default as menu_img_2 } from "./HotelAndResto/Alfredos/Menu/menu_img_2.webp";
+export { default as menu_img_3 } from "./HotelAndResto/Alfredos/Menu/menu_img_3.webp";
+export { default as pools_img_0 } from "./HotelAndResto/Alfredos/Menu/pools_img_0.webp";
+export { default as pools_img_1 } from "./HotelAndResto/Alfredos/Menu/pools_img_1.webp";
+//----MENU
 //ALFREDOS HOTEL AND RESTAURAN ITEMS//
 //HOTELS PAGE//

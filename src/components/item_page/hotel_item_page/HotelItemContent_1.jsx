@@ -4,6 +4,7 @@ import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
 import { Link } from "react-router-dom";
 import GalleryModal from "../../common/GalleryModal";
+import HotelPricesModal from "../../common/HotelPricesModal";
 
 const HotelItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
@@ -25,7 +26,7 @@ const HotelItemContent_1 = ({ dataInfo }) => {
         </Collapse>
       )}
 
-      <div className="flex justify-between w-auto">
+      <div className="w-auto">
         <p
           className="cursor-pointer w-fit text-base"
           onClick={handleToggle}
@@ -33,21 +34,10 @@ const HotelItemContent_1 = ({ dataInfo }) => {
         >
           {show ? "- Read Less" : "+ Read More"}
         </p>
-        <GalleryModal dataInfo={dataInfo} />
       </div>
       <div className="mb-5 flex gap-4">
-        {dataInfo.website && (
-          <Link to={dataInfo.website} target="_blank">
-            <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
-              <p className="text-base">Visit Website &#8594;</p>
-            </button>
-          </Link>
-        )}
-        <Link to={dataInfo.btn_visit_link} target="_blank">
-          <button className="bg-none border-[1px] border-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] hover:border-[#F9DBA9] duration-300 delay-75">
-            <p className="text-base">Book Now &#8594;</p>
-          </button>
-        </Link>
+        <HotelPricesModal dataInfo={dataInfo} />
+        <GalleryModal dataInfo={dataInfo} />
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>

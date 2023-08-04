@@ -44,6 +44,10 @@ import {
   foods_img_9,
   gumacat,
   lopezcat,
+  menu_img_0,
+  menu_img_1,
+  menu_img_2,
+  menu_img_3,
   mpbtoda,
   msstoda,
   places_img_10,
@@ -61,6 +65,8 @@ import {
   places_img_7,
   places_img_8,
   places_img_9,
+  pools_img_0,
+  pools_img_1,
   presko,
   rooms_img_0,
   rooms_img_1,
@@ -235,6 +241,9 @@ export const en = {
       btn_more_txt: "+ More",
       btn_visit_txt: "Visit Page",
       btn_prices_txt: "Check Prices",
+      gallery: "Gallery",
+      menu: "Menu",
+
       //CARD CONTENT
       number: "(+63) 966-954-9289",
       fb_page_txt: "Facebook Page",
@@ -252,14 +261,10 @@ export const en = {
       direction_link:
         "https://www.google.com/maps/dir/{{value}}/H8RF%2BXRX+Alfredo's+Hotel,+Catanauan,+Quezon",
       btn_visit_link: "https://www.facebook.com/newalfredos",
-      website: "",
 
       //GALLERY
       gallery: {
         rooms: [
-          {
-            img: rooms_img_0,
-          },
           {
             img: rooms_img_1,
           },
@@ -407,6 +412,35 @@ export const en = {
           },
         ],
       },
+      menu: {
+        hotel: [
+          {
+            img: rooms_img_0,
+          },
+        ],
+        foods: [
+          {
+            img: menu_img_0,
+          },
+          {
+            img: menu_img_1,
+          },
+          {
+            img: menu_img_2,
+          },
+          {
+            img: menu_img_3,
+          },
+        ],
+        pools: [
+          {
+            img: pools_img_0,
+          },
+          {
+            img: pools_img_1,
+          },
+        ],
+      },
     },
     {
       id: 2,
@@ -421,6 +455,8 @@ export const en = {
       btn_more_txt: "+ More",
       btn_visit_txt: "Visit Page",
       btn_prices_txt: "Check Prices",
+      gallery: "Gallery",
+      menu: "Menu",
 
       //CARD CONTENT
       number: "(+63) 910-778-9810",
@@ -439,7 +475,6 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/Centropen+Hotel,+Don+Abella+Drive+Barangay+10+Catanauan,+Quezon,+4311+Quezon+Province",
       loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
       btn_visit_link: "https://www.facebook.com/centropenhotel",
-      website: "",
     },
     {
       id: 3,
@@ -455,6 +490,8 @@ export const en = {
       btn_visit_txt: "Visit Page",
       direction_txt: "Get Direction",
       btn_more_txt: "+ More",
+      gallery: "Gallery",
+      menu: "Menu",
 
       //CARD CONTENT
       number: "Unavailable",
@@ -474,7 +511,6 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/H8RC%2BJ9C+Emma's+Hotel+and+Restaurant,+Arellano+St,+Catanauan,+4311+Quezon",
       btn_visit_link:
         "https://www.facebook.com/emmashotelandrestaurant?mibextid=ZbWKwL",
-      website: "",
     },
   ],
 
