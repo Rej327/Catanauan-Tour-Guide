@@ -33,16 +33,16 @@ const GalleryModal = ({ dataInfo }) => {
           <ModalCloseButton />
           <ModalBody>
             <div className="max-w-[1300px] px-4">
-              <div className="w-full py-2 border-b-2">
-                <p className="text-2xl tracking-widest"> - Room's</p>
+              <div className="w-full py-5 border-b-2">
+                <p className="text-2xl tracking-widest mt-5 mb-2"> - Room's</p>
                 <WSPGallery setData={dataInfo?.gallery?.rooms} />
               </div>
               <div className="w-full py-2 border-b-2">
-                <p className="text-2xl tracking-widest"> - Place's</p>
+                <p className="text-2xl tracking-widest mt-5 mb-2"> - Place's</p>
                 <WSPGallery setData={dataInfo?.gallery?.places} />
               </div>
               <div className="w-full py-2">
-                <p className="text-2xl tracking-widest"> - Food's</p>
+                <p className="text-2xl tracking-widest mt-5 mb-2"> - Food's</p>
                 <div className="flex flex-wrap gap-4 justify-evenly">
                   <img src="" alt="" className="w-[300px] h-[300px] border-2" />
                 </div>

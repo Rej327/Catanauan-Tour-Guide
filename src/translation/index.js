@@ -17,6 +17,14 @@ import {
   lopezcat,
   mpbtoda,
   msstoda,
+  places_img_2,
+  places_img_3,
+  places_img_4,
+  places_img_5,
+  places_img_6,
+  places_img_7,
+  places_img_8,
+  places_img_9,
   presko,
   rooms_img_0,
   rooms_img_1,
@@ -226,6 +234,32 @@ export const en = {
             img: rooms_img_3,
           },
         ],
+        places: [
+          {
+            img: places_img_2,
+          },
+          {
+            img: places_img_3,
+          },
+          {
+            img: places_img_4,
+          },
+          {
+            img: places_img_5,
+          },
+          {
+            img: places_img_6,
+          },
+          {
+            img: places_img_7,
+          },
+          {
+            img: places_img_8,
+          },
+          {
+            img: places_img_9,
+          }
+        ]
       },
     },
     {

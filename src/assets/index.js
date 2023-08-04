@@ -71,5 +71,15 @@ export { default as rooms_img_1 } from "./HotelAndResto/Alfredos/Rooms/img_1.web
 export { default as rooms_img_2 } from "./HotelAndResto/Alfredos/Rooms/img_2.webp";
 export { default as rooms_img_3 } from "./HotelAndResto/Alfredos/Rooms/img_3.webp";
 //----ROOMS
+//----PLACES
+export { default as places_img_2 } from "./HotelAndResto/Alfredos/Places/img_2.webp";
+export { default as places_img_3 } from "./HotelAndResto/Alfredos/Places/img_3.webp";
+export { default as places_img_4 } from "./HotelAndResto/Alfredos/Places/img_4.webp";
+export { default as places_img_5 } from "./HotelAndResto/Alfredos/Places/img_5.webp";
+export { default as places_img_6 } from "./HotelAndResto/Alfredos/Places/img_6.webp";
+export { default as places_img_7 } from "./HotelAndResto/Alfredos/Places/img_7.webp";
+export { default as places_img_8 } from "./HotelAndResto/Alfredos/Places/img_8.webp";
+export { default as places_img_9 } from "./HotelAndResto/Alfredos/Places/img_9.webp";
+//----PLACES
 //ALFREDOS HOTEL AND RESTAURAN ITEMS//
 //HOTELS PAGE//
