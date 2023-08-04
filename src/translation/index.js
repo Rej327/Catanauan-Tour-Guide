@@ -11,12 +11,17 @@ import {
   capatoda,
   catoda,
   centropen_cover,
+  emmas_cover,
   eunilos,
   gumacat,
   lopezcat,
   mpbtoda,
   msstoda,
   presko,
+  rooms_img_0,
+  rooms_img_1,
+  rooms_img_2,
+  rooms_img_3,
   seacret,
   tacatoda,
   tiictoda,
@@ -178,24 +183,118 @@ export const en = {
       img: alfredos_cover,
       category: "Hotel and Restaurant",
       title: "Alfredos Hotel and Restaurant",
+      content:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dicta, illo laudantium autem soluta ipsa non possimus eum commodi voluptatibus!",
+      long_content: "",
       location: "Brgy. Poblacion 09, Catanauan, Quezon",
-      loc_link: "https://goo.gl/maps/241md1aJGVxHvciz7",
+      direction_txt: "Get Direction",
       btn_more_txt: "+ More",
       btn_visit_txt: "Visit Page",
-      btn_visit_link: "https://www.facebook.com/newalfredos",
       btn_prices_txt: "Check Prices",
+      //CARD CONTENT
+      number: "(+63) 966-954-9289",
+      fb_page_txt: "Facebook Page",
+      hrs1: "07:00 am - 12:00am",
+      hrs2: "07:00 am - 12:00am",
+      hrs3: "07:00 am - 12:00am",
+      hrs4: "07:00 am - 12:00am",
+      hrs5: "07:00 am - 12:00am",
+      hrs6: "07:00 am - 12:00am",
+      hrs7: "07:00 am - 12:00am",
+
+      //LINKS//
+      dialNumber: "tel:(+63) 966-954-9289",
+      loc_link: "https://goo.gl/maps/241md1aJGVxHvciz7",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/H8RF%2BXRX+Alfredo's+Hotel,+Catanauan,+Quezon",
+      btn_visit_link: "https://www.facebook.com/newalfredos",
+      website: "",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: rooms_img_0,
+          },
+          {
+            img: rooms_img_1,
+          },
+          {
+            img: rooms_img_2,
+          },
+          {
+            img: rooms_img_3,
+          },
+        ],
+      },
     },
     {
       id: 2,
       img: centropen_cover,
       category: "Hotel and Restaurant",
       title: "Centropen Hotel and Restaurant",
+      content:
+        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dicta, illo laudantium autem soluta ipsa non possimus eum commodi voluptatibus!",
+      long_content: "",
       location: "Barangay 10, Zone 1 Don Abella Drive",
-      loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
+      direction_txt: "Get Direction",
       btn_more_txt: "+ More",
       btn_visit_txt: "Visit Page",
-      btn_visit_link: "https://www.facebook.com/centropenhotel",
       btn_prices_txt: "Check Prices",
+
+      //CARD CONTENT
+      number: "(+63) 910-778-9810",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS//
+      dialNumber: "tel:(+63) 910-778-9810",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/Centropen+Hotel,+Don+Abella+Drive+Barangay+10+Catanauan,+Quezon,+4311+Quezon+Province",
+      loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
+      btn_visit_link: "https://www.facebook.com/centropenhotel",
+      website: "",
+    },
+    {
+      id: 3,
+      img: emmas_cover,
+      category: "Hotel and Restaurant",
+      title: "Emma's Hotel and Restaurant",
+      content:
+        "Emma's Hotel and restaurant was founded on July 24, 1984 in Catanauan, Quezon by Emma Lahica and Jimmy Palustre.",
+      long_content:
+        "The business started with a menu containing only burger, pancit and just 1 to 2cases of beer being sold to few costumers. They managed to continue the daily transactions with a borrowed capital and dared to gamle with this technique for a couple of years.\n\n\n\nThe restaurant started as small 'karinderya' and the place is only being rented but after a few years, as the business begins to grow, they decided to buy the place and transformed as an official restaurant with a variety of dishes.\n\n\n\nYears have passed and the restaurant already established well known classic dishes. And in the year 2020, they agreed to expand the business by building a hotel which led today's Emmas Hotel and Restaurant.",
+      location: "Brgy. Pob 05, Arellano St, Catanauan, 4311 Quezon",
+      btn_prices_txt: "Check Prices",
+      btn_visit_txt: "Visit Page",
+      direction_txt: "Get Direction",
+      btn_more_txt: "+ More",
+
+      //CARD CONTENT
+      number: "Unavailable",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "",
+      loc_link: "https://goo.gl/maps/mP1bEuijcTcJqWSXA",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/H8RC%2BJ9C+Emma's+Hotel+and+Restaurant,+Arellano+St,+Catanauan,+4311+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/emmashotelandrestaurant?mibextid=ZbWKwL",
+      website: "",
     },
   ],
 
