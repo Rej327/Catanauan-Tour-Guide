@@ -9,25 +9,35 @@ import {
 import React from "react";
 import { BsPhone, BsFacebook } from "react-icons/bs";
 import { ImLocation } from "react-icons/im";
+import { Link } from "react-router-dom";
 
-const HotelItemContent_2 = () => {
+const HotelItemContent_2 = ({ dataInfo }) => {
   return (
     <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] mt-10 p-4">
       <div className="flex flex-col gap-4">
         <div className="flex gap-2 items-center">
           <BsPhone className="text-[#F9DBA9]" />
-          <p>(+63)-999-999-9999</p>
+          <Link to={dataInfo.dialNumber}>
+            <p className="hover:underline underline-offset-8">
+              {dataInfo.number}
+            </p>
+          </Link>
         </div>
         <div className="flex gap-2 items-center">
-          <ImLocation className="text-[#F9DBA9] text-2xl" />
-          <p className="leading-4">
-            Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-            Quezon
-          </p>
+          <ImLocation className="text-[#F9DBA9]" />
+          <Link to={dataInfo.loc_link} target="_blank">
+            <p className="hover:underline underline-offset-8">
+              {dataInfo.location}
+            </p>
+          </Link>
         </div>
         <div className="flex gap-2 items-center">
           <BsFacebook className="text-[#F9DBA9]" />
-          <p>Facebook Page</p>
+          <Link to={dataInfo.btn_visit_link} target="_blank">
+            <p className="hover:underline underline-offset-8">
+              {dataInfo.fb_page_txt}
+            </p>
+          </Link>
         </div>
       </div>
       <Accordion
@@ -58,13 +68,13 @@ const HotelItemContent_2 = () => {
                 <p>Sunday</p>
               </div>
               <div>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
-                <p>8:00am - 8:00pm</p>
+                <p>{dataInfo.hrs1}</p>
+                <p>{dataInfo.hrs2}</p>
+                <p>{dataInfo.hrs3}</p>
+                <p>{dataInfo.hrs4}</p>
+                <p>{dataInfo.hrs5}</p>
+                <p>{dataInfo.hrs6}</p>
+                <p>{dataInfo.hrs7}</p>
               </div>
             </div>
           </AccordionPanel>
