@@ -5,8 +5,10 @@ import {
   bbctoda,
   bidatoda,
   bucanaidtoda,
+  busay,
   busstop_1,
   busstop_2,
+  butag,
   caferoman,
   capatoda,
   catoda,
@@ -44,6 +46,7 @@ import {
   foods_img_9,
   gumacat,
   lopezcat,
+  matalahan,
   menu_img_0,
   menu_img_1,
   menu_img_2,
@@ -74,6 +77,7 @@ import {
   rooms_img_3,
   seacret,
   tacatoda,
+  tagabong,
   tiictoda,
   titotoda,
   vv,
@@ -494,7 +498,7 @@ export const en = {
       menu: "Menu",
 
       //CARD CONTENT
-      number: "Unavailable",
+      number: " Unavailable",
       fb_page_txt: "Facebook Page",
       hrs1: "24Hours",
       hrs2: "24Hours",
@@ -752,6 +756,70 @@ export const en = {
     id: 1,
     category_pubs: [{}],
   },
+
+  //FALLS PAGE
+  falls_page: [
+    {
+      id: 1,
+      img: busay,
+      title: "Busay Falls",
+      location: "Barangay Tagabas Ibaba Catanauan, Quezon",
+      contact: "",
+      content: "The best place to visit during the rainy season.",
+      unavail: " Unavailable",
+      travel_time: "50 minutes from town",
+      ////links
+      loc_link: "https://goo.gl/maps/F7svoEGSzTsm67VC8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J7MC%2BJG5+Tagabas+Waterfall,+Catanauan,+Quezon",
+      dial_number: "",
+    },
+    {
+      id: 2,
+      img: butag,
+      title: "Butag - Butag Falls",
+      location: "Barangay Canculajao Catanauan, Quezon",
+      contact: "",
+      content: "The best place to visit during the rainy season.",
+      unavail: " Unavailable",
+      travel_time: "40 minutes from town",
+      ////links
+      loc_link: "https://goo.gl/maps/CJdqEQxzcedE2RsK6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Canculajao,+Catanauan,+Quezon",
+      dial_number: "",
+    },
+    {
+      id: 3,
+      img: matalahan,
+      title: "Matalahan Falls",
+      location: "Barangay San Vicente Kanluran Catanauan, Quezon",
+      contact: "Barangay Captain Rogelio Marquez - (+63) 910-479-0247",
+      content: "The best place to visit during the rainy season.",
+      unavail: " Unavailable",
+      travel_time: "30 minutes from town",
+      ////links
+      loc_link: "https://goo.gl/maps/QA2Lm3xVgEhzZfQM9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/M7G3%2BV74+San+Vicente+Kanluran+Barangay+Hall,+Catanauan,+Quezon",
+      dial_number: "tel:(+63) 910-479-0247",
+    },
+    {
+      id: 4,
+      img: tagabong,
+      title: "Tagabong Falls",
+      location: "Barangay Tagabas Ilaya Catanauan, Quezon",
+      contact: "Barangay Captain Sancho Jr. Porley - (+63) 999-348-8767",
+      content: "The best place to visit during the rainy season.",
+      unavail: " Unavailable",
+      travel_time: "1 hour from town",
+      ////links
+      loc_link: "https://goo.gl/maps/XctpacNgbAHs2Mn59",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Tagabas+Ilaya,+Catanauan,+Quezon",
+      dial_number: "tel:(+63) 999-348-8767",
+    },
+  ],
 
   // LEGAL PAGE
   legal: {
@@ -1298,6 +1366,70 @@ export const fil = {
     id: 1,
     category_pubs: [{}],
   },
+
+  //FALLS PAGE
+  falls_page: [
+    {
+      id: 1,
+      img: busay,
+      title: "Busay Falls",
+      location: "Barangay Tagabas Ibaba Catanauan, Quezon",
+      contact: "",
+      unavail: " Wala",
+      content: "Pinakamagandang lugar na pasyalan tuwing tag-ulan.",
+      travel_time: "50 minutes mula bayan",
+      ////links
+      loc_link: "https://goo.gl/maps/F7svoEGSzTsm67VC8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J7MC%2BJG5+Tagabas+Waterfall,+Catanauan,+Quezon",
+      dial_number: "",
+    },
+    {
+      id: 2,
+      img: butag,
+      title: "Butag - Butag Falls",
+      location: "Barangay Canculajao Catanauan, Quezon",
+      contact: "",
+      unavail: " Wala",
+      content: "Pinakamagandang lugar na pasyalan tuwing tag-ulan.",
+      travel_time: "40 minutes mula bayan",
+      ////links
+      loc_link: "https://goo.gl/maps/CJdqEQxzcedE2RsK6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Canculajao,+Catanauan,+Quezon",
+      dial_number: "",
+    },
+    {
+      id: 3,
+      img: matalahan,
+      title: "Matalahan Falls",
+      location: "Barangay San Vicente Kanluran Catanauan, Quezon",
+      contact: "Kapitan ng Barangay Rogelio Marquez - (+63) 910-479-0247",
+      unavail: " Wala",
+      content: "Pinakamagandang lugar na pasyalan tuwing tag-ulan.",
+      travel_time: "30 minutes mula bayan",
+      ////links
+      loc_link: "https://goo.gl/maps/QA2Lm3xVgEhzZfQM9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/M7G3%2BV74+San+Vicente+Kanluran+Barangay+Hall,+Catanauan,+Quezon",
+      dial_number: "tel:(+63) 910-479-0247",
+    },
+    {
+      id: 4,
+      img: tagabong,
+      title: "Tagabong Falls",
+      location: "Barangay Tagabas Ilaya Catanauan, Quezon",
+      contact: "Kapitan ng Barangay Sancho Jr. Porley - (+63) 999-348-8767",
+      unavail: " Wala",
+      content: "Pinakamagandang lugar na pasyalan tuwing tag-ulan.",
+      travel_time: "1 hour mula bayan",
+      ////links
+      loc_link: "https://goo.gl/maps/XctpacNgbAHs2Mn59",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Tagabas+Ilaya,+Catanauan,+Quezon",
+      dial_number: "tel:(+63) 999-348-8767",
+    },
+  ],
 
   // LEGAL PAGE
   legal: {
