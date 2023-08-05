@@ -64,7 +64,7 @@ export { default as vv } from "./RestaurantsPage/vv.webp";
 export { default as alfredos_cover } from "./HotelAndResto/Alfredos/alfredos_cover.webp";
 export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_cover.webp";
 export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
-//--ALFREDOS HOTEL AND RESTAURAN ITEMS//
+//--ALFREDOS HOTEL AND RESTAURANT ITEMS//
 //----ROOMS
 export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
 export { default as rooms_img_1 } from "./HotelAndResto/Alfredos/Rooms/img_1.webp";
@@ -127,7 +127,62 @@ export { default as menu_img_3 } from "./HotelAndResto/Alfredos/Menu/menu_img_3.
 export { default as pools_img_0 } from "./HotelAndResto/Alfredos/Menu/pools_img_0.webp";
 export { default as pools_img_1 } from "./HotelAndResto/Alfredos/Menu/pools_img_1.webp";
 //----MENU
-//ALFREDOS HOTEL AND RESTAURAN ITEMS//
+//ALFREDOS HOTEL AND RESTAURANT ITEMS//
+// EMMAS HOTEL AND RESTAURANT ITEMS//
+//----ROOM
+export { default as price_img_0 } from "./HotelAndResto/Emmas/Menu/price_img_0.webp";
+export { default as price_img_1 } from "./HotelAndResto/Emmas/Menu/price_img_1.webp";
+export { default as price_img_2 } from "./HotelAndResto/Emmas/Menu/price_img_2.webp";
+export { default as price_img_3 } from "./HotelAndResto/Emmas/Menu/price_img_3.webp";
+//----ROOM
+//----PLACES
+export { default as place_img_0 } from "./HotelAndResto/Emmas/Places/place_img_0.webp";
+export { default as place_img_1 } from "./HotelAndResto/Emmas/Places/place_img_1.webp";
+export { default as place_img_2 } from "./HotelAndResto/Emmas/Places/place_img_2.webp";
+export { default as place_img_3 } from "./HotelAndResto/Emmas/Places/place_img_3.webp";
+export { default as place_img_4 } from "./HotelAndResto/Emmas/Places/place_img_4.webp";
+export { default as place_img_5 } from "./HotelAndResto/Emmas/Places/place_img_5.webp";
+export { default as place_img_6 } from "./HotelAndResto/Emmas/Places/place_img_6.webp";
+//----PLACES
+//----MENU
+export { default as emmas_menu_img_0 } from "./HotelAndResto/Emmas/Menu/menu_img_0.webp";
+export { default as emmas_menu_img_1 } from "./HotelAndResto/Emmas/Menu/menu_img_1.webp";
+//----MENU
+//----FOODS
+export { default as emmas_foods_img_0 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_0.webp";
+export { default as emmas_foods_img_1 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_1.webp";
+export { default as emmas_foods_img_2 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_2.webp";
+export { default as emmas_foods_img_3 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_3.webp";
+export { default as emmas_foods_img_4 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_4.webp";
+export { default as emmas_foods_img_5 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_5.webp";
+export { default as emmas_foods_img_6 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_6.webp";
+export { default as emmas_foods_img_7 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_7.webp";
+export { default as emmas_foods_img_8 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_8.webp";
+export { default as emmas_foods_img_9 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_9.webp";
+export { default as emmas_foods_img_10 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_10.webp";
+export { default as emmas_foods_img_11 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_11.webp";
+export { default as emmas_foods_img_12 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_12.webp";
+export { default as emmas_foods_img_13 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_13.webp";
+export { default as emmas_foods_img_14 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_14.webp";
+export { default as emmas_foods_img_15 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_15.webp";
+export { default as emmas_foods_img_16 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_16.webp";
+export { default as emmas_foods_img_17 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_17.webp";
+export { default as emmas_foods_img_18 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_18.webp";
+export { default as emmas_foods_img_19 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_19.webp";
+export { default as emmas_foods_img_20 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_20.webp";
+export { default as emmas_foods_img_21 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_21.webp";
+export { default as emmas_foods_img_22 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_22.webp";
+export { default as emmas_foods_img_23 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_23.webp";
+export { default as emmas_foods_img_24 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_24.webp";
+export { default as emmas_foods_img_25 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_25.webp";
+export { default as emmas_foods_img_26 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_26.webp";
+export { default as emmas_foods_img_27 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_27.webp";
+export { default as emmas_foods_img_28 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_28.webp";
+export { default as emmas_foods_img_29 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_29.webp";
+export { default as emmas_foods_img_30 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_30.webp";
+export { default as emmas_foods_img_31 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_31.webp";
+//----FOODS
+// EMMAS HOTEL AND RESTAURANT ITEMS//
 //HOTELS PAGE//
 
 //FALLS PAGE//
