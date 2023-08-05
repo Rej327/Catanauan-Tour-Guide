@@ -129,3 +129,10 @@ export { default as pools_img_1 } from "./HotelAndResto/Alfredos/Menu/pools_img_
 //----MENU
 //ALFREDOS HOTEL AND RESTAURAN ITEMS//
 //HOTELS PAGE//
+
+//FALLS PAGE//
+export { default as busay } from "./FallsPage/busay.webp";
+export { default as butag } from "./FallsPage/butag.webp";
+export { default as matalahan } from "./FallsPage/matalahan.webp";
+export { default as tagabong } from "./FallsPage/tagabong.webp";
+//FALLS PAGE//
