@@ -53,6 +53,12 @@ import {
   menu_img_3,
   mpbtoda,
   msstoda,
+  place_img_0,
+  place_img_1,
+  place_img_2,
+  place_img_3,
+  place_img_4,
+  place_img_5,
   places_img_10,
   places_img_11,
   places_img_12,
@@ -71,16 +77,55 @@ import {
   pools_img_0,
   pools_img_1,
   presko,
+  price_img_0,
+  price_img_1,
+  price_img_2,
+  price_img_3,
   rooms_img_0,
   rooms_img_1,
   rooms_img_2,
   rooms_img_3,
+  emmas_foods_img_0,
+  emmas_foods_img_1,
+  emmas_foods_img_2,
+  emmas_foods_img_3,
+  emmas_foods_img_4,
+  emmas_foods_img_5,
+  emmas_foods_img_6,
+  emmas_foods_img_7,
+  emmas_foods_img_8,
+  emmas_foods_img_9,
+  emmas_foods_img_10,
+  emmas_foods_img_11,
+  emmas_foods_img_12,
+  emmas_foods_img_13,
+  emmas_foods_img_14,
+  emmas_foods_img_15,
+  emmas_foods_img_16,
+  emmas_foods_img_17,
+  emmas_foods_img_18,
+  emmas_foods_img_19,
+  emmas_foods_img_20,
+  emmas_foods_img_21,
+  emmas_foods_img_22,
+  emmas_foods_img_23,
+  emmas_foods_img_24,
+  emmas_foods_img_25,
+  emmas_foods_img_26,
+  emmas_foods_img_27,
+  emmas_foods_img_28,
+  emmas_foods_img_29,
+  emmas_foods_img_30,
+  emmas_foods_img_31,
   seacret,
   tacatoda,
   tagabong,
   tiictoda,
   titotoda,
   vv,
+  place_img_6,
+  emmas_menu_img_0,
+  emmas_menu_img_1,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -416,6 +461,8 @@ export const en = {
           },
         ],
       },
+
+      //PRICES
       menu: {
         hotel: [
           {
@@ -515,6 +562,162 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/H8RC%2BJ9C+Emma's+Hotel+and+Restaurant,+Arellano+St,+Catanauan,+4311+Quezon",
       btn_visit_link:
         "https://www.facebook.com/emmashotelandrestaurant?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        // rooms: [
+        //   {
+        //     img: rooms_img_1,
+        //   },
+        // ],
+        places: [
+          {
+            img: place_img_0,
+          },
+          {
+            img: place_img_1,
+          },
+          {
+            img: place_img_2,
+          },
+          {
+            img: place_img_3,
+          },
+          {
+            img: place_img_4,
+          },
+          {
+            img: place_img_5,
+          },
+          {
+            img: place_img_6,
+          },
+        ],
+        foods: [
+          {
+            img: emmas_foods_img_0,
+          },
+          {
+            img: emmas_foods_img_1,
+          },
+          {
+            img: emmas_foods_img_2,
+          },
+          {
+            img: emmas_foods_img_3,
+          },
+          {
+            img: emmas_foods_img_4,
+          },
+          {
+            img: emmas_foods_img_5,
+          },
+          {
+            img: emmas_foods_img_6,
+          },
+          {
+            img: emmas_foods_img_7,
+          },
+          {
+            img: emmas_foods_img_8,
+          },
+          {
+            img: emmas_foods_img_9,
+          },
+          {
+            img: emmas_foods_img_10,
+          },
+          {
+            img: emmas_foods_img_11,
+          },
+          {
+            img: emmas_foods_img_12,
+          },
+          {
+            img: emmas_foods_img_13,
+          },
+          {
+            img: emmas_foods_img_14,
+          },
+          {
+            img: emmas_foods_img_15,
+          },
+          {
+            img: emmas_foods_img_16,
+          },
+          {
+            img: emmas_foods_img_17,
+          },
+          {
+            img: emmas_foods_img_18,
+          },
+          {
+            img: emmas_foods_img_19,
+          },
+          {
+            img: emmas_foods_img_20,
+          },
+          {
+            img: emmas_foods_img_21,
+          },
+          {
+            img: emmas_foods_img_22,
+          },
+          {
+            img: emmas_foods_img_23,
+          },
+          {
+            img: emmas_foods_img_24,
+          },
+          {
+            img: emmas_foods_img_25,
+          },
+          {
+            img: emmas_foods_img_26,
+          },
+          {
+            img: emmas_foods_img_27,
+          },
+          {
+            img: emmas_foods_img_28,
+          },
+          {
+            img: emmas_foods_img_29,
+          },
+          {
+            img: emmas_foods_img_30,
+          },
+          {
+            img: emmas_foods_img_31,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: price_img_0,
+          },
+          {
+            img: price_img_1,
+          },
+          {
+            img: price_img_2,
+          },
+          {
+            img: price_img_3,
+          },
+        ],
+        foods: [
+          {
+            img: emmas_menu_img_0,
+          },
+          {
+            img: emmas_menu_img_1,
+          },
+        ],
+      },
     },
   ],
 
