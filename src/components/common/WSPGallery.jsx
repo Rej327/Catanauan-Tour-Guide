@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -8,6 +8,7 @@ import { IoIosClose } from "react-icons/io";
 const WSPGallery = ({ setData }) => {
   const [slideNumber, setSlideNumber] = useState(0);
   const [openModal, setOpenModal] = useState(false);
+  const [isLoading, setIsLoading] = useState(true); // Add loading state
 
   const handleOpenModal = (index) => {
     setSlideNumber(index);
@@ -33,6 +34,10 @@ const WSPGallery = ({ setData }) => {
       : setSlideNumber(slideNumber + 1);
   };
 
+  const handleImageLoad = () => {
+    setIsLoading(false);
+  };
+
   return (
     <div>
       {openModal && (
@@ -50,7 +55,15 @@ const WSPGallery = ({ setData }) => {
             onClick={nextSlide}
           />
           <div className="fullScreenImage">
-            <img src={setData?.[slideNumber].img} alt="" />
+            {isLoading ? (
+              <div className="loader center">Loading...</div>
+            ) : (
+              <img
+                src={setData?.[slideNumber].img}
+                alt=""
+                onLoad={handleImageLoad}
+              />
+            )}
           </div>
         </div>
       )}
@@ -68,6 +81,7 @@ const WSPGallery = ({ setData }) => {
                   src={slide.img}
                   className="w-[300px] h-[290px] rounded-lg object-cover hover:scale-105 duration-300 cursor-zoom-in"
                   alt=""
+                  onLoad={handleImageLoad}
                 />
               </div>
             );

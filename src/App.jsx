@@ -11,6 +11,7 @@ import "./styles/loader.css";
 import "./styles/shadow.css";
 import "./styles/itemHover.css";
 import "./styles/wspGallery.css";
+import "./styles/loader.css";
 import Home from "./page/Home";
 import WhatsOn from "./page/WhatsOn";
 import Beaches from "./page/Beaches";
