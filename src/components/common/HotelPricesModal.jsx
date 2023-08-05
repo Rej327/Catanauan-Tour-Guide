@@ -33,14 +33,23 @@ const HotelPricesModal = ({ dataInfo }) => {
           <ModalCloseButton />
           <ModalBody>
             <div className="max-w-[1300px] mx-auto px-4">
-              <div className="w-full py-5 border-b-2">
-                <p className="text-2xl tracking-widest mt-5 mb-2"> - Room's</p>
-                <WSPGallery setData={dataInfo?.menu?.hotel} />
-              </div>
-              <div className="w-full py-2 border-b-2">
-                <p className="text-2xl tracking-widest mt-5 mb-2"> - Menu</p>
-                <WSPGallery setData={dataInfo?.menu?.foods} />
-              </div>
+              {dataInfo?.menu?.hotel && (
+                <div className="w-full py-5 border-b-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Room's
+                  </p>
+                  <WSPGallery setData={dataInfo?.menu?.hotel} />
+                </div>
+              )}
+
+              {dataInfo?.menu?.foods && (
+                <div className="w-full py-2 border-b-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Menu</p>
+                  <WSPGallery setData={dataInfo?.menu?.foods} />
+                </div>
+              )}
+
               {dataInfo?.menu?.pools && (
                 <div className="w-full py-2">
                   <p className="text-2xl tracking-widest mt-5 mb-2"> - Pools</p>

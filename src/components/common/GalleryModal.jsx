@@ -33,18 +33,33 @@ const GalleryModal = ({ dataInfo }) => {
           <ModalCloseButton />
           <ModalBody>
             <div className="max-w-[1300px] mx-auto px-4">
-              <div className="w-full py-5 border-b-2">
-                <p className="text-2xl tracking-widest mt-5 mb-2"> - Room's</p>
-                <WSPGallery setData={dataInfo?.gallery?.rooms} />
-              </div>
-              <div className="w-full py-2 border-b-2">
-                <p className="text-2xl tracking-widest mt-5 mb-2"> - Place's</p>
-                <WSPGallery setData={dataInfo?.gallery?.places} />
-              </div>
-              <div className="w-full py-2">
-                <p className="text-2xl tracking-widest mt-5 mb-2"> - Food's</p>
-                <WSPGallery setData={dataInfo?.gallery?.foods} />
-              </div>
+              {dataInfo?.gallery?.rooms && (
+                <div className="w-full py-5 border-b-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Room's
+                  </p>
+                  <WSPGallery setData={dataInfo?.gallery?.rooms} />
+                </div>
+              )}
+              {dataInfo?.gallery?.places && (
+                <div className="w-full py-2 border-b-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Place's
+                  </p>
+                  <WSPGallery setData={dataInfo?.gallery?.places} />
+                </div>
+              )}
+              {dataInfo?.gallery?.foods && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Food's
+                  </p>
+                  <WSPGallery setData={dataInfo?.gallery?.foods} />
+                </div>
+              )}
             </div>
           </ModalBody>
 
