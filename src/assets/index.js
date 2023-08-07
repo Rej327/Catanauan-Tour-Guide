@@ -65,6 +65,7 @@ export { default as alfredos_cover } from "./HotelAndResto/Alfredos/alfredos_cov
 export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_cover.webp";
 export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
 export { default as eyns_cover } from "./HotelAndResto/Eyns/eyns_cover.webp";
+export { default as laican_cover } from "./HotelAndResto/Laican/laican_cover.webp";
 //--ALFREDOS HOTEL AND RESTAURANT ITEMS//
 //----ROOMS
 export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
@@ -308,6 +309,35 @@ export { default as eyns_room_rates_img_0 } from "./HotelAndResto/Eyns/Menu/eyns
 export { default as eyns_room_rates_img_1 } from "./HotelAndResto/Eyns/Menu/eyns_room_rates_img_1.jpg";
 //----MENU
 //EYNS HOTEL AND RESTAURANT//
+//LAICAN HOTEL//
+//----PLACES
+export { default as laican_place_img_0 } from "./HotelAndResto/Laican/Places/laican_place_img_0.webp";
+export { default as laican_place_img_1 } from "./HotelAndResto/Laican/Places/laican_place_img_1.webp";
+export { default as laican_place_img_2 } from "./HotelAndResto/Laican/Places/laican_place_img_2.webp";
+export { default as laican_place_img_3 } from "./HotelAndResto/Laican/Places/laican_place_img_3.webp";
+export { default as laican_place_img_4 } from "./HotelAndResto/Laican/Places/laican_place_img_4.webp";
+export { default as laican_place_img_5 } from "./HotelAndResto/Laican/Places/laican_place_img_5.webp";
+export { default as laican_place_img_6 } from "./HotelAndResto/Laican/Places/laican_place_img_6.webp";
+export { default as laican_place_img_7 } from "./HotelAndResto/Laican/Places/laican_place_img_7.webp";
+export { default as laican_place_img_8 } from "./HotelAndResto/Laican/Places/laican_place_img_8.webp";
+export { default as laican_place_img_9 } from "./HotelAndResto/Laican/Places/laican_place_img_9.webp";
+//----PLACES
+//----ROOMS
+export { default as laican_rooms_img_0 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_0.webp";
+export { default as laican_rooms_img_1 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_1.webp";
+export { default as laican_rooms_img_2 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_2.webp";
+export { default as laican_rooms_img_3 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_3.webp";
+export { default as laican_rooms_img_4 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_4.webp";
+export { default as laican_rooms_img_5 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_5.webp";
+export { default as laican_rooms_img_6 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_6.webp";
+export { default as laican_rooms_img_7 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_7.webp";
+export { default as laican_rooms_img_8 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_8.webp";
+export { default as laican_rooms_img_9 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_9.webp";
+export { default as laican_rooms_img_10 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_10.webp";
+export { default as laican_rooms_img_11 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_11.webp";
+export { default as laican_rooms_img_12 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_12.webp";
+//----ROOMS
+//LAICAN HOTEL//
 //HOTELS PAGE//
 
 //FALLS PAGE//
