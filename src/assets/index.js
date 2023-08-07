@@ -192,6 +192,7 @@ export { default as centro_place_img_3 } from "./HotelAndResto/Centropen/Place/c
 export { default as centro_place_img_4 } from "./HotelAndResto/Centropen/Place/centro_place_img_4.webp";
 export { default as centro_place_img_5 } from "./HotelAndResto/Centropen/Place/centro_place_img_5.webp";
 export { default as centro_place_img_6 } from "./HotelAndResto/Centropen/Place/centro_place_img_6.webp";
+export { default as centro_place_img_7 } from "./HotelAndResto/Centropen/Place/centro_place_img_7.webp";
 //----PLACE
 //----FOODS
 export { default as centro_foods_img_0 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_0.webp";
