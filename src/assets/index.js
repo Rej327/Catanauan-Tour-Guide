@@ -64,6 +64,7 @@ export { default as vv } from "./RestaurantsPage/vv.webp";
 export { default as alfredos_cover } from "./HotelAndResto/Alfredos/alfredos_cover.webp";
 export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_cover.webp";
 export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
+export { default as eyns_cover } from "./HotelAndResto/Eyns/eyns_cover.webp";
 //--ALFREDOS HOTEL AND RESTAURANT ITEMS//
 //----ROOMS
 export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
@@ -240,6 +241,73 @@ export { default as centro_menu_img_5 } from "./HotelAndResto/Centropen/Menu/cen
 export { default as centro_menu_img_6 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_6.webp";
 //----MENU
 //CENTROPEN HOTEL AND RESTAURANT//
+//EYNS HOTEL AND RESTAURANT//
+//----ROOMS
+export { default as eyns_rooms_img_0 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_0.webp";
+export { default as eyns_rooms_img_1 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_1.webp";
+export { default as eyns_rooms_img_2 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_2.webp";
+export { default as eyns_rooms_img_3 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_3.webp";
+export { default as eyns_rooms_img_4 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_4.webp";
+export { default as eyns_rooms_img_5 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_5.webp";
+export { default as eyns_rooms_img_6 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_6.webp";
+export { default as eyns_rooms_img_7 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_7.webp";
+export { default as eyns_rooms_img_8 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_8.webp";
+export { default as eyns_rooms_img_9 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_9.webp";
+export { default as eyns_rooms_img_10 } from "./HotelAndResto/Eyns/Rooms/eyns_rooms_img_10.webp";
+//----ROOMS
+//----FOODS
+export { default as eyns_foods_img_0 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_0.webp";
+export { default as eyns_foods_img_1 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_1.webp";
+export { default as eyns_foods_img_2 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_2.webp";
+export { default as eyns_foods_img_3 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_3.webp";
+export { default as eyns_foods_img_4 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_4.webp";
+export { default as eyns_foods_img_5 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_5.webp";
+export { default as eyns_foods_img_6 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_6.webp";
+export { default as eyns_foods_img_7 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_7.webp";
+export { default as eyns_foods_img_8 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_8.webp";
+export { default as eyns_foods_img_9 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_9.webp";
+export { default as eyns_foods_img_10 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_10.webp";
+export { default as eyns_foods_img_11 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_11.webp";
+export { default as eyns_foods_img_12 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_12.webp";
+export { default as eyns_foods_img_13 } from "./HotelAndResto/Eyns/Foods/eyns_foods_img_13.webp";
+//----FOODS
+//----PLACES
+export { default as eyns_places_img_0 } from "./HotelAndResto/Eyns/Places/eyns_place_img_0.webp";
+export { default as eyns_places_img_1 } from "./HotelAndResto/Eyns/Places/eyns_place_img_1.webp";
+export { default as eyns_places_img_2 } from "./HotelAndResto/Eyns/Places/eyns_place_img_2.webp";
+export { default as eyns_places_img_3 } from "./HotelAndResto/Eyns/Places/eyns_place_img_3.webp";
+export { default as eyns_places_img_4 } from "./HotelAndResto/Eyns/Places/eyns_place_img_4.webp";
+export { default as eyns_places_img_5 } from "./HotelAndResto/Eyns/Places/eyns_place_img_5.webp";
+export { default as eyns_places_img_6 } from "./HotelAndResto/Eyns/Places/eyns_place_img_6.webp";
+export { default as eyns_places_img_7 } from "./HotelAndResto/Eyns/Places/eyns_place_img_7.webp";
+export { default as eyns_places_img_8 } from "./HotelAndResto/Eyns/Places/eyns_place_img_8.webp";
+export { default as eyns_places_img_9 } from "./HotelAndResto/Eyns/Places/eyns_place_img_9.webp";
+export { default as eyns_places_img_10 } from "./HotelAndResto/Eyns/Places/eyns_place_img_10.webp";
+export { default as eyns_places_img_11 } from "./HotelAndResto/Eyns/Places/eyns_place_img_11.webp";
+export { default as eyns_places_img_12 } from "./HotelAndResto/Eyns/Places/eyns_place_img_12.webp";
+export { default as eyns_places_img_13 } from "./HotelAndResto/Eyns/Places/eyns_place_img_13.webp";
+export { default as eyns_places_img_14 } from "./HotelAndResto/Eyns/Places/eyns_place_img_14.webp";
+export { default as eyns_places_img_15 } from "./HotelAndResto/Eyns/Places/eyns_place_img_15.webp";
+export { default as eyns_places_img_16 } from "./HotelAndResto/Eyns/Places/eyns_place_img_16.webp";
+export { default as eyns_places_img_17 } from "./HotelAndResto/Eyns/Places/eyns_place_img_17.webp";
+export { default as eyns_places_img_18 } from "./HotelAndResto/Eyns/Places/eyns_place_img_18.webp";
+export { default as eyns_places_img_19 } from "./HotelAndResto/Eyns/Places/eyns_place_img_19.webp";
+export { default as eyns_places_img_20 } from "./HotelAndResto/Eyns/Places/eyns_place_img_20.webp";
+export { default as eyns_places_img_21 } from "./HotelAndResto/Eyns/Places/eyns_place_img_21.webp";
+export { default as eyns_places_img_22 } from "./HotelAndResto/Eyns/Places/eyns_place_img_22.webp";
+export { default as eyns_places_img_23 } from "./HotelAndResto/Eyns/Places/eyns_place_img_23.webp";
+export { default as eyns_places_img_24 } from "./HotelAndResto/Eyns/Places/eyns_place_img_24.webp";
+export { default as eyns_places_img_25 } from "./HotelAndResto/Eyns/Places/eyns_place_img_25.webp";
+export { default as eyns_places_img_26 } from "./HotelAndResto/Eyns/Places/eyns_place_img_26.webp";
+export { default as eyns_places_img_27 } from "./HotelAndResto/Eyns/Places/eyns_place_img_27.webp";
+//----PLACES
+//----MENU
+export { default as eyns_menu_img_0 } from "./HotelAndResto/Eyns/Menu/eyns_menu_img_0.jpg";
+export { default as eyns_menu_img_1 } from "./HotelAndResto/Eyns/Menu/eyns_menu_img_1.jpg";
+export { default as eyns_room_rates_img_0 } from "./HotelAndResto/Eyns/Menu/eyns_room_rates_img_0.jpg";
+export { default as eyns_room_rates_img_1 } from "./HotelAndResto/Eyns/Menu/eyns_room_rates_img_1.jpg";
+//----MENU
+//EYNS HOTEL AND RESTAURANT//
 //HOTELS PAGE//
 
 //FALLS PAGE//
