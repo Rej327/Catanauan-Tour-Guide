@@ -25,16 +25,18 @@ const HotelItemContent_1 = ({ dataInfo }) => {
           {dataInfo.long_content}
         </Collapse>
       )}
+      {dataInfo.long_content && (
+        <div className="w-auto">
+          <p
+            className="cursor-pointer w-fit text-base"
+            onClick={handleToggle}
+            mt="1rem"
+          >
+            {show ? "- Read Less" : "+ Read More"}
+          </p>
+        </div>
+      )}
 
-      <div className="w-auto">
-        <p
-          className="cursor-pointer w-fit text-base"
-          onClick={handleToggle}
-          mt="1rem"
-        >
-          {show ? "- Read Less" : "+ Read More"}
-        </p>
-      </div>
       <div className="mb-5 flex gap-4">
         <HotelPricesModal dataInfo={dataInfo} />
         <GalleryModal dataInfo={dataInfo} />
