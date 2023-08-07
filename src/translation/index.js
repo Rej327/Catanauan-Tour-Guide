@@ -219,6 +219,31 @@ import {
   eyns_room_rates_img_1,
   eyns_menu_img_0,
   eyns_menu_img_1,
+  laican_cover,
+  laican_rooms_img_0,
+  laican_rooms_img_1,
+  laican_rooms_img_2,
+  laican_rooms_img_3,
+  laican_rooms_img_4,
+  laican_rooms_img_5,
+  laican_rooms_img_6,
+  laican_rooms_img_7,
+  laican_rooms_img_8,
+  laican_rooms_img_9,
+  laican_rooms_img_10,
+  laican_rooms_img_11,
+  laican_rooms_img_12,
+  laican_place_img_0,
+  laican_place_img_1,
+  laican_place_img_2,
+  laican_place_img_3,
+  laican_place_img_4,
+  laican_place_img_5,
+  laican_place_img_6,
+  laican_place_img_7,
+  laican_place_img_8,
+  laican_place_img_9,
+  laican_room_rates_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1268,9 +1293,9 @@ export const en = {
     //Laican Hotel
     {
       id: 5,
-      img: eyns_cover,
+      img: laican_cover,
       category: "Hotel",
-      title: "Laican Hotel",
+      title: "Laican Botique Hotel",
       content:
         "FEELS LIKE HOME, Boutique Hotel in Quezon Avenue, Brgy.4 Catanauan, Quezon. Open 24 hours",
       long_content: "",
@@ -1283,242 +1308,97 @@ export const en = {
       menu: "Menu",
 
       //CARD CONTENT
-      number: "09175237555 / 09088913079 / 09178417553",
+      number: "(+63) 948-154-6059",
       fb_page_txt: "Facebook Page",
-      hrs1: "06:00 am - 12:00am",
-      hrs2: "06:00 am - 12:00am",
-      hrs3: "06:00 am - 12:00am",
-      hrs4: "06:00 am - 12:00am",
-      hrs5: "06:00 am - 12:00am",
-      hrs6: "06:00 am - 12:00am",
-      hrs7: "06:00 am - 12:00am",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
 
       //LINKS
-      dialNumber: "",
-      loc_link: "https://goo.gl/maps/WuZUTGLeL3VC4oTdA",
+      dialNumber: "tel:(+63) 948-154-6059",
+      loc_link: "https://goo.gl/maps/SCEqtLvFXnKoZHey5",
       direction_link:
-        "https://www.google.com/maps/dir/{{value}}/Eyns'+Hotel+%26+Restaurant,+Pedro,+P.+Abella+St,+Brgy.+2,+Catanauan,+4311+Quezon",
-      btn_visit_link: "https://www.facebook.com/eyns.since88",
+        "https://www.google.com/maps/dir/{{value}}/H8WF%2BC4F+Laican+Boutique+Hotel,+Quezon+Ave,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/laicanboutiquehotelcatanauan/",
+      web_link: "https://laicanboutiquehotel.business.site/",
 
       //GALLERY
       gallery: {
         rooms: [
           {
-            img: eyns_rooms_img_0,
+            img: laican_rooms_img_0,
           },
           {
-            img: eyns_rooms_img_1,
+            img: laican_rooms_img_1,
           },
           {
-            img: eyns_rooms_img_2,
+            img: laican_rooms_img_2,
           },
           {
-            img: eyns_rooms_img_3,
+            img: laican_rooms_img_3,
           },
           {
-            img: eyns_rooms_img_4,
+            img: laican_rooms_img_4,
           },
           {
-            img: eyns_rooms_img_5,
+            img: laican_rooms_img_5,
           },
           {
-            img: eyns_rooms_img_6,
+            img: laican_rooms_img_6,
           },
           {
-            img: eyns_rooms_img_7,
+            img: laican_rooms_img_7,
           },
           {
-            img: eyns_rooms_img_8,
+            img: laican_rooms_img_8,
           },
           {
-            img: eyns_rooms_img_9,
+            img: laican_rooms_img_9,
           },
           {
-            img: eyns_rooms_img_10,
+            img: laican_rooms_img_10,
+          },
+          {
+            img: laican_rooms_img_11,
+          },
+          {
+            img: laican_rooms_img_12,
           },
         ],
         places: [
           {
-            img: eyns_places_img_0,
+            img: laican_place_img_0,
           },
           {
-            img: eyns_places_img_1,
+            img: laican_place_img_1,
           },
           {
-            img: eyns_places_img_2,
+            img: laican_place_img_2,
           },
           {
-            img: eyns_places_img_3,
+            img: laican_place_img_3,
           },
           {
-            img: eyns_places_img_4,
+            img: laican_place_img_4,
           },
           {
-            img: eyns_places_img_5,
+            img: laican_place_img_5,
           },
           {
-            img: eyns_places_img_6,
+            img: laican_place_img_6,
           },
           {
-            img: eyns_places_img_7,
+            img: laican_place_img_7,
           },
           {
-            img: eyns_places_img_8,
+            img: laican_place_img_8,
           },
           {
-            img: eyns_places_img_9,
-          },
-          {
-            img: eyns_places_img_10,
-          },
-          {
-            img: eyns_places_img_11,
-          },
-          {
-            img: eyns_places_img_12,
-          },
-          {
-            img: eyns_places_img_13,
-          },
-          {
-            img: eyns_places_img_14,
-          },
-          {
-            img: eyns_places_img_15,
-          },
-          {
-            img: eyns_places_img_16,
-          },
-          {
-            img: eyns_places_img_17,
-          },
-          {
-            img: eyns_places_img_18,
-          },
-          {
-            img: eyns_places_img_19,
-          },
-          {
-            img: eyns_places_img_20,
-          },
-          {
-            img: eyns_places_img_21,
-          },
-          {
-            img: eyns_places_img_22,
-          },
-          {
-            img: eyns_places_img_23,
-          },
-          {
-            img: eyns_places_img_24,
-          },
-          {
-            img: eyns_places_img_25,
-          },
-          {
-            img: eyns_places_img_26,
-          },
-          {
-            img: eyns_places_img_27,
-          },
-        ],
-        foods: [
-          {
-            img: emmas_foods_img_0,
-          },
-          {
-            img: emmas_foods_img_1,
-          },
-          {
-            img: emmas_foods_img_2,
-          },
-          {
-            img: emmas_foods_img_3,
-          },
-          {
-            img: emmas_foods_img_4,
-          },
-          {
-            img: emmas_foods_img_5,
-          },
-          {
-            img: emmas_foods_img_6,
-          },
-          {
-            img: emmas_foods_img_7,
-          },
-          {
-            img: emmas_foods_img_8,
-          },
-          {
-            img: emmas_foods_img_9,
-          },
-          {
-            img: emmas_foods_img_10,
-          },
-          {
-            img: emmas_foods_img_11,
-          },
-          {
-            img: emmas_foods_img_12,
-          },
-          {
-            img: emmas_foods_img_13,
-          },
-          {
-            img: emmas_foods_img_14,
-          },
-          {
-            img: emmas_foods_img_15,
-          },
-          {
-            img: emmas_foods_img_16,
-          },
-          {
-            img: emmas_foods_img_17,
-          },
-          {
-            img: emmas_foods_img_18,
-          },
-          {
-            img: emmas_foods_img_19,
-          },
-          {
-            img: emmas_foods_img_20,
-          },
-          {
-            img: emmas_foods_img_21,
-          },
-          {
-            img: emmas_foods_img_22,
-          },
-          {
-            img: emmas_foods_img_23,
-          },
-          {
-            img: emmas_foods_img_24,
-          },
-          {
-            img: emmas_foods_img_25,
-          },
-          {
-            img: emmas_foods_img_26,
-          },
-          {
-            img: emmas_foods_img_27,
-          },
-          {
-            img: emmas_foods_img_28,
-          },
-          {
-            img: emmas_foods_img_29,
-          },
-          {
-            img: emmas_foods_img_30,
-          },
-          {
-            img: emmas_foods_img_31,
+            img: laican_place_img_9,
           },
         ],
       },
@@ -1527,18 +1407,7 @@ export const en = {
       menu: {
         hotel: [
           {
-            img: eyns_room_rates_img_0,
-          },
-          {
-            img: eyns_room_rates_img_1,
-          },
-        ],
-        foods: [
-          {
-            img: eyns_menu_img_0,
-          },
-          {
-            img: eyns_menu_img_1,
+            img: laican_room_rates_img_0,
           },
         ],
       },
