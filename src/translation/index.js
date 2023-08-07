@@ -982,7 +982,7 @@ export const en = {
       img: butag,
       title: "Butag - Butag Falls",
       location: "Barangay Canculajao Catanauan, Quezon",
-      contact: "",
+      contact: "Barangay Captain Naty Pontiga - (+63) 970-866-8663",
       content: "The best place to visit during the rainy season.",
       unavail: " Unavailable",
       travel_time: "40 minutes from town",
@@ -990,7 +990,7 @@ export const en = {
       loc_link: "https://goo.gl/maps/CJdqEQxzcedE2RsK6",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Canculajao,+Catanauan,+Quezon",
-      dial_number: "",
+      dial_number: "tel:(+63) 970-866-8663",
     },
     {
       id: 3,
