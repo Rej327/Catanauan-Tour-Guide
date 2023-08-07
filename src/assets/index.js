@@ -183,6 +183,62 @@ export { default as emmas_foods_img_30 } from "./HotelAndResto/Emmas/Foods/emmas
 export { default as emmas_foods_img_31 } from "./HotelAndResto/Emmas/Foods/emmas_foods_img_31.webp";
 //----FOODS
 // EMMAS HOTEL AND RESTAURANT ITEMS//
+//CENTROPEN HOTEL AND RESTAURANT//
+//----PLACE
+export { default as centro_place_img_0 } from "./HotelAndResto/Centropen/Place/centro_place_img_0.webp";
+export { default as centro_place_img_1 } from "./HotelAndResto/Centropen/Place/centro_place_img_1.webp";
+export { default as centro_place_img_2 } from "./HotelAndResto/Centropen/Place/centro_place_img_2.webp";
+export { default as centro_place_img_3 } from "./HotelAndResto/Centropen/Place/centro_place_img_3.webp";
+export { default as centro_place_img_4 } from "./HotelAndResto/Centropen/Place/centro_place_img_4.webp";
+export { default as centro_place_img_5 } from "./HotelAndResto/Centropen/Place/centro_place_img_5.webp";
+export { default as centro_place_img_6 } from "./HotelAndResto/Centropen/Place/centro_place_img_6.webp";
+//----PLACE
+//----FOODS
+export { default as centro_foods_img_0 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_0.webp";
+export { default as centro_foods_img_1 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_1.webp";
+export { default as centro_foods_img_2 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_2.webp";
+export { default as centro_foods_img_3 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_3.webp";
+export { default as centro_foods_img_4 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_4.webp";
+export { default as centro_foods_img_5 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_5.webp";
+export { default as centro_foods_img_6 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_6.webp";
+export { default as centro_foods_img_7 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_7.webp";
+export { default as centro_foods_img_8 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_8.webp";
+export { default as centro_foods_img_9 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_9.webp";
+export { default as centro_foods_img_10 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_10.webp";
+export { default as centro_foods_img_11 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_11.webp";
+export { default as centro_foods_img_12 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_12.webp";
+export { default as centro_foods_img_13 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_13.webp";
+export { default as centro_foods_img_14 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_14.webp";
+export { default as centro_foods_img_15 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_15.webp";
+export { default as centro_foods_img_16 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_16.webp";
+export { default as centro_foods_img_17 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_17.webp";
+export { default as centro_foods_img_18 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_18.webp";
+export { default as centro_foods_img_19 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_19.webp";
+export { default as centro_foods_img_20 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_20.webp";
+export { default as centro_foods_img_21 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_21.webp";
+export { default as centro_foods_img_22 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_22.webp";
+export { default as centro_foods_img_23 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_23.webp";
+export { default as centro_foods_img_24 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_24.webp";
+export { default as centro_foods_img_25 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_25.webp";
+export { default as centro_foods_img_26 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_26.webp";
+export { default as centro_foods_img_27 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_27.webp";
+export { default as centro_foods_img_28 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_28.webp";
+export { default as centro_foods_img_29 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_29.webp";
+export { default as centro_foods_img_30 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_30.webp";
+export { default as centro_foods_img_31 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_31.webp";
+export { default as centro_foods_img_32 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_32.webp";
+export { default as centro_foods_img_33 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_33.webp";
+//----FOODS
+//----MENU
+export { default as centro_menu_img_0 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_0.webp";
+export { default as centro_menu_img_1 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_1.webp";
+export { default as centro_menu_img_2 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_2.webp";
+export { default as centro_menu_img_3 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_3.webp";
+export { default as centro_menu_img_4 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_4.webp";
+export { default as centro_menu_img_5 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_5.webp";
+export { default as centro_menu_img_6 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_6.webp";
+//----MENU
+//CENTROPEN HOTEL AND RESTAURANT//
 //HOTELS PAGE//
 
 //FALLS PAGE//
