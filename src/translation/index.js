@@ -326,13 +326,14 @@ export const en = {
 
   //HOTELS PAGE
   hotels_page: [
+    //Alfredos Hotel and Restaurant
     {
       id: 1,
       img: alfredos_cover,
       category: "Hotel and Restaurant",
       title: "Alfredos Hotel and Restaurant",
       content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dicta, illo laudantium autem soluta ipsa non possimus eum commodi voluptatibus!",
+        "All events and Conference ( Wedding, Birthday Party, Debut Party, Baptism, Seminar)",
       long_content: "",
       location: "Brgy. Poblacion 09, Catanauan, Quezon",
       direction_txt: "Get Direction",
@@ -542,13 +543,14 @@ export const en = {
         ],
       },
     },
+    //Centropen Hotel and Restaurant
     {
       id: 2,
       img: centropen_cover,
       category: "Hotel and Restaurant",
       title: "Centropen Hotel and Restaurant",
       content:
-        "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Rerum dicta, illo laudantium autem soluta ipsa non possimus eum commodi voluptatibus!",
+        "All events and Conference ( Wedding, Birthday Party, Debut Party, Baptism, Seminar)",
       long_content: "",
       location: "Barangay 10, Zone 1 Don Abella Drive",
       direction_txt: "Get Direction",
@@ -748,6 +750,7 @@ export const en = {
         ],
       },
     },
+    //Emmas Hotel and Restaurant
     {
       id: 3,
       img: emmas_cover,
