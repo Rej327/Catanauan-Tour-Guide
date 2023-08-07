@@ -21,7 +21,7 @@ const HotelBody = () => {
               className="w-[390px] h-[290px] object-cover hover:scale-125 duration-700 delay-75 ease-in-out"
             />
           </div>
-          <div className="max-w-[800px] px-4 h-fit my-auto items-center flex flex-col gap-5">
+          <div className="w-[800px] px-4 h-fit my-auto items-center flex flex-col gap-5">
             <div className="flex flex-col mr-auto gap-4">
               <p className=" w-fit text-xs p-2 rounded-2xl bg-[#FCE9CB] text-[#f1be66] font-bold">
                 {data.category}
