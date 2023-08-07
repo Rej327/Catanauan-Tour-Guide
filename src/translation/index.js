@@ -126,6 +126,55 @@ import {
   place_img_6,
   emmas_menu_img_0,
   emmas_menu_img_1,
+  centro_menu_img_0,
+  centro_menu_img_1,
+  centro_menu_img_2,
+  centro_menu_img_3,
+  centro_menu_img_4,
+  centro_menu_img_5,
+  centro_menu_img_6,
+  centro_foods_img_0,
+  centro_foods_img_1,
+  centro_foods_img_2,
+  centro_foods_img_3,
+  centro_foods_img_4,
+  centro_foods_img_5,
+  centro_foods_img_6,
+  centro_foods_img_7,
+  centro_foods_img_8,
+  centro_foods_img_9,
+  centro_foods_img_10,
+  centro_foods_img_11,
+  centro_foods_img_12,
+  centro_foods_img_13,
+  centro_foods_img_14,
+  centro_foods_img_15,
+  centro_foods_img_16,
+  centro_foods_img_17,
+  centro_foods_img_18,
+  centro_foods_img_19,
+  centro_foods_img_20,
+  centro_foods_img_21,
+  centro_foods_img_22,
+  centro_foods_img_23,
+  centro_foods_img_24,
+  centro_foods_img_25,
+  centro_foods_img_26,
+  centro_foods_img_27,
+  centro_foods_img_28,
+  centro_foods_img_29,
+  centro_foods_img_30,
+  centro_foods_img_31,
+  centro_foods_img_32,
+  centro_foods_img_33,
+  centro_place_img_0,
+  centro_place_img_1,
+  centro_place_img_2,
+  centro_place_img_3,
+  centro_place_img_4,
+  centro_place_img_5,
+  centro_place_img_6,
+  centro_place_img_7,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -526,6 +575,178 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/Centropen+Hotel,+Don+Abella+Drive+Barangay+10+Catanauan,+Quezon,+4311+Quezon+Province",
       loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
       btn_visit_link: "https://www.facebook.com/centropenhotel",
+
+      //GALLERY
+      gallery: {
+        // rooms: [
+        //   {
+        //     img: rooms_img_1,
+        //   },
+        //   {
+        //     img: rooms_img_2,
+        //   },
+        //   {
+        //     img: rooms_img_3,
+        //   },
+        // ],
+        places: [
+          {
+            img: centro_place_img_0,
+          },
+          {
+            img: centro_place_img_1,
+          },
+          {
+            img: centro_place_img_2,
+          },
+          {
+            img: centro_place_img_3,
+          },
+          {
+            img: centro_place_img_4,
+          },
+          {
+            img: centro_place_img_5,
+          },
+          {
+            img: centro_place_img_6,
+          },
+          {
+            img: centro_place_img_7,
+          },
+        ],
+        foods: [
+          {
+            img: centro_foods_img_0,
+          },
+          {
+            img: centro_foods_img_1,
+          },
+          {
+            img: centro_foods_img_2,
+          },
+          {
+            img: centro_foods_img_3,
+          },
+          {
+            img: centro_foods_img_4,
+          },
+          {
+            img: centro_foods_img_5,
+          },
+          {
+            img: centro_foods_img_6,
+          },
+          {
+            img: centro_foods_img_7,
+          },
+          {
+            img: centro_foods_img_8,
+          },
+          {
+            img: centro_foods_img_9,
+          },
+          {
+            img: centro_foods_img_10,
+          },
+          {
+            img: centro_foods_img_11,
+          },
+          {
+            img: centro_foods_img_12,
+          },
+          {
+            img: centro_foods_img_13,
+          },
+          {
+            img: centro_foods_img_14,
+          },
+          {
+            img: centro_foods_img_15,
+          },
+          {
+            img: centro_foods_img_16,
+          },
+          {
+            img: centro_foods_img_17,
+          },
+          {
+            img: centro_foods_img_18,
+          },
+          {
+            img: centro_foods_img_19,
+          },
+          {
+            img: centro_foods_img_20,
+          },
+          {
+            img: centro_foods_img_21,
+          },
+          {
+            img: centro_foods_img_22,
+          },
+          {
+            img: centro_foods_img_23,
+          },
+          {
+            img: centro_foods_img_24,
+          },
+          {
+            img: centro_foods_img_25,
+          },
+          {
+            img: centro_foods_img_26,
+          },
+          {
+            img: centro_foods_img_27,
+          },
+          {
+            img: centro_foods_img_28,
+          },
+          {
+            img: centro_foods_img_29,
+          },
+          {
+            img: centro_foods_img_30,
+          },
+          {
+            img: centro_foods_img_31,
+          },
+          {
+            img: centro_foods_img_32,
+          },
+          {
+            img: centro_foods_img_33,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: centro_menu_img_0,
+          },
+          {
+            img: centro_menu_img_1,
+          },
+          {
+            img: centro_menu_img_2,
+          },
+          {
+            img: centro_menu_img_3,
+          },
+          {
+            img: centro_menu_img_4,
+          },
+          {
+            img: centro_menu_img_5,
+          },
+          {
+            img: centro_menu_img_6,
+          },
+        ],
+      },
     },
     {
       id: 3,
