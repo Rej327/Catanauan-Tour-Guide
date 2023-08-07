@@ -17,9 +17,6 @@ const HotelItem = ({ className }) => {
     const data = language?.hotels_page?.find((data) => data.id == params.id);
     return data;
   }, [language, params]);
-
-  console.log(dataInfo?.gallery?.rooms);
-
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
