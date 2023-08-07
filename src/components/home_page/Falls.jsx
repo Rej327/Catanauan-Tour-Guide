@@ -3,6 +3,8 @@ import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
 import { Link } from "react-router-dom";
+import { Tooltip } from "@chakra-ui/react";
+import { ImLocation } from "react-icons/im";
 
 const Falls = ({ className, id }) => {
   const { language } = useContext(LangContext);
@@ -46,15 +48,33 @@ const Falls = ({ className, id }) => {
           </div>
         </div>
         <div className="flex flex-wrap justify-center bg-[#FCE9CB gap-5 mx-auto -mt-5">
-          {language?.main?.resorts.slice(0, 3).map((data) => (
+          {language?.falls_page?.slice(0, 3).map((data) => (
             <div
               key={data.id}
               className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
             >
               <div className="overflow-hidden rounded-lg">
-                <img src={data.img} alt="resorts" className=" rounded-lg " />
+                <img
+                  src={data.img}
+                  alt="resorts"
+                  className=" rounded-lg w-[350px] h-[300px] "
+                />
               </div>
-              <p className="text-lg px-4 py-2">Talisay Falls</p>
+              <div className="my-2">
+                <p className="text-lg font-bold pl-5">{data.title}</p>
+                <div className="w-fit flex gap-1 items-center">
+                  <p>
+                    <ImLocation className="text-[#f1be66]" />
+                  </p>
+                  <Link to={data.loc_link} target="_blank">
+                    <Tooltip label="Location" placement="bottom">
+                      <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                        {data.location}
+                      </p>
+                    </Tooltip>
+                  </Link>
+                </div>
+              </div>
             </div>
           ))}
         </div>
