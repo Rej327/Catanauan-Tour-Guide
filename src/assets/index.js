@@ -337,6 +337,9 @@ export { default as laican_rooms_img_10 } from "./HotelAndResto/Laican/Rooms/lai
 export { default as laican_rooms_img_11 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_11.webp";
 export { default as laican_rooms_img_12 } from "./HotelAndResto/Laican/Rooms/laican_rooms_img_12.webp";
 //----ROOMS
+//----ROOMS RATES
+export { default as laican_room_rates_img_0 } from "./HotelAndResto/Laican/Price/laican_room_rates_img_0.png";
+//----ROOMS RATES
 //LAICAN HOTEL//
 //HOTELS PAGE//
 
