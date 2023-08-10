@@ -244,6 +244,35 @@ import {
   laican_place_img_8,
   laican_place_img_9,
   laican_room_rates_img_0,
+  raki_cover,
+  raki_room_img_0,
+  raki_room_img_1,
+  raki_room_img_2,
+  raki_room_img_3,
+  raki_room_img_4,
+  raki_room_img_5,
+  raki_room_img_6,
+  raki_room_img_7,
+  raki_room_img_8,
+  raki_room_img_9,
+  raki_room_img_10,
+  raki_room_img_11,
+  raki_room_img_12,
+  raki_room_img_13,
+  raki_room_img_14,
+  raki_room_img_15,
+  raki_place_img_11,
+  raki_place_img_10,
+  raki_place_img_9,
+  raki_place_img_8,
+  raki_place_img_7,
+  raki_place_img_6,
+  raki_place_img_5,
+  raki_place_img_4,
+  raki_place_img_3,
+  raki_place_img_2,
+  raki_place_img_1,
+  raki_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1411,6 +1440,133 @@ export const en = {
           },
         ],
       },
+    },
+    //RakiLight Inn Hotel
+    {
+      id: 6,
+      img: raki_cover,
+      category: "Hotel",
+      title: "RakiLignt Inn Hotel",
+      content: "Where Comfort Meets Luxury, Every Stay, Every Day.",
+      long_content: "",
+      location: "Barangay Matandang Sabang Silangan, Catanauan, Quezon",
+      btn_prices_txt: "Check Prices",
+      btn_visit_txt: "Visit Page",
+      direction_txt: "Get Direction",
+      btn_more_txt: "+ More",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 927-627-0830",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "tel:(+63) 927-627-0830",
+      loc_link: "https://goo.gl/maps/KtBUg7wJ7UuuQBCN6",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/RAKILIGHT+INN,+Pagkakaisa,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/RakiLightHotel?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: raki_room_img_0,
+          },
+          {
+            img: raki_room_img_1,
+          },
+          {
+            img: raki_room_img_2,
+          },
+          {
+            img: raki_room_img_3,
+          },
+          {
+            img: raki_room_img_4,
+          },
+          {
+            img: raki_room_img_5,
+          },
+          {
+            img: raki_room_img_6,
+          },
+          {
+            img: raki_room_img_7,
+          },
+          {
+            img: raki_room_img_8,
+          },
+          {
+            img: raki_room_img_9,
+          },
+          {
+            img: raki_room_img_10,
+          },
+          {
+            img: raki_room_img_11,
+          },
+          {
+            img: raki_room_img_12,
+          },
+          {
+            img: raki_room_img_13,
+          },
+          {
+            img: raki_room_img_14,
+          },
+          {
+            img: raki_room_img_15,
+          },
+        ],
+        places: [
+          {
+            img: raki_place_img_0,
+          },
+          {
+            img: raki_place_img_1,
+          },
+          {
+            img: raki_place_img_2,
+          },
+          {
+            img: raki_place_img_3,
+          },
+          {
+            img: raki_place_img_4,
+          },
+          {
+            img: raki_place_img_5,
+          },
+          {
+            img: raki_place_img_6,
+          },
+          {
+            img: raki_place_img_7,
+          },
+          {
+            img: raki_place_img_8,
+          },
+          {
+            img: raki_place_img_9,
+          },
+          {
+            img: raki_place_img_10,
+          },
+          {
+            img: raki_place_img_11,
+          },
+        ],
+      },
+      //PRICES
     },
   ],
 
