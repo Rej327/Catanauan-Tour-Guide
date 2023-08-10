@@ -5,7 +5,7 @@
   left: 0;
   right: 0;
   z-index: 999;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.534);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,9 +18,11 @@
 .sliderWrap .btnNext {
   position: fixed;
   cursor: pointer;
-  opacity: 0.6;
-  color: #fff;
+  opacity: 0.8;
+  color: #ffffff;
   z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 9999px;
 }
 
 .btnNext:hover,
@@ -31,19 +33,19 @@
 
 .sliderWrap .btnClose {
   top: 40px;
-  right: 40px;
+  right: 5px;
 }
 
 .sliderWrap .btnPrev {
   top: 50%;
   transform: translateY(-50%);
-  left: 40px;
+  left: 5px;
 }
 
 .sliderWrap .btnNext {
   top: 50%;
   transform: translateY(-50%);
-  right: 40px;
+  right: 5px;
 }
 
 .fullScreenImage {
