@@ -273,6 +273,22 @@ import {
   raki_place_img_2,
   raki_place_img_1,
   raki_place_img_0,
+  zoe_cover,
+  zoe_room_img_0,
+  zoe_room_img_1,
+  zoe_room_img_2,
+  zoe_place_img_12,
+  zoe_place_img_11,
+  zoe_place_img_10,
+  zoe_place_img_9,
+  zoe_place_img_8,
+  zoe_place_img_7,
+  zoe_place_img_6,
+  zoe_place_img_5,
+  zoe_place_img_4,
+  zoe_place_img_3,
+  zoe_place_img_2,
+  zoe_place_img_1,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1563,6 +1579,95 @@ export const en = {
           },
           {
             img: raki_place_img_11,
+          },
+        ],
+      },
+      //PRICES
+    },
+    //Zoes Hotel
+    {
+      id: 7,
+      img: zoe_cover,
+      category: "Hotel",
+      title: "Zoe's Hotel",
+      content: "Where Comfort Meets Convenience – Your Ideal Retreat Awaits!",
+      long_content: "",
+      location: "Barangay 08, Catanauan, Quezon",
+      btn_prices_txt: "Check Prices",
+      btn_visit_txt: "Visit Page",
+      direction_txt: "Get Direction",
+      btn_more_txt: "+ More",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 939-963-5840",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "tel:(+63) 939-963-5840",
+      loc_link: "https://goo.gl/maps/qNrRWh2dfY5kaBug7",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/13.5902673,122.3269774",
+      btn_visit_link:
+        "https://www.facebook.com/RakiLightHotel?mibextid=ZbWKwLhttps://www.facebook.com/pages/Zoes-Hotel-Restaurant/1778570195688718",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: zoe_room_img_0,
+          },
+          {
+            img: zoe_room_img_1,
+          },
+          {
+            img: zoe_room_img_2,
+          },
+        ],
+        places: [
+          {
+            img: zoe_place_img_1,
+          },
+          {
+            img: zoe_place_img_2,
+          },
+          {
+            img: zoe_place_img_3,
+          },
+          {
+            img: zoe_place_img_4,
+          },
+          {
+            img: zoe_place_img_5,
+          },
+          {
+            img: zoe_place_img_6,
+          },
+          {
+            img: zoe_place_img_7,
+          },
+          {
+            img: zoe_place_img_8,
+          },
+          {
+            img: zoe_place_img_9,
+          },
+          {
+            img: zoe_place_img_10,
+          },
+          {
+            img: zoe_place_img_11,
+          },
+          {
+            img: zoe_place_img_12,
           },
         ],
       },
