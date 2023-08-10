@@ -66,6 +66,7 @@ export { default as centropen_cover } from "./HotelAndResto/Centropen/centropen_
 export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
 export { default as eyns_cover } from "./HotelAndResto/Eyns/eyns_cover.webp";
 export { default as laican_cover } from "./HotelAndResto/Laican/laican_cover.webp";
+export { default as raki_cover } from "./HotelAndResto/Raki/raki_cover.webp";
 //--ALFREDOS HOTEL AND RESTAURANT ITEMS//
 //----ROOMS
 export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
@@ -341,6 +342,40 @@ export { default as laican_rooms_img_12 } from "./HotelAndResto/Laican/Rooms/lai
 export { default as laican_room_rates_img_0 } from "./HotelAndResto/Laican/Price/laican_room_rates_img_0.png";
 //----ROOMS RATES
 //LAICAN HOTEL//
+//RAKILIGHT INN HOTEL//
+//----PLACES
+export { default as raki_place_img_0 } from "./HotelAndResto/Raki/Places/raki_place_img_0.webp";
+export { default as raki_place_img_1 } from "./HotelAndResto/Raki/Places/raki_place_img_1.webp";
+export { default as raki_place_img_2 } from "./HotelAndResto/Raki/Places/raki_place_img_2.webp";
+export { default as raki_place_img_3 } from "./HotelAndResto/Raki/Places/raki_place_img_3.webp";
+export { default as raki_place_img_4 } from "./HotelAndResto/Raki/Places/raki_place_img_4.webp";
+export { default as raki_place_img_5 } from "./HotelAndResto/Raki/Places/raki_place_img_5.webp";
+export { default as raki_place_img_6 } from "./HotelAndResto/Raki/Places/raki_place_img_6.webp";
+export { default as raki_place_img_7 } from "./HotelAndResto/Raki/Places/raki_place_img_7.webp";
+export { default as raki_place_img_8 } from "./HotelAndResto/Raki/Places/raki_place_img_8.webp";
+export { default as raki_place_img_9 } from "./HotelAndResto/Raki/Places/raki_place_img_9.webp";
+export { default as raki_place_img_10 } from "./HotelAndResto/Raki/Places/raki_place_img_10.webp";
+export { default as raki_place_img_11 } from "./HotelAndResto/Raki/Places/raki_place_img_11.webp";
+//----PLACES
+//----ROOMS
+export { default as raki_room_img_0 } from "./HotelAndResto/Raki/Rooms/raki_room_img_0.webp";
+export { default as raki_room_img_1 } from "./HotelAndResto/Raki/Rooms/raki_room_img_1.webp";
+export { default as raki_room_img_2 } from "./HotelAndResto/Raki/Rooms/raki_room_img_2.webp";
+export { default as raki_room_img_3 } from "./HotelAndResto/Raki/Rooms/raki_room_img_3.webp";
+export { default as raki_room_img_4 } from "./HotelAndResto/Raki/Rooms/raki_room_img_4.webp";
+export { default as raki_room_img_5 } from "./HotelAndResto/Raki/Rooms/raki_room_img_5.webp";
+export { default as raki_room_img_6 } from "./HotelAndResto/Raki/Rooms/raki_room_img_6.webp";
+export { default as raki_room_img_7 } from "./HotelAndResto/Raki/Rooms/raki_room_img_7.webp";
+export { default as raki_room_img_8 } from "./HotelAndResto/Raki/Rooms/raki_room_img_8.webp";
+export { default as raki_room_img_9 } from "./HotelAndResto/Raki/Rooms/raki_room_img_9.webp";
+export { default as raki_room_img_10 } from "./HotelAndResto/Raki/Rooms/raki_room_img_10.webp";
+export { default as raki_room_img_11 } from "./HotelAndResto/Raki/Rooms/raki_room_img_11.webp";
+export { default as raki_room_img_12 } from "./HotelAndResto/Raki/Rooms/raki_room_img_12.webp";
+export { default as raki_room_img_13 } from "./HotelAndResto/Raki/Rooms/raki_room_img_13.webp";
+export { default as raki_room_img_14 } from "./HotelAndResto/Raki/Rooms/raki_room_img_14.webp";
+export { default as raki_room_img_15 } from "./HotelAndResto/Raki/Rooms/raki_room_img_15.webp";
+//----ROOMS
+//RAKILIGHT INN HOTEL//
 //HOTELS PAGE//
 
 //FALLS PAGE//
