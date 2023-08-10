@@ -412,6 +412,9 @@ export { default as zoe_room_img_0 } from "./HotelAndResto/Zoe/Rooms/zoe_room_im
 export { default as zoe_room_img_1 } from "./HotelAndResto/Zoe/Rooms/zoe_room_img_1.webp";
 export { default as zoe_room_img_2 } from "./HotelAndResto/Zoe/Rooms/zoe_room_img_2.webp";
 //----ROOMS
+//----ROOM RATES
+export { default as zoe_room_rates_img_0 } from "./HotelAndResto/Zoe/Menu/zoe_room_rates_img_0.png";
+//----ROOM RATES
 //ZOES HOTEL//
 //HOTELS PAGE//
 
