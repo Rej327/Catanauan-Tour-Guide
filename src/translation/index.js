@@ -289,6 +289,20 @@ import {
   zoe_place_img_3,
   zoe_place_img_2,
   zoe_place_img_1,
+  centro_menu_rates_img_0,
+  centro_menu_rates_img_1,
+  centro_menu_rates_img_2,
+  centro_menu_rates_img_3,
+  centro_menu_rates_img_4,
+  centro_menu_rates_img_5,
+  centro_menu_rates_img_6,
+  centro_menu_rates_img_7,
+  centro_room_rates_img_0,
+  centro_room_rates_img_1,
+  centro_room_rates_img_2,
+  centro_room_rates_img_3,
+  centro_room_rates_img_4,
+  zoe_room_rates_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -694,17 +708,6 @@ export const en = {
 
       //GALLERY
       gallery: {
-        // rooms: [
-        //   {
-        //     img: rooms_img_1,
-        //   },
-        //   {
-        //     img: rooms_img_2,
-        //   },
-        //   {
-        //     img: rooms_img_3,
-        //   },
-        // ],
         places: [
           {
             img: centro_place_img_0,
@@ -860,6 +863,47 @@ export const en = {
           },
           {
             img: centro_menu_img_6,
+          },
+          {
+            img: centro_menu_rates_img_0,
+          },
+          {
+            img: centro_menu_rates_img_1,
+          },
+          {
+            img: centro_menu_rates_img_2,
+          },
+          {
+            img: centro_menu_rates_img_3,
+          },
+          {
+            img: centro_menu_rates_img_4,
+          },
+          {
+            img: centro_menu_rates_img_5,
+          },
+          {
+            img: centro_menu_rates_img_6,
+          },
+          {
+            img: centro_menu_rates_img_7,
+          },
+        ],
+        hotel: [
+          {
+            img: centro_room_rates_img_0,
+          },
+          {
+            img: centro_room_rates_img_1,
+          },
+          {
+            img: centro_room_rates_img_2,
+          },
+          {
+            img: centro_room_rates_img_3,
+          },
+          {
+            img: centro_room_rates_img_4,
           },
         ],
       },
@@ -1672,6 +1716,13 @@ export const en = {
         ],
       },
       //PRICES
+      menu: {
+        hotel: [
+          {
+            img: zoe_room_rates_img_0,
+          },
+        ],
+      },
     },
   ],
 
@@ -2780,17 +2831,6 @@ export const fil = {
 
       //GALLERY
       gallery: {
-        // rooms: [
-        //   {
-        //     img: rooms_img_1,
-        //   },
-        //   {
-        //     img: rooms_img_2,
-        //   },
-        //   {
-        //     img: rooms_img_3,
-        //   },
-        // ],
         places: [
           {
             img: centro_place_img_0,
@@ -2946,6 +2986,47 @@ export const fil = {
           },
           {
             img: centro_menu_img_6,
+          },
+          {
+            img: centro_menu_rates_img_0,
+          },
+          {
+            img: centro_menu_rates_img_1,
+          },
+          {
+            img: centro_menu_rates_img_2,
+          },
+          {
+            img: centro_menu_rates_img_3,
+          },
+          {
+            img: centro_menu_rates_img_4,
+          },
+          {
+            img: centro_menu_rates_img_5,
+          },
+          {
+            img: centro_menu_rates_img_6,
+          },
+          {
+            img: centro_menu_rates_img_7,
+          },
+        ],
+        hotel: [
+          {
+            img: centro_room_rates_img_0,
+          },
+          {
+            img: centro_room_rates_img_1,
+          },
+          {
+            img: centro_room_rates_img_2,
+          },
+          {
+            img: centro_room_rates_img_3,
+          },
+          {
+            img: centro_room_rates_img_4,
           },
         ],
       },
@@ -3758,6 +3839,13 @@ export const fil = {
         ],
       },
       //PRICES
+      menu: {
+        hotel: [
+          {
+            img: zoe_room_rates_img_0,
+          },
+        ],
+      },
     },
   ],
 
