@@ -7,21 +7,12 @@ import {
   ModalHeader,
   ModalOverlay,
   useDisclosure,
-  Skeleton,
 } from "@chakra-ui/react";
-import React, { useState } from "react";
+import React from "react";
 import WSPGallery from "./WSPGallery";
 
 const GalleryModal = ({ dataInfo }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const [imagesLoaded, setImagesLoaded] = useState(false);
-
-  const handleImagesLoaded = () => {
-    setTimeout(() => {
-      setImagesLoaded(true);
-    }, 2500);
-  };
-
   return (
     <>
       <button
@@ -48,10 +39,7 @@ const GalleryModal = ({ dataInfo }) => {
                     {" "}
                     - Room's
                   </p>
-                  <WSPGallery
-                    setData={dataInfo?.gallery?.rooms}
-                    onImagesLoaded={handleImagesLoaded}
-                  />
+                  <WSPGallery setData={dataInfo?.gallery?.rooms} />
                 </div>
               )}
               {dataInfo?.gallery?.places && (
@@ -60,10 +48,7 @@ const GalleryModal = ({ dataInfo }) => {
                     {" "}
                     - Place's
                   </p>
-                  <WSPGallery
-                    setData={dataInfo?.gallery?.places}
-                    onImagesLoaded={handleImagesLoaded}
-                  />
+                  <WSPGallery setData={dataInfo?.gallery?.places} />
                 </div>
               )}
               {dataInfo?.gallery?.foods && (
@@ -72,13 +57,9 @@ const GalleryModal = ({ dataInfo }) => {
                     {" "}
                     - Food's
                   </p>
-                  <WSPGallery
-                    setData={dataInfo?.gallery?.foods}
-                    onImagesLoaded={handleImagesLoaded}
-                  />
+                  <WSPGallery setData={dataInfo?.gallery?.foods} />
                 </div>
               )}
-              {imagesLoaded && <Skeleton height="300px" width="300px" />}
             </div>
           </ModalBody>
 
