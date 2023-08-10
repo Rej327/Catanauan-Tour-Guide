@@ -67,6 +67,7 @@ export { default as emmas_cover } from "./HotelAndResto/Emmas/emmas_cover.webp";
 export { default as eyns_cover } from "./HotelAndResto/Eyns/eyns_cover.webp";
 export { default as laican_cover } from "./HotelAndResto/Laican/laican_cover.webp";
 export { default as raki_cover } from "./HotelAndResto/Raki/raki_cover.webp";
+export { default as zoe_cover } from "./HotelAndResto/Zoe/zoe_cover.webp";
 //--ALFREDOS HOTEL AND RESTAURANT ITEMS//
 //----ROOMS
 export { default as rooms_img_0 } from "./HotelAndResto/Alfredos/Rooms/img_0.webp";
@@ -376,6 +377,27 @@ export { default as raki_room_img_14 } from "./HotelAndResto/Raki/Rooms/raki_roo
 export { default as raki_room_img_15 } from "./HotelAndResto/Raki/Rooms/raki_room_img_15.webp";
 //----ROOMS
 //RAKILIGHT INN HOTEL//
+//ZOES HOTEL//
+//----PLACES
+export { default as zoe_place_img_1 } from "./HotelAndResto/Zoe/Places/zoe_place_img_1.webp";
+export { default as zoe_place_img_2 } from "./HotelAndResto/Zoe/Places/zoe_place_img_2.webp";
+export { default as zoe_place_img_3 } from "./HotelAndResto/Zoe/Places/zoe_place_img_3.webp";
+export { default as zoe_place_img_4 } from "./HotelAndResto/Zoe/Places/zoe_place_img_4.webp";
+export { default as zoe_place_img_5 } from "./HotelAndResto/Zoe/Places/zoe_place_img_5.webp";
+export { default as zoe_place_img_6 } from "./HotelAndResto/Zoe/Places/zoe_place_img_6.webp";
+export { default as zoe_place_img_7 } from "./HotelAndResto/Zoe/Places/zoe_place_img_7.webp";
+export { default as zoe_place_img_8 } from "./HotelAndResto/Zoe/Places/zoe_place_img_8.webp";
+export { default as zoe_place_img_9 } from "./HotelAndResto/Zoe/Places/zoe_place_img_9.webp";
+export { default as zoe_place_img_10 } from "./HotelAndResto/Zoe/Places/zoe_place_img_10.webp";
+export { default as zoe_place_img_11 } from "./HotelAndResto/Zoe/Places/zoe_place_img_11.webp";
+export { default as zoe_place_img_12 } from "./HotelAndResto/Zoe/Places/zoe_place_img_12.webp";
+//----PLACES
+//----ROOMS
+export { default as zoe_room_img_0 } from "./HotelAndResto/Zoe/Rooms/zoe_room_img_0.webp";
+export { default as zoe_room_img_1 } from "./HotelAndResto/Zoe/Rooms/zoe_room_img_1.webp";
+export { default as zoe_room_img_2 } from "./HotelAndResto/Zoe/Rooms/zoe_room_img_2.webp";
+//----ROOMS
+//ZOES HOTEL//
 //HOTELS PAGE//
 
 //FALLS PAGE//
