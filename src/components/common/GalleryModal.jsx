@@ -17,7 +17,9 @@ const GalleryModal = ({ dataInfo }) => {
   const [imagesLoaded, setImagesLoaded] = useState(false);
 
   const handleImagesLoaded = () => {
-    setImagesLoaded(true);
+    setTimeout(() => {
+      setImagesLoaded(true);
+    }, 2500);
   };
 
   return (
@@ -76,7 +78,7 @@ const GalleryModal = ({ dataInfo }) => {
                   />
                 </div>
               )}
-              {!imagesLoaded && <Skeleton height="300px" />}
+              {imagesLoaded && <Skeleton height="300px" width="300px" />}
             </div>
           </ModalBody>
 
