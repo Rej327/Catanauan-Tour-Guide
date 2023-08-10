@@ -2524,6 +2524,1243 @@ export const fil = {
     category_pubs: [{}],
   },
 
+  //HOTELS PAGE
+  hotels_page: [
+    //Alfredos Hotel and Restaurant
+    {
+      id: 1,
+      img: alfredos_cover,
+      category: "Hotel and Restaurant",
+      title: "Alfredos Hotel and Restaurant",
+      content:
+        "All events and Conference ( Wedding, Birthday Party, Debut Party, Baptism, Seminar)",
+      long_content: "",
+      location: "Brgy. Poblacion 09, Catanauan, Quezon",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      btn_visit_txt: "Bisita sa FB Page",
+      btn_prices_txt: "Mga Presyo",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 966-954-9289",
+      fb_page_txt: "Facebook Page",
+      hrs1: "07:00 am - 12:00am",
+      hrs2: "07:00 am - 12:00am",
+      hrs3: "07:00 am - 12:00am",
+      hrs4: "07:00 am - 12:00am",
+      hrs5: "07:00 am - 12:00am",
+      hrs6: "07:00 am - 12:00am",
+      hrs7: "07:00 am - 12:00am",
+
+      //LINKS//
+      dialNumber: "tel:(+63) 966-954-9289",
+      loc_link: "https://goo.gl/maps/241md1aJGVxHvciz7",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/H8RF%2BXRX+Alfredo's+Hotel,+Catanauan,+Quezon",
+      btn_visit_link: "https://www.facebook.com/newalfredos",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: rooms_img_1,
+          },
+          {
+            img: rooms_img_2,
+          },
+          {
+            img: rooms_img_3,
+          },
+        ],
+        places: [
+          {
+            img: places_img_2,
+          },
+          {
+            img: places_img_3,
+          },
+          {
+            img: places_img_4,
+          },
+          {
+            img: places_img_5,
+          },
+          {
+            img: places_img_6,
+          },
+          {
+            img: places_img_7,
+          },
+          {
+            img: places_img_8,
+          },
+          {
+            img: places_img_9,
+          },
+          {
+            img: places_img_10,
+          },
+          {
+            img: places_img_11,
+          },
+          {
+            img: places_img_12,
+          },
+          {
+            img: places_img_13,
+          },
+          {
+            img: places_img_14,
+          },
+          {
+            img: places_img_15,
+          },
+          {
+            img: places_img_16,
+          },
+        ],
+        foods: [
+          {
+            img: foods_img_0,
+          },
+          {
+            img: foods_img_1,
+          },
+          {
+            img: foods_img_2,
+          },
+          {
+            img: foods_img_3,
+          },
+          {
+            img: foods_img_4,
+          },
+          {
+            img: foods_img_5,
+          },
+          {
+            img: foods_img_6,
+          },
+          {
+            img: foods_img_7,
+          },
+          {
+            img: foods_img_8,
+          },
+          {
+            img: foods_img_9,
+          },
+          {
+            img: foods_img_10,
+          },
+          {
+            img: foods_img_11,
+          },
+          {
+            img: foods_img_12,
+          },
+          {
+            img: foods_img_13,
+          },
+          {
+            img: foods_img_14,
+          },
+          {
+            img: foods_img_15,
+          },
+          {
+            img: foods_img_16,
+          },
+          {
+            img: foods_img_17,
+          },
+          {
+            img: foods_img_18,
+          },
+          {
+            img: foods_img_19,
+          },
+          {
+            img: foods_img_20,
+          },
+          {
+            img: foods_img_21,
+          },
+          {
+            img: foods_img_22,
+          },
+          {
+            img: foods_img_23,
+          },
+          {
+            img: foods_img_24,
+          },
+          {
+            img: foods_img_25,
+          },
+          {
+            img: foods_img_26,
+          },
+          {
+            img: foods_img_27,
+          },
+          {
+            img: foods_img_28,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: rooms_img_0,
+          },
+        ],
+        foods: [
+          {
+            img: menu_img_0,
+          },
+          {
+            img: menu_img_1,
+          },
+          {
+            img: menu_img_2,
+          },
+          {
+            img: menu_img_3,
+          },
+        ],
+        pools: [
+          {
+            img: pools_img_0,
+          },
+          {
+            img: pools_img_1,
+          },
+        ],
+      },
+    },
+    //Centropen Hotel and Restaurant
+    {
+      id: 2,
+      img: centropen_cover,
+      category: "Hotel and Restaurant",
+      title: "Centropen Hotel and Restaurant",
+      content:
+        "All events and Conference ( Wedding, Birthday Party, Debut Party, Baptism, Seminar)",
+      long_content: "",
+      location: "Barangay 10, Zone 1 Don Abella Drive",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      btn_visit_txt: "Bisita sa FB Page",
+      btn_prices_txt: "Mga Presyo",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 910-778-9810",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS//
+      dialNumber: "tel:(+63) 910-778-9810",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/Centropen+Hotel,+Don+Abella+Drive+Barangay+10+Catanauan,+Quezon,+4311+Quezon+Province",
+      loc_link: "https://goo.gl/maps/ZNt1mM7XkR7w5iHG7",
+      btn_visit_link: "https://www.facebook.com/centropenhotel",
+
+      //GALLERY
+      gallery: {
+        // rooms: [
+        //   {
+        //     img: rooms_img_1,
+        //   },
+        //   {
+        //     img: rooms_img_2,
+        //   },
+        //   {
+        //     img: rooms_img_3,
+        //   },
+        // ],
+        places: [
+          {
+            img: centro_place_img_0,
+          },
+          {
+            img: centro_place_img_1,
+          },
+          {
+            img: centro_place_img_2,
+          },
+          {
+            img: centro_place_img_3,
+          },
+          {
+            img: centro_place_img_4,
+          },
+          {
+            img: centro_place_img_5,
+          },
+          {
+            img: centro_place_img_6,
+          },
+          {
+            img: centro_place_img_7,
+          },
+        ],
+        foods: [
+          {
+            img: centro_foods_img_0,
+          },
+          {
+            img: centro_foods_img_1,
+          },
+          {
+            img: centro_foods_img_2,
+          },
+          {
+            img: centro_foods_img_3,
+          },
+          {
+            img: centro_foods_img_4,
+          },
+          {
+            img: centro_foods_img_5,
+          },
+          {
+            img: centro_foods_img_6,
+          },
+          {
+            img: centro_foods_img_7,
+          },
+          {
+            img: centro_foods_img_8,
+          },
+          {
+            img: centro_foods_img_9,
+          },
+          {
+            img: centro_foods_img_10,
+          },
+          {
+            img: centro_foods_img_11,
+          },
+          {
+            img: centro_foods_img_12,
+          },
+          {
+            img: centro_foods_img_13,
+          },
+          {
+            img: centro_foods_img_14,
+          },
+          {
+            img: centro_foods_img_15,
+          },
+          {
+            img: centro_foods_img_16,
+          },
+          {
+            img: centro_foods_img_17,
+          },
+          {
+            img: centro_foods_img_18,
+          },
+          {
+            img: centro_foods_img_19,
+          },
+          {
+            img: centro_foods_img_20,
+          },
+          {
+            img: centro_foods_img_21,
+          },
+          {
+            img: centro_foods_img_22,
+          },
+          {
+            img: centro_foods_img_23,
+          },
+          {
+            img: centro_foods_img_24,
+          },
+          {
+            img: centro_foods_img_25,
+          },
+          {
+            img: centro_foods_img_26,
+          },
+          {
+            img: centro_foods_img_27,
+          },
+          {
+            img: centro_foods_img_28,
+          },
+          {
+            img: centro_foods_img_29,
+          },
+          {
+            img: centro_foods_img_30,
+          },
+          {
+            img: centro_foods_img_31,
+          },
+          {
+            img: centro_foods_img_32,
+          },
+          {
+            img: centro_foods_img_33,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: centro_menu_img_0,
+          },
+          {
+            img: centro_menu_img_1,
+          },
+          {
+            img: centro_menu_img_2,
+          },
+          {
+            img: centro_menu_img_3,
+          },
+          {
+            img: centro_menu_img_4,
+          },
+          {
+            img: centro_menu_img_5,
+          },
+          {
+            img: centro_menu_img_6,
+          },
+        ],
+      },
+    },
+    //Emmas Hotel and Restaurant
+    {
+      id: 3,
+      img: emmas_cover,
+      category: "Hotel and Restaurant",
+      title: "Emma's Hotel and Restaurant",
+      content:
+        "Emma's Hotel and restaurant was founded on July 24, 1984 in Catanauan, Quezon by Emma Lahica and Jimmy Palustre.",
+      long_content:
+        "The business started with a menu containing only burger, pancit and just 1 to 2cases of beer being sold to few costumers. They managed to continue the daily transactions with a borrowed capital and dared to gamle with this technique for a couple of years.\n\n\n\nThe restaurant started as small 'karinderya' and the place is only being rented but after a few years, as the business begins to grow, they decided to buy the place and transformed as an official restaurant with a variety of dishes.\n\n\n\nYears have passed and the restaurant already established well known classic dishes. And in the year 2020, they agreed to expand the business by building a hotel which led today's Emmas Hotel and Restaurant.",
+      location: "Brgy. Pob 05, Arellano St, Catanauan, 4311 Quezon",
+      btn_prices_txt: "Mga Presyo",
+      btn_visit_txt: "Bisita sa FB Page",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: " Unavailable",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "",
+      loc_link: "https://goo.gl/maps/mP1bEuijcTcJqWSXA",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/H8RC%2BJ9C+Emma's+Hotel+and+Restaurant,+Arellano+St,+Catanauan,+4311+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/emmashotelandrestaurant?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        // rooms: [
+        //   {
+        //     img: rooms_img_1,
+        //   },
+        // ],
+        places: [
+          {
+            img: place_img_0,
+          },
+          {
+            img: place_img_1,
+          },
+          {
+            img: place_img_2,
+          },
+          {
+            img: place_img_3,
+          },
+          {
+            img: place_img_4,
+          },
+          {
+            img: place_img_5,
+          },
+          {
+            img: place_img_6,
+          },
+        ],
+        foods: [
+          {
+            img: emmas_foods_img_0,
+          },
+          {
+            img: emmas_foods_img_1,
+          },
+          {
+            img: emmas_foods_img_2,
+          },
+          {
+            img: emmas_foods_img_3,
+          },
+          {
+            img: emmas_foods_img_4,
+          },
+          {
+            img: emmas_foods_img_5,
+          },
+          {
+            img: emmas_foods_img_6,
+          },
+          {
+            img: emmas_foods_img_7,
+          },
+          {
+            img: emmas_foods_img_8,
+          },
+          {
+            img: emmas_foods_img_9,
+          },
+          {
+            img: emmas_foods_img_10,
+          },
+          {
+            img: emmas_foods_img_11,
+          },
+          {
+            img: emmas_foods_img_12,
+          },
+          {
+            img: emmas_foods_img_13,
+          },
+          {
+            img: emmas_foods_img_14,
+          },
+          {
+            img: emmas_foods_img_15,
+          },
+          {
+            img: emmas_foods_img_16,
+          },
+          {
+            img: emmas_foods_img_17,
+          },
+          {
+            img: emmas_foods_img_18,
+          },
+          {
+            img: emmas_foods_img_19,
+          },
+          {
+            img: emmas_foods_img_20,
+          },
+          {
+            img: emmas_foods_img_21,
+          },
+          {
+            img: emmas_foods_img_22,
+          },
+          {
+            img: emmas_foods_img_23,
+          },
+          {
+            img: emmas_foods_img_24,
+          },
+          {
+            img: emmas_foods_img_25,
+          },
+          {
+            img: emmas_foods_img_26,
+          },
+          {
+            img: emmas_foods_img_27,
+          },
+          {
+            img: emmas_foods_img_28,
+          },
+          {
+            img: emmas_foods_img_29,
+          },
+          {
+            img: emmas_foods_img_30,
+          },
+          {
+            img: emmas_foods_img_31,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: price_img_0,
+          },
+          {
+            img: price_img_1,
+          },
+          {
+            img: price_img_2,
+          },
+          {
+            img: price_img_3,
+          },
+        ],
+        foods: [
+          {
+            img: emmas_menu_img_0,
+          },
+          {
+            img: emmas_menu_img_1,
+          },
+        ],
+      },
+    },
+    //Eyns Hotel and Restaurant
+    {
+      id: 4,
+      img: eyns_cover,
+      category: "Hotel and Restaurant (Coffee and Beer)",
+      title: "Eyn's Hotel and Restaurant",
+      content:
+        "All events and Conference (Wedding, Birthday Party, Debut Party, Baptism, Seminar)",
+      long_content: "",
+      location: "Barangay 02, Don Pedro Abella St. Catanauan, Quezon",
+      btn_prices_txt: "Mga Presyo",
+      btn_visit_txt: "Bisita sa FB Page",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "09175237555 / 09088913079 / 09178417553",
+      fb_page_txt: "Facebook Page",
+      hrs1: "06:00 am - 12:00am",
+      hrs2: "06:00 am - 12:00am",
+      hrs3: "06:00 am - 12:00am",
+      hrs4: "06:00 am - 12:00am",
+      hrs5: "06:00 am - 12:00am",
+      hrs6: "06:00 am - 12:00am",
+      hrs7: "06:00 am - 12:00am",
+
+      //LINKS
+      dialNumber: "",
+      loc_link: "https://goo.gl/maps/WuZUTGLeL3VC4oTdA",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/Eyns'+Hotel+%26+Restaurant,+Pedro,+P.+Abella+St,+Brgy.+2,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/eyns.since88",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: eyns_rooms_img_0,
+          },
+          {
+            img: eyns_rooms_img_1,
+          },
+          {
+            img: eyns_rooms_img_2,
+          },
+          {
+            img: eyns_rooms_img_3,
+          },
+          {
+            img: eyns_rooms_img_4,
+          },
+          {
+            img: eyns_rooms_img_5,
+          },
+          {
+            img: eyns_rooms_img_6,
+          },
+          {
+            img: eyns_rooms_img_7,
+          },
+          {
+            img: eyns_rooms_img_8,
+          },
+          {
+            img: eyns_rooms_img_9,
+          },
+          {
+            img: eyns_rooms_img_10,
+          },
+        ],
+        places: [
+          {
+            img: eyns_places_img_0,
+          },
+          {
+            img: eyns_places_img_1,
+          },
+          {
+            img: eyns_places_img_2,
+          },
+          {
+            img: eyns_places_img_3,
+          },
+          {
+            img: eyns_places_img_4,
+          },
+          {
+            img: eyns_places_img_5,
+          },
+          {
+            img: eyns_places_img_6,
+          },
+          {
+            img: eyns_places_img_7,
+          },
+          {
+            img: eyns_places_img_8,
+          },
+          {
+            img: eyns_places_img_9,
+          },
+          {
+            img: eyns_places_img_10,
+          },
+          {
+            img: eyns_places_img_11,
+          },
+          {
+            img: eyns_places_img_12,
+          },
+          {
+            img: eyns_places_img_13,
+          },
+          {
+            img: eyns_places_img_14,
+          },
+          {
+            img: eyns_places_img_15,
+          },
+          {
+            img: eyns_places_img_16,
+          },
+          {
+            img: eyns_places_img_17,
+          },
+          {
+            img: eyns_places_img_18,
+          },
+          {
+            img: eyns_places_img_19,
+          },
+          {
+            img: eyns_places_img_20,
+          },
+          {
+            img: eyns_places_img_21,
+          },
+          {
+            img: eyns_places_img_22,
+          },
+          {
+            img: eyns_places_img_23,
+          },
+          {
+            img: eyns_places_img_24,
+          },
+          {
+            img: eyns_places_img_25,
+          },
+          {
+            img: eyns_places_img_26,
+          },
+          {
+            img: eyns_places_img_27,
+          },
+        ],
+        foods: [
+          {
+            img: emmas_foods_img_0,
+          },
+          {
+            img: emmas_foods_img_1,
+          },
+          {
+            img: emmas_foods_img_2,
+          },
+          {
+            img: emmas_foods_img_3,
+          },
+          {
+            img: emmas_foods_img_4,
+          },
+          {
+            img: emmas_foods_img_5,
+          },
+          {
+            img: emmas_foods_img_6,
+          },
+          {
+            img: emmas_foods_img_7,
+          },
+          {
+            img: emmas_foods_img_8,
+          },
+          {
+            img: emmas_foods_img_9,
+          },
+          {
+            img: emmas_foods_img_10,
+          },
+          {
+            img: emmas_foods_img_11,
+          },
+          {
+            img: emmas_foods_img_12,
+          },
+          {
+            img: emmas_foods_img_13,
+          },
+          {
+            img: emmas_foods_img_14,
+          },
+          {
+            img: emmas_foods_img_15,
+          },
+          {
+            img: emmas_foods_img_16,
+          },
+          {
+            img: emmas_foods_img_17,
+          },
+          {
+            img: emmas_foods_img_18,
+          },
+          {
+            img: emmas_foods_img_19,
+          },
+          {
+            img: emmas_foods_img_20,
+          },
+          {
+            img: emmas_foods_img_21,
+          },
+          {
+            img: emmas_foods_img_22,
+          },
+          {
+            img: emmas_foods_img_23,
+          },
+          {
+            img: emmas_foods_img_24,
+          },
+          {
+            img: emmas_foods_img_25,
+          },
+          {
+            img: emmas_foods_img_26,
+          },
+          {
+            img: emmas_foods_img_27,
+          },
+          {
+            img: emmas_foods_img_28,
+          },
+          {
+            img: emmas_foods_img_29,
+          },
+          {
+            img: emmas_foods_img_30,
+          },
+          {
+            img: emmas_foods_img_31,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: eyns_room_rates_img_0,
+          },
+          {
+            img: eyns_room_rates_img_1,
+          },
+        ],
+        foods: [
+          {
+            img: eyns_menu_img_0,
+          },
+          {
+            img: eyns_menu_img_1,
+          },
+        ],
+      },
+    },
+    //Laican Hotel
+    {
+      id: 5,
+      img: laican_cover,
+      category: "Hotel",
+      title: "Laican Botique Hotel",
+      content:
+        "FEELS LIKE HOME, Boutique Hotel in Quezon Avenue, Brgy.4 Catanauan, Quezon. Open 24 hours",
+      long_content: "",
+      location: "Barangay 02, Don Pedro Abella St. Catanauan, Quezon",
+      btn_prices_txt: "Mga Presyo",
+      btn_visit_txt: "Bisita sa FB Page",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 948-154-6059",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "tel:(+63) 948-154-6059",
+      loc_link: "https://goo.gl/maps/SCEqtLvFXnKoZHey5",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/H8WF%2BC4F+Laican+Boutique+Hotel,+Quezon+Ave,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/laicanboutiquehotelcatanauan/",
+      web_link: "https://laicanboutiquehotel.business.site/",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: laican_rooms_img_0,
+          },
+          {
+            img: laican_rooms_img_1,
+          },
+          {
+            img: laican_rooms_img_2,
+          },
+          {
+            img: laican_rooms_img_3,
+          },
+          {
+            img: laican_rooms_img_4,
+          },
+          {
+            img: laican_rooms_img_5,
+          },
+          {
+            img: laican_rooms_img_6,
+          },
+          {
+            img: laican_rooms_img_7,
+          },
+          {
+            img: laican_rooms_img_8,
+          },
+          {
+            img: laican_rooms_img_9,
+          },
+          {
+            img: laican_rooms_img_10,
+          },
+          {
+            img: laican_rooms_img_11,
+          },
+          {
+            img: laican_rooms_img_12,
+          },
+        ],
+        places: [
+          {
+            img: laican_place_img_0,
+          },
+          {
+            img: laican_place_img_1,
+          },
+          {
+            img: laican_place_img_2,
+          },
+          {
+            img: laican_place_img_3,
+          },
+          {
+            img: laican_place_img_4,
+          },
+          {
+            img: laican_place_img_5,
+          },
+          {
+            img: laican_place_img_6,
+          },
+          {
+            img: laican_place_img_7,
+          },
+          {
+            img: laican_place_img_8,
+          },
+          {
+            img: laican_place_img_9,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: laican_room_rates_img_0,
+          },
+        ],
+      },
+    },
+    //RakiLight Inn Hotel
+    {
+      id: 6,
+      img: raki_cover,
+      category: "Hotel",
+      title: "RakiLignt Inn Hotel",
+      content: "Where Comfort Meets Luxury, Every Stay, Every Day.",
+      long_content: "",
+      location: "Barangay Matandang Sabang Silangan, Catanauan, Quezon",
+      btn_prices_txt: "Mga Presyo",
+      btn_visit_txt: "Bisita sa FB Page",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 927-627-0830",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "tel:(+63) 927-627-0830",
+      loc_link: "https://goo.gl/maps/KtBUg7wJ7UuuQBCN6",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/RAKILIGHT+INN,+Pagkakaisa,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/RakiLightHotel?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: raki_room_img_0,
+          },
+          {
+            img: raki_room_img_1,
+          },
+          {
+            img: raki_room_img_2,
+          },
+          {
+            img: raki_room_img_3,
+          },
+          {
+            img: raki_room_img_4,
+          },
+          {
+            img: raki_room_img_5,
+          },
+          {
+            img: raki_room_img_6,
+          },
+          {
+            img: raki_room_img_7,
+          },
+          {
+            img: raki_room_img_8,
+          },
+          {
+            img: raki_room_img_9,
+          },
+          {
+            img: raki_room_img_10,
+          },
+          {
+            img: raki_room_img_11,
+          },
+          {
+            img: raki_room_img_12,
+          },
+          {
+            img: raki_room_img_13,
+          },
+          {
+            img: raki_room_img_14,
+          },
+          {
+            img: raki_room_img_15,
+          },
+        ],
+        places: [
+          {
+            img: raki_place_img_0,
+          },
+          {
+            img: raki_place_img_1,
+          },
+          {
+            img: raki_place_img_2,
+          },
+          {
+            img: raki_place_img_3,
+          },
+          {
+            img: raki_place_img_4,
+          },
+          {
+            img: raki_place_img_5,
+          },
+          {
+            img: raki_place_img_6,
+          },
+          {
+            img: raki_place_img_7,
+          },
+          {
+            img: raki_place_img_8,
+          },
+          {
+            img: raki_place_img_9,
+          },
+          {
+            img: raki_place_img_10,
+          },
+          {
+            img: raki_place_img_11,
+          },
+        ],
+      },
+      //PRICES
+    },
+    //Zoes Hotel
+    {
+      id: 7,
+      img: zoe_cover,
+      category: "Hotel",
+      title: "Zoe's Hotel",
+      content: "Where Comfort Meets Convenience – Your Ideal Retreat Awaits!",
+      long_content: "",
+      location: "Barangay 08, Catanauan, Quezon",
+      btn_prices_txt: "Mga Presyo",
+      btn_visit_txt: "Bisita sa FB Page",
+      direction_txt: "Kumuha ng Direksyon",
+      btn_more_txt: "+ Iba pa",
+      gallery: "Gallery",
+      menu: "Menu",
+
+      //CARD CONTENT
+      number: "(+63) 939-963-5840",
+      fb_page_txt: "Facebook Page",
+      hrs1: "24Hours",
+      hrs2: "24Hours",
+      hrs3: "24Hours",
+      hrs4: "24Hours",
+      hrs5: "24Hours",
+      hrs6: "24Hours",
+      hrs7: "24Hours",
+
+      //LINKS
+      dialNumber: "tel:(+63) 939-963-5840",
+      loc_link: "https://goo.gl/maps/qNrRWh2dfY5kaBug7",
+      direction_link:
+        "https://www.google.com/maps/dir/{{value}}/13.5902673,122.3269774",
+      btn_visit_link:
+        "https://www.facebook.com/RakiLightHotel?mibextid=ZbWKwLhttps://www.facebook.com/pages/Zoes-Hotel-Restaurant/1778570195688718",
+
+      //GALLERY
+      gallery: {
+        rooms: [
+          {
+            img: zoe_room_img_0,
+          },
+          {
+            img: zoe_room_img_1,
+          },
+          {
+            img: zoe_room_img_2,
+          },
+        ],
+        places: [
+          {
+            img: zoe_place_img_1,
+          },
+          {
+            img: zoe_place_img_2,
+          },
+          {
+            img: zoe_place_img_3,
+          },
+          {
+            img: zoe_place_img_4,
+          },
+          {
+            img: zoe_place_img_5,
+          },
+          {
+            img: zoe_place_img_6,
+          },
+          {
+            img: zoe_place_img_7,
+          },
+          {
+            img: zoe_place_img_8,
+          },
+          {
+            img: zoe_place_img_9,
+          },
+          {
+            img: zoe_place_img_10,
+          },
+          {
+            img: zoe_place_img_11,
+          },
+          {
+            img: zoe_place_img_12,
+          },
+        ],
+      },
+      //PRICES
+    },
+  ],
+
   //FALLS PAGE
   falls_page: [
     {
