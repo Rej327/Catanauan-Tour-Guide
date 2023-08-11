@@ -12,7 +12,7 @@ const RestoItem = ({ className }) => {
   const params = useParams();
 
   const dataInfo = useMemo(() => {
-    const data = language?.restaurants_page?.category_all.find(
+    const data = language?.restaurants_page?.find(
       (data) => data.id == params.id
     );
     return data;
@@ -22,8 +22,8 @@ const RestoItem = ({ className }) => {
       <div>
         <ItemHeader
           selectedPage={dataInfo.title}
-          category="Hotel"
-          linkPage="/hotels"
+          category="Restaurants"
+          linkPage="/restaurants"
         />
       </div>
       <div>
@@ -62,7 +62,7 @@ const RestoItem = ({ className }) => {
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <Carousel>
-            {language?.restaurants_page?.category_all.map((data) => (
+            {language?.restaurants_page?.map((data) => (
               <Link to={`/restaurants/${data.id}`}>
                 <div key={data.id} className="px-5">
                   <img

@@ -10,7 +10,7 @@ const RestoBody = () => {
   const { language } = useContext(LangContext);
   return (
     <div className="max-w-[1300px] mt-5 mb-10 mx-auto flex flex-wrap justify-center items-center gap-10">
-      {language.restaurants_page.category_all.map((data) => (
+      {language?.restaurants_page?.map((data) => (
         <div
           key={data.id}
           className="rounded-2xl relative restoItems w-fit h-fit"

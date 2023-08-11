@@ -52,7 +52,7 @@ const RestoItemContent_1 = ({ dataInfo }) => {
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <Carousel>
-            {language?.restaurants_page?.category_all.map((data) => (
+            {language?.restaurants_page?.map((data) => (
               <div
                 key={data.id}
                 className="rounded-2xl relative restoItems w-fit h-fit"
