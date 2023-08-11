@@ -1,16 +1,15 @@
 import React, { useContext, useEffect } from "react";
-import { rc1 } from "../../../assets";
-import { LangContext } from "../../../App";
+import { LangContext } from "../../App";
 import { Link } from "react-router-dom";
 
-const All = () => {
+const RestoBody = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
 
   const { language } = useContext(LangContext);
   return (
-    <div className="max-w-[1300px] my-10 mx-auto flex flex-wrap justify-center items-center gap-10">
+    <div className="max-w-[1300px] mt-5 mb-10 mx-auto flex flex-wrap justify-center items-center gap-10">
       {language.restaurants_page.category_all.map((data) => (
         <div
           key={data.id}
@@ -37,4 +36,4 @@ const All = () => {
   );
 };
 
-export default All;
+export default RestoBody;

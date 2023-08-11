@@ -2,8 +2,7 @@ import React, { useEffect } from "react";
 import Footer from "../components/common/Footer";
 import NavigatonInOtherPage from "../components/common/NavigatonInOtherPage";
 import RestoCover from "../components/resto_page/RestoCover";
-import RestoBodyDesktop from "../components/resto_page/RestoBodyDesktop";
-import RestoBodyMobile from "../components/resto_page/RestoBodyMobile";
+import RestoBody from "../components/resto_page/RestoBody";
 
 const ResortPage = () => {
   useEffect(() => {
@@ -15,8 +14,7 @@ const ResortPage = () => {
       <NavigatonInOtherPage />
       <div>
         <RestoCover />
-        <RestoBodyDesktop />
-        <RestoBodyMobile />
+        <RestoBody />
       </div>
       <Footer />
     </div>
