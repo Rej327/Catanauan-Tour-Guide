@@ -1898,74 +1898,68 @@ export const en = {
   ],
 
   //RESTAURANTS PAGE
-  restaurants_page: {
-    id: 0,
-    category_all: [
-      {
-        id: 0,
-        img: antonios,
-        title: "Antonio's Place Restaurants",
-        btn_txt: "View",
-        direction_txt: "Get Direction",
-        fb_page_txt: "Facebook Page",
-        content: "Cater, Birthday Party, Wedding",
-        //DATA
-        number: "(+63) 906-213-2683",
-        location: "Barangay 03, P.Burgos St.Cor.Gov.Perez",
-        hrs1: "9:00am - 9:00pm",
-        hrs2: "9:00am - 9:00pm",
-        hrs3: "9:00am - 9:00pm",
-        hrs4: "9:00am - 9:00pm",
-        hrs5: "9:00am - 9:00pm",
-        hrs6: "9:00am - 9:00pm",
-        hrs7: "9:00am - 9:00pm",
+  restaurants_page: [
+    {
+      id: 0,
+      img: antonios,
+      title: "Antonio's Place Restaurants",
+      btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "Cater, Birthday Party, Wedding",
+      //DATA
+      number: "(+63) 906-213-2683",
+      location: "Barangay 03, P.Burgos St.Cor.Gov.Perez",
+      hrs1: "9:00am - 9:00pm",
+      hrs2: "9:00am - 9:00pm",
+      hrs3: "9:00am - 9:00pm",
+      hrs4: "9:00am - 9:00pm",
+      hrs5: "9:00am - 9:00pm",
+      hrs6: "9:00am - 9:00pm",
+      hrs7: "9:00am - 9:00pm",
 
-        //LINKS
+      //LINKS
 
-        dialNumber: "tel:(+63) 906-213-2683",
-        loc_link: "https://goo.gl/maps/fyDpPWo5GXgATRbR7",
-        direction:
-          "https://www.google.com/maps/dir/{{value}}/H8VC%2BGCG+Antonio's+Place,+Gov+Perez+St,+Catanauan,+Quezon",
-        btn_visit_link:
-          "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
-        //PHOTOS
-      },
+      dialNumber: "tel:(+63) 906-213-2683",
+      loc_link: "https://goo.gl/maps/fyDpPWo5GXgATRbR7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H8VC%2BGCG+Antonio's+Place,+Gov+Perez+St,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
+      //PHOTOS
+    },
 
-      {
-        id: 1,
-        img: caferoman,
-        title: "Cafe Roman (Garden, Food, Coffee)",
-        btn_txt: "View",
-      },
-      {
-        id: 2,
-        img: eunilos,
-        title: "Eunilo's Cuisine",
-        btn_txt: "View",
-      },
-      {
-        id: 3,
-        img: presko,
-        title: "Presko Brews Coffee Shop",
-        btn_txt: "View",
-      },
-      {
-        id: 4,
-        img: seacret,
-        title: "Seacret Avenue",
-        btn_txt: "View",
-      },
-      {
-        id: 6,
-        img: vv,
-        title: "V & V Diner",
-        btn_txt: "View",
-      },
-    ],
-
-    id: 1,
-    category_pubs: [{}],
-  },
+    {
+      id: 1,
+      img: caferoman,
+      title: "Cafe Roman (Garden, Food, Coffee)",
+      btn_txt: "View",
+    },
+    {
+      id: 2,
+      img: eunilos,
+      title: "Eunilo's Cuisine",
+      btn_txt: "View",
+    },
+    {
+      id: 3,
+      img: presko,
+      title: "Presko Brews Coffee Shop",
+      btn_txt: "View",
+    },
+    {
+      id: 4,
+      img: seacret,
+      title: "Seacret Avenue",
+      btn_txt: "View",
+    },
+    {
+      id: 6,
+      img: vv,
+      title: "V & V Diner",
+      btn_txt: "View",
+    },
+  ],
 
   //FALLS PAGE
   falls_page: [
