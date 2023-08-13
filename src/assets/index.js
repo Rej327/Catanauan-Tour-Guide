@@ -195,6 +195,50 @@ export { default as presko_place_img_10 } from "./RestaurantsPage/PreskoBrews/Pl
 export { default as presko_place_img_11 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_11.webp";
 //----PLACE
 //PRESKO BREWS COFFEE SHOP
+
+//SEACRET AVENUE
+//----MENU
+// export { default as presko_menu_img_0 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_0.webp";
+//----MENU
+//----FOODS
+export { default as seacret_food_img_0 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_0.webp";
+export { default as seacret_food_img_1 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_1.webp";
+export { default as seacret_food_img_2 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_2.webp";
+export { default as seacret_food_img_3 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_3.webp";
+export { default as seacret_food_img_4 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_4.webp";
+export { default as seacret_food_img_5 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_5.webp";
+export { default as seacret_food_img_6 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_6.webp";
+export { default as seacret_food_img_7 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_7.webp";
+export { default as seacret_food_img_8 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_8.webp";
+export { default as seacret_food_img_9 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_9.webp";
+export { default as seacret_food_img_10 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_10.webp";
+export { default as seacret_food_img_11 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_11.webp";
+export { default as seacret_food_img_12 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_12.webp";
+export { default as seacret_food_img_13 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_13.webp";
+export { default as seacret_food_img_14 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_14.webp";
+export { default as seacret_food_img_15 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_15.webp";
+export { default as seacret_food_img_16 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_16.webp";
+export { default as seacret_food_img_17 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_17.webp";
+export { default as seacret_food_img_18 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_18.webp";
+export { default as seacret_food_img_19 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_19.webp";
+export { default as seacret_food_img_20 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_20.webp";
+export { default as seacret_food_img_21 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_21.webp";
+export { default as seacret_food_img_22 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_22.webp";
+export { default as seacret_food_img_23 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_23.webp";
+export { default as seacret_food_img_24 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_24.webp";
+export { default as seacret_food_img_25 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_25.webp";
+export { default as seacret_food_img_26 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_26.webp";
+//----FOODS
+//----PLACE
+export { default as seacret_place_img_0 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_0.webp";
+export { default as seacret_place_img_1 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_1.webp";
+export { default as seacret_place_img_2 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_2.webp";
+export { default as seacret_place_img_3 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_3.webp";
+export { default as seacret_place_img_4 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_4.webp";
+export { default as seacret_place_img_5 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_5.webp";
+export { default as seacret_place_img_6 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_6.webp";
+//----PLACE
+//SEACRET AVENUE
 //RESTAURANTS PAGE//
 
 //HOTELS PAGE//

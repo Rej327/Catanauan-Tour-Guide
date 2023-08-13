@@ -407,6 +407,40 @@ import {
   presko_place_img_2,
   presko_place_img_0,
   presko_food_img_0,
+  seacret_food_img_26,
+  seacret_food_img_25,
+  seacret_food_img_24,
+  seacret_food_img_23,
+  seacret_food_img_22,
+  seacret_food_img_21,
+  seacret_food_img_20,
+  seacret_food_img_19,
+  seacret_food_img_18,
+  seacret_food_img_17,
+  seacret_food_img_16,
+  seacret_food_img_15,
+  seacret_food_img_14,
+  seacret_food_img_13,
+  seacret_food_img_12,
+  seacret_food_img_11,
+  seacret_food_img_10,
+  seacret_food_img_9,
+  seacret_food_img_8,
+  seacret_food_img_7,
+  seacret_food_img_6,
+  seacret_food_img_5,
+  seacret_food_img_4,
+  seacret_food_img_3,
+  seacret_food_img_2,
+  seacret_food_img_1,
+  seacret_food_img_0,
+  seacret_place_img_6,
+  seacret_place_img_5,
+  seacret_place_img_4,
+  seacret_place_img_3,
+  seacret_place_img_2,
+  seacret_place_img_1,
+  seacret_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2003,6 +2037,7 @@ export const en = {
 
   //RESTAURANTS PAGE
   restaurants_page: [
+    //antonios place restaurant
     {
       id: 0,
       img: antonios,
@@ -2126,7 +2161,7 @@ export const en = {
         ],
       },
     },
-
+    //caferoman
     {
       id: 1,
       img: caferoman,
@@ -2240,6 +2275,7 @@ export const en = {
         ],
       },
     },
+    //eunilos cuisine
     {
       id: 2,
       img: eunilos,
@@ -2293,6 +2329,7 @@ export const en = {
         ],
       },
     },
+    //preko brews
     {
       id: 3,
       img: presko,
@@ -2418,11 +2455,131 @@ export const en = {
         ],
       },
     },
+    //seacret avenue
     {
       id: 4,
       img: seacret,
       title: "Seacret Avenue",
       btn_txt: "View",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: seacret_place_img_0,
+          },
+          {
+            img: seacret_place_img_1,
+          },
+          {
+            img: seacret_place_img_2,
+          },
+          {
+            img: seacret_place_img_3,
+          },
+          {
+            img: seacret_place_img_4,
+          },
+          {
+            img: seacret_place_img_5,
+          },
+          {
+            img: seacret_place_img_6,
+          },
+        ],
+        foods: [
+          {
+            img: seacret_food_img_0,
+          },
+          {
+            img: seacret_food_img_1,
+          },
+          {
+            img: seacret_food_img_2,
+          },
+          {
+            img: seacret_food_img_3,
+          },
+          {
+            img: seacret_food_img_4,
+          },
+          {
+            img: seacret_food_img_5,
+          },
+          {
+            img: seacret_food_img_6,
+          },
+          {
+            img: seacret_food_img_7,
+          },
+          {
+            img: seacret_food_img_8,
+          },
+          {
+            img: seacret_food_img_9,
+          },
+          {
+            img: seacret_food_img_10,
+          },
+          {
+            img: seacret_food_img_11,
+          },
+          {
+            img: seacret_food_img_12,
+          },
+          {
+            img: seacret_food_img_13,
+          },
+          {
+            img: seacret_food_img_14,
+          },
+          {
+            img: seacret_food_img_15,
+          },
+          {
+            img: seacret_food_img_16,
+          },
+          {
+            img: seacret_food_img_17,
+          },
+          {
+            img: seacret_food_img_18,
+          },
+          {
+            img: seacret_food_img_19,
+          },
+          {
+            img: seacret_food_img_20,
+          },
+          {
+            img: seacret_food_img_21,
+          },
+          {
+            img: seacret_food_img_22,
+          },
+          {
+            img: seacret_food_img_23,
+          },
+          {
+            img: seacret_food_img_24,
+          },
+          {
+            img: seacret_food_img_25,
+          },
+          {
+            img: seacret_food_img_26,
+          },
+        ],
+      },
+
+      //PRICES
+      // menu: {
+      //   foods: [
+      //     {
+      //       img: presko_menu_img_0,
+      //     },
+      //   ],
+      // },
     },
     {
       id: 6,
