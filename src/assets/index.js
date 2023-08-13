@@ -151,6 +151,50 @@ export { default as eunilos_place_img_4 } from "./RestaurantsPage/Eunilos/Places
 export { default as eunilos_place_img_5 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_5.webp";
 //----PLACE
 //EUNILOS CUISINE
+//PRESKO BREWS COFFEE SHOP
+//----MENU
+export { default as presko_menu_img_0 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_0.webp";
+export { default as presko_menu_img_1 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_1.webp";
+export { default as presko_menu_img_2 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_2.webp";
+export { default as presko_menu_img_3 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_3.webp";
+export { default as presko_menu_img_4 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_4.webp";
+export { default as presko_menu_img_5 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_5.webp";
+export { default as presko_menu_img_6 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_6.webp";
+//----MENU
+//----FOODS
+export { default as presko_food_img_0 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_0.webp";
+export { default as presko_food_img_1 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_1.webp";
+export { default as presko_food_img_2 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_2.webp";
+export { default as presko_food_img_3 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_3.webp";
+export { default as presko_food_img_4 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_4.webp";
+export { default as presko_food_img_5 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_5.webp";
+export { default as presko_food_img_6 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_6.webp";
+export { default as presko_food_img_7 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_7.webp";
+export { default as presko_food_img_8 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_8.webp";
+export { default as presko_food_img_9 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_9.webp";
+export { default as presko_food_img_10 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_10.webp";
+export { default as presko_food_img_11 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_11.webp";
+export { default as presko_food_img_12 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_12.webp";
+export { default as presko_food_img_13 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_13.webp";
+export { default as presko_food_img_14 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_14.webp";
+export { default as presko_food_img_15 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_15.webp";
+export { default as presko_food_img_16 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_16.webp";
+export { default as presko_food_img_17 } from "./RestaurantsPage/PreskoBrews/Foods/presko_food_img_17.webp";
+//----FOODS
+//----PLACE
+export { default as presko_place_img_0 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_0.webp";
+export { default as presko_place_img_2 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_2.webp";
+export { default as presko_place_img_3 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_3.webp";
+export { default as presko_place_img_4 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_4.webp";
+export { default as presko_place_img_5 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_5.webp";
+export { default as presko_place_img_6 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_6.webp";
+export { default as presko_place_img_7 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_7.webp";
+export { default as presko_place_img_8 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_8.webp";
+export { default as presko_place_img_9 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_9.webp";
+export { default as presko_place_img_10 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_10.webp";
+export { default as presko_place_img_11 } from "./RestaurantsPage/PreskoBrews/Places/presko_place_img_11.webp";
+//----PLACE
+//PRESKO BREWS COFFEE SHOP
 //RESTAURANTS PAGE//
 
 //HOTELS PAGE//

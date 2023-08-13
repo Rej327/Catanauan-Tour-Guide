@@ -372,6 +372,41 @@ import {
   eunilos_food_img_2,
   eunilos_menu_img_0,
   eunilos_menu_img_1,
+  presko_menu_img_0,
+  presko_menu_img_1,
+  presko_menu_img_2,
+  presko_menu_img_3,
+  presko_menu_img_5,
+  presko_menu_img_6,
+  presko_food_img_17,
+  presko_food_img_16,
+  presko_food_img_15,
+  presko_food_img_14,
+  presko_food_img_13,
+  presko_food_img_12,
+  presko_food_img_11,
+  presko_food_img_10,
+  presko_food_img_9,
+  presko_food_img_8,
+  presko_food_img_7,
+  presko_food_img_6,
+  presko_food_img_5,
+  presko_food_img_4,
+  presko_food_img_3,
+  presko_food_img_2,
+  presko_food_img_1,
+  presko_place_img_11,
+  presko_place_img_10,
+  presko_place_img_9,
+  presko_place_img_8,
+  presko_place_img_7,
+  presko_place_img_6,
+  presko_place_img_5,
+  presko_place_img_4,
+  presko_place_img_3,
+  presko_place_img_2,
+  presko_place_img_0,
+  presko_food_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2263,6 +2298,125 @@ export const en = {
       img: presko,
       title: "Presko Brews Coffee Shop",
       btn_txt: "View",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: presko_place_img_0,
+          },
+          {
+            img: presko_place_img_2,
+          },
+          {
+            img: presko_place_img_3,
+          },
+          {
+            img: presko_place_img_4,
+          },
+          {
+            img: presko_place_img_5,
+          },
+          {
+            img: presko_place_img_6,
+          },
+          {
+            img: presko_place_img_7,
+          },
+          {
+            img: presko_place_img_8,
+          },
+          {
+            img: presko_place_img_9,
+          },
+          {
+            img: presko_place_img_10,
+          },
+          {
+            img: presko_place_img_11,
+          },
+        ],
+        foods: [
+          {
+            img: presko_food_img_0,
+          },
+          {
+            img: presko_food_img_1,
+          },
+          {
+            img: presko_food_img_2,
+          },
+          {
+            img: presko_food_img_3,
+          },
+          {
+            img: presko_food_img_4,
+          },
+          {
+            img: presko_food_img_5,
+          },
+          {
+            img: presko_food_img_6,
+          },
+          {
+            img: presko_food_img_7,
+          },
+          {
+            img: presko_food_img_8,
+          },
+          {
+            img: presko_food_img_9,
+          },
+          {
+            img: presko_food_img_10,
+          },
+          {
+            img: presko_food_img_11,
+          },
+          {
+            img: presko_food_img_12,
+          },
+          {
+            img: presko_food_img_13,
+          },
+          {
+            img: presko_food_img_14,
+          },
+          {
+            img: presko_food_img_15,
+          },
+          {
+            img: presko_food_img_16,
+          },
+          {
+            img: presko_food_img_17,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: presko_menu_img_0,
+          },
+          {
+            img: presko_menu_img_1,
+          },
+          {
+            img: presko_menu_img_2,
+          },
+          {
+            img: presko_menu_img_3,
+          },
+          {
+            img: presko_menu_img_5,
+          },
+          {
+            img: presko_menu_img_6,
+          },
+        ],
+      },
     },
     {
       id: 4,
