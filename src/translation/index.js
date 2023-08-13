@@ -441,6 +441,45 @@ import {
   seacret_place_img_2,
   seacret_place_img_1,
   seacret_place_img_0,
+  vv_food_img_21,
+  vv_menu_img_1,
+  vv_menu_img_0,
+  vv_food_img_20,
+  vv_food_img_19,
+  vv_food_img_18,
+  vv_food_img_17,
+  vv_food_img_16,
+  vv_food_img_15,
+  vv_food_img_14,
+  vv_food_img_13,
+  vv_food_img_12,
+  vv_food_img_11,
+  vv_food_img_10,
+  vv_food_img_9,
+  vv_food_img_8,
+  vv_food_img_7,
+  vv_food_img_6,
+  vv_food_img_5,
+  vv_food_img_4,
+  vv_food_img_3,
+  vv_food_img_2,
+  vv_food_img_1,
+  vv_food_img_0,
+  vv_place_img_14,
+  vv_place_img_13,
+  vv_place_img_12,
+  vv_place_img_11,
+  vv_place_img_10,
+  vv_place_img_9,
+  vv_place_img_8,
+  vv_place_img_7,
+  vv_place_img_6,
+  vv_place_img_5,
+  vv_place_img_4,
+  vv_place_img_3,
+  vv_place_img_2,
+  vv_place_img_1,
+  vv_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2581,11 +2620,143 @@ export const en = {
       //   ],
       // },
     },
+    //v&v dinner
     {
       id: 6,
       img: vv,
       title: "V & V Diner",
       btn_txt: "View",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: vv_place_img_0,
+          },
+          {
+            img: vv_place_img_1,
+          },
+          {
+            img: vv_place_img_2,
+          },
+          {
+            img: vv_place_img_3,
+          },
+          {
+            img: vv_place_img_4,
+          },
+          {
+            img: vv_place_img_5,
+          },
+          {
+            img: vv_place_img_6,
+          },
+          {
+            img: vv_place_img_7,
+          },
+          {
+            img: vv_place_img_8,
+          },
+          {
+            img: vv_place_img_9,
+          },
+          {
+            img: vv_place_img_10,
+          },
+          {
+            img: vv_place_img_11,
+          },
+          {
+            img: vv_place_img_12,
+          },
+          {
+            img: vv_place_img_13,
+          },
+          {
+            img: vv_place_img_14,
+          },
+        ],
+        foods: [
+          {
+            img: vv_food_img_0,
+          },
+          {
+            img: vv_food_img_1,
+          },
+          {
+            img: vv_food_img_2,
+          },
+          {
+            img: vv_food_img_3,
+          },
+          {
+            img: vv_food_img_4,
+          },
+          {
+            img: vv_food_img_5,
+          },
+          {
+            img: vv_food_img_6,
+          },
+          {
+            img: vv_food_img_7,
+          },
+          {
+            img: vv_food_img_8,
+          },
+          {
+            img: vv_food_img_9,
+          },
+          {
+            img: vv_food_img_10,
+          },
+          {
+            img: vv_food_img_11,
+          },
+          {
+            img: vv_food_img_12,
+          },
+          {
+            img: vv_food_img_13,
+          },
+          {
+            img: vv_food_img_14,
+          },
+          {
+            img: vv_food_img_15,
+          },
+          {
+            img: vv_food_img_16,
+          },
+          {
+            img: vv_food_img_17,
+          },
+          {
+            img: vv_food_img_18,
+          },
+          {
+            img: vv_food_img_19,
+          },
+          {
+            img: vv_food_img_20,
+          },
+          {
+            img: vv_food_img_21,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: vv_menu_img_0,
+          },
+          {
+            img: vv_menu_img_1,
+          },
+        ],
+      },
     },
   ],
 

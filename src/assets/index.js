@@ -239,6 +239,54 @@ export { default as seacret_place_img_5 } from "./RestaurantsPage/SeacretAve/Pla
 export { default as seacret_place_img_6 } from "./RestaurantsPage/SeacretAve/Places/seacret_place_img_6.webp";
 //----PLACE
 //SEACRET AVENUE
+
+//V&V DINNER
+//----MENU
+export { default as vv_menu_img_0 } from "./RestaurantsPage/V&V/Menu/vv_menu_img_0.webp";
+export { default as vv_menu_img_1 } from "./RestaurantsPage/V&V/Menu/vv_menu_img_1.webp";
+//----MENU
+//----FOODS
+export { default as vv_food_img_0 } from "./RestaurantsPage/V&V/Foods/vv_food_img_0.webp";
+export { default as vv_food_img_1 } from "./RestaurantsPage/V&V/Foods/vv_food_img_1.webp";
+export { default as vv_food_img_2 } from "./RestaurantsPage/V&V/Foods/vv_food_img_2.webp";
+export { default as vv_food_img_3 } from "./RestaurantsPage/V&V/Foods/vv_food_img_3.webp";
+export { default as vv_food_img_4 } from "./RestaurantsPage/V&V/Foods/vv_food_img_4.webp";
+export { default as vv_food_img_5 } from "./RestaurantsPage/V&V/Foods/vv_food_img_5.webp";
+export { default as vv_food_img_6 } from "./RestaurantsPage/V&V/Foods/vv_food_img_6.webp";
+export { default as vv_food_img_7 } from "./RestaurantsPage/V&V/Foods/vv_food_img_7.webp";
+export { default as vv_food_img_8 } from "./RestaurantsPage/V&V/Foods/vv_food_img_8.webp";
+export { default as vv_food_img_9 } from "./RestaurantsPage/V&V/Foods/vv_food_img_9.webp";
+export { default as vv_food_img_10 } from "./RestaurantsPage/V&V/Foods/vv_food_img_10.webp";
+export { default as vv_food_img_11 } from "./RestaurantsPage/V&V/Foods/vv_food_img_11.webp";
+export { default as vv_food_img_12 } from "./RestaurantsPage/V&V/Foods/vv_food_img_12.webp";
+export { default as vv_food_img_13 } from "./RestaurantsPage/V&V/Foods/vv_food_img_13.webp";
+export { default as vv_food_img_14 } from "./RestaurantsPage/V&V/Foods/vv_food_img_14.webp";
+export { default as vv_food_img_15 } from "./RestaurantsPage/V&V/Foods/vv_food_img_15.webp";
+export { default as vv_food_img_16 } from "./RestaurantsPage/V&V/Foods/vv_food_img_16.webp";
+export { default as vv_food_img_17 } from "./RestaurantsPage/V&V/Foods/vv_food_img_17.webp";
+export { default as vv_food_img_18 } from "./RestaurantsPage/V&V/Foods/vv_food_img_18.webp";
+export { default as vv_food_img_19 } from "./RestaurantsPage/V&V/Foods/vv_food_img_19.webp";
+export { default as vv_food_img_20 } from "./RestaurantsPage/V&V/Foods/vv_food_img_20.webp";
+export { default as vv_food_img_21 } from "./RestaurantsPage/V&V/Foods/vv_food_img_21.webp";
+//----FOODS
+//----PLACE
+export { default as vv_place_img_0 } from "./RestaurantsPage/V&V/Places/vv_place_img_0.webp";
+export { default as vv_place_img_1 } from "./RestaurantsPage/V&V/Places/vv_place_img_1.webp";
+export { default as vv_place_img_2 } from "./RestaurantsPage/V&V/Places/vv_place_img_2.webp";
+export { default as vv_place_img_3 } from "./RestaurantsPage/V&V/Places/vv_place_img_3.webp";
+export { default as vv_place_img_4 } from "./RestaurantsPage/V&V/Places/vv_place_img_4.webp";
+export { default as vv_place_img_5 } from "./RestaurantsPage/V&V/Places/vv_place_img_5.webp";
+export { default as vv_place_img_6 } from "./RestaurantsPage/V&V/Places/vv_place_img_6.webp";
+export { default as vv_place_img_7 } from "./RestaurantsPage/V&V/Places/vv_place_img_7.webp";
+export { default as vv_place_img_8 } from "./RestaurantsPage/V&V/Places/vv_place_img_8.webp";
+export { default as vv_place_img_9 } from "./RestaurantsPage/V&V/Places/vv_place_img_9.webp";
+export { default as vv_place_img_10 } from "./RestaurantsPage/V&V/Places/vv_place_img_10.webp";
+export { default as vv_place_img_11 } from "./RestaurantsPage/V&V/Places/vv_place_img_11.webp";
+export { default as vv_place_img_12 } from "./RestaurantsPage/V&V/Places/vv_place_img_12.webp";
+export { default as vv_place_img_13 } from "./RestaurantsPage/V&V/Places/vv_place_img_13.webp";
+export { default as vv_place_img_14 } from "./RestaurantsPage/V&V/Places/vv_place_img_14.webp";
+//----PLACE
+//V&V DINNER
 //RESTAURANTS PAGE//
 
 //HOTELS PAGE//
