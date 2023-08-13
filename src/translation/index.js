@@ -303,6 +303,33 @@ import {
   centro_room_rates_img_3,
   centro_room_rates_img_4,
   zoe_room_rates_img_0,
+  antonios_place_img_0,
+  antonios_place_img_1,
+  antonios_place_img_2,
+  antonios_place_img_3,
+  antonios_place_img_4,
+  antonios_place_img_5,
+  antonios_place_img_6,
+  antonios_place_img_7,
+  antonios_place_img_8,
+  antonios_place_img_9,
+  antonios_place_img_10,
+  antonios_food_img_0,
+  antonios_food_img_1,
+  antonios_food_img_2,
+  antonios_food_img_3,
+  antonios_food_img_4,
+  antonios_food_img_5,
+  antonios_food_img_6,
+  antonios_food_img_7,
+  antonios_food_img_8,
+  antonios_food_img_9,
+  antonios_food_img_10,
+  antonios_food_img_11,
+  antonios_food_img_12,
+  antonios_food_img_13,
+  antonios_food_img_14,
+  antonios_menu_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1926,7 +1953,101 @@ export const en = {
         "https://www.google.com/maps/dir/{{value}}/H8VC%2BGCG+Antonio's+Place,+Gov+Perez+St,+Catanauan,+Quezon",
       btn_visit_link:
         "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
-      //PHOTOS
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: antonios_place_img_0,
+          },
+          {
+            img: antonios_place_img_1,
+          },
+          {
+            img: antonios_place_img_2,
+          },
+          {
+            img: antonios_place_img_3,
+          },
+          {
+            img: antonios_place_img_4,
+          },
+          {
+            img: antonios_place_img_5,
+          },
+          {
+            img: antonios_place_img_6,
+          },
+          {
+            img: antonios_place_img_7,
+          },
+          {
+            img: antonios_place_img_8,
+          },
+          {
+            img: antonios_place_img_9,
+          },
+          {
+            img: antonios_place_img_10,
+          },
+        ],
+        foods: [
+          {
+            img: antonios_food_img_0,
+          },
+          {
+            img: antonios_food_img_1,
+          },
+          {
+            img: antonios_food_img_2,
+          },
+          {
+            img: antonios_food_img_3,
+          },
+          {
+            img: antonios_food_img_4,
+          },
+          {
+            img: antonios_food_img_5,
+          },
+          {
+            img: antonios_food_img_6,
+          },
+          {
+            img: antonios_food_img_7,
+          },
+          {
+            img: antonios_food_img_8,
+          },
+          {
+            img: antonios_food_img_9,
+          },
+          {
+            img: antonios_food_img_10,
+          },
+          {
+            img: antonios_food_img_11,
+          },
+          {
+            img: antonios_food_img_12,
+          },
+          {
+            img: antonios_food_img_13,
+          },
+          {
+            img: antonios_food_img_14,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: antonios_menu_img_0,
+          },
+        ],
+      },
     },
 
     {
