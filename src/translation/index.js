@@ -330,6 +330,37 @@ import {
   antonios_food_img_13,
   antonios_food_img_14,
   antonios_menu_img_0,
+  roman_place_img_11,
+  roman_place_img_0,
+  roman_place_img_1,
+  roman_place_img_2,
+  roman_place_img_3,
+  roman_place_img_4,
+  roman_place_img_5,
+  roman_place_img_6,
+  roman_place_img_7,
+  roman_place_img_8,
+  roman_place_img_9,
+  roman_place_img_10,
+  roman_food_img_0,
+  roman_food_img_1,
+  roman_food_img_2,
+  roman_food_img_3,
+  roman_food_img_4,
+  roman_food_img_5,
+  roman_food_img_6,
+  roman_food_img_7,
+  roman_food_img_8,
+  roman_food_img_9,
+  roman_food_img_10,
+  roman_food_img_11,
+  roman_food_img_12,
+  roman_menu_img_0,
+  roman_menu_img_1,
+  roman_menu_img_2,
+  roman_menu_img_3,
+  roman_menu_img_4,
+  roman_menu_img_5,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2055,6 +2086,113 @@ export const en = {
       img: caferoman,
       title: "Cafe Roman (Garden, Food, Coffee)",
       btn_txt: "View",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: roman_place_img_0,
+          },
+          {
+            img: roman_place_img_1,
+          },
+          {
+            img: roman_place_img_2,
+          },
+          {
+            img: roman_place_img_3,
+          },
+          {
+            img: roman_place_img_4,
+          },
+          {
+            img: roman_place_img_5,
+          },
+          {
+            img: roman_place_img_6,
+          },
+          {
+            img: roman_place_img_7,
+          },
+          {
+            img: roman_place_img_8,
+          },
+          {
+            img: roman_place_img_9,
+          },
+          {
+            img: roman_place_img_10,
+          },
+          {
+            img: roman_place_img_11,
+          },
+        ],
+        foods: [
+          {
+            img: roman_food_img_0,
+          },
+          {
+            img: roman_food_img_1,
+          },
+          {
+            img: roman_food_img_2,
+          },
+          {
+            img: roman_food_img_3,
+          },
+          {
+            img: roman_food_img_4,
+          },
+          {
+            img: roman_food_img_5,
+          },
+          {
+            img: roman_food_img_6,
+          },
+          {
+            img: roman_food_img_7,
+          },
+          {
+            img: roman_food_img_8,
+          },
+          {
+            img: roman_food_img_9,
+          },
+          {
+            img: roman_food_img_10,
+          },
+          {
+            img: roman_food_img_11,
+          },
+          {
+            img: roman_food_img_12,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: roman_menu_img_0,
+          },
+          {
+            img: roman_menu_img_1,
+          },
+          {
+            img: roman_menu_img_2,
+          },
+          {
+            img: roman_menu_img_3,
+          },
+          {
+            img: roman_menu_img_4,
+          },
+          {
+            img: roman_menu_img_5,
+          },
+        ],
+      },
     },
     {
       id: 2,

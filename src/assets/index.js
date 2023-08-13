@@ -93,6 +93,46 @@ export { default as antonios_place_img_9 } from "./RestaurantsPage/Antonios/Plac
 export { default as antonios_place_img_10 } from "./RestaurantsPage/Antonios/Places/antonios_place_img_10.webp";
 //----PLACE
 //ANTONIOS PLACE RESTAURANT
+//CAFE ROMAN (COFFEE, TEA, GARDEN)
+//----MENU
+export { default as roman_menu_img_0 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_0.webp";
+export { default as roman_menu_img_1 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_1.webp";
+export { default as roman_menu_img_2 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_2.webp";
+export { default as roman_menu_img_3 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_3.webp";
+export { default as roman_menu_img_4 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_4.webp";
+export { default as roman_menu_img_5 } from "./RestaurantsPage/CafeRoman/Menu/roman_menu_img_5.webp";
+//----MENU
+//----FOODS
+export { default as roman_food_img_0 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_0.webp";
+export { default as roman_food_img_1 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_1.webp";
+export { default as roman_food_img_2 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_2.webp";
+export { default as roman_food_img_3 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_3.webp";
+export { default as roman_food_img_4 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_4.webp";
+export { default as roman_food_img_5 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_5.webp";
+export { default as roman_food_img_6 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_6.webp";
+export { default as roman_food_img_7 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_7.webp";
+export { default as roman_food_img_8 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_8.webp";
+export { default as roman_food_img_9 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_9.webp";
+export { default as roman_food_img_10 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_10.webp";
+export { default as roman_food_img_11 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_11.webp";
+export { default as roman_food_img_12 } from "./RestaurantsPage/CafeRoman/Foods/roman_food_img_12.webp";
+//----FOODS
+//----PLACE
+export { default as roman_place_img_0 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_0.webp";
+export { default as roman_place_img_1 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_1.webp";
+export { default as roman_place_img_2 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_2.webp";
+export { default as roman_place_img_3 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_3.webp";
+export { default as roman_place_img_4 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_4.webp";
+export { default as roman_place_img_5 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_5.webp";
+export { default as roman_place_img_6 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_6.webp";
+export { default as roman_place_img_7 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_7.webp";
+export { default as roman_place_img_8 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_8.webp";
+export { default as roman_place_img_9 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_9.webp";
+export { default as roman_place_img_10 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_10.webp";
+export { default as roman_place_img_11 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_11.webp";
+//----PLACE
+
+//CAFE ROMAN (COFFEE, TEA, GARDEN)
 //RESTAURANTS PAGE//
 
 //HOTELS PAGE//
