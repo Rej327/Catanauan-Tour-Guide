@@ -131,8 +131,26 @@ export { default as roman_place_img_9 } from "./RestaurantsPage/CafeRoman/Places
 export { default as roman_place_img_10 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_10.webp";
 export { default as roman_place_img_11 } from "./RestaurantsPage/CafeRoman/Places/roman_place_img_11.webp";
 //----PLACE
-
 //CAFE ROMAN (COFFEE, TEA, GARDEN)
+//EUNILOS CUISINE
+//----MENU
+export { default as eunilos_menu_img_0 } from "./RestaurantsPage/Eunilos/Menu/eunilos_menu_img_0.webp";
+export { default as eunilos_menu_img_1 } from "./RestaurantsPage/Eunilos/Menu/eunilos_menu_img_1.webp";
+//----MENU
+//----FOODS
+export { default as eunilos_food_img_0 } from "./RestaurantsPage/Eunilos/Foods/eunilos_food_img_0.webp";
+export { default as eunilos_food_img_1 } from "./RestaurantsPage/Eunilos/Foods/eunilos_food_img_1.webp";
+export { default as eunilos_food_img_2 } from "./RestaurantsPage/Eunilos/Foods/eunilos_food_img_2.webp";
+//----FOODS
+//----PLACE
+export { default as eunilos_place_img_0 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_0.webp";
+export { default as eunilos_place_img_1 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_1.webp";
+export { default as eunilos_place_img_2 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_2.webp";
+export { default as eunilos_place_img_3 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_3.webp";
+export { default as eunilos_place_img_4 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_4.webp";
+export { default as eunilos_place_img_5 } from "./RestaurantsPage/Eunilos/Places/eunilos_place_img_5.webp";
+//----PLACE
+//EUNILOS CUISINE
 //RESTAURANTS PAGE//
 
 //HOTELS PAGE//

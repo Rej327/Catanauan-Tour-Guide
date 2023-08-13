@@ -361,6 +361,17 @@ import {
   roman_menu_img_3,
   roman_menu_img_4,
   roman_menu_img_5,
+  eunilos_place_img_0,
+  eunilos_place_img_1,
+  eunilos_place_img_2,
+  eunilos_place_img_3,
+  eunilos_place_img_4,
+  eunilos_place_img_5,
+  eunilos_food_img_0,
+  eunilos_food_img_1,
+  eunilos_food_img_2,
+  eunilos_menu_img_0,
+  eunilos_menu_img_1,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2199,6 +2210,53 @@ export const en = {
       img: eunilos,
       title: "Eunilo's Cuisine",
       btn_txt: "View",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: eunilos_place_img_0,
+          },
+          {
+            img: eunilos_place_img_1,
+          },
+          {
+            img: eunilos_place_img_2,
+          },
+          {
+            img: eunilos_place_img_3,
+          },
+          {
+            img: eunilos_place_img_4,
+          },
+          {
+            img: eunilos_place_img_5,
+          },
+        ],
+        foods: [
+          {
+            img: eunilos_food_img_0,
+          },
+          {
+            img: eunilos_food_img_1,
+          },
+          {
+            img: eunilos_food_img_2,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: eunilos_menu_img_0,
+          },
+          {
+            img: eunilos_menu_img_1,
+          },
+        ],
+      },
     },
     {
       id: 3,
