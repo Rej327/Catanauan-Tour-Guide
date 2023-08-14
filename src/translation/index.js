@@ -2226,7 +2226,7 @@ export const en = {
       loc_link: "https://goo.gl/maps/zzf7RPkbrZjs7ywf7",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Cafe+Roman,+P.+Burgos+St,+Catanauan,+4311+Quezon",
-      btn_visit_link: "https:/www.facebook.com/caferoman2023?mibextid=ZbWKwL",
+      btn_visit_link: "https://www.facebook.com/caferoman2023?mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
@@ -2341,6 +2341,28 @@ export const en = {
       img: eunilos,
       title: "Eunilo's Cuisine",
       btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "Seminar, Birthday Party (20 Person Only)",
+      //DATA
+      number: "(+63) 948-041-2622",
+      location: "Barangay 02, Padre Burgos Corner MH Del Pilar St.",
+      hrs1: "10:00am - 10:00pm",
+      hrs2: "10:00am - 10:00pm",
+      hrs3: "10:00am - 10:00pm",
+      hrs4: "10:00am - 10:00pm",
+      hrs5: "10:00am - 10:00pm",
+      hrs6: "10:00am - 10:00pm",
+      hrs7: "9:00am - 10:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 948-041-2622",
+      loc_link: "https://goo.gl/maps/mKop3PyX774x9uqR9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/54+M.+H.+del+Pilar+Street,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/profile.php?id=100064212123732&mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
