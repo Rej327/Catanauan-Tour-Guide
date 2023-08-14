@@ -2415,8 +2415,29 @@ export const en = {
     {
       id: 3,
       img: presko,
-      title: "Presko Brews Coffee Shop",
+      title: "Presko Brews (Coffee & Chill)",
       btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 921-601-7632",
+      location: "Brgy 08 Poblacion, Catanauan, 4311 Quezon",
+      hrs1: "02:00pm - 11:00pm",
+      hrs2: "02:00pm - 11:00pm",
+      hrs3: "02:00pm - 11:00pm",
+      hrs4: "02:00pm - 11:00pm",
+      hrs5: "02:00pm - 11:00pm",
+      hrs6: "02:00pm - 11:00pm",
+      hrs7: "02:00pm - 11:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 921-601-7632",
+      loc_link: "https://goo.gl/maps/Wr6mpHA9aZwHs6Dc6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Presko+Brews,+Brgy+08+Poblacion,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/preskobrews?mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
