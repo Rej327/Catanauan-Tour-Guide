@@ -485,6 +485,49 @@ import {
 //ENGLISH TRANSLATION
 
 export const en = {
+  page_cover: {
+    //resort cover
+    resorts_cover: {
+      head: "Place to relax and unwind",
+      category: "Resorts",
+      title: "Discover Pools and Beach Resorts in Catanauan",
+      content:
+        "Discover an abundance of exceptional beach and pool resorts in the captivating town of Catanauan. Whether you're seeking a serene seaside escape or a refreshing dip in a luxurious pool, this enchanting destination offers a wide range of remarkable options for the ultimate vacation experience.",
+    },
+    //hotel cover
+    hotel_cover: {
+      head: "Where to stay?",
+      category: "Hotels",
+      title: "Discover accommodation in Catanauan",
+      content:
+        "Explore a variety of outstanding accommodations in the charming town of Catanauan. From cozy bed and breakfasts to luxurious resorts, there's a perfect place to stay for every traveler's taste and preference.",
+    },
+    //restaurant cover
+    restaurant_cover: {
+      head: "Food Worth Traveling For",
+      category: "Restaurants",
+      title: "Discover food that is worth traveling for in Catanauan",
+      content:
+        "Embark on a gastronomic adventure in Catanauan and uncover a treasure trove of culinary delights that are worth traveling for.",
+    },
+    //falls cover
+    falls_cover: {
+      head: "Plunge into Paradise",
+      category: "Falls",
+      title: "Discover Majestic Falls in Catanauan",
+      content:
+        "Whether you crave a tranquil waterfall retreat or an invigorating plunge into nature's embrace, this enchanting destination presents an array of breathtaking options for an unforgettable vacation. Discover the mesmerizing allure of Catanauan's falls and let nature's wonders captivate your senses.",
+    },
+    //transportation cover
+    transportation_cover: {
+      head: "Towards Your Destination, One Ride Away!",
+      category: "Transportations",
+      title: "Explore Convenient Transportation Options in Catanauan",
+      content:
+        "Whether you're looking for a smooth ride to the serene seaside or a comfortable journey to a luxurious pool, this captivating destination provides a plethora of exceptional transportation options for your ultimate vacation experience.",
+    },
+  },
+
   main: {
     resorts: [
       {
@@ -3115,6 +3158,50 @@ export const en = {
 //FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
 
 export const fil = {
+  page_cover: {
+    //resort cover
+    resorts_cover: {
+      head: "Lugar para Mag-relax at Magpahinga",
+      category: "Mga Resort",
+      title: "Tuklasin ang mga Pook-Dagat at mga Resort sa Catanauan",
+      content:
+        "Tuklasin ang napakaraming mga magagandang beach at pool resort sa nakamamanghang bayan ng Catanauan. Makakaranas ka ng tahimik na pahinga sa tabi ng dagat o isang nakakapreskong lagapak sa mamahaling pool, ang nakaluluring destinasyon na ito ay nag-aalok ng iba't ibang kahanga-hangang pagpipilian para sa pinakamahusay na karanasan sa bakasyon.",
+    },
+    //hotel cover
+    hotel_cover: {
+      head: "Saan Mag-stay?",
+      category: "Mga Hotel",
+      title: "Tuklasin ang mga Tirahan sa Catanauan",
+      content:
+        "Mag-explore ng iba't ibang mga magagandang tirahan sa kaakit-akit na bayan ng Catanauan. Mula sa maalinsangan at komportableng bed and breakfast hanggang sa mga mamahaling resort, mayroong perpektong lugar para sa bawat panlasa at kagustuhan ng bawat biyahero.",
+    },
+    //restaurant cover
+    restaurant_cover: {
+      head: "Pagkain na Sulit na Lakbayin",
+      category: "Mga Restawran",
+      title: "Tuklasin ang mga Pagkain na Sulit na Lakbayin sa Catanauan",
+      content:
+        "Mag-embarka sa isang gastronomic adventure sa Catanauan at alamin ang mga kayamanang kulinarya na sulit na lakbayin.",
+    },
+    //falls cover
+    falls_cover: {
+      head: "Lusong sa Paraiso",
+      category: "Mga Talon",
+      title: "Tuklasin ang mga Marilag na Talon sa Catanauan",
+      content:
+        "Mangarap ka man ng isang tahimik na getaway sa ilalim ng talon o isang masiglang lagapak sa yakap ng kalikasan, ang nakamamanghang destinasyong ito ay nag-aalok ng mga kamangha-manghang pagpipilian para sa isang hindi malilimutang bakasyon. Tuklasin ang kahanga-hangang ganda ng mga talon sa Catanauan at hayaan ang kagandahan ng kalikasan na kumawil ng iyong mga karamdaman.",
+    },
+    //transportation cover
+    transportation_cover: {
+      head: "Patungo sa Iyong Destinasyon, Isang Biyahe Lang!",
+      category: "Transportasyon",
+      title:
+        "Mag-explore ng Mga Konektadong Pagpipilian sa Transportasyon sa Catanauan",
+      content:
+        "Hindi kung ikaw ay naghahanap ng maginhawang biyahe patungo sa tahimik na pook-dagat o isang komportableng paglalakbay patungo sa mamahaling pool, ang nakakaluring destinasyong ito ay nagbibigay ng maraming mga kahanga-hangang pagpipilian para sa iyong pinakamahusay na karanasan sa bakasyon.",
+    },
+  },
+
   main: {
     resorts: [
       {

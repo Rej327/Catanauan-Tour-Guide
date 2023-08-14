@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
 import Cover from "../common/Cover";
+import { LangContext } from "../../App";
 
 const TranspoCover = () => {
+  const { language } = useContext(LangContext);
   return (
     <Cover
       bgImage="bg-[url(./assets/PageCover/transportation.jpg)]"
-      header="Towards Your Destination, One Ride Away!"
-      selectedPage="Transportations"
-      title=" Explore Convenient Transportation Options in Catanauan"
-      context="Whether you're looking for a smooth ride to the serene seaside or a comfortable journey to a luxurious pool, this captivating destination provides a plethora of exceptional transportation options for your ultimate vacation experience."
+      header={language?.page_cover?.transportation_cover?.head}
+      selectedPage={language?.page_cover?.transportation_cover?.category}
+      title={language?.page_cover?.transportation_cover?.title}
+      context={language?.page_cover?.transportation_cover?.content}
     />
   );
 };

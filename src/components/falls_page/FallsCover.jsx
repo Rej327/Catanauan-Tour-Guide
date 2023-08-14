@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import Cover from "../common/Cover";
+import { LangContext } from "../../App";
 
 const FallsCover = () => {
+  const { language } = useContext(LangContext);
   return (
     <div>
       <Cover
         bgImage="bg-[url(./assets/PageCover/falls.jpg)]"
-        header="Plunge into Paradise"
-        selectedPage="Falls"
-        title="Discover Majestic Falls in Catanauan"
-        context="Whether you crave a tranquil waterfall retreat or an invigorating plunge into nature's embrace, this enchanting destination presents an array of breathtaking options for an unforgettable vacation. Discover the mesmerizing allure of Catanauan's falls and let nature's wonders captivate your senses."
+        header={language?.page_cover?.falls_cover?.head}
+        selectedPage={language?.page_cover?.falls_cover?.category}
+        title={language?.page_cover?.falls_cover?.title}
+        context={language?.page_cover?.falls_cover?.content}
       />
     </div>
   );

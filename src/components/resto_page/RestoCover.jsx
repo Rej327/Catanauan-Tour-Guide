@@ -1,15 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import Cover from "../common/Cover";
+import { LangContext } from "../../App";
 
 const RestoCover = () => {
+  const { language } = useContext(LangContext);
   return (
     <div>
       <Cover
         bgImage="bg-[url(./assets/PageCover/restocover.jpg)]"
-        header="Food Worth Traveling For"
-        selectedPage="Restaurants"
-        title="Discover food that is worth traveling for in Catanauan"
-        context="Embark on a gastronomic adventure in Catanauan and uncover a treasure trove of culinary delights that are worth traveling for."
+        header={language?.page_cover?.restaurant_cover?.head}
+        selectedPage={language?.page_cover?.restaurant_cover?.category}
+        title={language?.page_cover?.restaurant_cover?.title}
+        context={language?.page_cover?.restaurant_cover?.content}
       />
     </div>
   );
