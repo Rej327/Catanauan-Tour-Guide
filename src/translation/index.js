@@ -2708,10 +2708,32 @@ export const en = {
     },
     //v&v dinner
     {
-      id: 4,
+      id: 5,
       img: vv,
       title: "V & V Diner",
       btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "09501802365 / 09285841104",
+      location: "Barangay 08, M.H Del Pilar St.",
+      hrs1: "10:00am - 11:00pm",
+      hrs2: "10:00am - 11:00pm",
+      hrs3: "10:00am - 11:00pm",
+      hrs4: "10:00am - 11:00pm",
+      hrs5: "10:00am - 11:00pm",
+      hrs6: "10:00am - 11:00pm",
+      hrs7: "10:00am - 11:00pm",
+
+      //LINKS
+
+      dialNumber: "",
+      loc_link:
+        "https://www.google.com/maps/place/13%C2%B035'31.1%22N+122%C2%B019'27.5%22E",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.591984,122.324313",
+      btn_visit_link: "https://www.facebook.com/VandVDiner?mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
