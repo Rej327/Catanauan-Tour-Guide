@@ -78,7 +78,7 @@ const Footer = ({ className }) => {
                       {language.category?.falls}
                     </p>
                   </Link>
-                  <Link to="/transportation">
+                  <Link to="/transportations">
                     <p
                       onClick={() => handleScrollClick("transportation")}
                       className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer"
