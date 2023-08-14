@@ -41,7 +41,7 @@ const RestoItem = ({ className }) => {
           <RestoItemContent_2 dataInfo={dataInfo} />
           <div className="my-5 flex gap-10 w-fit mx-auto mb-10">
             <Link
-              to={getDirection(dataInfo.direction_link, startingPoint)}
+              to={getDirection(dataInfo.direction, startingPoint)}
               target="_blank"
             >
               <button className="bg-none border-[1px] border-[#f1be66] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
