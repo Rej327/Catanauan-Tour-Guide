@@ -3432,51 +3432,799 @@ export const fil = {
     },
   ],
 
-  // RESTAURANTS PAGE
-  restaurants_page: {
-    id: 0,
-    category_all: [
-      {
-        id: 0,
-        img: antonios,
-        title: "Antonio's Place Restaurants",
-        btn_txt: "View",
-      },
-      {
-        id: 1,
-        img: caferoman,
-        title: "Cafe Roman (Garden, Food, Coffee)",
-        btn_txt: "View",
-      },
-      {
-        id: 2,
-        img: eunilos,
-        title: "Eunilo's Cuisine",
-        btn_txt: "View",
-      },
-      {
-        id: 3,
-        img: presko,
-        title: "Presko Brews Coffee Shop",
-        btn_txt: "View",
-      },
-      {
-        id: 4,
-        img: seacret,
-        title: "Seacret Avenue",
-        btn_txt: "View",
-      },
-      {
-        id: 6,
-        img: vv,
-        title: "V & V Diner",
-        btn_txt: "View",
-      },
-    ],
+  //RESTAURANTS PAGE
+  restaurants_page: [
+    //antonios place restaurant
+    {
+      id: 0,
+      img: antonios,
+      title: "Antonio's Place Restaurants",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "Cater, Birthday Party, Wedding",
+      //DATA
+      number: "(+63) 906-213-2683",
+      location: "Barangay 03, P.Burgos St.Cor.Gov.Perez",
+      hrs1: "9:00am - 9:00pm",
+      hrs2: "9:00am - 9:00pm",
+      hrs3: "9:00am - 9:00pm",
+      hrs4: "9:00am - 9:00pm",
+      hrs5: "9:00am - 9:00pm",
+      hrs6: "9:00am - 9:00pm",
+      hrs7: "9:00am - 9:00pm",
 
-    id: 1,
-    category_pubs: [{}],
-  },
+      //LINKS
+
+      dialNumber: "tel:(+63) 906-213-2683",
+      loc_link: "https://goo.gl/maps/fyDpPWo5GXgATRbR7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H8VC%2BGCG+Antonio's+Place,+Gov+Perez+St,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/AntoniosPlaceCatanauan?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: antonios_place_img_0,
+          },
+          {
+            img: antonios_place_img_1,
+          },
+          {
+            img: antonios_place_img_2,
+          },
+          {
+            img: antonios_place_img_3,
+          },
+          {
+            img: antonios_place_img_4,
+          },
+          {
+            img: antonios_place_img_5,
+          },
+          {
+            img: antonios_place_img_6,
+          },
+          {
+            img: antonios_place_img_7,
+          },
+          {
+            img: antonios_place_img_8,
+          },
+          {
+            img: antonios_place_img_9,
+          },
+          {
+            img: antonios_place_img_10,
+          },
+        ],
+        foods: [
+          {
+            img: antonios_food_img_0,
+          },
+          {
+            img: antonios_food_img_1,
+          },
+          {
+            img: antonios_food_img_2,
+          },
+          {
+            img: antonios_food_img_3,
+          },
+          {
+            img: antonios_food_img_4,
+          },
+          {
+            img: antonios_food_img_5,
+          },
+          {
+            img: antonios_food_img_6,
+          },
+          {
+            img: antonios_food_img_7,
+          },
+          {
+            img: antonios_food_img_8,
+          },
+          {
+            img: antonios_food_img_9,
+          },
+          {
+            img: antonios_food_img_10,
+          },
+          {
+            img: antonios_food_img_11,
+          },
+          {
+            img: antonios_food_img_12,
+          },
+          {
+            img: antonios_food_img_13,
+          },
+          {
+            img: antonios_food_img_14,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: antonios_menu_img_0,
+          },
+        ],
+      },
+    },
+    //caferoman
+    {
+      id: 1,
+      img: caferoman,
+      title: "Cafe Roman (Garden, Food, Coffee)",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 966-277-2604",
+      location: "Barangay 05, P.Burgos St.",
+      hrs1: "10:00am - 10:00pm",
+      hrs2: "10:00am - 10:00pm",
+      hrs3: "10:00am - 10:00pm",
+      hrs4: "10:00am - 10:00pm",
+      hrs5: "10:00am - 10:00pm",
+      hrs6: "10:00am - 10:00pm",
+      hrs7: "Close",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 966-277-2604",
+      loc_link: "https://goo.gl/maps/zzf7RPkbrZjs7ywf7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Cafe+Roman,+P.+Burgos+St,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/caferoman2023?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: roman_place_img_0,
+          },
+          {
+            img: roman_place_img_1,
+          },
+          {
+            img: roman_place_img_2,
+          },
+          {
+            img: roman_place_img_3,
+          },
+          {
+            img: roman_place_img_4,
+          },
+          {
+            img: roman_place_img_5,
+          },
+          {
+            img: roman_place_img_6,
+          },
+          {
+            img: roman_place_img_7,
+          },
+          {
+            img: roman_place_img_8,
+          },
+          {
+            img: roman_place_img_9,
+          },
+          {
+            img: roman_place_img_10,
+          },
+          {
+            img: roman_place_img_11,
+          },
+        ],
+        foods: [
+          {
+            img: roman_food_img_0,
+          },
+          {
+            img: roman_food_img_1,
+          },
+          {
+            img: roman_food_img_2,
+          },
+          {
+            img: roman_food_img_3,
+          },
+          {
+            img: roman_food_img_4,
+          },
+          {
+            img: roman_food_img_5,
+          },
+          {
+            img: roman_food_img_6,
+          },
+          {
+            img: roman_food_img_7,
+          },
+          {
+            img: roman_food_img_8,
+          },
+          {
+            img: roman_food_img_9,
+          },
+          {
+            img: roman_food_img_10,
+          },
+          {
+            img: roman_food_img_11,
+          },
+          {
+            img: roman_food_img_12,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: roman_menu_img_0,
+          },
+          {
+            img: roman_menu_img_1,
+          },
+          {
+            img: roman_menu_img_2,
+          },
+          {
+            img: roman_menu_img_3,
+          },
+          {
+            img: roman_menu_img_4,
+          },
+          {
+            img: roman_menu_img_5,
+          },
+        ],
+      },
+    },
+    //eunilos cuisine
+    {
+      id: 2,
+      img: eunilos,
+      title: "Eunilo's Cuisine",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "Seminar, Birthday Party (20 Person Only)",
+      //DATA
+      number: "(+63) 948-041-2622",
+      location: "Barangay 02, Padre Burgos Corner MH Del Pilar St.",
+      hrs1: "10:00am - 10:00pm",
+      hrs2: "10:00am - 10:00pm",
+      hrs3: "10:00am - 10:00pm",
+      hrs4: "10:00am - 10:00pm",
+      hrs5: "10:00am - 10:00pm",
+      hrs6: "10:00am - 10:00pm",
+      hrs7: "9:00am - 10:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 948-041-2622",
+      loc_link: "https://goo.gl/maps/mKop3PyX774x9uqR9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/54+M.+H.+del+Pilar+Street,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/profile.php?id=100064212123732&mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: eunilos_place_img_0,
+          },
+          {
+            img: eunilos_place_img_1,
+          },
+          {
+            img: eunilos_place_img_2,
+          },
+          {
+            img: eunilos_place_img_3,
+          },
+          {
+            img: eunilos_place_img_4,
+          },
+          {
+            img: eunilos_place_img_5,
+          },
+        ],
+        foods: [
+          {
+            img: eunilos_food_img_0,
+          },
+          {
+            img: eunilos_food_img_1,
+          },
+          {
+            img: eunilos_food_img_2,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: eunilos_menu_img_0,
+          },
+          {
+            img: eunilos_menu_img_1,
+          },
+        ],
+      },
+    },
+    //preko brews
+    {
+      id: 3,
+      img: presko,
+      title: "Presko Brews (Coffee & Chill)",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 921-601-7632",
+      location: "Brgy 08 Poblacion, Catanauan, 4311 Quezon",
+      hrs1: "02:00pm - 11:00pm",
+      hrs2: "02:00pm - 11:00pm",
+      hrs3: "02:00pm - 11:00pm",
+      hrs4: "02:00pm - 11:00pm",
+      hrs5: "02:00pm - 11:00pm",
+      hrs6: "02:00pm - 11:00pm",
+      hrs7: "02:00pm - 11:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 921-601-7632",
+      loc_link: "https://goo.gl/maps/Wr6mpHA9aZwHs6Dc6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Presko+Brews,+Brgy+08+Poblacion,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https://www.facebook.com/preskobrews?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: presko_place_img_0,
+          },
+          {
+            img: presko_place_img_2,
+          },
+          {
+            img: presko_place_img_3,
+          },
+          {
+            img: presko_place_img_4,
+          },
+          {
+            img: presko_place_img_5,
+          },
+          {
+            img: presko_place_img_6,
+          },
+          {
+            img: presko_place_img_7,
+          },
+          {
+            img: presko_place_img_8,
+          },
+          {
+            img: presko_place_img_9,
+          },
+          {
+            img: presko_place_img_10,
+          },
+          {
+            img: presko_place_img_11,
+          },
+        ],
+        foods: [
+          {
+            img: presko_food_img_0,
+          },
+          {
+            img: presko_food_img_1,
+          },
+          {
+            img: presko_food_img_2,
+          },
+          {
+            img: presko_food_img_3,
+          },
+          {
+            img: presko_food_img_4,
+          },
+          {
+            img: presko_food_img_5,
+          },
+          {
+            img: presko_food_img_6,
+          },
+          {
+            img: presko_food_img_7,
+          },
+          {
+            img: presko_food_img_8,
+          },
+          {
+            img: presko_food_img_9,
+          },
+          {
+            img: presko_food_img_10,
+          },
+          {
+            img: presko_food_img_11,
+          },
+          {
+            img: presko_food_img_12,
+          },
+          {
+            img: presko_food_img_13,
+          },
+          {
+            img: presko_food_img_14,
+          },
+          {
+            img: presko_food_img_15,
+          },
+          {
+            img: presko_food_img_16,
+          },
+          {
+            img: presko_food_img_17,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: presko_menu_img_0,
+          },
+          {
+            img: presko_menu_img_1,
+          },
+          {
+            img: presko_menu_img_2,
+          },
+          {
+            img: presko_menu_img_3,
+          },
+          {
+            img: presko_menu_img_5,
+          },
+          {
+            img: presko_menu_img_6,
+          },
+        ],
+      },
+    },
+    //seacret avenue
+    {
+      id: 4,
+      img: seacret,
+      title: "Seacret Avenue",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 917-315-6829",
+      location: "Barangay 02, Mabini St., Catanauan, 4311 Quezon",
+      hrs1: "08:00am - 08:00pm",
+      hrs2: "08:00am - 08:00pm",
+      hrs3: "08:00am - 08:00pm",
+      hrs4: "08:00am - 08:00pm",
+      hrs5: "08:00am - 08:00pm",
+      hrs6: "08:00am - 08:00pm",
+      hrs7: "08:00am - 08:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 917-315-6829",
+      loc_link: "https://goo.gl/maps/wt6d57savtAE76iu8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/55+Mabini+Street,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/profile.php?id=100042508453246&mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: seacret_place_img_0,
+          },
+          {
+            img: seacret_place_img_1,
+          },
+          {
+            img: seacret_place_img_2,
+          },
+          {
+            img: seacret_place_img_3,
+          },
+          {
+            img: seacret_place_img_4,
+          },
+          {
+            img: seacret_place_img_5,
+          },
+          {
+            img: seacret_place_img_6,
+          },
+        ],
+        foods: [
+          {
+            img: seacret_food_img_0,
+          },
+          {
+            img: seacret_food_img_1,
+          },
+          {
+            img: seacret_food_img_2,
+          },
+          {
+            img: seacret_food_img_3,
+          },
+          {
+            img: seacret_food_img_4,
+          },
+          {
+            img: seacret_food_img_5,
+          },
+          {
+            img: seacret_food_img_6,
+          },
+          {
+            img: seacret_food_img_7,
+          },
+          {
+            img: seacret_food_img_8,
+          },
+          {
+            img: seacret_food_img_9,
+          },
+          {
+            img: seacret_food_img_10,
+          },
+          {
+            img: seacret_food_img_11,
+          },
+          {
+            img: seacret_food_img_12,
+          },
+          {
+            img: seacret_food_img_13,
+          },
+          {
+            img: seacret_food_img_14,
+          },
+          {
+            img: seacret_food_img_15,
+          },
+          {
+            img: seacret_food_img_16,
+          },
+          {
+            img: seacret_food_img_17,
+          },
+          {
+            img: seacret_food_img_18,
+          },
+          {
+            img: seacret_food_img_19,
+          },
+          {
+            img: seacret_food_img_20,
+          },
+          {
+            img: seacret_food_img_21,
+          },
+          {
+            img: seacret_food_img_22,
+          },
+          {
+            img: seacret_food_img_23,
+          },
+          {
+            img: seacret_food_img_24,
+          },
+          {
+            img: seacret_food_img_25,
+          },
+          {
+            img: seacret_food_img_26,
+          },
+        ],
+      },
+
+      //PRICES
+      // menu: {
+      //   foods: [
+      //     {
+      //       img: presko_menu_img_0,
+      //     },
+      //   ],
+      // },
+    },
+    //v&v dinner
+    {
+      id: 5,
+      img: vv,
+      title: "V & V Diner",
+      btn_txt: "Tingnan",
+      direction_txt: "Kumuha ng Direksyon",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "09501802365 / 09285841104",
+      location: "Barangay 08, M.H Del Pilar St.",
+      hrs1: "10:00am - 11:00pm",
+      hrs2: "10:00am - 11:00pm",
+      hrs3: "10:00am - 11:00pm",
+      hrs4: "10:00am - 11:00pm",
+      hrs5: "10:00am - 11:00pm",
+      hrs6: "10:00am - 11:00pm",
+      hrs7: "10:00am - 11:00pm",
+
+      //LINKS
+
+      dialNumber: "",
+      loc_link:
+        "https://www.google.com/maps/place/13%C2%B035'31.1%22N+122%C2%B019'27.5%22E",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.591984,122.324313",
+      btn_visit_link: "https://www.facebook.com/VandVDiner?mibextid=ZbWKwL",
+
+      //GALLERY
+      gallery: {
+        places: [
+          {
+            img: vv_place_img_0,
+          },
+          {
+            img: vv_place_img_1,
+          },
+          {
+            img: vv_place_img_2,
+          },
+          {
+            img: vv_place_img_3,
+          },
+          {
+            img: vv_place_img_4,
+          },
+          {
+            img: vv_place_img_5,
+          },
+          {
+            img: vv_place_img_6,
+          },
+          {
+            img: vv_place_img_7,
+          },
+          {
+            img: vv_place_img_8,
+          },
+          {
+            img: vv_place_img_9,
+          },
+          {
+            img: vv_place_img_10,
+          },
+          {
+            img: vv_place_img_11,
+          },
+          {
+            img: vv_place_img_12,
+          },
+          {
+            img: vv_place_img_13,
+          },
+          {
+            img: vv_place_img_14,
+          },
+        ],
+        foods: [
+          {
+            img: vv_food_img_0,
+          },
+          {
+            img: vv_food_img_1,
+          },
+          {
+            img: vv_food_img_2,
+          },
+          {
+            img: vv_food_img_3,
+          },
+          {
+            img: vv_food_img_4,
+          },
+          {
+            img: vv_food_img_5,
+          },
+          {
+            img: vv_food_img_6,
+          },
+          {
+            img: vv_food_img_7,
+          },
+          {
+            img: vv_food_img_8,
+          },
+          {
+            img: vv_food_img_9,
+          },
+          {
+            img: vv_food_img_10,
+          },
+          {
+            img: vv_food_img_11,
+          },
+          {
+            img: vv_food_img_12,
+          },
+          {
+            img: vv_food_img_13,
+          },
+          {
+            img: vv_food_img_14,
+          },
+          {
+            img: vv_food_img_15,
+          },
+          {
+            img: vv_food_img_16,
+          },
+          {
+            img: vv_food_img_17,
+          },
+          {
+            img: vv_food_img_18,
+          },
+          {
+            img: vv_food_img_19,
+          },
+          {
+            img: vv_food_img_20,
+          },
+          {
+            img: vv_food_img_21,
+          },
+        ],
+      },
+
+      //PRICES
+      menu: {
+        foods: [
+          {
+            img: vv_menu_img_0,
+          },
+          {
+            img: vv_menu_img_1,
+          },
+        ],
+      },
+    },
+  ],
 
   //HOTELS PAGE
   hotels_page: [
