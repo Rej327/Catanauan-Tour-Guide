@@ -2206,6 +2206,27 @@ export const en = {
       img: caferoman,
       title: "Cafe Roman (Garden, Food, Coffee)",
       btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 966-277-2604",
+      location: "Barangay 05, P.Burgos St.",
+      hrs1: "10:00am - 10:00pm",
+      hrs2: "10:00am - 10:00pm",
+      hrs3: "10:00am - 10:00pm",
+      hrs4: "10:00am - 10:00pm",
+      hrs5: "10:00am - 10:00pm",
+      hrs6: "10:00am - 10:00pm",
+      hrs7: "Close",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 966-277-2604",
+      loc_link: "https://goo.gl/maps/zzf7RPkbrZjs7ywf7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Cafe+Roman,+P.+Burgos+St,+Catanauan,+4311+Quezon",
+      btn_visit_link: "https:/www.facebook.com/caferoman2023?mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
