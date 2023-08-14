@@ -2564,6 +2564,28 @@ export const en = {
       img: seacret,
       title: "Seacret Avenue",
       btn_txt: "View",
+      direction_txt: "Get Direction",
+      fb_page_txt: "Facebook Page",
+      content: "",
+      //DATA
+      number: "(+63) 917-315-6829",
+      location: "Barangay 02, Mabini St., Catanauan, 4311 Quezon",
+      hrs1: "08:00am - 08:00pm",
+      hrs2: "08:00am - 08:00pm",
+      hrs3: "08:00am - 08:00pm",
+      hrs4: "08:00am - 08:00pm",
+      hrs5: "08:00am - 08:00pm",
+      hrs6: "08:00am - 08:00pm",
+      hrs7: "08:00am - 08:00pm",
+
+      //LINKS
+
+      dialNumber: "tel:(+63) 917-315-6829",
+      loc_link: "https://goo.gl/maps/wt6d57savtAE76iu8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/55+Mabini+Street,+Catanauan,+Quezon",
+      btn_visit_link:
+        "https://www.facebook.com/profile.php?id=100042508453246&mibextid=ZbWKwL",
 
       //GALLERY
       gallery: {
@@ -2686,7 +2708,7 @@ export const en = {
     },
     //v&v dinner
     {
-      id: 6,
+      id: 4,
       img: vv,
       title: "V & V Diner",
       btn_txt: "View",
