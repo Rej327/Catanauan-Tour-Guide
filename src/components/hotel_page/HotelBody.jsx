@@ -28,11 +28,6 @@ const HotelBody = () => {
               </p>
               <p className="text-2xl font-bold">{data.title}</p>
               <p className="text-lg">{data.content}</p>
-              <Link to={`/hotels/${data.id}`}>
-                <p className="text-sm hover:underline underline-offset-8 cursor-pointer">
-                  {data.btn_more_txt}
-                </p>
-              </Link>
             </div>
             <div className="w-full flex flex-wrap justify-between gap-10">
               <div className="flex flex-col gap-2">
@@ -62,9 +57,11 @@ const HotelBody = () => {
                     {data.btn_visit_txt}
                   </p>
                 </Link>
-                <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
-                  {data.btn_prices_txt}
-                </p>
+                <Link to={`/hotels/${data.id}`}>
+                  <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
+                    {data.btn_more_txt}
+                  </p>
+                </Link>
               </div>
             </div>
           </div>
