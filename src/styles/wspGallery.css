@@ -64,3 +64,32 @@
   -ms-user-select: none; /* IE 10 and IE 11 */
   user-select: none; /* Standard syntax */
 }
+
+.fullScreenImage {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Styling for the image within the full screen container */
+.fullScreenImage img {
+  max-width: 100%;
+  max-height: 100%;
+  transform-origin: top left;
+}
+
+/* Styling for the zoom controls */
+.zoomControls {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+
+/* Styling for the zoom in and zoom out buttons */
