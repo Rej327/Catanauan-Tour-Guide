@@ -11,13 +11,31 @@ const WSPGallery = ({ setData }) => {
   const [openModal, setOpenModal] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
+  // useEffect(() => {
+  //   const loadingTimeout = setTimeout(() => {
+  //     setIsLoading(false);
+  //   }, 999999);
+
+  //   return () => clearTimeout(loadingTimeout);
+  // }, []); // Run only once when the component mounts
+
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
     }, 999999);
 
+    // Create a reference to the image element
+    const img = new Image();
+    img.src = setData?.[slideNumber].img;
+
+    // Add an event listener for the 'load' event
+    img.onload = () => {
+      setIsLoading(false);
+      clearTimeout(loadingTimeout);
+    };
+
     return () => clearTimeout(loadingTimeout);
-  }, []); // Run only once when the component mounts
+  }, [setData, slideNumber]); // Include dependencies in the dependency array
 
   const handleOpenModal = (index) => {
     setSlideNumber(index);
