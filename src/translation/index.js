@@ -3184,7 +3184,7 @@ export const fil = {
 
   //WHATS ON PAGE
   whats_on_page: {
-    header: "Ano ang Meron?",
+    header: "Ano ang Meron",
     sub_header: "Ano ang nangyayari sa Catanauan?",
     content:
       "Tuklasin ang mga kamangha-manghang kaganapan na nagaganap sa buong Dublin sa kasalukuyan. Mula sa teatro, musika, at panitikan hanggang sa mga pamilya-friendly na mga workshop, marami kang pwedeng maranasan.",

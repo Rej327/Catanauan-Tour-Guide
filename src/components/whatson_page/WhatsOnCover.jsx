@@ -12,7 +12,7 @@ const WhatsOnCover = () => {
       <div className="bg-[url(./assets/WhatsOnPage/whatsoncover.jpg)] bg-fixed bg-cover bg-center h-[25rem]">
         <div className="relative bg-black bg-opacity-60 w-full h-[25rem] flex items-center flex-col justify-center ">
           <p className="text-4xl lg:text-5xl text-white font-title text-center tracking-wider">
-            What's On
+            {language.whats_on_page?.header}
           </p>
         </div>
       </div>
@@ -25,7 +25,9 @@ const WhatsOnCover = () => {
               </p>
             </Link>
             <p> | </p>
-            <p className="font-bold underline underline-offset-8">What's On</p>
+            <p className="font-bold underline underline-offset-8">
+              {language.whats_on_page?.header}
+            </p>
           </div>
           <div className="">
             <TextCarousel className="mx-auto max-w-[290px] md:max-w-[600px] lg:max-w-[900px] text-lg">
@@ -65,21 +67,19 @@ const WhatsOnCover = () => {
           <div className="w-full lg:w-[1100px] mx-auto">
             <div className="max-w-[500px] flex flex-col gap-4 mx-4">
               <p className="text-white text-xl font-bold tracking-wider">
-                What heppening in Catanauan
+                {language.whats_on_page?.sub_header}
               </p>
               <p className="text-white text-lg">
-                Discover the fantastic events taking place across Dublin right
-                now. Ranging from theatre, music and literature to family
-                friendly workshops, there's so much to experience.
+                {language.whats_on_page?.content}
               </p>
               <Link
                 to="https://www.facebook.com/LGUCatanauanQuezon4311"
                 target="_blank"
               >
-                <FooterButton className="opacity-70">
+                <FooterButton className="">
                   <span className="flex m-auto">
                     <GoLinkExternal className="text-xl mr-2" />
-                    Discover Catanauan
+                    {language.whats_on_page?.btn_txt}
                   </span>
                 </FooterButton>
               </Link>
