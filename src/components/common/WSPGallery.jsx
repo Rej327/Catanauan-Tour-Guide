@@ -11,14 +11,6 @@ const WSPGallery = ({ setData }) => {
   const [openModal, setOpenModal] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  // useEffect(() => {
-  //   const loadingTimeout = setTimeout(() => {
-  //     setIsLoading(false);
-  //   }, 999999);
-
-  //   return () => clearTimeout(loadingTimeout);
-  // }, []); // Run only once when the component mounts
-
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
