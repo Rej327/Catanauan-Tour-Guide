@@ -14,7 +14,7 @@ const WSPGallery = ({ setData }) => {
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
       setIsLoading(false);
-    }, 2500);
+    });
 
     return () => clearTimeout(loadingTimeout);
   }, []); // Run only once when the component mounts
