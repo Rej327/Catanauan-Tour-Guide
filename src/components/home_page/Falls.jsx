@@ -83,7 +83,7 @@ const Falls = ({ className, id }) => {
           <Link to="/falls">
             <Button
               className="mx-auto w-fit text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
-              label="MORE"
+              label={language.falls_section?.btn_txt}
             />
           </Link>
         </div>
