@@ -485,11 +485,20 @@ import {
 //ENGLISH TRANSLATION
 
 export const en = {
-
   //HOME PAGE | ADVENTURE
   home_adv_section: {
     header: "Your next adventure starts here!",
-    content: "Escape from everyday and explore the town this vacation. Get your heart racing at an adventure centre, head for an invigorating sea swim and get your steps in on Catanauan's, Quezon most beautiful places."
+    content:
+      "Escape from everyday and explore the town this vacation. Get your heart racing at an adventure centre, head for an invigorating sea swim and get your steps in on Catanauan's, Quezon most beautiful places.",
+  },
+
+  //WHATS ON PAGE
+  whats_on_page: {
+    header: "What's On",
+    sub_header: "What heppening in Catanauan",
+    content:
+      "Discover the fantastic events taking place across Dublin right now. Ranging from theatre, music and literature to family friendly workshops, there's so much to experience.",
+    btn_txt: "Discover Catanauan",
   },
 
   //PAGE COVERS
@@ -3166,11 +3175,20 @@ export const en = {
 //FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
 
 export const fil = {
-
-   //HOME PAGE | ADVENTURE
+  //HOME PAGE | ADVENTURE
   home_adv_section: {
     header: "Nagsisimula ang iyong susunod na kaganapan dito!",
-    content: "Tumakas mula sa pang-araw-araw na buhay at kilalanin ang bayan sa panahon ng bakasyon na ito. Pabilisin ang iyong tibok ng puso sa isang sentro ng pakikipagsapalaran, tumungo para sa isang nakakapagpabilis-sa-dugo na paglangoy sa dagat, at gawin ang mga hakbang mo sa mga pinakamagagandang lugar sa Catanauan, Quezon."
+    content:
+      "Tumakas mula sa pang-araw-araw na buhay at kilalanin ang bayan sa panahon ng bakasyon na ito. Pabilisin ang iyong tibok ng puso sa isang sentro ng pakikipagsapalaran, tumungo para sa isang nakakapagpabilis-sa-dugo na paglangoy sa dagat, at gawin ang mga hakbang mo sa mga pinakamagagandang lugar sa Catanauan, Quezon.",
+  },
+
+  //WHATS ON PAGE
+  whats_on_page: {
+    header: "Ano ang Meron?",
+    sub_header: "Ano ang nangyayari sa Catanauan?",
+    content:
+      "Tuklasin ang mga kamangha-manghang kaganapan na nagaganap sa buong Dublin sa kasalukuyan. Mula sa teatro, musika, at panitikan hanggang sa mga pamilya-friendly na mga workshop, marami kang pwedeng maranasan.",
+    btn_txt: "Tuklasin ang Catanauan",
   },
 
   //PAGE COVERS
