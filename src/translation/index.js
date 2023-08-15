@@ -654,6 +654,21 @@ export const en = {
 
   // PLAN A HEAD PAGES
   plan_page: {
+    //accomodation
+    accomodation: {
+      header: "Discover the Perfect Accommodation Experience",
+      head_content:
+        "Welcome to our comprehensive overview of town hotels, where we highlight the best accommodations available in vibrant towns around the world. Whether you're a seasoned traveler, a business professional, or a curious explorer, our guide will help you find the perfect hotel for your stay.",
+      sub_header: "Explore Towns and Experience Local Culture",
+      sub_content_0:
+        "Staying at a town hotel offers the opportunity to immerse yourself in the local culture and explore the unique attractions of the town. Discover historic landmarks, vibrant markets, charming streets, and local festivals that showcase the essence of the destination.",
+      sub_content_1:
+        "Additionally, town hotels are conveniently located near popular shopping districts, entertainment venues, and public transportation hubs, making it easy to navigate and explore the town's offerings.",
+      sub_content_2:
+        "Plan your next trip and choose a town hotel that suits your preferences, allowing you to experience the best of local hospitality while enjoying modern comforts and conveniences.",
+      btn_txt: "Our Hotel",
+    },
+    //traveler guides
     traveler_guides: {
       title: "History",
       content:
@@ -662,7 +677,7 @@ export const en = {
       content_1:
         "The landscape of Catanauan is described as hilly, rolling and mountainous with isolated flat lands. The existing rivers and creeks serve as potential for effective drainage, more especially the Catanauan River. Catanauan is politically subdivided into 46 barangays. Each barangay consists of puroks and some have sitios. When it comes to econmy one of the major agricultural trades by the populace is copra buying and selling.",
     },
-
+    //cultures
     cultures: {
       title: "Boling - Boling Festival",
       content:
@@ -3348,6 +3363,27 @@ export const fil = {
 
   // PLAN A HEAD PAGES
   plan_page: {
+    //accomodation
+    accomodation: {
+      header: "Tuklasin ang Pinakamagandang Karanasan sa Akomodasyon.",
+
+      head_content:
+        "Maligayang pagdating sa aming komprehensibong pagsusuri ng mga hotel sa bayan, kung saan aming inilalatag ang mga pinakamahusay na akomodasyon na available sa mga masiglang bayan sa buong mundo. Kahit ikaw ay isang bihasang biyahero, isang propesyonal sa negosyo, o isang mapanagumpay na manlalakbay, ang aming gabay ay tutulong sa iyo na makahanap ng perpektong hotel para sa iyong pananatili.",
+
+      sub_header: "Maglibot sa mga Bayan at Maranasan ang Lokal na Kultura.",
+
+      sub_content_0:
+        "Ang pagtira sa isang hotel sa bayan ay nagbibigay-daan upang malubos mong maipamuhay ang lokal na kultura at maranasan ang mga natatanging atraksyon ng bayan. Tuklasin ang mga makasaysayang landmark, masiglang palengke, kaakit-akit na mga kalye, at mga lokal na pista na nagpapakita ng kahalagahan ng destinasyon.",
+
+      sub_content_1:
+        "Dagdag pa rito, ang mga hotel sa bayan ay kadalasang matatagpuan malapit sa mga kilalang shopping district, mga lugar ng aliwan, at mga sentro ng pampublikong transportasyon, na nagpapadali sa pag-navigate at pag-eksplora sa mga ibinibigay ng bayan.",
+
+      sub_content_2:
+        "Planuhin ang iyong susunod na biyahe at piliin ang isang hotel sa bayan na akma sa iyong mga nais, na nagbibigay-daan sa iyo na maranasan ang pinakamahusay na lokal na pag-aasikaso habang natatamasa ang modernong kaginhawahan at kasanayan.",
+
+      btn_txt: "Ang Aming Hotel",
+    },
+    //traveler guides
     traveler_guides: {
       title: "KASAYSAYAN",
       content:
@@ -3356,6 +3392,7 @@ export const fil = {
       content_1:
         "Ang tanawin ng Catanauan ay inilalarawan bilang maburol, gumugulong at bulubundukin na may hiwalay na patag na lupain. Ang mga kasalukuyang ilog at sapa ay nagsisilbing potensyal para sa mabisang pagpapatuyo, lalo na ang Ilog Catanauan. Ang bayan ng Catanauan ay nahahati sa 46 na mga barangay. Bawat barangay ay binubuo ng mga purok at may mga sitio. Pagdating sa ekonomiya ang isa sa mga pangunahing kalakalan ng agrikultura ng mga tao ay ang pagbili at pagbebenta ng copra.",
     },
+    //cultures
     cultures: {
       title: "Boling - Boling Festival",
       content:
