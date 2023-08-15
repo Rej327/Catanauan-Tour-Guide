@@ -94,7 +94,7 @@ const Footer = ({ className }) => {
                 <div className="text-base grid grid-cols-2 justify-around gap-2 mt-4">
                   <Link to="/whats-on">
                     <p className="text-base first-letter:capitalize hover:underline underline-offset-8 cursor-pointer">
-                      What's on
+                      {language.whats_on_page?.header}
                     </p>
                   </Link>
                   <Link to="/traveler-guides">
