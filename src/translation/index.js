@@ -485,6 +485,14 @@ import {
 //ENGLISH TRANSLATION
 
 export const en = {
+
+  //HOME PAGE | ADVENTURE
+  home_adv_section: {
+    header: "Your next adventure starts here!",
+    content: "Escape from everyday and explore the town this vacation. Get your heart racing at an adventure centre, head for an invigorating sea swim and get your steps in on Catanauan's, Quezon most beautiful places."
+  },
+
+  //PAGE COVERS
   page_cover: {
     //resort cover
     resorts_cover: {
@@ -3158,6 +3166,14 @@ export const en = {
 //FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
 
 export const fil = {
+
+   //HOME PAGE | ADVENTURE
+  home_adv_section: {
+    header: "Nagsisimula ang iyong susunod na kaganapan dito!",
+    content: "Tumakas mula sa pang-araw-araw na buhay at kilalanin ang bayan sa panahon ng bakasyon na ito. Pabilisin ang iyong tibok ng puso sa isang sentro ng pakikipagsapalaran, tumungo para sa isang nakakapagpabilis-sa-dugo na paglangoy sa dagat, at gawin ang mga hakbang mo sa mga pinakamagagandang lugar sa Catanauan, Quezon."
+  },
+
+  //PAGE COVERS
   page_cover: {
     //resort cover
     resorts_cover: {
