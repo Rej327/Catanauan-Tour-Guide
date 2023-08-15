@@ -1,7 +1,9 @@
-import React from "react";
+import React, { useContext } from "react";
 import { hc1 } from "../../../assets";
+import { LangContext } from "../../../App";
 
 const AccSection_1 = ({ className }) => {
+  const { language } = useContext(LangContext);
   return (
     <div
       className={`w-full flex flex-col items-center gap-10 justify-center ${className}`}
@@ -13,14 +15,10 @@ const AccSection_1 = ({ className }) => {
       />
       <div className="max-w-[1000px] px-4 text-center flex flex-col gap-5">
         <p className="text-2xl font-bold">
-          Discover the Perfect Accommodation Experience
+          {language.plan_page?.accomodation?.header}
         </p>
         <p className="text-lg">
-          Welcome to our comprehensive overview of town hotels, where we
-          highlight the best accommodations available in vibrant towns around
-          the world. Whether you're a seasoned traveler, a business
-          professional, or a curious explorer, our guide will help you find the
-          perfect hotel for your stay.
+          {language.plan_page?.accomodation?.head_content}
         </p>
       </div>
     </div>
