@@ -1,19 +1,19 @@
-import React from "react";
+import React, { useContext } from "react";
 import { adv, adv1 } from "../../assets";
+import { LangContext } from "../../App";
 
 const Adventure = ({ className }) => {
+  const { language } = useContext(LangContext);
+
   return (
     <div className={`w-full ${className}`}>
       <div className="max-w-[1240px] mx-auto px-5">
         <div className="w-auto">
           <p className="font-bold text-2xl md:text-3xl lg:text-4xl tracking-wider">
-            Your next adventure starts here!
+            {language.home_adv_section?.header}
           </p>
           <p className="text-xl my-4 text-justify md:text-left">
-            Escape from everyday and explore the town this vacation. Get your
-            heart racing at an adventure centre, head for an invigorating sea
-            swim and get your steps in on Catanauan's, Quezon most beautiful
-            places.
+            {language.home_adv_section?.content}
           </p>
         </div>
         <div className="w-auto flex flex-wrap max-lg:flex-col-reverse justify-between items-center">
