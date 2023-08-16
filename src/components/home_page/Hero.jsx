@@ -21,7 +21,7 @@ const Hero = () => {
             </span>
             Catanauan, Quezon
           </p>
-          <SearchBar iconStyle="subBodyColor" />
+          {/* <SearchBar iconStyle="subBodyColor" /> */}
           <div>
             <HeroCategory />
             <ArrowDown className="-mt-5 sm:-mt-10" />

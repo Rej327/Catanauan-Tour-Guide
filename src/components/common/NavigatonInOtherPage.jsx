@@ -13,11 +13,11 @@ const NavigatonInOtherPage = () => {
             <Link to="/">
               <p className="text-3xl font-header">DiscoverCatanauan</p>
             </Link>
-            <SearchBar
+            {/* <SearchBar
               containerStyle="hidden lg:block w-[800px]"
               className="hidden lg:block w-[800px] bg-white focus:text-black placeholder:text-black"
               iconStyle="bodyColor"
-            />
+            /> */}
             <div className="flex gap-5 items-center">
               <Link to="https://goo.gl/maps/cUbvaPVpQQsL4dqe8" target="_blank">
                 <FooterButton className="hidden lg:flex">
