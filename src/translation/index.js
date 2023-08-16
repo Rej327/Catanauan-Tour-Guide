@@ -480,6 +480,12 @@ import {
   vv_place_img_2,
   vv_place_img_1,
   vv_place_img_0,
+  festival_0,
+  festival_1,
+  festival_2,
+  festival_3,
+  fiesta_img_0,
+  fiesta_img_1,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -679,9 +685,67 @@ export const en = {
     },
     //cultures
     cultures: {
-      title: "Boling - Boling Festival",
-      content:
-        "`Boling-Boling` is an old age practice particular to Catanauanins, which is celebrated annually starting on the Sunday and ends on Tuesday preceding Ash Wednesday and signals the start of the Lenten Season. Participants roam around the town garbed in any costume they may fancy. Most of them wear colourful clown-like clothes while others imitate anybody whom they despise and make fun of them. It is the Pinoy version of carnival. No one can tell exactly when and how this practice started, not even the oldest resident of this town located at the heart of Bondoc Peninsula. Senior women wearing brightly coloured dresses and hats with flowers sing and dance from one house to another to solicit cash donations, half of which is given to the local Parish Church for its expenses during the Lenten Season activities and the other half for their own group's civic projects. Boling-Boling comes from the Visayan word Boling, which means dirt. This reminds us that we are sinners and that we need to repent, do some spiritual cleansing and get ourselves ready for the Lenten Season. In earlier times, Catanauanins had a grandiose merry-making during the Boling-Boling as, starting the following day, which is Ash Wednesday, they will keep silent suspending all merry-makings until the Black Saturday in reverence to the Lenten Season. Some men skimpily clad in their undergarments put on mud or grease with charcoal all over their bodies and roam around the town trying to scare young women and children for fun.",
+      //fiesta
+      festival: {
+        title: "Boling - Boling Festival",
+        content_0:
+          "`Boling-Boling` is an old age practice particular to Catanauanins, which is celebrated annually starting on the Sunday and ends on Tuesday preceding Ash Wednesday and signals the start of the Lenten Season. Participants roam around the town garbed in any costume they may fancy. Most of them wear colourful clown-like clothes while others imitate anybody whom they despise and make fun of them. It is the Pinoy version of carnival. No one can tell exactly when and how this practice started, not even the oldest resident of this town located at the heart of Bondoc Peninsula. Senior women wearing brightly coloured dresses and hats with flowers sing and dance from one house to another to solicit cash donations, half of which is given to the local Parish Church for its expenses during the Lenten Season activities and the other half for their own group's civic projects.",
+        content_1:
+          "Boling-Boling comes from the Visayan word Boling, which means dirt. This reminds us that we are sinners and that we need to repent, do some spiritual cleansing and get ourselves ready for the Lenten Season. ",
+        content_2:
+          "In earlier times, Catanauanins had a grandiose merry-making during the Boling-Boling as, starting the following day, which is Ash Wednesday, they will keep silent suspending all merry-makings until the Black Saturday in reverence to the Lenten Season. Some men skimpily clad in their undergarments put on mud or grease with charcoal all over their bodies and roam around the town trying to scare young women and children for fun.",
+        festival_img: [
+          {
+            img: festival_0,
+          },
+          {
+            img: festival_1,
+          },
+          {
+            img: festival_2,
+          },
+          {
+            img: festival_3,
+          },
+        ],
+      },
+      //fiesta
+      fiesta: {
+        title:
+          "Town fiesta December 8 - Immaculate Conception Church Town Fiesta",
+        content_0:
+          "Catanauan is a historic town of Quezon province where it is known for its historical sites and the “Boling-Boling” festival that is celebrated in the area. One of its key sites is the Parish of the Immaculate Conception where the town`s miraculous patroness is enshrined and devotees would flock the parish to seek help of their beloved patroness.",
+        content_1:
+          "The image was said to be carved between the 17th until the 18th century. Although the origins of the image are unknown, local folklore tells us that the image was found in the shores of the area where half of its body was buried in mud due to low tide during that time by a fisherman. The fisherman took the image with him and it was still in his net and hung it on his staircase. One night, while he was asleep, the Virgin visited him in a dream weeping and asked the fisherman to build a chapel in her honor so that people would come and pay homage to her. The fisherman heeded her request and immediately built a small chapel and enthroned the image there. Years later,  the parish was later constructed and was dedicated to the Immaculate Conception in 1835.  Since the enthronement of the image, numerous miracles were attributed to her intercession, one of them is saving Catanauan from Moro raids and pirates who wanted to conquer and destroy the town.",
+        content_2:
+          "The devotion to  La Inmaculada Concepción de Catanauan continues to flourish up to the present. The Virgin`s feast, December 8th is kept with much solemnity in the town because she became an integral part of the history and the fabric of life of the town for centuries.",
+        fiesta_img: [
+          {
+            img: fiesta_img_0,
+          },
+          {
+            img: fiesta_img_1,
+          },
+        ],
+      },
+      //excavation
+      excavation: {
+        header: "Catanauan, Excavation",
+        body: [
+          {
+            title:"Jar Burials",
+            content: "Catanauan, Quezon has been known for the numerous jar burials that have been recovered there. Even before the recent excavations in the site, locals have already reported that some jar burials in the site were uncovered through development projects, and that they were able to dig up a series of jar burials with human remains. As the site is very archaeologically rich, the Archaeological Studies Program of the University of the Philippines, Diliman and the Australia National University have been conducting research and excavations in Catanauan through the Catanauan Archaeological and Heritage Project since 2008."
+          },
+          {
+            title: "Artifacts",
+            content: "In 2006, a sand quarry accidentally uncovered at least 5 jar burials containing human skeletal remains in Kanlagkit, Barangay Matandang Sabang Kanluran. At least three sandpits were left partially open, with the backfill containing earthenware sherds and skeletal fragments (mostly long bone). During the 2008 excavation a shell midden was exposed. The area where local inhabitants dug up burial jars with human remains was abundant in limestone slab fragments, earthenware sherds, and human skeletal fragments. Below the discovered shell midden were a few shells and pottery. Even below that, two small, well fired reddish earthenware pot sherds were found. Some glass beads were also found. A child (neonate) burial."
+          },
+          {
+            title: "Catanauan Dagger",
+            content: "Archaeological digs by the Catanauan Archeological and Heritage Project (CAHP) have unearthed a unique iron dagger with an intricately carved bone hilt found at a jar burial site in the municipality facing Marinduque across the waters of the Mompog Pass. There is evidence that Catanauan's burial practices date back at least 2,000 years, making them part of an ancient Filipino funerary custom that has been found in the eastern part of the central Philippines. Large earthenware jars were buried along the sandy shores and covered with slabs of coralline or volcanic stone to preserve the bodies. Grave woods, either personal belongings or votive offerings for the afterlife, were buried alongside the deceased. On May 18, 2022, the dagger is now on display at the National Museum of Natural History in Manila, Philippines, as part of the museum's collection of other artifacts."
+          }
+        ]
+      }
     },
   },
 
@@ -3394,9 +3458,68 @@ export const fil = {
     },
     //cultures
     cultures: {
-      title: "Boling - Boling Festival",
-      content:
-        "Ang `Boling-Boling` ay isang pagsasanay sa katandaan partikular sa mga Catanauanin, na ipinagdiriwang taun-taon simula sa Linggo at magtatapos sa Martes bago ang Miyerkules ng Abo at hudyat ng pagsisimula ng Lenten Season. Ang mga kalahok ay gumagala sa paligid ng bayan na nakasuot ng anumang costume na maaari nilang magustuhan. Karamihan sa kanila ay nagsusuot ng makukulay na damit na parang payaso habang ang iba ay ginagaya ang sinumang kanilang hinahamak at pinagtatawanan. Ito ay ang bersyon ng Pinoy ng karnabal. Walang makapagsasabi nang eksakto kung kailan at paano nagsimula ang pagsasanay na ito, kahit ang pinakamatandang residente ng bayang ito na matatagpuan sa gitna ng Bondoc Peninsula. Ang mga matatandang kababaihan na may suot na matingkad na kulay na mga damit at mga sumbrero na may mga bulaklak ay kumakanta at sumasayaw mula sa isang bahay patungo sa isa pa upang humingi ng mga donasyong pera, kalahati nito ay ibinibigay sa lokal na Parish Church para sa mga gastusin nito sa mga aktibidad sa Panahon ng Kuwaresma at ang kalahati naman ay para sa mga civic project ng kanilang sariling grupo. Ang Boling-Boling ay mula sa salitang Bisaya na Boling, na ang ibig sabihin ay dumi. Ito ay nagpapaalala sa atin na tayo ay makasalanan at kailangan nating magsisi, gumawa ng ilang espirituwal na paglilinis at ihanda ang ating sarili para sa Panahon ng Kuwaresma. Noong unang panahon, ang mga Catanauanin ay nagkaroon ng napakagandang pagsasaya sa panahon ng Boling-Boling dahil, simula sa susunod na araw, na Miyerkules ng Abo, sila ay mananatiling tahimik na sinuspinde ang lahat ng mga pagsasaya hanggang sa Black Saturday bilang paggalang sa Panahon ng Kuwaresma. Ang ilang mga lalaki ay matipid na nakasuot ng kanilang mga panloob na damit na naglalagay ng putik o mantika na may uling sa buong katawan at gumagala sa paligid ng bayan na sinusubukang takutin ang mga kabataang babae at mga bata para sa kasiyahan.",
+      //festival
+      festival: {
+        title: "Boling - Boling Festival",
+        content_0:
+          "Ang `Boling-Boling` ay isang pagsasanay sa katandaan partikular sa mga Catanauanin, na ipinagdiriwang taun-taon simula sa Linggo at magtatapos sa Martes bago ang Miyerkules ng Abo at hudyat ng pagsisimula ng Lenten Season. Ang mga kalahok ay gumagala sa paligid ng bayan na nakasuot ng anumang costume na maaari nilang magustuhan. Karamihan sa kanila ay nagsusuot ng makukulay na damit na parang payaso habang ang iba ay ginagaya ang sinumang kanilang hinahamak at pinagtatawanan. Ito ay ang bersyon ng Pinoy ng karnabal. Walang makapagsasabi nang eksakto kung kailan at paano nagsimula ang pagsasanay na ito, kahit ang pinakamatandang residente ng bayang ito na matatagpuan sa gitna ng Bondoc Peninsula. Ang mga matatandang kababaihan na may suot na matingkad na kulay na mga damit at mga sumbrero na may mga bulaklak ay kumakanta at sumasayaw mula sa isang bahay patungo sa isa pa upang humingi ng mga donasyong pera, kalahati nito ay ibinibigay sa lokal na Parish Church para sa mga gastusin nito sa mga aktibidad sa Panahon ng Kuwaresma at ang kalahati naman ay para sa mga civic project ng kanilang sariling grupo.",
+        content_1:
+          "Ang Boling-Boling ay mula sa salitang Bisaya na Boling, na ang ibig sabihin ay dumi. Ito ay nagpapaalala sa atin na tayo ay makasalanan at kailangan nating magsisi, gumawa ng ilang espirituwal na paglilinis at ihanda ang ating sarili para sa Panahon ng Kuwaresma.",
+        content_2:
+          "Noong unang panahon, ang mga Catanauanin ay nagkaroon ng napakagandang pagsasaya sa panahon ng Boling-Boling dahil, simula sa susunod na araw, na Miyerkules ng Abo, sila ay mananatiling tahimik na sinuspinde ang lahat ng mga pagsasaya hanggang sa Black Saturday bilang paggalang sa Panahon ng Kuwaresma. Ang ilang mga lalaki ay matipid na nakasuot ng kanilang mga panloob na damit na naglalagay ng putik o mantika na may uling sa buong katawan at gumagala sa paligid ng bayan na sinusubukang takutin ang mga kabataang babae at mga bata para sa kasiyahan.",
+        festival_img: [
+          {
+            img: festival_0,
+          },
+          {
+            img: festival_1,
+          },
+          {
+            img: festival_2,
+          },
+          {
+            img: festival_3,
+          },
+        ],
+      },
+      //fiesta
+      fiesta: {
+        title:
+          "Piyesta ng Bayan - Disyembre 8-Immaculate Conception Church Town Fiesta",
+        content_0:
+          "Ang Catanauan ay isang makasaysayang bayan ng lalawigan ng Quezon kung saan kilala ito sa mga makasaysayang lugar nito at ang pagdiriwang ng “Bilong-Bilong” na ipinagdiriwang sa lugar. Ang isa sa mga pangunahing lugar nito ay ang Parish of the Immaculate Conception kung saan ang mapaghimalang patrona ng bayan ay nakatago at ang mga deboto ay dadagsa sa parokya upang humingi ng tulong sa kanilang minamahal na patrona.",
+        content_1:
+          "Ang imahe ay sinasabing inukit sa pagitan ng ika-17 hanggang ika-18 siglo. Bagaman hindi alam ang pinagmulan ng imahe, sinasabi sa atin ng lokal na alamat na ang imahe ay natagpuan sa baybayin ng lugar kung saan kalahati ng katawan nito ay nabaon sa putik dahil sa mababang pagtaas ng tubig noong panahong iyon ng isang mangingisda. Kinuha ng mangingisda ang imahe at ito ay nasa kanyang lambat at isinabit sa kanyang hagdanan. Isang gabi, habang siya ay natutulog, dinalaw siya ng Birhen sa isang panaginip na umiiyak at hiniling sa mangingisda na magtayo ng isang kapilya bilang karangalan sa kanya upang ang mga tao ay dumating at magbigay-pugay sa kanya. Dininig ng mangingisda ang kanyang kahilingan at agad na nagtayo ng isang maliit na kapilya at doon iniluklok ang imahen. Makalipas ang ilang taon, ang parokya ay kalaunan ay itinayo at inialay sa Immaculate Conception noong 1835. Mula nang mailuklok ang imahen, sa pamamagitan ng imahen maraming himala ang naiuugnay dito, isa sa mga ito ay ang pagliligtas sa Catanauan mula sa mga pagsalakay ng Moro at mga pirata na gustong manakop at mangwasak sa  bayan.",
+        content_2:
+          "Ang debosyon sa La Inmaculada Concepcion de Catanauan ay patuloy na yumayabong hanggang sa kasalukuyan. Ang kapistahan ng Birhen, ika-8 ng Disyembre ay pinananatili nang may labis na kataimtiman sa bayan dahil siya ay naging mahalagang bahagi ng kasaysayan at ang mundo ng buhay ng bayan sa loob ng maraming siglo.",
+        fiesta_img: [
+          {
+            img: fiesta_img_0,
+          },
+          {
+            img: fiesta_img_1,
+          },
+        ],
+      },
+       //excavation
+      excavation: {
+        header: "Catanauan, Excavation",
+        body: [
+          {
+            title:"Paglilibing sa Banga",
+            content: "Nakilala ang Catanauan, Quezon sa maraming mga banga na natuklasan dito. Bago pa man ang mga kamakailang paghuhukay sa lugat, naiulat na ng mga lokal na ang ilang mga jar burial sa lugar ay natuklasan sa pamamagitan ng pagpapaunlad sa mga proyekto, at sila ay nakapaghukay ng isang hanay ng mga jar burial na may mga labi ng tao. Dahil ang lugar ay napaka yaman sa archaeological ang Archaeological Studies Program ng Unibersidad ng Pilipinas, Diliman at ang Australia National University ay nagsasagawa ng pananaliksik at paghuhukay sa Catanauan sa pamamagitan ng Catanauan Archaeological and Heritage Project mula noong 2008."
+          },
+          {
+            title: "Artipakto",
+            content: "Noong 2006, aksidenteng nadiskubre ng sand quarry ang hindi bababa sa limang jar burial na naglalaman ng mga labi ng tao sa Kanlagkit, Barangay Matandang Sabang Kanluran. Hindi bababa sa tatlong sandpits ang naiwang bahagyang nakabukas, na ang backfill ay naglalaman ng earthenware sherds at skeletal fragment (karamihan ay mahabang buto). Sa panahon ng paghuhukay noong 2008 isang shell midden ang nalantad. Ang lugar kung saan ang mga lokal na naninirahan ay naghukay ng mga banga na may mga labi ng tao ay sagana sa mga limestone slab fragment, earthenware sherds, at skeletal fragment ng tao. Sa ibaba ng natuklasang shell midden ay ilang mga shell at palayok. Kahit sa ibaba nito, natagpuan ang dalawang maliit, mahusay na pinaputok na mapula-pula na mga bitak ng palayok, may nakita ring ilang mga glass beads. Natagpuan ang isang bata (neonate) na libing sa loob ng isang maliit na palayok na may diameter na 40 cm, na may kasamang dilaw na butil ng salamin na nakabaon. Isa pang nakalibing (isang babae, mula sa pag-aaral ng pelvic bone) ay natuklasan, at ito ay may mga hiwa mula sa isang maliit na palayok at isang cylindrical na artipakto."
+          },
+          {
+            title: "Punyal sa Catanauan",
+            content: "Ang mga archaeological na paghuhukay ng Catanauan Archeological and Heritage Project (CAHP) ay nakahukay ng isang natatanging bakal na punyal na may masalimuot na inukit na puluhan ng buto na natagpuan sa isang jar burial site sa munisipyo na nakaharap sa Marinduque sa tapat ng tubig ng Mompog Pass. May katibayan na ang mga gawi sa paglilibing ng Catanauan ay nagsimula noong hindi bababa sa 2,000 taon, na ginawa itong bahagi ng isang sinaunang kaugalian ng paglilibing ng mga Pilipino na natagpuan sa silangang bahagi ng gitnang Pilipinas. Ang malalaking banga ng lupa ay ibinaon sa tabi ng mabuhanging baybayin at tinakpan ng mga slab ng coralline o bulkan na bato upang mapanatili ang mga katawan. Ang mga libingan, alinman sa mga personal na pag-aari o mga handog para sa kabilang buhay, ay inilibing sa tabi ng namatay. Noong Mayo 18, 2022, ang punyal ay nakalagay ngayon sa National Museum of Natural History sa Manila, Philippines, bilang bahagi ng koleksyon ng iba pang artifact ng museo."
+          }
+        ]
+      }
+  
     },
   },
 
