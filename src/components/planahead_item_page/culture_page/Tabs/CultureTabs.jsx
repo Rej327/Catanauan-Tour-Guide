@@ -9,6 +9,7 @@ import {
 } from "@chakra-ui/react";
 import FiestaContent from "./Fiesta/FiestaContent";
 import FestivalContent from "./Festival/FestivalContent";
+import ExcavationContent from "./Excavation/ExcavationContent";
 
 const CultureTabs = () => {
   return (
@@ -39,7 +40,7 @@ const CultureTabs = () => {
             <FiestaContent />
           </TabPanel>
           <TabPanel>
-            <p>three!</p>
+            <ExcavationContent />
           </TabPanel>
         </TabPanels>
       </Tabs>
