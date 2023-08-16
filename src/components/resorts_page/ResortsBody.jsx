@@ -1,180 +1,39 @@
-import React from "react";
-import { rc1 } from "../../assets";
+import React, { useContext } from "react";
 import { ImLocation } from "react-icons/im";
+import { LangContext } from "../../App";
 
 const ResortsBody = () => {
+  const { language } = useContext(LangContext);
   return (
     <div className="max-w-[1300px] pb-10 mx-auto justify-center items-center flex flex-wrap gap-10 px-2">
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
+      {language?.resorts_page?.map((data) => (
+        <div
+          key={data.id}
+          className="relative max-w-[290px] h-[410px] resortItems flex flex-col gap-2 bg-white rounded-xl"
+        >
+          <div className="rounded-xl w-[290px] h-[250px] overflow-hidden">
+            <img
+              src={data.img}
+              className="w-[290px] h-[250px] itemImg  object-cover rounded-xl"
+            />
+          </div>
+          <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
+            <p className="w-fit text-xs text-[#f1be66] font-bold">
+              {data.category}
+            </p>
+            <p className="text-lg font-extrabold">{data.title}</p>
+            <div className="w-fit flex gap-1 items-center">
+              <ImLocation className="text-[#f1be66]" />
+              <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                {data.location}
+              </p>
+            </div>
+            <p className="absolute bottom-5 left-[45%] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
+              {data.btn_txt}
             </p>
           </div>
         </div>
-      </div>
-      {/* NEXT ITEMS */}
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="max-w-[290px] resortItems flex flex-col gap-2 bg-white rounded-xl">
-        <div className="rounded-xl w-full  overflow-hidden">
-          <img
-            src={rc1}
-            className="w-full itemImg h-[250px] object-cover rounded-xl"
-          />
-        </div>
-        <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-          <p className="w-fit text-xs text-[#f1be66] font-bold">Beach & Pool</p>
-          <p className="text-lg font-extrabold">
-            Catanauan Cove Whitesand Beach Resort
-          </p>
-          <div className="w-fit flex gap-1 items-center">
-            <ImLocation className="text-[#f1be66]" />
-            <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-              Catanauan Cove, Sitio Paraiso, Brgy. Cutcutan, Quezon, Catanauan,
-              Quezon
-            </p>
-          </div>
-        </div>
-      </div>
-      {/* END ITEM */}
+      ))}
     </div>
   );
 };
