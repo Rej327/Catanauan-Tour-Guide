@@ -655,3 +655,31 @@ export { default as butag } from "./FallsPage/butag.webp";
 export { default as matalahan } from "./FallsPage/matalahan.webp";
 export { default as tagabong } from "./FallsPage/tagabong.webp";
 //FALLS PAGE//
+
+//RESORTS PAGE
+//----COVER
+export { default as amandos_cover } from "./ResortsPage/Covers/amandos_cover.webp";
+export { default as andrea_cover } from "./ResortsPage/Covers/andrea_cover.webp";
+export { default as appleparadize_cover } from "./ResortsPage/Covers/appleparadize_cover.webp";
+export { default as butch_cover } from "./ResortsPage/Covers/butch_cover.webp";
+export { default as casa_cover } from "./ResortsPage/Covers/casa_cover.webp";
+export { default as casas_cover } from "./ResortsPage/Covers/casas_cover.webp";
+export { default as cinco_cover } from "./ResortsPage/Covers/cinco_cover.webp";
+export { default as decenas_cover } from "./ResortsPage/Covers/decenas_cover.webp";
+export { default as duyan_cover } from "./ResortsPage/Covers/duyan_cover.webp";
+export { default as eynsresort_cover } from "./ResortsPage/Covers/eynsresort_cover.webp";
+export { default as grency_cover } from "./ResortsPage/Covers/grency_cover.webp";
+export { default as iyanas_cover } from "./ResortsPage/Covers/iyanas_cover.webp";
+export { default as jayrhens_cover } from "./ResortsPage/Covers/jayrhens_cover.webp";
+export { default as karba_cover } from "./ResortsPage/Covers/karba_cover.webp";
+export { default as leobellas_cover } from "./ResortsPage/Covers/leobellas_cover.webp";
+export { default as marcs_cover } from "./ResortsPage/Covers/marcs_cover.webp";
+export { default as marga_cover } from "./ResortsPage/Covers/marga_cover.webp";
+export { default as nasugbo_cover } from "./ResortsPage/Covers/nasugbo_cover.webp";
+export { default as punta_cover } from "./ResortsPage/Covers/punta_cover.webp";
+export { default as rosbal_cover } from "./ResortsPage/Covers/rosbal_cover.webp";
+export { default as seaguy_cover } from "./ResortsPage/Covers/seaguy_cover.webp";
+export { default as tuhian_cover } from "./ResortsPage/Covers/tuhian_cover.webp";
+export { default as villaiyana_cover } from "./ResortsPage/Covers/villaiyana_cover.jpg";
+//----COVER
+//RESORTS PAGE
