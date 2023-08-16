@@ -12,6 +12,7 @@ import "./styles/shadow.css";
 import "./styles/itemHover.css";
 import "./styles/wspGallery.css";
 import "./styles/loader.css";
+import "./styles/scrollToTop.css";
 import Home from "./page/Home";
 import WhatsOn from "./page/WhatsOn";
 import Beaches from "./page/Beaches";
@@ -23,6 +24,7 @@ import AccomodationPage from "./page/AccomodationPage";
 import GettingHerePage from "./page/GettingHerePage";
 import GettingAroundPage from "./page/GettingAroundPage";
 import Loader from "./components/common/Loader";
+import ScrollToTopButton from "./components/common/ScrollToTopButton";
 import RestoItemPage from "./page/RestoItemPage";
 import ResortItemPage from "./page/ResortItemPage";
 import EventItemPage from "./page/EventItemPage";
@@ -91,6 +93,7 @@ function App() {
       ) : (
         <div className="bg-[#fffaf2]">
           <Cookie />
+          <ScrollToTopButton />
           <LangContext.Provider
             value={{
               language,
