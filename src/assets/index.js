@@ -27,6 +27,8 @@ export { default as festival_0 } from "./PlanAHeadPage/Cultures/festival_0.jpg";
 export { default as festival_1 } from "./PlanAHeadPage/Cultures/festival_1.jpg";
 export { default as festival_2 } from "./PlanAHeadPage/Cultures/festival_2.jpg";
 export { default as festival_3 } from "./PlanAHeadPage/Cultures/festival_3.jpg";
+export { default as fiesta_img_0 } from "./PlanAHeadPage/Cultures/fiesta_img_0.webp";
+export { default as fiesta_img_1 } from "./PlanAHeadPage/Cultures/fiesta_img_1.webp";
 export { default as history_0 } from "./PlanAHeadPage/TravelerGuides/history_0.jpg";
 export { default as history_1 } from "./PlanAHeadPage/TravelerGuides/history_1.jpg";
 export { default as history_2 } from "./PlanAHeadPage/TravelerGuides/history_2.jpg";
