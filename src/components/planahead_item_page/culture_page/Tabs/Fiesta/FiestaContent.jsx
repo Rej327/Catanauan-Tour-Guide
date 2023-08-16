@@ -1,24 +1,24 @@
-import React from "react";
+import React, { useContext } from "react";
 import OtherContent from "./OtherContent";
+import { LangContext } from "../../../../../App";
 
 const FiestaContent = () => {
+  const { language } = useContext(LangContext);
   return (
     <div className="w-full flex flex-wrap md:flex-nowrap gap-2 justify-center lg:justify-between ">
       <div className="max-w-[850px] flex flex-col gap-4 my-5">
-        <p className="font-bold text-2xl">Town Fiesta</p>
-        <p className="text-lg">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, sit.
-          Voluptatem hic cupiditate voluptatum ipsum, reiciendis, nisi ullam vel
-          quia obcaecati ab necessitatibus. Architecto quis tempore esse dolorum
-          atque! Aut ratione ducimus quae, perspiciatis mollitia labore est
-          dignissimos dolor nemo, in dolorum odit ipsa eligendi facere iure.
-          Voluptatem, debitis dolorum.
+        <p className="font-bold text-2xl">
+          {language?.plan_page?.cultures?.fiesta?.title}
         </p>
-        <img
-          src=""
-          alt="Catanauan Image"
-          className="w-full h-[18rem] object-cover"
-        />
+        <p className="text-lg">
+          {language?.plan_page?.cultures?.fiesta?.content_0}
+        </p>
+        <p className="text-lg">
+          {language?.plan_page?.cultures?.fiesta?.content_1}
+        </p>
+        <p className="text-lg">
+          {language?.plan_page?.cultures?.fiesta?.content_2}
+        </p>
       </div>
       <div className="w-[400px]">
         <OtherContent />
