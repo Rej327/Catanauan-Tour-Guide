@@ -486,6 +486,11 @@ import {
   festival_3,
   fiesta_img_0,
   fiesta_img_1,
+  amandos_cover,
+  appleparadize_cover,
+  butch_cover,
+  casa_cover,
+  cinco_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -733,19 +738,22 @@ export const en = {
         header: "Catanauan, Excavation",
         body: [
           {
-            title:"Jar Burials",
-            content: "Catanauan, Quezon has been known for the numerous jar burials that have been recovered there. Even before the recent excavations in the site, locals have already reported that some jar burials in the site were uncovered through development projects, and that they were able to dig up a series of jar burials with human remains. As the site is very archaeologically rich, the Archaeological Studies Program of the University of the Philippines, Diliman and the Australia National University have been conducting research and excavations in Catanauan through the Catanauan Archaeological and Heritage Project since 2008."
+            title: "Jar Burials",
+            content:
+              "Catanauan, Quezon has been known for the numerous jar burials that have been recovered there. Even before the recent excavations in the site, locals have already reported that some jar burials in the site were uncovered through development projects, and that they were able to dig up a series of jar burials with human remains. As the site is very archaeologically rich, the Archaeological Studies Program of the University of the Philippines, Diliman and the Australia National University have been conducting research and excavations in Catanauan through the Catanauan Archaeological and Heritage Project since 2008.",
           },
           {
             title: "Artifacts",
-            content: "In 2006, a sand quarry accidentally uncovered at least 5 jar burials containing human skeletal remains in Kanlagkit, Barangay Matandang Sabang Kanluran. At least three sandpits were left partially open, with the backfill containing earthenware sherds and skeletal fragments (mostly long bone). During the 2008 excavation a shell midden was exposed. The area where local inhabitants dug up burial jars with human remains was abundant in limestone slab fragments, earthenware sherds, and human skeletal fragments. Below the discovered shell midden were a few shells and pottery. Even below that, two small, well fired reddish earthenware pot sherds were found. Some glass beads were also found. A child (neonate) burial."
+            content:
+              "In 2006, a sand quarry accidentally uncovered at least 5 jar burials containing human skeletal remains in Kanlagkit, Barangay Matandang Sabang Kanluran. At least three sandpits were left partially open, with the backfill containing earthenware sherds and skeletal fragments (mostly long bone). During the 2008 excavation a shell midden was exposed. The area where local inhabitants dug up burial jars with human remains was abundant in limestone slab fragments, earthenware sherds, and human skeletal fragments. Below the discovered shell midden were a few shells and pottery. Even below that, two small, well fired reddish earthenware pot sherds were found. Some glass beads were also found. A child (neonate) burial.",
           },
           {
             title: "Catanauan Dagger",
-            content: "Archaeological digs by the Catanauan Archeological and Heritage Project (CAHP) have unearthed a unique iron dagger with an intricately carved bone hilt found at a jar burial site in the municipality facing Marinduque across the waters of the Mompog Pass. There is evidence that Catanauan's burial practices date back at least 2,000 years, making them part of an ancient Filipino funerary custom that has been found in the eastern part of the central Philippines. Large earthenware jars were buried along the sandy shores and covered with slabs of coralline or volcanic stone to preserve the bodies. Grave woods, either personal belongings or votive offerings for the afterlife, were buried alongside the deceased. On May 18, 2022, the dagger is now on display at the National Museum of Natural History in Manila, Philippines, as part of the museum's collection of other artifacts."
-          }
-        ]
-      }
+            content:
+              "Archaeological digs by the Catanauan Archeological and Heritage Project (CAHP) have unearthed a unique iron dagger with an intricately carved bone hilt found at a jar burial site in the municipality facing Marinduque across the waters of the Mompog Pass. There is evidence that Catanauan's burial practices date back at least 2,000 years, making them part of an ancient Filipino funerary custom that has been found in the eastern part of the central Philippines. Large earthenware jars were buried along the sandy shores and covered with slabs of coralline or volcanic stone to preserve the bodies. Grave woods, either personal belongings or votive offerings for the afterlife, were buried alongside the deceased. On May 18, 2022, the dagger is now on display at the National Museum of Natural History in Manila, Philippines, as part of the museum's collection of other artifacts.",
+          },
+        ],
+      },
     },
   },
 
@@ -765,6 +773,55 @@ export const en = {
         sm: 10,
         xl: 20,
       },
+    },
+  ],
+
+  //RESORTS PAGE
+  resorts_page: [
+    //amandos camp site
+    {
+      id: 1,
+      img: amandos_cover,
+      category: "Beach",
+      title: "Amandos Camp Site",
+      location: "Brgy. Gatasan, Catanauan, Quezon",
+      btn_txt: "More",
+    },
+    //apple paradize resort
+    {
+      id: 2,
+      img: appleparadize_cover,
+      category: "Pool",
+      title: "Apple Paradize Resort",
+      location: "Brgy. Gatasan, Catanauan, Quezon",
+      btn_txt: "More",
+    },
+    //butch resort
+    {
+      id: 3,
+      img: butch_cover,
+      category: "Beach",
+      title: "Butch Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      btn_txt: "More",
+    },
+    //casa joros resort
+    {
+      id: 4,
+      img: casa_cover,
+      category: "Pool & Beach",
+      title: "Butch Beach Resort",
+      location: "Brgy. Tuhian, Sitio Kamagong, Catanauan,  Quezon",
+      btn_txt: "More",
+    },
+    //cinco beach resort
+    {
+      id: 5,
+      img: cinco_cover,
+      category: "Beach",
+      title: "Cinco Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      btn_txt: "More",
     },
   ],
 
@@ -3501,25 +3558,27 @@ export const fil = {
           },
         ],
       },
-       //excavation
+      //excavation
       excavation: {
         header: "Catanauan, Excavation",
         body: [
           {
-            title:"Paglilibing sa Banga",
-            content: "Nakilala ang Catanauan, Quezon sa maraming mga banga na natuklasan dito. Bago pa man ang mga kamakailang paghuhukay sa lugat, naiulat na ng mga lokal na ang ilang mga jar burial sa lugar ay natuklasan sa pamamagitan ng pagpapaunlad sa mga proyekto, at sila ay nakapaghukay ng isang hanay ng mga jar burial na may mga labi ng tao. Dahil ang lugar ay napaka yaman sa archaeological ang Archaeological Studies Program ng Unibersidad ng Pilipinas, Diliman at ang Australia National University ay nagsasagawa ng pananaliksik at paghuhukay sa Catanauan sa pamamagitan ng Catanauan Archaeological and Heritage Project mula noong 2008."
+            title: "Paglilibing sa Banga",
+            content:
+              "Nakilala ang Catanauan, Quezon sa maraming mga banga na natuklasan dito. Bago pa man ang mga kamakailang paghuhukay sa lugat, naiulat na ng mga lokal na ang ilang mga jar burial sa lugar ay natuklasan sa pamamagitan ng pagpapaunlad sa mga proyekto, at sila ay nakapaghukay ng isang hanay ng mga jar burial na may mga labi ng tao. Dahil ang lugar ay napaka yaman sa archaeological ang Archaeological Studies Program ng Unibersidad ng Pilipinas, Diliman at ang Australia National University ay nagsasagawa ng pananaliksik at paghuhukay sa Catanauan sa pamamagitan ng Catanauan Archaeological and Heritage Project mula noong 2008.",
           },
           {
             title: "Artipakto",
-            content: "Noong 2006, aksidenteng nadiskubre ng sand quarry ang hindi bababa sa limang jar burial na naglalaman ng mga labi ng tao sa Kanlagkit, Barangay Matandang Sabang Kanluran. Hindi bababa sa tatlong sandpits ang naiwang bahagyang nakabukas, na ang backfill ay naglalaman ng earthenware sherds at skeletal fragment (karamihan ay mahabang buto). Sa panahon ng paghuhukay noong 2008 isang shell midden ang nalantad. Ang lugar kung saan ang mga lokal na naninirahan ay naghukay ng mga banga na may mga labi ng tao ay sagana sa mga limestone slab fragment, earthenware sherds, at skeletal fragment ng tao. Sa ibaba ng natuklasang shell midden ay ilang mga shell at palayok. Kahit sa ibaba nito, natagpuan ang dalawang maliit, mahusay na pinaputok na mapula-pula na mga bitak ng palayok, may nakita ring ilang mga glass beads. Natagpuan ang isang bata (neonate) na libing sa loob ng isang maliit na palayok na may diameter na 40 cm, na may kasamang dilaw na butil ng salamin na nakabaon. Isa pang nakalibing (isang babae, mula sa pag-aaral ng pelvic bone) ay natuklasan, at ito ay may mga hiwa mula sa isang maliit na palayok at isang cylindrical na artipakto."
+            content:
+              "Noong 2006, aksidenteng nadiskubre ng sand quarry ang hindi bababa sa limang jar burial na naglalaman ng mga labi ng tao sa Kanlagkit, Barangay Matandang Sabang Kanluran. Hindi bababa sa tatlong sandpits ang naiwang bahagyang nakabukas, na ang backfill ay naglalaman ng earthenware sherds at skeletal fragment (karamihan ay mahabang buto). Sa panahon ng paghuhukay noong 2008 isang shell midden ang nalantad. Ang lugar kung saan ang mga lokal na naninirahan ay naghukay ng mga banga na may mga labi ng tao ay sagana sa mga limestone slab fragment, earthenware sherds, at skeletal fragment ng tao. Sa ibaba ng natuklasang shell midden ay ilang mga shell at palayok. Kahit sa ibaba nito, natagpuan ang dalawang maliit, mahusay na pinaputok na mapula-pula na mga bitak ng palayok, may nakita ring ilang mga glass beads. Natagpuan ang isang bata (neonate) na libing sa loob ng isang maliit na palayok na may diameter na 40 cm, na may kasamang dilaw na butil ng salamin na nakabaon. Isa pang nakalibing (isang babae, mula sa pag-aaral ng pelvic bone) ay natuklasan, at ito ay may mga hiwa mula sa isang maliit na palayok at isang cylindrical na artipakto.",
           },
           {
             title: "Punyal sa Catanauan",
-            content: "Ang mga archaeological na paghuhukay ng Catanauan Archeological and Heritage Project (CAHP) ay nakahukay ng isang natatanging bakal na punyal na may masalimuot na inukit na puluhan ng buto na natagpuan sa isang jar burial site sa munisipyo na nakaharap sa Marinduque sa tapat ng tubig ng Mompog Pass. May katibayan na ang mga gawi sa paglilibing ng Catanauan ay nagsimula noong hindi bababa sa 2,000 taon, na ginawa itong bahagi ng isang sinaunang kaugalian ng paglilibing ng mga Pilipino na natagpuan sa silangang bahagi ng gitnang Pilipinas. Ang malalaking banga ng lupa ay ibinaon sa tabi ng mabuhanging baybayin at tinakpan ng mga slab ng coralline o bulkan na bato upang mapanatili ang mga katawan. Ang mga libingan, alinman sa mga personal na pag-aari o mga handog para sa kabilang buhay, ay inilibing sa tabi ng namatay. Noong Mayo 18, 2022, ang punyal ay nakalagay ngayon sa National Museum of Natural History sa Manila, Philippines, bilang bahagi ng koleksyon ng iba pang artifact ng museo."
-          }
-        ]
-      }
-  
+            content:
+              "Ang mga archaeological na paghuhukay ng Catanauan Archeological and Heritage Project (CAHP) ay nakahukay ng isang natatanging bakal na punyal na may masalimuot na inukit na puluhan ng buto na natagpuan sa isang jar burial site sa munisipyo na nakaharap sa Marinduque sa tapat ng tubig ng Mompog Pass. May katibayan na ang mga gawi sa paglilibing ng Catanauan ay nagsimula noong hindi bababa sa 2,000 taon, na ginawa itong bahagi ng isang sinaunang kaugalian ng paglilibing ng mga Pilipino na natagpuan sa silangang bahagi ng gitnang Pilipinas. Ang malalaking banga ng lupa ay ibinaon sa tabi ng mabuhanging baybayin at tinakpan ng mga slab ng coralline o bulkan na bato upang mapanatili ang mga katawan. Ang mga libingan, alinman sa mga personal na pag-aari o mga handog para sa kabilang buhay, ay inilibing sa tabi ng namatay. Noong Mayo 18, 2022, ang punyal ay nakalagay ngayon sa National Museum of Natural History sa Manila, Philippines, bilang bahagi ng koleksyon ng iba pang artifact ng museo.",
+          },
+        ],
+      },
     },
   },
 
