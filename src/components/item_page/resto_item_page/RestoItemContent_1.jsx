@@ -15,7 +15,8 @@ const RestoItemContent_1 = ({ dataInfo }) => {
 
   return (
     <div className="max-w-[800px] flex flex-col gap-4 text-lg">
-      <p>{dataInfo.content}</p>
+      {dataInfo.content && <p>{dataInfo.content}</p>}
+
       {dataInfo.long_content && (
         <Collapse
           className="font-body bodyColor "
@@ -37,7 +38,7 @@ const RestoItemContent_1 = ({ dataInfo }) => {
         </div>
       )}
 
-      <div className="mb-5 flex flex-wrap gap-4">
+      <div className="flex flex-wrap gap-4">
         <HotelPricesModal dataInfo={dataInfo} />
         <GalleryModal dataInfo={dataInfo} />
         {dataInfo.web_link && (

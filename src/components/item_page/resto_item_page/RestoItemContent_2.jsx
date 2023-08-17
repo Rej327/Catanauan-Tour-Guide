@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 
 const RestoItemContent_2 = ({ dataInfo }) => {
   return (
-    <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] mt-10 p-4">
+    <div className="w-full mx-auto lg:max-w-[400px] bg-[#fff5e6] md:mt-10 p-4">
       <div className="flex flex-col gap-4">
         <div className="flex gap-2 items-center">
           <BsPhone className="text-[#F9DBA9]" />

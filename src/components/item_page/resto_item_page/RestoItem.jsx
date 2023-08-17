@@ -6,6 +6,7 @@ import { Link, useParams } from "react-router-dom";
 import { LangContext } from "../../../App";
 import { getDirection } from "../../helper";
 import Carousel from "../../common/Carousel";
+import CarouselLike from "../../common/CarouselLike";
 
 const RestoItem = ({ className }) => {
   const { language, startingPoint } = useContext(LangContext);
@@ -33,8 +34,8 @@ const RestoItem = ({ className }) => {
           className="w-full h-[80vh] object-cover"
         />
       </div>
-      <div className="flex flex-wrap justify-between">
-        <div className="my-10 px-4">
+      <div className="px-2 flex flex-wrap justify-between">
+        <div className="my-5 px-4">
           <RestoItemContent_1 dataInfo={dataInfo} />
         </div>
         <div className="mx-auto">
@@ -58,10 +59,12 @@ const RestoItem = ({ className }) => {
           </div>
         </div>
       </div>
-      <div className="lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
-        <p className="font-bold text-2xl my-2">You may also like : </p>
-        <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
-          <Carousel>
+      <div className="px-2 lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
+        <p className="font-bold text-2xl my-2 px-2 md:px-0">
+          You may also like :{" "}
+        </p>
+        <div className="mb-10 mx-auto w-[320px] md:w-[700px] lg:w-[800px]">
+          <CarouselLike>
             {language?.restaurants_page?.map((data) => (
               <Link to={`/restaurants/${data.id}`}>
                 <div key={data.id} className="px-5">
@@ -76,7 +79,7 @@ const RestoItem = ({ className }) => {
                 </div>
               </Link>
             ))}
-          </Carousel>
+          </CarouselLike>
         </div>
       </div>
     </div>
