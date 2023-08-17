@@ -29,12 +29,12 @@ const Resorts = ({ className, id }) => {
             </p>
           </Link>
         </div>
-        <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[850px] h-[250px] right-[5%] top-[15rem]">
+        <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[790px] h-[250px] right-[5%] top-[15rem]">
           <Carousel>
             {language?.resorts_page?.map((data) => (
               <div
                 key={data.id}
-                className="max-w-[250px] h-[350px] homeItemContainer mx-12 md:mx-5 lg:mx-3 flex flex-col gap-2 bg-white rounded-xl"
+                className="max-w-[250px] h-[350px] homeItemContainer flex flex-col gap-10 bg-white rounded-xl"
               >
                 <div className="rounded-xl w-[250px] h-[200px] overflow-hidden">
                   <img

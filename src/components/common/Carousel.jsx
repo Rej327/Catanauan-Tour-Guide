@@ -18,7 +18,7 @@ function PrevArrow(props) {
   const { onClick } = props;
   return (
     <CarouselButton
-      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 left-0 bottom-[42.5%]"
+      className="rotate-180 hover:bg-[#f1be66] duration-300 active:bg-[#d4a758] absolute z-10 left-0 bottom-[44.5%]"
       onClick={onClick}
     />
   );
@@ -30,35 +30,51 @@ const Carousel = ({ className, children }) => {
     infinite: true,
     speed: 500,
     slidesToShow: 3,
-    slidesToScroll: 3,
+    slidesToScroll: 1,
+    centerPadding: "-9px", // Customize the space around centered slides
+    centerMode: true,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
-    centerMode: true,
-    centerPadding: "0px",
 
     responsive: [
       {
         breakpoint: 1200,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToScroll: 1,
           infinite: true,
           dots: true,
+          centerPadding: "-8px", // Customize the space around centered slides
+          centerMode: true,
         },
       },
       {
-        breakpoint: 800,
+        breakpoint: 884,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
           initialSlide: 1,
+          centerPadding: "65px", // Customize the space around centered slides
+          centerMode: true,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 424,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
+          centerPadding: "25px", // Customize the space around centered slides
+          centerMode: true,
+        },
+      },
+      {
+        breakpoint: 413,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          centerPadding: "40px", // Customize the space around centered slides
+          centerMode: true,
         },
       },
     ],
