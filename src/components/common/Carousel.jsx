@@ -33,6 +33,8 @@ const Carousel = ({ className, children }) => {
     slidesToScroll: 3,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
+    centerMode: true,
+    centerPadding: "0px",
 
     responsive: [
       {
