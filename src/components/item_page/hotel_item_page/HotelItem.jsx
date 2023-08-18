@@ -56,9 +56,9 @@ const HotelItem = ({ className }) => {
           </div>
         </div>
       </div>
-      <div className="lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
-        <p className="font-bold text-2xl my-2">You may also like : </p>
-        <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
+      <div className="lg:hidden mx-2 mt-2 mb-10 py-5 border-t-[1px] border-gray-300">
+        <p className="font-bold text-2xl my-4">You may also like : </p>
+        <div className="mx-auto w-[320px] md:w-[740px] lg:w-[800px]">
           <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
