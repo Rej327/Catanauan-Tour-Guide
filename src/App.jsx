@@ -133,7 +133,7 @@ function App() {
                 />
                 {/* ITEM COMPONENTS BY ID */}
                 <Route path="/restaurants/:id" element={<RestoItemPage />} />
-                <Route path="/resortss/" element={<ResortItemPage />} />
+                <Route path="/resorts/:id" element={<ResortItemPage />} />
                 <Route path="/event/" element={<EventItemPage />} />
                 <Route path="/hotels/:id" element={<HotelItemPage />} />
                 {/* LEGAL PAGE */}

@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { ImLocation } from "react-icons/im";
 import { LangContext } from "../../App";
+import { Link } from "react-router-dom";
 
 const ResortsBody = () => {
   const { language } = useContext(LangContext);
@@ -29,7 +30,7 @@ const ResortsBody = () => {
               </p>
             </div>
             <p className="absolute bottom-5 left-[45%] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
-              {data.btn_txt}
+              <Link to={`/resorts/${data.id}`}>{data.btn_txt}</Link>
             </p>
           </div>
         </div>
