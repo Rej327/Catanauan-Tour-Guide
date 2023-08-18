@@ -49,7 +49,7 @@ const CarouselLike = ({ className, children }) => {
         },
       },
       {
-        breakpoint: 424,
+        breakpoint: 428,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
