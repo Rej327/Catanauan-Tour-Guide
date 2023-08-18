@@ -1,13 +1,11 @@
-import React, { useContext, useEffect, useMemo } from "react";
+import React, { useContext, useMemo } from "react";
 import ItemHeader from "../../common/ItemHeader";
-import { banks } from "../../../assets";
 import HotelItemContent_1 from "./HotelItemContent_1";
 import HotelItemContent_2 from "./HotelItemContent_2";
-import Map from "../../common/Map";
 import { Link, useParams } from "react-router-dom";
 import { LangContext } from "../../../App";
 import { getDirection } from "../../helper";
-import Carousel from "../../common/Carousel";
+import CarouselLike from "../../common/CarouselLike";
 
 const HotelItem = ({ className }) => {
   const { language, startingPoint } = useContext(LangContext);
@@ -61,7 +59,7 @@ const HotelItem = ({ className }) => {
       <div className="lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
-          <Carousel>
+          <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
                 <div key={data.id} className="px-5">
@@ -76,7 +74,7 @@ const HotelItem = ({ className }) => {
                 </div>
               </Link>
             ))}
-          </Carousel>
+          </CarouselLike>
         </div>
       </div>
     </div>

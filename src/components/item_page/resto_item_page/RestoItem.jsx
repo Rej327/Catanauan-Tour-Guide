@@ -1,11 +1,10 @@
-import React, { useContext, useEffect, useMemo } from "react";
+import React, { useContext, useMemo } from "react";
 import ItemHeader from "../../common/ItemHeader";
 import RestoItemContent_1 from "./RestoItemContent_1";
 import RestoItemContent_2 from "./RestoItemContent_2";
 import { Link, useParams } from "react-router-dom";
 import { LangContext } from "../../../App";
 import { getDirection } from "../../helper";
-import Carousel from "../../common/Carousel";
 import CarouselLike from "../../common/CarouselLike";
 
 const RestoItem = ({ className }) => {

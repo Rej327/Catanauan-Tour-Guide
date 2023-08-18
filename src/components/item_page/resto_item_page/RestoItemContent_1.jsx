@@ -1,4 +1,4 @@
-import { Button, Collapse } from "@chakra-ui/react";
+import { Collapse } from "@chakra-ui/react";
 import React, { useContext, useState } from "react";
 import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
