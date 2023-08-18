@@ -11,7 +11,7 @@ import {
 import React from "react";
 import WSPGallery from "./WSPGallery";
 
-const HotelPricesModal = ({ dataInfo }) => {
+const PricesModal = ({ dataInfo }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
@@ -56,6 +56,16 @@ const HotelPricesModal = ({ dataInfo }) => {
                   <WSPGallery setData={dataInfo?.menu?.pools} />
                 </div>
               )}
+
+              {dataInfo?.prices?.fee && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Entrance Fee
+                  </p>
+                  <WSPGallery setData={dataInfo?.prices?.fee} />
+                </div>
+              )}
             </div>
           </ModalBody>
 
@@ -66,4 +76,4 @@ const HotelPricesModal = ({ dataInfo }) => {
   );
 };
 
-export default HotelPricesModal;
+export default PricesModal;
