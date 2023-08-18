@@ -62,7 +62,7 @@ const RestoItem = ({ className }) => {
         <p className="font-bold text-2xl my-2 px-2 md:px-0">
           You may also like :{" "}
         </p>
-        <div className="mb-10 mx-auto w-[320px] md:w-[700px] lg:w-[800px]">
+        <div className="mb-10 mx-auto w-[320px] md:w-[740px] lg:w-[800px]">
           <CarouselLike>
             {language?.restaurants_page?.map((data) => (
               <Link to={`/restaurants/${data.id}`}>

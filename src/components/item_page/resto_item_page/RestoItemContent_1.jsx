@@ -4,7 +4,7 @@ import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
 import { Link } from "react-router-dom";
 import GalleryModal from "../../common/GalleryModal";
-import HotelPricesModal from "../../common/HotelPricesModal";
+import HotelPricesModal from "../../common/PricesModal";
 
 const RestoItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
