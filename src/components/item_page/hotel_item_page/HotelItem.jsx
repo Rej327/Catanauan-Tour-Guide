@@ -37,7 +37,7 @@ const HotelItem = ({ className }) => {
         </div>
         <div className="mx-auto">
           <HotelItemContent_2 dataInfo={dataInfo} />
-          <div className="my-5 flex gap-10 w-fit mx-auto mb-10">
+          <div className="my-5 mb-10 flex flex-wrap justify-center items-center md:justify-evenly gap-4">
             <Link
               to={getDirection(dataInfo.direction_link, startingPoint)}
               target="_blank"
