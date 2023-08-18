@@ -491,6 +491,32 @@ import {
   butch_cover,
   casa_cover,
   cinco_cover,
+  amandos_price_img_0,
+  amandos_place_img_0,
+  amandos_place_img_2,
+  amandos_place_img_3,
+  amandos_place_img_4,
+  amandos_place_img_5,
+  amandos_place_img_6,
+  amandos_place_img_7,
+  amandos_place_img_8,
+  amandos_place_img_9,
+  amandos_place_img_10,
+  amandos_place_img_11,
+  amandos_place_img_12,
+  amandos_place_img_13,
+  amandos_place_img_14,
+  amandos_place_img_15,
+  amandos_place_img_16,
+  amandos_place_img_17,
+  amandos_place_img_18,
+  amandos_place_img_19,
+  amandos_place_img_20,
+  amandos_place_img_21,
+  amandos_place_img_22,
+  amandos_place_img_23,
+  amandos_place_img_24,
+  amandos_place_img_25,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -785,7 +811,165 @@ export const en = {
       category: "Beach",
       title: "Amandos Camp Site",
       location: "Brgy. Gatasan, Catanauan, Quezon",
+      number: "(+63) 938-881-0628",
       btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 938-881-0628",
+      fb_link: "https://www.facebook.com/Kuyaallancampsite?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/JA6Ude4xzKifc77g7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Amando's+Campsite,+Bridge,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping munpong and maniwaya 10 person 3k,  team building, kayak 1hr 200, banana boat 3k 10-12 person 1 tour, volleyball, rental videoke per hour.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "Tent only good for 2 person, 200 pesos, when yuou bring, 100 pesos fee. Good for 4 is 400 pesos, when you bring, 200 pesos fee",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1000 pesos overnight, 500 pesos day tour.",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "50 pesos with Band & 70 pesos every Saturday",
+          },
+          {
+            title: "Kids",
+            fee: "3 years old below is free",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: amandos_price_img_0,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: amandos_place_img_0,
+          },
+          {
+            img: amandos_place_img_2,
+          },
+          {
+            img: amandos_place_img_3,
+          },
+          {
+            img: amandos_place_img_4,
+          },
+          {
+            img: amandos_place_img_5,
+          },
+          {
+            img: amandos_place_img_6,
+          },
+          {
+            img: amandos_place_img_7,
+          },
+          {
+            img: amandos_place_img_8,
+          },
+          {
+            img: amandos_place_img_9,
+          },
+          {
+            img: amandos_place_img_10,
+          },
+          {
+            img: amandos_place_img_11,
+          },
+          {
+            img: amandos_place_img_12,
+          },
+          {
+            img: amandos_place_img_13,
+          },
+          {
+            img: amandos_place_img_14,
+          },
+          {
+            img: amandos_place_img_15,
+          },
+          {
+            img: amandos_place_img_16,
+          },
+          {
+            img: amandos_place_img_17,
+          },
+          {
+            img: amandos_place_img_18,
+          },
+          {
+            img: amandos_place_img_19,
+          },
+          {
+            img: amandos_place_img_20,
+          },
+          {
+            img: amandos_place_img_21,
+          },
+          {
+            img: amandos_place_img_22,
+          },
+          {
+            img: amandos_place_img_23,
+          },
+          {
+            img: amandos_place_img_24,
+          },
+          {
+            img: amandos_place_img_25,
+          },
+        ],
+      },
     },
     //apple paradize resort
     {
