@@ -5,6 +5,8 @@ import { LangContext } from "../../../App";
 import { ImLocation } from "react-icons/im";
 import CarouselLike from "../../common/CarouselLike";
 import { Link } from "react-router-dom";
+import GalleryModal from "../../common/GalleryModal";
+import ResortsPricesModal from "../../common/PricesModal";
 
 const ResortItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
@@ -48,11 +50,10 @@ const ResortItemContent_1 = ({ dataInfo }) => {
         {show ? "- Read Less" : "+ Read More"}
       </p>
       <div className="mb-5 flex gap-4">
-        <button className="bg-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
-          <p className="text-base">Gallery</p>
-        </button>
+        <ResortsPricesModal dataInfo={dataInfo} />
+        <GalleryModal dataInfo={dataInfo} />
       </div>
-      <div className="mt-2 py-5 border-t-[1px] border-gray-300">
+      <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <CarouselLike>
