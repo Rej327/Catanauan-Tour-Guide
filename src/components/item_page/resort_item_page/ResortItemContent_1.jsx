@@ -16,7 +16,7 @@ const ResortItemContent_1 = ({ dataInfo }) => {
   const { language } = useContext(LangContext);
 
   return (
-    <div className="max-w-[800px] flex flex-col gap-4 text-lg">
+    <div className="max-w-[800px] mx-2 flex flex-col gap-4 text-lg">
       {dataInfo.entrance.types && (
         <div>
           {dataInfo?.entrance?.types.map((data) => (
@@ -50,7 +50,7 @@ const ResortItemContent_1 = ({ dataInfo }) => {
         {show ? "- Read Less" : "+ Read More"}
       </p>
       <div className="mb-5 flex gap-4">
-        <ResortsPricesModal dataInfo={dataInfo} />
+        {dataInfo.prices && <ResortsPricesModal dataInfo={dataInfo} />}
         <GalleryModal dataInfo={dataInfo} />
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
