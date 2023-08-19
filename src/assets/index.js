@@ -714,4 +714,19 @@ export { default as amandos_place_img_24 } from "./ResortsPage/Amandos/Place/ama
 export { default as amandos_place_img_25 } from "./ResortsPage/Amandos/Place/amandos_place_img_25.webp";
 //----PLACE
 //--AMANODS CAMP SITE
+//--APPLE PARADIZE RESORT
+//--APPLE PARADIZE RESORT
+//--BUTCH BEACH RESORT
+export { default as butch_place_img_0 } from "./ResortsPage/Butch/Place/butch_place_img_0.webp";
+export { default as butch_place_img_1 } from "./ResortsPage/Butch/Place/butch_place_img_1.webp";
+export { default as butch_place_img_2 } from "./ResortsPage/Butch/Place/butch_place_img_2.webp";
+export { default as butch_place_img_3 } from "./ResortsPage/Butch/Place/butch_place_img_3.webp";
+export { default as butch_place_img_4 } from "./ResortsPage/Butch/Place/butch_place_img_4.webp";
+export { default as butch_place_img_5 } from "./ResortsPage/Butch/Place/butch_place_img_5.webp";
+export { default as butch_place_img_6 } from "./ResortsPage/Butch/Place/butch_place_img_6.webp";
+export { default as butch_place_img_7 } from "./ResortsPage/Butch/Place/butch_place_img_7.webp";
+export { default as butch_place_img_8 } from "./ResortsPage/Butch/Place/butch_place_img_8.webp";
+export { default as butch_place_img_9 } from "./ResortsPage/Butch/Place/butch_place_img_9.webp";
+export { default as butch_place_img_10 } from "./ResortsPage/Butch/Place/butch_place_img_10.webp";
+//--BUTCH BEACH RESORT
 //RESORTS PAGE
