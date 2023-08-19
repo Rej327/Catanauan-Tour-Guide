@@ -715,8 +715,37 @@ export { default as amandos_place_img_25 } from "./ResortsPage/Amandos/Place/ama
 //----PLACE
 //--AMANODS CAMP SITE
 //--APPLE PARADIZE RESORT
+//----PLACE
+export { default as apple_place_img_0 } from "./ResortsPage/AppleParadize/Place/apple_place_img_0.webp";
+export { default as apple_place_img_1 } from "./ResortsPage/AppleParadize/Place/apple_place_img_0.webp";
+export { default as apple_place_img_2 } from "./ResortsPage/AppleParadize/Place/apple_place_img_2.webp";
+export { default as apple_place_img_3 } from "./ResortsPage/AppleParadize/Place/apple_place_img_3.webp";
+export { default as apple_place_img_4 } from "./ResortsPage/AppleParadize/Place/apple_place_img_4.webp";
+export { default as apple_place_img_5 } from "./ResortsPage/AppleParadize/Place/apple_place_img_5.webp";
+export { default as apple_place_img_6 } from "./ResortsPage/AppleParadize/Place/apple_place_img_6.webp";
+export { default as apple_place_img_7 } from "./ResortsPage/AppleParadize/Place/apple_place_img_7.webp";
+export { default as apple_place_img_8 } from "./ResortsPage/AppleParadize/Place/apple_place_img_8.webp";
+export { default as apple_place_img_9 } from "./ResortsPage/AppleParadize/Place/apple_place_img_9.webp";
+export { default as apple_place_img_10 } from "./ResortsPage/AppleParadize/Place/apple_place_img_10.webp";
+export { default as apple_place_img_11 } from "./ResortsPage/AppleParadize/Place/apple_place_img_11.webp";
+export { default as apple_place_img_12 } from "./ResortsPage/AppleParadize/Place/apple_place_img_12.webp";
+export { default as apple_place_img_13 } from "./ResortsPage/AppleParadize/Place/apple_place_img_13.webp";
+export { default as apple_place_img_14 } from "./ResortsPage/AppleParadize/Place/apple_place_img_14.webp";
+export { default as apple_place_img_15 } from "./ResortsPage/AppleParadize/Place/apple_place_img_15.webp";
+export { default as apple_place_img_16 } from "./ResortsPage/AppleParadize/Place/apple_place_img_16.webp";
+export { default as apple_place_img_17 } from "./ResortsPage/AppleParadize/Place/apple_place_img_17.webp";
+export { default as apple_place_img_18 } from "./ResortsPage/AppleParadize/Place/apple_place_img_18.webp";
+export { default as apple_place_img_19 } from "./ResortsPage/AppleParadize/Place/apple_place_img_19.webp";
+export { default as apple_place_img_20 } from "./ResortsPage/AppleParadize/Place/apple_place_img_20.webp";
+export { default as apple_place_img_21 } from "./ResortsPage/AppleParadize/Place/apple_place_img_21.webp";
+export { default as apple_place_img_22 } from "./ResortsPage/AppleParadize/Place/apple_place_img_22.webp";
+//----PLACE
+//----PRICE
+export { default as apple_price_img_0 } from "./ResortsPage/AppleParadize/Price/apple_price_img_0.jpg";
+//----PRICE
 //--APPLE PARADIZE RESORT
 //--BUTCH BEACH RESORT
+//----PLACE
 export { default as butch_place_img_0 } from "./ResortsPage/Butch/Place/butch_place_img_0.webp";
 export { default as butch_place_img_1 } from "./ResortsPage/Butch/Place/butch_place_img_1.webp";
 export { default as butch_place_img_2 } from "./ResortsPage/Butch/Place/butch_place_img_2.webp";
@@ -728,5 +757,7 @@ export { default as butch_place_img_7 } from "./ResortsPage/Butch/Place/butch_pl
 export { default as butch_place_img_8 } from "./ResortsPage/Butch/Place/butch_place_img_8.webp";
 export { default as butch_place_img_9 } from "./ResortsPage/Butch/Place/butch_place_img_9.webp";
 export { default as butch_place_img_10 } from "./ResortsPage/Butch/Place/butch_place_img_10.webp";
+//----PLACE
 //--BUTCH BEACH RESORT
+
 //RESORTS PAGE
