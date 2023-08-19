@@ -528,6 +528,30 @@ import {
   butch_place_img_8,
   butch_place_img_9,
   butch_place_img_10,
+  apple_place_img_22,
+  apple_place_img_21,
+  apple_place_img_20,
+  apple_place_img_19,
+  apple_place_img_18,
+  apple_place_img_17,
+  apple_place_img_16,
+  apple_place_img_15,
+  apple_place_img_14,
+  apple_place_img_13,
+  apple_place_img_12,
+  apple_place_img_11,
+  apple_place_img_10,
+  apple_place_img_9,
+  apple_place_img_8,
+  apple_place_img_7,
+  apple_place_img_6,
+  apple_place_img_5,
+  apple_place_img_4,
+  apple_place_img_3,
+  apple_place_img_2,
+  apple_place_img_0,
+  apple_place_img_1,
+  apple_price_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -988,8 +1012,125 @@ export const en = {
       img: appleparadize_cover,
       category: "Pool",
       title: "Apple Paradize Resort",
-      location: "Brgy. Gatasan, Catanauan, Quezon",
+      location: "Brgy. Tuhian, Catanauan Quezon",
+      number: "(+63) 945-641-6671",
       btn_txt: "More",
+
+      //links
+      dial_num: "tel: 945-641-6671",
+      fb_link: "https://www.facebook.com/Applesparadizeresort",
+      loc_link: "https://goo.gl/maps/C7Kxc85ra9wNqqij7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Apple's+paradize+resort,+Barangay+tuhian,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: apple_place_img_0,
+          },
+          {
+            img: apple_place_img_1,
+          },
+          {
+            img: apple_place_img_2,
+          },
+          {
+            img: apple_place_img_3,
+          },
+          {
+            img: apple_place_img_4,
+          },
+          {
+            img: apple_place_img_5,
+          },
+          {
+            img: apple_place_img_6,
+          },
+          {
+            img: apple_place_img_7,
+          },
+          {
+            img: apple_place_img_8,
+          },
+          {
+            img: apple_place_img_9,
+          },
+          {
+            img: apple_place_img_10,
+          },
+          {
+            img: apple_place_img_11,
+          },
+          {
+            img: apple_place_img_12,
+          },
+          {
+            img: apple_place_img_13,
+          },
+          {
+            img: apple_place_img_14,
+          },
+          {
+            img: apple_place_img_15,
+          },
+          {
+            img: apple_place_img_16,
+          },
+          {
+            img: apple_place_img_17,
+          },
+          {
+            img: apple_place_img_18,
+          },
+          {
+            img: apple_place_img_19,
+          },
+          {
+            img: apple_place_img_20,
+          },
+          {
+            img: apple_place_img_21,
+          },
+          {
+            img: apple_place_img_22,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: apple_price_img_0,
+          },
+        ],
+      },
     },
     //butch resort
     {
