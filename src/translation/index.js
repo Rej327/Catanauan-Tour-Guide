@@ -517,6 +517,17 @@ import {
   amandos_place_img_23,
   amandos_place_img_24,
   amandos_place_img_25,
+  butch_place_img_1,
+  butch_place_img_0,
+  butch_place_img_2,
+  butch_place_img_3,
+  butch_place_img_4,
+  butch_place_img_5,
+  butch_place_img_6,
+  butch_place_img_7,
+  butch_place_img_8,
+  butch_place_img_9,
+  butch_place_img_10,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -987,7 +998,108 @@ export const en = {
       category: "Beach",
       title: "Butch Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 955-358-3338",
       btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 955-358-3338",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100069189401877&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/EnDH61qwsAvM3F4FA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BF36+Butch+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Island hopping",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "Dilaw 3k with cottage 20 pax",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1k-700 12hrs, 24hrs 1.5k",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "None",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: butch_place_img_0,
+          },
+          {
+            img: butch_place_img_1,
+          },
+          {
+            img: butch_place_img_2,
+          },
+          {
+            img: butch_place_img_3,
+          },
+          {
+            img: butch_place_img_4,
+          },
+          {
+            img: butch_place_img_5,
+          },
+          {
+            img: butch_place_img_6,
+          },
+          {
+            img: butch_place_img_7,
+          },
+          {
+            img: butch_place_img_8,
+          },
+          {
+            img: butch_place_img_9,
+          },
+          {
+            img: butch_place_img_10,
+          },
+        ],
+      },
     },
     //casa joros resort
     {
