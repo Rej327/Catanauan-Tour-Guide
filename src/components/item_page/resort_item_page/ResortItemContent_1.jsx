@@ -17,7 +17,7 @@ const ResortItemContent_1 = ({ dataInfo }) => {
 
   return (
     <div className="max-w-[800px] mx-2 flex flex-col gap-4 text-lg">
-      {dataInfo.entrance.types && (
+      {dataInfo?.entrance?.types && (
         <div>
           {dataInfo?.entrance?.types.map((data) => (
             <div className="flex flex-col py-2">
@@ -27,13 +27,13 @@ const ResortItemContent_1 = ({ dataInfo }) => {
           ))}
         </div>
       )}
-      {dataInfo.content && (
+      {dataInfo?.content && (
         <Collapse
           className="font-body bodyColor "
           startingHeight={100}
           in={show}
         >
-          {dataInfo.content.map((data) => (
+          {dataInfo?.content?.map((data) => (
             <div className="flex flex-col py-2">
               <p className="text-lg font-bold">{data.title}</p>
               <p className="text-lg">{data.description}</p>
@@ -42,13 +42,16 @@ const ResortItemContent_1 = ({ dataInfo }) => {
         </Collapse>
       )}
 
-      <p
-        className="cursor-pointer w-fit text-base"
-        onClick={handleToggle}
-        mt="1rem"
-      >
-        {show ? "- Read Less" : "+ Read More"}
-      </p>
+      {dataInfo?.content && (
+        <p
+          className="cursor-pointer w-fit text-base"
+          onClick={handleToggle}
+          mt="1rem"
+        >
+          {show ? "- Read Less" : "+ Read More"}
+        </p>
+      )}
+
       <div className="mb-5 flex gap-4">
         {dataInfo.prices && <ResortsPricesModal dataInfo={dataInfo} />}
         <GalleryModal dataInfo={dataInfo} />
