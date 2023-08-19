@@ -58,13 +58,13 @@ const ResortItemContent_1 = ({ dataInfo }) => {
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
-        <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
+        <div className="mt-4 mb-10 mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <CarouselLike>
             {language?.resorts_page.map((data) => (
               <Link to={`/resorts/${data.id}`}>
                 <div
                   key={data.id}
-                  className="relative homeItemContainer h-[320px] px-5"
+                  className="relative homeItemContainer h-[290px] px-5"
                 >
                   <div className="w-auto h-auto overflow-hidden">
                     <img

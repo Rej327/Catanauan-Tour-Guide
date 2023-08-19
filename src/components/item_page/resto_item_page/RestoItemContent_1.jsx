@@ -51,7 +51,7 @@ const RestoItemContent_1 = ({ dataInfo }) => {
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
-        <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
+        <div className="mt-4 mb-10 mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <Carousel>
             {language?.restaurants_page?.map((data) => (
               <div

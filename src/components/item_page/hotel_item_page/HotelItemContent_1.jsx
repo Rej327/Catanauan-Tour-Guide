@@ -5,6 +5,7 @@ import { LangContext } from "../../../App";
 import { Link } from "react-router-dom";
 import GalleryModal from "../../common/GalleryModal";
 import HotelPricesModal from "../../common/PricesModal";
+import CarouselLike from "../../common/CarouselLike";
 
 const HotelItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
@@ -50,8 +51,8 @@ const HotelItemContent_1 = ({ dataInfo }) => {
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
-        <div className="mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
-          <Carousel>
+        <div className="mt-4 mb-10 mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
+          <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
                 <div key={data.id} className="px-5 homeItemContainer">
@@ -68,7 +69,7 @@ const HotelItemContent_1 = ({ dataInfo }) => {
                 </div>
               </Link>
             ))}
-          </Carousel>
+          </CarouselLike>
         </div>
       </div>
     </div>
