@@ -843,5 +843,16 @@ export { default as cinco_place_img_10 } from "./ResortsPage/Cinco/Place/cinco_p
 //----COTTAGE
 //----PLACES
 //--CINCO BEACH RESORT
-
+//--DECENAS VISTA MARINA BEACH RESORT
+//----PLACES
+export { default as decena_place_img_0 } from "./ResortsPage/Decena/Place/decena_place_img_0.webp";
+export { default as decena_place_img_1 } from "./ResortsPage/Decena/Place/decena_place_img_1.webp";
+export { default as decena_place_img_2 } from "./ResortsPage/Decena/Place/decena_place_img_2.webp";
+export { default as decena_place_img_3 } from "./ResortsPage/Decena/Place/decena_place_img_3.webp";
+export { default as decena_place_img_4 } from "./ResortsPage/Decena/Place/decena_place_img_4.webp";
+export { default as decena_place_img_5 } from "./ResortsPage/Decena/Place/decena_place_img_5.webp";
+export { default as decena_place_img_6 } from "./ResortsPage/Decena/Place/decena_place_img_6.webp";
+export { default as decena_place_img_7 } from "./ResortsPage/Decena/Place/decena_place_img_7.webp";
+//----PLACES
+//--DECENAS VISTA MARINA BEACH RESORT
 //RESORTS PAGE
