@@ -625,6 +625,34 @@ import {
   decena_place_img_2,
   decena_place_img_1,
   decena_place_img_0,
+  duyan_cover,
+  duyan_place_img_0,
+  duyan_place_img_1,
+  duyan_place_img_2,
+  duyan_place_img_3,
+  duyan_place_img_4,
+  duyan_place_img_5,
+  duyan_place_img_6,
+  duyan_place_img_7,
+  duyan_place_img_8,
+  duyan_place_img_9,
+  duyan_place_img_10,
+  duyan_place_img_11,
+  duyan_place_img_12,
+  duyan_place_img_13,
+  duyan_place_img_14,
+  duyan_place_img_15,
+  duyan_place_img_16,
+  duyan_place_img_17,
+  duyan_place_img_18,
+  duyan_place_img_19,
+  duyan_place_img_20,
+  duyan_place_img_21,
+  duyan_place_img_22,
+  duyan_menu_img_0,
+  duyan_menu_img_1,
+  duyan_price_img_0,
+  duyan_price_img_1,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1799,6 +1827,179 @@ export const en = {
           },
           {
             img: decena_place_img_7,
+          },
+        ],
+      },
+    },
+    //duyann beach resort
+    {
+      id: 7,
+      img: duyan_cover,
+      category: "Beach",
+      title: "Duyann Catanauan Shores",
+      location: "Brgy. Cutcutan, Catanauan, Quezon",
+      number: "(+63) 938-583-6363",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 938-583-6363",
+      fb_link: "https://www.facebook.com/Duyanncatanauanshores",
+      loc_link: "https://goo.gl/maps/cabY6VH9nVsreqRm9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Duyann+Catanauan+Shores,+Brgy+Cutcutan,+Alvaran+Estates+Catanauan+Quezon,+Catanauan,+4311+Quezon+Province",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping 6.5k 10 pax 7hrs sandbar, kayaking 1hr 500, volleyball, videoke 1k 12 hrs, floating cottages 3.5k rent pag per head 200.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "4.5k 5pax, 8k 10 pax, 4 kubo 5pax 1.8k-2.5k, 10rooms, 4k 7pax, 2k 5pax, tent 300 pag rent 700 6pax on, 2pax 5h, 3h pag may dala.",
+        },
+        {
+          title: "Schedule: ",
+          description: "2pm in out 12nn",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 150 day & ₱ 100 night ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 75.00",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        room: [
+          {
+            img: duyan_price_img_1,
+          },
+        ],
+
+        menu: [
+          {
+            img: duyan_menu_img_0,
+          },
+          {
+            img: duyan_menu_img_1,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: duyan_price_img_0,
+          },
+          {
+            img: duyan_place_img_0,
+          },
+          {
+            img: duyan_place_img_1,
+          },
+          {
+            img: duyan_place_img_2,
+          },
+          {
+            img: duyan_place_img_3,
+          },
+          {
+            img: duyan_place_img_4,
+          },
+          {
+            img: duyan_place_img_5,
+          },
+          {
+            img: duyan_place_img_6,
+          },
+          {
+            img: duyan_place_img_7,
+          },
+          {
+            img: duyan_place_img_8,
+          },
+          {
+            img: duyan_place_img_9,
+          },
+          {
+            img: duyan_place_img_10,
+          },
+          {
+            img: duyan_place_img_11,
+          },
+          {
+            img: duyan_place_img_12,
+          },
+          {
+            img: duyan_place_img_13,
+          },
+          {
+            img: duyan_place_img_14,
+          },
+          {
+            img: duyan_place_img_15,
+          },
+          {
+            img: duyan_place_img_16,
+          },
+          {
+            img: duyan_place_img_17,
+          },
+          {
+            img: duyan_place_img_18,
+          },
+          {
+            img: duyan_place_img_19,
+          },
+          {
+            img: duyan_place_img_20,
+          },
+          {
+            img: duyan_place_img_21,
+          },
+          {
+            img: duyan_place_img_22,
           },
         ],
       },
