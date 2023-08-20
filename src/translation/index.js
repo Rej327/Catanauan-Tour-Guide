@@ -616,6 +616,15 @@ import {
   cinco_place_img_2,
   cinco_place_img_1,
   cinco_place_img_0,
+  decenas_cover,
+  decena_place_img_7,
+  decena_place_img_6,
+  decena_place_img_5,
+  decena_place_img_4,
+  decena_place_img_3,
+  decena_place_img_2,
+  decena_place_img_1,
+  decena_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1681,6 +1690,115 @@ export const en = {
           },
           {
             img: cinco_place_img_10,
+          },
+        ],
+      },
+    },
+    //decena vista marina beach resort
+    {
+      id: 6,
+      img: decenas_cover,
+      category: "Beach",
+      title: "Decena`s Vista Marina",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 949-888-8746",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 949-888-8746",
+      fb_link: "https://www.facebook.com/decenavistamarina?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/7KjEAQzL8TQbJ7BR9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.6068056,122.2128333",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Island hopping,  banana boat, jetski.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "Unknown.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "Unknown",
+        },
+        {
+          title: "Menu: ",
+          description: "Upon request",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ Unknown",
+          },
+          {
+            title: "Kids",
+            fee: "₱ Unknown",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: decena_place_img_0,
+          },
+          {
+            img: decena_place_img_1,
+          },
+          {
+            img: decena_place_img_2,
+          },
+          {
+            img: decena_place_img_3,
+          },
+          {
+            img: decena_place_img_4,
+          },
+          {
+            img: decena_place_img_5,
+          },
+          {
+            img: decena_place_img_6,
+          },
+          {
+            img: decena_place_img_7,
           },
         ],
       },
