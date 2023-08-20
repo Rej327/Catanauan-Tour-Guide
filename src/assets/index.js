@@ -759,5 +759,72 @@ export { default as butch_place_img_9 } from "./ResortsPage/Butch/Place/butch_pl
 export { default as butch_place_img_10 } from "./ResortsPage/Butch/Place/butch_place_img_10.webp";
 //----PLACE
 //--BUTCH BEACH RESORT
+//--CASA JOROS RESORT
+//----PLACE
+export { default as casa_place_img_0 } from "./ResortsPage/CasaJoros/Place/casa_place_img_0.webp";
+export { default as casa_place_img_1 } from "./ResortsPage/CasaJoros/Place/casa_place_img_1.webp";
+export { default as casa_place_img_2 } from "./ResortsPage/CasaJoros/Place/casa_place_img_2.webp";
+export { default as casa_place_img_3 } from "./ResortsPage/CasaJoros/Place/casa_place_img_3.webp";
+export { default as casa_place_img_4 } from "./ResortsPage/CasaJoros/Place/casa_place_img_4.webp";
+export { default as casa_place_img_5 } from "./ResortsPage/CasaJoros/Place/casa_place_img_5.webp";
+export { default as casa_place_img_6 } from "./ResortsPage/CasaJoros/Place/casa_place_img_6.webp";
+export { default as casa_place_img_7 } from "./ResortsPage/CasaJoros/Place/casa_place_img_7.webp";
+export { default as casa_place_img_8 } from "./ResortsPage/CasaJoros/Place/casa_place_img_8.webp";
+export { default as casa_place_img_9 } from "./ResortsPage/CasaJoros/Place/casa_place_img_9.webp";
+export { default as casa_place_img_10 } from "./ResortsPage/CasaJoros/Place/casa_place_img_10.webp";
+export { default as casa_place_img_11 } from "./ResortsPage/CasaJoros/Place/casa_place_img_11.webp";
+export { default as casa_place_img_12 } from "./ResortsPage/CasaJoros/Place/casa_place_img_12.webp";
+//----PLACE
+//----COTTAGE
+export { default as casa_cottage_img_0 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_0.webp";
+export { default as casa_cottage_img_1 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_1.webp";
+export { default as casa_cottage_img_2 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_2.webp";
+export { default as casa_cottage_img_3 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_3.webp";
+export { default as casa_cottage_img_4 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_4.webp";
+export { default as casa_cottage_img_5 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_5.webp";
+export { default as casa_cottage_img_6 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_6.webp";
+export { default as casa_cottage_img_7 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_7.webp";
+export { default as casa_cottage_img_8 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_8.webp";
+export { default as casa_cottage_img_9 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_9.webp";
+export { default as casa_cottage_img_10 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_10.webp";
+export { default as casa_cottage_img_11 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_11.webp";
+export { default as casa_cottage_img_12 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_12.webp";
+export { default as casa_cottage_img_13 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_13.webp";
+export { default as casa_cottage_img_14 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_14.webp";
+export { default as casa_cottage_img_15 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_15.webp";
+export { default as casa_cottage_img_16 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_16.webp";
+export { default as casa_cottage_img_17 } from "./ResortsPage/CasaJoros/Cottage/casa_cottage_img_17.webp";
+//----COTTAGE
+//----ENTRANCE
+export { default as casa_entrance_img_0 } from "./ResortsPage/CasaJoros/Entrance/casa_entrance_img_0.webp";
+//----ENTRANCE
+//----MENU
+export { default as casa_menu_img_0 } from "./ResortsPage/CasaJoros/Menu/casa_menu_img_0.webp";
+export { default as casa_menu_img_1 } from "./ResortsPage/CasaJoros/Menu/casa_menu_img_1.webp";
+export { default as casa_menu_img_2 } from "./ResortsPage/CasaJoros/Menu/casa_menu_img_2.webp";
+export { default as casa_menu_img_3 } from "./ResortsPage/CasaJoros/Menu/casa_menu_img_3.webp";
+//----MENU
+//----ROOM
+export { default as casa_room_img_0 } from "./ResortsPage/CasaJoros/Room/casa_room_img_0.webp";
+export { default as casa_room_img_1 } from "./ResortsPage/CasaJoros/Room/casa_room_img_1.webp";
+export { default as casa_room_img_2 } from "./ResortsPage/CasaJoros/Room/casa_room_img_2.webp";
+export { default as casa_room_img_3 } from "./ResortsPage/CasaJoros/Room/casa_room_img_3.webp";
+export { default as casa_room_img_4 } from "./ResortsPage/CasaJoros/Room/casa_room_img_4.webp";
+export { default as casa_room_img_5 } from "./ResortsPage/CasaJoros/Room/casa_room_img_5.webp";
+export { default as casa_room_img_6 } from "./ResortsPage/CasaJoros/Room/casa_room_img_6.webp";
+export { default as casa_room_img_7 } from "./ResortsPage/CasaJoros/Room/casa_room_img_7.webp";
+export { default as casa_room_img_8 } from "./ResortsPage/CasaJoros/Room/casa_room_img_8.webp";
+export { default as casa_room_img_9 } from "./ResortsPage/CasaJoros/Room/casa_room_img_9.webp";
+export { default as casa_room_img_10 } from "./ResortsPage/CasaJoros/Room/casa_room_img_10.webp";
+export { default as casa_room_img_11 } from "./ResortsPage/CasaJoros/Room/casa_room_img_11.webp";
+export { default as casa_room_img_12 } from "./ResortsPage/CasaJoros/Room/casa_room_img_12.webp";
+export { default as casa_room_img_13 } from "./ResortsPage/CasaJoros/Room/casa_room_img_13.webp";
+//----ROOM
+//----TERMS
+export { default as casa_terms_img_0 } from "./ResortsPage/CasaJoros/Terms/casa_terms_img_0.webp";
+export { default as casa_terms_img_1 } from "./ResortsPage/CasaJoros/Terms/casa_terms_img_1.webp";
+export { default as casa_terms_img_2 } from "./ResortsPage/CasaJoros/Terms/casa_terms_img_2.webp";
+//----TERMS
+//--CASA JOROS RESORT
 
 //RESORTS PAGE
