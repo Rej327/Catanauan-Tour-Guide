@@ -855,4 +855,39 @@ export { default as decena_place_img_6 } from "./ResortsPage/Decena/Place/decena
 export { default as decena_place_img_7 } from "./ResortsPage/Decena/Place/decena_place_img_7.webp";
 //----PLACES
 //--DECENAS VISTA MARINA BEACH RESORT
+//--DUYANN CATANAUAN SHORES
+//----PLACES
+export { default as duyan_place_img_0 } from "./ResortsPage/Duyann/Place/duyan_place_img_0.webp";
+export { default as duyan_place_img_1 } from "./ResortsPage/Duyann/Place/duyan_place_img_1.webp";
+export { default as duyan_place_img_2 } from "./ResortsPage/Duyann/Place/duyan_place_img_2.webp";
+export { default as duyan_place_img_3 } from "./ResortsPage/Duyann/Place/duyan_place_img_3.webp";
+export { default as duyan_place_img_4 } from "./ResortsPage/Duyann/Place/duyan_place_img_4.webp";
+export { default as duyan_place_img_5 } from "./ResortsPage/Duyann/Place/duyan_place_img_5.webp";
+export { default as duyan_place_img_6 } from "./ResortsPage/Duyann/Place/duyan_place_img_6.webp";
+export { default as duyan_place_img_7 } from "./ResortsPage/Duyann/Place/duyan_place_img_7.webp";
+export { default as duyan_place_img_8 } from "./ResortsPage/Duyann/Place/duyan_place_img_8.webp";
+export { default as duyan_place_img_9 } from "./ResortsPage/Duyann/Place/duyan_place_img_9.webp";
+export { default as duyan_place_img_10 } from "./ResortsPage/Duyann/Place/duyan_place_img_10.webp";
+export { default as duyan_place_img_11 } from "./ResortsPage/Duyann/Place/duyan_place_img_11.webp";
+export { default as duyan_place_img_12 } from "./ResortsPage/Duyann/Place/duyan_place_img_12.webp";
+export { default as duyan_place_img_13 } from "./ResortsPage/Duyann/Place/duyan_place_img_13.webp";
+export { default as duyan_place_img_14 } from "./ResortsPage/Duyann/Place/duyan_place_img_14.webp";
+export { default as duyan_place_img_15 } from "./ResortsPage/Duyann/Place/duyan_place_img_15.webp";
+export { default as duyan_place_img_16 } from "./ResortsPage/Duyann/Place/duyan_place_img_16.webp";
+export { default as duyan_place_img_17 } from "./ResortsPage/Duyann/Place/duyan_place_img_17.webp";
+export { default as duyan_place_img_18 } from "./ResortsPage/Duyann/Place/duyan_place_img_18.webp";
+export { default as duyan_place_img_19 } from "./ResortsPage/Duyann/Place/duyan_place_img_19.webp";
+export { default as duyan_place_img_20 } from "./ResortsPage/Duyann/Place/duyan_place_img_20.webp";
+export { default as duyan_place_img_21 } from "./ResortsPage/Duyann/Place/duyan_place_img_21.webp";
+export { default as duyan_place_img_22 } from "./ResortsPage/Duyann/Place/duyan_place_img_22.webp";
+//----PLACES
+//----PRICE
+export { default as duyan_price_img_0 } from "./ResortsPage/Duyann/Price/duyan_price_img_0.webp";
+export { default as duyan_price_img_1 } from "./ResortsPage/Duyann/Price/duyan_price_img_1.webp";
+//----PRICE
+//----MENU
+export { default as duyan_menu_img_0 } from "./ResortsPage/Duyann/Menu/duyan_menu_img_0.webp";
+export { default as duyan_menu_img_1 } from "./ResortsPage/Duyann/Menu/duyan_menu_img_1.webp";
+//----MENU
+//--DUYANN CATANAUAN SHORES
 //RESORTS PAGE
