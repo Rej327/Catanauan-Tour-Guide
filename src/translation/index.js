@@ -605,6 +605,17 @@ import {
   casa_cottage_img_2,
   casa_cottage_img_1,
   casa_cottage_img_3,
+  cinco_place_img_10,
+  cinco_place_img_9,
+  cinco_place_img_8,
+  cinco_place_img_7,
+  cinco_place_img_6,
+  cinco_place_img_5,
+  cinco_place_img_4,
+  cinco_place_img_3,
+  cinco_place_img_2,
+  cinco_place_img_1,
+  cinco_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1566,7 +1577,113 @@ export const en = {
       category: "Beach",
       title: "Cinco Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 9672-558-188",
       btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 9672-558-188",
+      fb_link: "https://www.facebook.com/5incobeachresort?mibextid=ZbWKwL",
+      loc_link:
+        "https://www.google.com/maps/place/13%C2%B036'25.8%22N+122%C2%B012'49.1%22E/@13.6071753,122.2130003,19z/data=!3m1!4b1!4m4!3m3!8m2!3d13.607174!4d122.213644?entry=ttu",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.607174,122.213644",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Kayak - 200 pesos per hour.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "2 aircon, 8pax - 2500 pesos.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1k overnight, 1.5k 10pax, 1.3k 8pax",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 20.00",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: cinco_place_img_0,
+          },
+          {
+            img: cinco_place_img_1,
+          },
+          {
+            img: cinco_place_img_2,
+          },
+          {
+            img: cinco_place_img_3,
+          },
+          {
+            img: cinco_place_img_4,
+          },
+          {
+            img: cinco_place_img_5,
+          },
+          {
+            img: cinco_place_img_6,
+          },
+          {
+            img: cinco_place_img_7,
+          },
+          {
+            img: cinco_place_img_8,
+          },
+          {
+            img: cinco_place_img_9,
+          },
+          {
+            img: cinco_place_img_10,
+          },
+        ],
+      },
     },
   ],
 
