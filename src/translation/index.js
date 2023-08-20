@@ -552,6 +552,59 @@ import {
   apple_place_img_0,
   apple_place_img_1,
   apple_price_img_0,
+  casa_room_img_0,
+  casa_entrance_img_0,
+  casa_room_img_1,
+  casa_room_img_2,
+  casa_room_img_3,
+  casa_room_img_4,
+  casa_room_img_5,
+  casa_room_img_6,
+  casa_room_img_7,
+  casa_room_img_8,
+  casa_room_img_9,
+  casa_room_img_10,
+  casa_room_img_11,
+  casa_room_img_12,
+  casa_room_img_13,
+  casa_menu_img_0,
+  casa_menu_img_1,
+  casa_menu_img_2,
+  casa_menu_img_3,
+  casa_terms_img_0,
+  casa_terms_img_1,
+  casa_terms_img_2,
+  casa_place_img_12,
+  casa_place_img_11,
+  casa_place_img_10,
+  casa_place_img_9,
+  casa_place_img_8,
+  casa_place_img_7,
+  casa_place_img_6,
+  casa_place_img_5,
+  casa_place_img_4,
+  casa_place_img_3,
+  casa_place_img_2,
+  casa_place_img_1,
+  casa_place_img_0,
+  casa_cottage_img_0,
+  casa_cottage_img_17,
+  casa_cottage_img_16,
+  casa_cottage_img_15,
+  casa_cottage_img_13,
+  casa_cottage_img_14,
+  casa_cottage_img_12,
+  casa_cottage_img_11,
+  casa_cottage_img_10,
+  casa_cottage_img_9,
+  casa_cottage_img_8,
+  casa_cottage_img_7,
+  casa_cottage_img_6,
+  casa_cottage_img_5,
+  casa_cottage_img_4,
+  casa_cottage_img_2,
+  casa_cottage_img_1,
+  casa_cottage_img_3,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1247,9 +1300,264 @@ export const en = {
       id: 4,
       img: casa_cover,
       category: "Pool & Beach",
-      title: "Butch Beach Resort",
-      location: "Brgy. Tuhian, Sitio Kamagong, Catanauan,  Quezon",
+      title: "Casa Joros Mendenilla Resort",
+      location:
+        "Sitio Camagong Tuhian, Catanauan, Quezon, Catanauan, Philippines",
+      number: "(+63) 977-051-4535",
       btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 977-051-4535",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100063614118981&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/hge6cD6cv24A4d3B6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/CASA+JOROS+MENDENILLA+BEACH+RESORT,+Sitio+Camagong+Barangay+Tuhian,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping, Kayak 350 1hr, 1k rent 8hrs, Maniwaya, Monpong, Sandbar",
+        },
+        {
+          title: "Day Tour: ",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour: ",
+          description: "2:00pm - 11:00am",
+        },
+        {
+          title: "Night Swim: ",
+          description: "5:00pm - 12:00mn",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 150.00",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: casa_entrance_img_0,
+          },
+        ],
+
+        menu: [
+          {
+            img: casa_menu_img_0,
+          },
+          {
+            img: casa_menu_img_1,
+          },
+          {
+            img: casa_menu_img_2,
+          },
+          {
+            img: casa_menu_img_3,
+          },
+        ],
+
+        cottage: [
+          {
+            img: casa_cottage_img_0,
+          },
+          {
+            img: casa_cottage_img_1,
+          },
+          {
+            img: casa_cottage_img_2,
+          },
+          {
+            img: casa_cottage_img_3,
+          },
+          {
+            img: casa_cottage_img_4,
+          },
+          {
+            img: casa_cottage_img_5,
+          },
+          {
+            img: casa_cottage_img_6,
+          },
+          {
+            img: casa_cottage_img_7,
+          },
+          {
+            img: casa_cottage_img_8,
+          },
+          {
+            img: casa_cottage_img_9,
+          },
+          {
+            img: casa_cottage_img_10,
+          },
+          {
+            img: casa_cottage_img_11,
+          },
+          {
+            img: casa_cottage_img_12,
+          },
+          {
+            img: casa_cottage_img_13,
+          },
+          {
+            img: casa_cottage_img_14,
+          },
+          {
+            img: casa_cottage_img_15,
+          },
+          {
+            img: casa_cottage_img_16,
+          },
+          {
+            img: casa_cottage_img_17,
+          },
+        ],
+
+        room: [
+          {
+            img: casa_room_img_0,
+          },
+          {
+            img: casa_room_img_1,
+          },
+          {
+            img: casa_room_img_2,
+          },
+          {
+            img: casa_room_img_3,
+          },
+          {
+            img: casa_room_img_4,
+          },
+          {
+            img: casa_room_img_5,
+          },
+          {
+            img: casa_room_img_6,
+          },
+          {
+            img: casa_room_img_7,
+          },
+          {
+            img: casa_room_img_8,
+          },
+          {
+            img: casa_room_img_9,
+          },
+          {
+            img: casa_room_img_10,
+          },
+          {
+            img: casa_room_img_11,
+          },
+          {
+            img: casa_room_img_12,
+          },
+          {
+            img: casa_room_img_13,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: casa_place_img_0,
+          },
+          {
+            img: casa_place_img_1,
+          },
+          {
+            img: casa_place_img_2,
+          },
+          {
+            img: casa_place_img_3,
+          },
+          {
+            img: casa_place_img_4,
+          },
+          {
+            img: casa_place_img_5,
+          },
+          {
+            img: casa_place_img_6,
+          },
+          {
+            img: casa_place_img_7,
+          },
+          {
+            img: casa_place_img_8,
+          },
+          {
+            img: casa_place_img_9,
+          },
+          {
+            img: casa_place_img_10,
+          },
+          {
+            img: casa_place_img_11,
+          },
+          {
+            img: casa_place_img_12,
+          },
+        ],
+        terms: [
+          {
+            img: casa_terms_img_0,
+          },
+          {
+            img: casa_terms_img_1,
+          },
+          {
+            img: casa_terms_img_2,
+          },
+        ],
+      },
     },
     //cinco beach resort
     {
