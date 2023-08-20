@@ -50,28 +50,15 @@ const WSPGallery = ({ setData }) => {
   };
 
   const handleZoomIn = () => {
-    const newZoomLevel = Math.min(zoomLevel + 0.1, 2);
-    setPanPosition({ x: 0, y: 0 });
-    setZoomLevel(newZoomLevel);
+    setZoomLevel(Math.min(zoomLevel + 0.1, 2));
   };
 
   const handleZoomOut = () => {
     setZoomLevel(Math.max(zoomLevel - 0.1, 1));
-    setPanPosition({ x: 0, y: 0 });
   };
 
   const handleResetZoom = () => {
     setZoomLevel(1);
-    setPanPosition({ x: 0, y: 0 });
-  };
-
-  const handlePan = (e) => {
-    if (!isZoomed) return;
-
-    setPanPosition({
-      x: panPosition.x + e.movementX / zoomLevel,
-      y: panPosition.y + e.movementY / zoomLevel,
-    });
   };
 
   return (
@@ -93,16 +80,15 @@ const WSPGallery = ({ setData }) => {
           <div
             className="fullScreenImage"
             style={{
-              cursor: isZoomed ? "grab" : "auto",
-              overflow: "hidden",
+              cursor: isZoomed ? "auto" : "auto",
+              overflow: "scroll",
             }}
-            onMouseMove={handlePan}
             onMouseDown={() => setIsZoomed(true)}
             onMouseUp={() => setIsZoomed(false)}
           >
             <div
-              className={`transition-transform duration-300 ${
-                isZoomed ? "scale-150" : "scale-100"
+              className={`transition-transform max-w-[90vh] max-h-screen duration-300 ${
+                isZoomed ? "scale-150" : "scale-50"
               }`}
               style={{
                 transform: `scale(${zoomLevel}) translate(${panPosition.x}px, ${panPosition.y}px)`,
@@ -115,7 +101,7 @@ const WSPGallery = ({ setData }) => {
                 <img
                   src={setData?.[slideNumber].img}
                   alt=""
-                  className="w-auto"
+                  className="object-contain"
                 />
               )}
             </div>
