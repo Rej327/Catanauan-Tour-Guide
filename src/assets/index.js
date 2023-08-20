@@ -826,5 +826,22 @@ export { default as casa_terms_img_1 } from "./ResortsPage/CasaJoros/Terms/casa_
 export { default as casa_terms_img_2 } from "./ResortsPage/CasaJoros/Terms/casa_terms_img_2.webp";
 //----TERMS
 //--CASA JOROS RESORT
+//--CINCO BEACH RESORT
+//----PLACES
+//----COTTAGE
+export { default as cinco_place_img_0 } from "./ResortsPage/Cinco/Place/cinco_place_img_0.webp";
+export { default as cinco_place_img_1 } from "./ResortsPage/Cinco/Place/cinco_place_img_1.webp";
+export { default as cinco_place_img_2 } from "./ResortsPage/Cinco/Place/cinco_place_img_2.webp";
+export { default as cinco_place_img_3 } from "./ResortsPage/Cinco/Place/cinco_place_img_3.webp";
+export { default as cinco_place_img_4 } from "./ResortsPage/Cinco/Place/cinco_place_img_4.webp";
+export { default as cinco_place_img_5 } from "./ResortsPage/Cinco/Place/cinco_place_img_5.webp";
+export { default as cinco_place_img_6 } from "./ResortsPage/Cinco/Place/cinco_place_img_6.webp";
+export { default as cinco_place_img_7 } from "./ResortsPage/Cinco/Place/cinco_place_img_7.webp";
+export { default as cinco_place_img_8 } from "./ResortsPage/Cinco/Place/cinco_place_img_8.webp";
+export { default as cinco_place_img_9 } from "./ResortsPage/Cinco/Place/cinco_place_img_9.webp";
+export { default as cinco_place_img_10 } from "./ResortsPage/Cinco/Place/cinco_place_img_10.webp";
+//----COTTAGE
+//----PLACES
+//--CINCO BEACH RESORT
 
 //RESORTS PAGE
