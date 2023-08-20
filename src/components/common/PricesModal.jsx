@@ -66,6 +66,33 @@ const PricesModal = ({ dataInfo }) => {
                   <WSPGallery setData={dataInfo?.prices?.fee} />
                 </div>
               )}
+
+              {dataInfo?.prices?.menu && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Menu</p>
+                  <WSPGallery setData={dataInfo?.prices?.menu} />
+                </div>
+              )}
+
+              {dataInfo?.prices?.cottage && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Cottage Rates
+                  </p>
+                  <WSPGallery setData={dataInfo?.prices?.cottage} />
+                </div>
+              )}
+
+              {dataInfo?.prices?.room && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Room Rates
+                  </p>
+                  <WSPGallery setData={dataInfo?.prices?.room} />
+                </div>
+              )}
             </div>
           </ModalBody>
 

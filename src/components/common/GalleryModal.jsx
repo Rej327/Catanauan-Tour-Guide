@@ -60,6 +60,12 @@ const GalleryModal = ({ dataInfo }) => {
                   <WSPGallery setData={dataInfo?.gallery?.foods} />
                 </div>
               )}
+              {dataInfo?.gallery?.terms && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Terms</p>
+                  <WSPGallery setData={dataInfo?.gallery?.terms} />
+                </div>
+              )}
             </div>
           </ModalBody>
 
