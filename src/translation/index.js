@@ -653,6 +653,57 @@ import {
   duyan_menu_img_1,
   duyan_price_img_0,
   duyan_price_img_1,
+  eynsresort_price_img_0,
+  eynsresort_menu_img_0,
+  eynsresort_hotel_img_0,
+  eynsresort_menu_img_1,
+  eynsresort_menu_img_2,
+  eynsresort_menu_img_3,
+  eynsresort_menu_img_4,
+  eynsresort_menu_img_5,
+  eynsresort_menu_img_6,
+  eynsresort_menu_img_7,
+  eynsresort_menu_img_8,
+  eynsresort_place_img_12,
+  eynsresort_place_img_11,
+  eynsresort_place_img_10,
+  eynsresort_place_img_9,
+  eynsresort_place_img_8,
+  eynsresort_place_img_7,
+  eynsresort_place_img_6,
+  eynsresort_place_img_5,
+  eynsresort_place_img_4,
+  eynsresort_place_img_3,
+  eynsresort_place_img_2,
+  eynsresort_place_img_1,
+  eynsresort_place_img_0,
+  eynsresort_place_img_13,
+  eynsresort_place_img_15,
+  eynsresort_place_img_14,
+  eynsresort_food_img_0,
+  eynsresort_food_img_1,
+  eynsresort_food_img_2,
+  eynsresort_food_img_3,
+  eynsresort_food_img_4,
+  eynsresort_food_img_5,
+  eynsresort_food_img_6,
+  eynsresort_food_img_7,
+  eynsresort_food_img_9,
+  eynsresort_food_img_10,
+  eynsresort_food_img_11,
+  eynsresort_food_img_12,
+  eynsresort_hotel_img_1,
+  eynsresort_hotel_img_2,
+  eynsresort_hotel_img_3,
+  eynsresort_hotel_img_4,
+  eynsresort_hotel_img_5,
+  eynsresort_hotel_img_6,
+  eynsresort_hotel_img_7,
+  eynsresort_hotel_img_8,
+  eynsresort_hotel_img_9,
+  eynsresort_hotel_img_10,
+  eynsresort_place_img_16,
+  eynsresort_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2000,6 +2051,256 @@ export const en = {
           },
           {
             img: duyan_place_img_22,
+          },
+        ],
+      },
+    },
+
+    //eyns beach resort
+    {
+      id: 8,
+      img: eynsresort_cover,
+      category: "Hotel & Beach",
+      title: "Eyns Beach Resort",
+      location: "Brgy. Madulao, Catanauan, Quezon",
+      number: "(+63) 908-904-0040",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-904-0040",
+      fb_link: "https://www.facebook.com/eynsresort.since88",
+      loc_link: "https://goo.gl/maps/7gBc5bc47pihJdvPA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H8MJ%2B9HV+Eyns'+Beach+Resort+-+Madulao,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Hotel Rates",
+        },
+        {
+          title: "Beach Front:",
+          description:
+            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
+        },
+        {
+          title: "Cabana:",
+          description:
+            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
+        },
+        {
+          title: "Dorm:",
+          description:
+            "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
+        },
+        {
+          title: "Cabin:",
+          description:
+            "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
+        },
+      ],
+
+      //hotel rates
+      entrance: {
+        types: [
+          {
+            title: "Events: ",
+            fee: "Cater, Birthday Party, Wedding",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        hotel: [
+          {
+            img: eynsresort_price_img_0,
+          },
+        ],
+
+        menu: [
+          {
+            img: eynsresort_menu_img_0,
+          },
+          {
+            img: eynsresort_menu_img_1,
+          },
+          {
+            img: eynsresort_menu_img_2,
+          },
+          {
+            img: eynsresort_menu_img_3,
+          },
+          {
+            img: eynsresort_menu_img_4,
+          },
+          {
+            img: eynsresort_menu_img_5,
+          },
+          {
+            img: eynsresort_menu_img_6,
+          },
+          {
+            img: eynsresort_menu_img_7,
+          },
+          {
+            img: eynsresort_menu_img_8,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: eynsresort_place_img_0,
+          },
+          {
+            img: eynsresort_place_img_1,
+          },
+          {
+            img: eynsresort_place_img_2,
+          },
+          {
+            img: eynsresort_place_img_3,
+          },
+          {
+            img: eynsresort_place_img_4,
+          },
+          {
+            img: eynsresort_place_img_5,
+          },
+          {
+            img: eynsresort_place_img_6,
+          },
+          {
+            img: eynsresort_place_img_7,
+          },
+          {
+            img: eynsresort_place_img_8,
+          },
+          {
+            img: eynsresort_place_img_9,
+          },
+          {
+            img: eynsresort_place_img_10,
+          },
+          {
+            img: eynsresort_place_img_11,
+          },
+          {
+            img: eynsresort_place_img_12,
+          },
+          {
+            img: eynsresort_place_img_13,
+          },
+          {
+            img: eynsresort_place_img_14,
+          },
+          {
+            img: eynsresort_place_img_15,
+          },
+          {
+            img: eynsresort_place_img_16,
+          },
+        ],
+        foods: [
+          {
+            img: eynsresort_food_img_0,
+          },
+          {
+            img: eynsresort_food_img_1,
+          },
+          {
+            img: eynsresort_food_img_2,
+          },
+          {
+            img: eynsresort_food_img_3,
+          },
+          {
+            img: eynsresort_food_img_4,
+          },
+          {
+            img: eynsresort_food_img_5,
+          },
+          {
+            img: eynsresort_food_img_6,
+          },
+          {
+            img: eynsresort_food_img_7,
+          },
+          {
+            img: eynsresort_food_img_9,
+          },
+          {
+            img: eynsresort_food_img_10,
+          },
+          {
+            img: eynsresort_food_img_11,
+          },
+          {
+            img: eynsresort_food_img_12,
+          },
+        ],
+
+        rooms: [
+          {
+            img: eynsresort_hotel_img_0,
+          },
+          {
+            img: eynsresort_hotel_img_1,
+          },
+          {
+            img: eynsresort_hotel_img_2,
+          },
+          {
+            img: eynsresort_hotel_img_3,
+          },
+          {
+            img: eynsresort_hotel_img_4,
+          },
+          {
+            img: eynsresort_hotel_img_5,
+          },
+          {
+            img: eynsresort_hotel_img_6,
+          },
+          {
+            img: eynsresort_hotel_img_7,
+          },
+          {
+            img: eynsresort_hotel_img_8,
+          },
+          {
+            img: eynsresort_hotel_img_9,
+          },
+          {
+            img: eynsresort_hotel_img_10,
           },
         ],
       },
