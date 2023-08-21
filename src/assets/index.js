@@ -890,4 +890,66 @@ export { default as duyan_menu_img_0 } from "./ResortsPage/Duyann/Menu/duyan_men
 export { default as duyan_menu_img_1 } from "./ResortsPage/Duyann/Menu/duyan_menu_img_1.webp";
 //----MENU
 //--DUYANN CATANAUAN SHORES
+//--EYNS BEACH RESORT
+//----PRICE
+export { default as eynsresort_price_img_0 } from "./ResortsPage/Eyns/Price/eynsresort_price_img_0.webp";
+//----PRICE
+//----FOOD
+export { default as eynsresort_food_img_0 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_0.webp";
+export { default as eynsresort_food_img_1 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_1.webp";
+export { default as eynsresort_food_img_2 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_2.webp";
+export { default as eynsresort_food_img_3 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_3.webp";
+export { default as eynsresort_food_img_4 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_4.webp";
+export { default as eynsresort_food_img_5 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_5.webp";
+export { default as eynsresort_food_img_6 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_6.webp";
+export { default as eynsresort_food_img_7 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_7.webp";
+export { default as eynsresort_food_img_9 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_9.webp";
+export { default as eynsresort_food_img_10 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_10.webp";
+export { default as eynsresort_food_img_11 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_11.webp";
+export { default as eynsresort_food_img_12 } from "./ResortsPage/Eyns/Food/eynsresort_food_img_12.webp";
+//----FOOD
+//----HOTEL
+export { default as eynsresort_hotel_img_0 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_0.webp";
+export { default as eynsresort_hotel_img_1 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_1.webp";
+export { default as eynsresort_hotel_img_2 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_2.webp";
+export { default as eynsresort_hotel_img_3 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_3.webp";
+export { default as eynsresort_hotel_img_4 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_4.webp";
+export { default as eynsresort_hotel_img_5 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_5.webp";
+export { default as eynsresort_hotel_img_6 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_6.webp";
+export { default as eynsresort_hotel_img_7 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_7.webp";
+export { default as eynsresort_hotel_img_8 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_8.webp";
+export { default as eynsresort_hotel_img_9 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_9.webp";
+export { default as eynsresort_hotel_img_10 } from "./ResortsPage/Eyns/Hotel/eynsresort_hotel_img_10.webp";
+//----HOTEL
+//----MENU
+export { default as eynsresort_menu_img_0 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_0.webp";
+export { default as eynsresort_menu_img_1 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_1.webp";
+export { default as eynsresort_menu_img_2 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_2.webp";
+export { default as eynsresort_menu_img_3 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_3.webp";
+export { default as eynsresort_menu_img_4 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_4.webp";
+export { default as eynsresort_menu_img_5 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_5.webp";
+export { default as eynsresort_menu_img_6 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_6.webp";
+export { default as eynsresort_menu_img_7 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_7.webp";
+export { default as eynsresort_menu_img_8 } from "./ResortsPage/Eyns/Menu/eysresort_menu_img_8.webp";
+//----MENU
+//----PLACE
+export { default as eynsresort_place_img_0 } from "./ResortsPage/Eyns/Place/eysresort_place_img_0.webp";
+export { default as eynsresort_place_img_1 } from "./ResortsPage/Eyns/Place/eysresort_place_img_1.webp";
+export { default as eynsresort_place_img_2 } from "./ResortsPage/Eyns/Place/eysresort_place_img_2.webp";
+export { default as eynsresort_place_img_3 } from "./ResortsPage/Eyns/Place/eysresort_place_img_3.webp";
+export { default as eynsresort_place_img_4 } from "./ResortsPage/Eyns/Place/eysresort_place_img_4.webp";
+export { default as eynsresort_place_img_5 } from "./ResortsPage/Eyns/Place/eysresort_place_img_5.webp";
+export { default as eynsresort_place_img_6 } from "./ResortsPage/Eyns/Place/eysresort_place_img_6.webp";
+export { default as eynsresort_place_img_7 } from "./ResortsPage/Eyns/Place/eysresort_place_img_7.webp";
+export { default as eynsresort_place_img_8 } from "./ResortsPage/Eyns/Place/eysresort_place_img_8.webp";
+export { default as eynsresort_place_img_9 } from "./ResortsPage/Eyns/Place/eysresort_place_img_9.webp";
+export { default as eynsresort_place_img_10 } from "./ResortsPage/Eyns/Place/eysresort_place_img_10.webp";
+export { default as eynsresort_place_img_11 } from "./ResortsPage/Eyns/Place/eysresort_place_img_11.webp";
+export { default as eynsresort_place_img_12 } from "./ResortsPage/Eyns/Place/eysresort_place_img_12.webp";
+export { default as eynsresort_place_img_13 } from "./ResortsPage/Eyns/Place/eysresort_place_img_13.webp";
+export { default as eynsresort_place_img_14 } from "./ResortsPage/Eyns/Place/eysresort_place_img_14.webp";
+export { default as eynsresort_place_img_15 } from "./ResortsPage/Eyns/Place/eysresort_place_img_15.webp";
+export { default as eynsresort_place_img_16 } from "./ResortsPage/Eyns/Place/eysresort_place_img_16.webp";
+//----PLACE
+//--EYNS BEACH RESORT
 //RESORTS PAGE
