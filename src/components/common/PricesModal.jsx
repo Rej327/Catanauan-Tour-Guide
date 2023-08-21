@@ -45,14 +45,20 @@ const PricesModal = ({ dataInfo }) => {
 
               {dataInfo?.menu?.foods && (
                 <div className="w-full py-2 border-b-2">
-                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Menu</p>
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Menu's
+                  </p>
                   <WSPGallery setData={dataInfo?.menu?.foods} />
                 </div>
               )}
 
               {dataInfo?.menu?.pools && (
                 <div className="w-full py-2">
-                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Pools</p>
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Pool's
+                  </p>
                   <WSPGallery setData={dataInfo?.menu?.pools} />
                 </div>
               )}
@@ -61,15 +67,28 @@ const PricesModal = ({ dataInfo }) => {
                 <div className="w-full py-2">
                   <p className="text-2xl tracking-widest mt-5 mb-2">
                     {" "}
-                    - Entrance Fee
+                    - Entrance Fee's
                   </p>
                   <WSPGallery setData={dataInfo?.prices?.fee} />
                 </div>
               )}
 
+              {dataInfo?.prices?.hotel && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Room's
+                  </p>
+                  <WSPGallery setData={dataInfo?.prices?.hotel} />
+                </div>
+              )}
+
               {dataInfo?.prices?.menu && (
                 <div className="w-full py-2">
-                  <p className="text-2xl tracking-widest mt-5 mb-2"> - Menu</p>
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Menu's
+                  </p>
                   <WSPGallery setData={dataInfo?.prices?.menu} />
                 </div>
               )}
