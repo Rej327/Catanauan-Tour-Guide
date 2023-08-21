@@ -952,4 +952,29 @@ export { default as eynsresort_place_img_15 } from "./ResortsPage/Eyns/Place/eys
 export { default as eynsresort_place_img_16 } from "./ResortsPage/Eyns/Place/eysresort_place_img_16.webp";
 //----PLACE
 //--EYNS BEACH RESORT
+//--IYANAS BEACH RESORT
+//----PLACE
+export { default as iyanas_place_img_0 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_0.webp";
+export { default as iyanas_place_img_1 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_1.webp";
+export { default as iyanas_place_img_2 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_2.webp";
+export { default as iyanas_place_img_3 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_3.webp";
+export { default as iyanas_place_img_4 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_4.webp";
+export { default as iyanas_place_img_5 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_5.webp";
+export { default as iyanas_place_img_6 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_6.webp";
+export { default as iyanas_place_img_7 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_7.webp";
+export { default as iyanas_place_img_8 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_8.webp";
+export { default as iyanas_place_img_9 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_9.webp";
+export { default as iyanas_place_img_10 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_10.webp";
+export { default as iyanas_place_img_11 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_11.webp";
+export { default as iyanas_place_img_12 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_12.webp";
+export { default as iyanas_place_img_13 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_13.webp";
+export { default as iyanas_place_img_14 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_14.webp";
+export { default as iyanas_place_img_15 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_15.webp";
+export { default as iyanas_place_img_16 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_16.webp";
+export { default as iyanas_place_img_17 } from "./ResortsPage/Iyanas/Place/iyanas_place_img_17.webp";
+//----PLACE
+//----MENU
+export { default as iyanas_menu_img_0 } from "./ResortsPage/Iyanas/Menu/iyanas_menu_img_0.webp";
+//----MENU
+//--IYANAS BEACH RESORT
 //RESORTS PAGE
