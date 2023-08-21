@@ -704,6 +704,25 @@ import {
   eynsresort_hotel_img_10,
   eynsresort_place_img_16,
   eynsresort_cover,
+  iyanas_cover,
+  iyanas_place_img_0,
+  iyanas_place_img_1,
+  iyanas_place_img_2,
+  iyanas_place_img_3,
+  iyanas_place_img_4,
+  iyanas_place_img_5,
+  iyanas_place_img_6,
+  iyanas_place_img_7,
+  iyanas_place_img_8,
+  iyanas_place_img_9,
+  iyanas_place_img_10,
+  iyanas_place_img_11,
+  iyanas_place_img_12,
+  iyanas_place_img_13,
+  iyanas_place_img_14,
+  iyanas_place_img_15,
+  iyanas_place_img_16,
+  iyanas_place_img_17,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2055,7 +2074,6 @@ export const en = {
         ],
       },
     },
-
     //eyns beach resort
     {
       id: 8,
@@ -2301,6 +2319,188 @@ export const en = {
           },
           {
             img: eynsresort_hotel_img_10,
+          },
+        ],
+      },
+    },
+    //iyanas beach resort
+    {
+      id: 9,
+      img: iyanas_cover,
+      category: "Beach",
+      title: "Iyanas Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 977-757-6785",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 977-757-6785",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100089543997473&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/W2WGk5JC37MtRVPT6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Iyana's+Beach+Resort,+Brgy,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping, boating, snorkeling, kayak, jet ski, banana boat.",
+        },
+        {
+          title: "Rooms: ",
+        },
+        {
+          title: "Barko (1st room)",
+          description: "Good for 15 pax ₱12,500 for 22 hours.",
+        },
+        {
+          title: "Barko (2nd & 3rd room)",
+          description: "Good for 8 pax ₱7,500 for 22 hours.",
+        },
+        {
+          title: "Building 1 (2 rooms)",
+          description: "Good for 40 pax ₱25,500.",
+        },
+        {
+          title: "Building 3 (3 rooms)",
+          description: "Good for 40 pax ₱25,500.",
+        },
+        {
+          title: "High Ground",
+          description: "Good for 10 pax ₱8,500.",
+        },
+        {
+          title: "Low Ground",
+          description: "Good for 8 pax ₱7,500.",
+        },
+        {
+          title: "Building 4",
+          description: "Good for 30 pax ₱24,000.",
+        },
+        {
+          title: "Bungalow (3 rooms)",
+          description: "Good for 6 pax ₱6,500 per room.",
+        },
+        {
+          title: "Kubo",
+          description: "Good for 8 pax ₱1000.",
+        },
+        {
+          description: "Good for 10 pax ₱1500.",
+        },
+        {
+          description: "1 room, Good for 2 pax ₱3000.",
+        },
+        {
+          title: "Day Tour",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour",
+          description: "22 hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids (3 - 7 yrs old)",
+            description: "₱ 100.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: iyanas_place_img_0,
+          },
+          {
+            img: iyanas_place_img_1,
+          },
+          {
+            img: iyanas_place_img_2,
+          },
+          {
+            img: iyanas_place_img_3,
+          },
+          {
+            img: iyanas_place_img_4,
+          },
+          {
+            img: iyanas_place_img_5,
+          },
+          {
+            img: iyanas_place_img_6,
+          },
+          {
+            img: iyanas_place_img_7,
+          },
+          {
+            img: iyanas_place_img_8,
+          },
+          {
+            img: iyanas_place_img_9,
+          },
+          {
+            img: iyanas_place_img_10,
+          },
+          {
+            img: iyanas_place_img_11,
+          },
+          {
+            img: iyanas_place_img_12,
+          },
+          {
+            img: iyanas_place_img_13,
+          },
+          {
+            img: iyanas_place_img_14,
+          },
+          {
+            img: iyanas_place_img_15,
+          },
+          {
+            img: iyanas_place_img_16,
+          },
+          {
+            img: iyanas_place_img_17,
           },
         ],
       },
