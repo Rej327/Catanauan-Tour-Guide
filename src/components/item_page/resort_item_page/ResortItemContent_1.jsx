@@ -15,6 +15,13 @@ const ResortItemContent_1 = ({ dataInfo }) => {
 
   const { language } = useContext(LangContext);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="max-w-[800px] mx-2 flex flex-col gap-4 text-lg">
       {dataInfo?.entrance?.types && (
@@ -63,6 +70,7 @@ const ResortItemContent_1 = ({ dataInfo }) => {
             {language?.resorts_page.map((data) => (
               <Link to={`/resorts/${data.id}`}>
                 <div
+                  onClick={scrollToTop}
                   key={data.id}
                   className="relative homeItemContainer h-[290px] px-5"
                 >

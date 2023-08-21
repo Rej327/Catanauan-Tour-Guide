@@ -15,6 +15,14 @@ const HotelItem = ({ className }) => {
     const data = language?.hotels_page?.find((data) => data.id == params.id);
     return data;
   }, [language, params]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
@@ -62,7 +70,7 @@ const HotelItem = ({ className }) => {
           <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
-                <div key={data.id} className="px-5">
+                <div onClick={scrollToTop} key={data.id} className="px-5">
                   <img
                     src={data.img}
                     className="w-[250px] h-[200px]"

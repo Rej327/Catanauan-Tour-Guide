@@ -16,6 +16,14 @@ const ResortItem = ({ className }) => {
     const data = language?.resorts_page?.find((data) => data.id == params.id);
     return data;
   }, [language, params]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
@@ -55,6 +63,7 @@ const ResortItem = ({ className }) => {
             {language?.resorts_page.map((data) => (
               <Link to={`/resorts/${data.id}`}>
                 <div
+                  onClick={scrollToTop}
                   key={data.id}
                   className="relative homeItemContainer h-[320px] px-5"
                 >

@@ -14,6 +14,13 @@ const HotelItemContent_1 = ({ dataInfo }) => {
 
   const { language } = useContext(LangContext);
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="max-w-[800px] flex flex-col gap-4 text-lg">
       <p>{dataInfo.content}</p>
@@ -55,7 +62,11 @@ const HotelItemContent_1 = ({ dataInfo }) => {
           <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
-                <div key={data.id} className="px-5 homeItemContainer">
+                <div
+                  onClick={scrollToTop}
+                  key={data.id}
+                  className="px-5 homeItemContainer"
+                >
                   <div className="w-[250px] h-[200px] overflow-hidden">
                     <img
                       src={data.img}

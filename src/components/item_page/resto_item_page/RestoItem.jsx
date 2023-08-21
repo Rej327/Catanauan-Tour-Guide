@@ -17,6 +17,14 @@ const RestoItem = ({ className }) => {
     );
     return data;
   }, [language, params]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className={`max-w-[1300px] mx-auto ${className}`}>
       <div>
@@ -66,7 +74,7 @@ const RestoItem = ({ className }) => {
           <CarouselLike>
             {language?.restaurants_page?.map((data) => (
               <Link to={`/restaurants/${data.id}`}>
-                <div key={data.id} className="px-5">
+                <div onClick={scrollToTop} key={data.id} className="px-5">
                   <img
                     src={data.img}
                     className="w-[250px] h-[200px]"

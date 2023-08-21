@@ -1,10 +1,10 @@
 import { Collapse } from "@chakra-ui/react";
 import React, { useContext, useState } from "react";
-import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
 import { Link } from "react-router-dom";
 import GalleryModal from "../../common/GalleryModal";
 import HotelPricesModal from "../../common/PricesModal";
+import CarouselLike from "../../common/CarouselLike";
 
 const RestoItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
@@ -12,6 +12,13 @@ const RestoItemContent_1 = ({ dataInfo }) => {
   const handleToggle = () => setShow(!show);
 
   const { language } = useContext(LangContext);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <div className="max-w-[800px] flex flex-col gap-4 text-lg">
@@ -52,9 +59,10 @@ const RestoItemContent_1 = ({ dataInfo }) => {
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
         <div className="mt-4 mb-10 mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
-          <Carousel>
+          <CarouselLike>
             {language?.restaurants_page?.map((data) => (
               <div
+                onClick={scrollToTop}
                 key={data.id}
                 className="rounded-2xl relative restoItems w-fit h-fit"
               >
@@ -77,7 +85,7 @@ const RestoItemContent_1 = ({ dataInfo }) => {
                 </div>
               </div>
             ))}
-          </Carousel>
+          </CarouselLike>
         </div>
       </div>
     </div>
