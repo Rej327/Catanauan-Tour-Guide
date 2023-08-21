@@ -70,14 +70,23 @@ const HotelItem = ({ className }) => {
           <CarouselLike>
             {language?.hotels_page.map((data) => (
               <Link to={`/hotels/${data.id}`}>
-                <div onClick={scrollToTop} key={data.id} className="px-5">
-                  <img
-                    src={data.img}
-                    className="w-[250px] h-[200px]"
-                    alt="resorts"
-                  />
-                  <div className="w-full bg-white">
-                    <p>{data.title}</p>
+                <div
+                  onClick={scrollToTop}
+                  key={data.id}
+                  className="relative homeItemContainer h-[320px] px-5"
+                >
+                  <div className="w-auto h-auto overflow-hidden">
+                    <img
+                      src={data.img}
+                      alt="resorts"
+                      className="w-[250px] h-[200px]"
+                    />
+                  </div>
+                  <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
+                    <p className="w-fit text-xs text-[#f1be66] font-bold">
+                      {data.category}
+                    </p>
+                    <p className="text-lg font-extrabold">{data.title}</p>
                   </div>
                 </div>
               </Link>

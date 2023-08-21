@@ -74,14 +74,27 @@ const RestoItem = ({ className }) => {
           <CarouselLike>
             {language?.restaurants_page?.map((data) => (
               <Link to={`/restaurants/${data.id}`}>
-                <div onClick={scrollToTop} key={data.id} className="px-5">
-                  <img
-                    src={data.img}
-                    className="w-[250px] h-[200px]"
-                    alt="resorts"
-                  />
-                  <div className="w-full bg-white">
-                    <p>{data.title}</p>
+                <div
+                  onClick={scrollToTop}
+                  key={data.id}
+                  className="rounded-2xl relative restoItems w-fit h-fit"
+                >
+                  <div className="absolute z-10 bottom-0 bg-black bg-opacity-50 flex px-2 flex-col justify-center items-center w-[250px] h-[75px]">
+                    <p className="font-bold border-2 text-lg text-[#fefeff] text-center">
+                      {data.title}
+                    </p>
+                    <Link to={`/restaurants/${data.id}`}>
+                      <p className="text-[#f9dba9] text-base hover:underline underline-offset-8 hover:cursor-pointer">
+                        {data.btn_txt}
+                      </p>
+                    </Link>
+                  </div>
+                  <div className="w-[250px] h-[250px] overflow-hidden">
+                    <img
+                      src={data.img}
+                      alt={`${data.title} Image`}
+                      className="w-full h-full object-cover itemImg"
+                    />
                   </div>
                 </div>
               </Link>

@@ -65,17 +65,20 @@ const HotelItemContent_1 = ({ dataInfo }) => {
                 <div
                   onClick={scrollToTop}
                   key={data.id}
-                  className="px-5 homeItemContainer"
+                  className="relative homeItemContainer h-[320px] px-5"
                 >
-                  <div className="w-[250px] h-[200px] overflow-hidden">
+                  <div className="w-auto h-auto overflow-hidden">
                     <img
                       src={data.img}
-                      className="w-[250px] h-[200px]"
                       alt="resorts"
+                      className="w-[250px] h-[200px]"
                     />
                   </div>
-                  <div className="w-full bg-white">
-                    <p className="py-2 text-[1rem]">{data.title}</p>
+                  <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
+                    <p className="w-fit text-xs text-[#f1be66] font-bold">
+                      {data.category}
+                    </p>
+                    <p className="text-lg font-extrabold">{data.title}</p>
                   </div>
                 </div>
               </Link>

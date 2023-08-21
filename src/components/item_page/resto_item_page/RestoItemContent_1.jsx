@@ -67,7 +67,7 @@ const RestoItemContent_1 = ({ dataInfo }) => {
                 className="rounded-2xl relative restoItems w-fit h-fit"
               >
                 <div className="absolute z-10 bottom-0 bg-black bg-opacity-50 flex px-2 flex-col justify-center items-center w-[250px] h-[75px]">
-                  <p className="text-lg text-[#fefeff] text-center">
+                  <p className="font-bold border-2 text-lg text-[#fefeff] text-center">
                     {data.title}
                   </p>
                   <Link to={`/restaurants/${data.id}`}>
