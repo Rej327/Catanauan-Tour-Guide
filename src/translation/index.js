@@ -779,6 +779,26 @@ import {
   leobellas_place_img_1,
   leobellas_place_img_0,
   leobellas_price_img_0,
+  marcs_cover,
+  marcs_price_img_0,
+  marcs_place_img_17,
+  marcs_place_img_16,
+  marcs_place_img_15,
+  marcs_place_img_14,
+  marcs_place_img_13,
+  marcs_place_img_12,
+  marcs_place_img_11,
+  marcs_place_img_10,
+  marcs_place_img_9,
+  marcs_place_img_8,
+  marcs_place_img_7,
+  marcs_place_img_6,
+  marcs_place_img_5,
+  marcs_place_img_4,
+  marcs_place_img_3,
+  marcs_place_img_2,
+  marcs_place_img_1,
+  marcs_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2986,8 +3006,7 @@ export const en = {
         ],
       },
     },
-
-    //leobellas farm & resort resort
+    //leobellas farm & resort
     {
       id: 13,
       img: leobellas_cover,
@@ -3083,6 +3102,127 @@ export const en = {
         fee: [
           {
             img: leobellas_price_img_0,
+          },
+        ],
+      },
+    },
+    //leobellas farm & resort resort
+    {
+      id: 14,
+      img: marcs_cover,
+      category: "Pool & Beach",
+      title: "Marc`s and Marcy`s Pool & Beach Resort",
+      location: "Sitio Kanlagkit Barangay Matandang Sabang Kanluran",
+      number: "09392078789 / 09152714081",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 915-271-4081",
+      fb_link: "https://www.facebook.com/profile.php?id=100083170726902",
+      loc_link: "https://goo.gl/maps/TPDZHNP8YKVfEm7b8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Marc's+%26+Marcy's+Pool+and+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+      ],
+
+      //content
+      entrance: {
+        types: [
+          {
+            title: "Events: ",
+            fee: "Birthday Party, Wedding Receptions",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: marcs_place_img_0,
+          },
+          {
+            img: marcs_place_img_1,
+          },
+          {
+            img: marcs_place_img_2,
+          },
+          {
+            img: marcs_place_img_3,
+          },
+          {
+            img: marcs_place_img_4,
+          },
+          {
+            img: marcs_place_img_5,
+          },
+          {
+            img: marcs_place_img_6,
+          },
+          {
+            img: marcs_place_img_7,
+          },
+          {
+            img: marcs_place_img_8,
+          },
+          {
+            img: marcs_place_img_9,
+          },
+          {
+            img: marcs_place_img_10,
+          },
+          {
+            img: marcs_place_img_11,
+          },
+          {
+            img: marcs_place_img_12,
+          },
+          {
+            img: marcs_place_img_13,
+          },
+          {
+            img: marcs_place_img_14,
+          },
+          {
+            img: marcs_place_img_15,
+          },
+          {
+            img: marcs_place_img_16,
+          },
+          {
+            img: marcs_place_img_17,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: marcs_price_img_0,
           },
         ],
       },
