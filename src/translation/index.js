@@ -799,6 +799,17 @@ import {
   marcs_place_img_2,
   marcs_place_img_1,
   marcs_place_img_0,
+  marga_cover,
+  marga_place_img_9,
+  marga_place_img_8,
+  marga_place_img_7,
+  marga_place_img_6,
+  marga_place_img_5,
+  marga_place_img_4,
+  marga_place_img_3,
+  marga_place_img_2,
+  marga_place_img_1,
+  marga_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -3223,6 +3234,122 @@ export const en = {
         fee: [
           {
             img: marcs_price_img_0,
+          },
+        ],
+      },
+    },
+    //las casas gardcia beach resort
+    {
+      id: 15,
+      img: marga_cover,
+      category: "Pool & Place",
+      title: "Marga Selina's Place & Resort",
+      location: "Barangay Matandang Sabang Silangan",
+      number: "(+63) 907-585-6409",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 907-585-6409",
+      fb_link: "https://www.facebook.com/profile.php?id=100063930440028",
+      loc_link: "https://goo.gl/maps/BvYH5sJ8q4UGLJmR6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J73W%2B97F+Marga+Selina's+Place+%26+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Birthday Party, Wedding, Activities (Team Building), Seminar",
+        },
+        {
+          title: "Cottage: ",
+          description: "₱ 500.00 | ₱ 700.00 | ₱ 2500.00",
+        },
+        {
+          title: "Rooms: ",
+          description: "₱ 4000.00 | ₱ 5000.00",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Senior",
+            fee: "₱ 150.00",
+          },
+          {
+            title: "Child",
+            fee: "₱ 100.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: marga_place_img_0,
+          },
+          {
+            img: marga_place_img_1,
+          },
+          {
+            img: marga_place_img_2,
+          },
+          {
+            img: marga_place_img_3,
+          },
+          {
+            img: marga_place_img_4,
+          },
+          {
+            img: marga_place_img_5,
+          },
+          {
+            img: marga_place_img_6,
+          },
+          {
+            img: marga_place_img_7,
+          },
+          {
+            img: marga_place_img_8,
+          },
+          {
+            img: marga_place_img_9,
           },
         ],
       },
