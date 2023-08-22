@@ -767,6 +767,18 @@ import {
   casas_place_img_1,
   casas_place_img_0,
   leobellas_cover,
+  leobellas_place_img_10,
+  leobellas_place_img_9,
+  leobellas_place_img_8,
+  leobellas_place_img_7,
+  leobellas_place_img_6,
+  leobellas_place_img_5,
+  leobellas_place_img_4,
+  leobellas_place_img_3,
+  leobellas_place_img_2,
+  leobellas_place_img_1,
+  leobellas_place_img_0,
+  leobellas_price_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2970,6 +2982,107 @@ export const en = {
           },
           {
             img: casas_place_img_8,
+          },
+        ],
+      },
+    },
+
+    //leobellas farm & resort resort
+    {
+      id: 13,
+      img: leobellas_cover,
+      category: "Farm & Pool",
+      title: "Leobella`s Farm & Resort",
+      location: "Sitio Tambon, Barangay Madulao, Catanauan, Quezon",
+      number: "(+63) 995-333-1396",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 995-333-1396",
+      fb_link: "https://www.facebook.com/LeobellasFarmandResort",
+      loc_link: "https://goo.gl/maps/YtBJBwYbiPwS31G36",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H9H2%2BHC5+Leobella's+Farm+%26+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      entrance: {
+        types: [
+          {
+            title: "Activities: ",
+            fee: "Videoke & Private Events",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: leobellas_place_img_0,
+          },
+          {
+            img: leobellas_place_img_1,
+          },
+          {
+            img: leobellas_place_img_2,
+          },
+          {
+            img: leobellas_place_img_3,
+          },
+          {
+            img: leobellas_place_img_4,
+          },
+          {
+            img: leobellas_place_img_5,
+          },
+          {
+            img: leobellas_place_img_6,
+          },
+          {
+            img: leobellas_place_img_7,
+          },
+          {
+            img: leobellas_place_img_8,
+          },
+          {
+            img: leobellas_place_img_9,
+          },
+          {
+            img: leobellas_place_img_10,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: leobellas_price_img_0,
           },
         ],
       },
