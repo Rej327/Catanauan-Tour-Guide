@@ -1047,4 +1047,29 @@ export { default as leobellas_place_img_10 } from "./ResortsPage/Leobellas/Place
 export { default as leobellas_price_img_0 } from "./ResortsPage/Leobellas/Price/leobellas_price_img_0.webp";
 //----PRICE
 //--LEOBELLAS FARM & POOL RESORT
+//--MARC'S AND MARCY'S POOL & BEACH RESORT
+//----PLACE
+export { default as marcs_place_img_0 } from "./ResortsPage/Marcs/Place/marcs_place_img_0.webp";
+export { default as marcs_place_img_1 } from "./ResortsPage/Marcs/Place/marcs_place_img_1.webp";
+export { default as marcs_place_img_2 } from "./ResortsPage/Marcs/Place/marcs_place_img_2.webp";
+export { default as marcs_place_img_3 } from "./ResortsPage/Marcs/Place/marcs_place_img_3.webp";
+export { default as marcs_place_img_4 } from "./ResortsPage/Marcs/Place/marcs_place_img_4.webp";
+export { default as marcs_place_img_5 } from "./ResortsPage/Marcs/Place/marcs_place_img_5.webp";
+export { default as marcs_place_img_6 } from "./ResortsPage/Marcs/Place/marcs_place_img_6.webp";
+export { default as marcs_place_img_7 } from "./ResortsPage/Marcs/Place/marcs_place_img_7.webp";
+export { default as marcs_place_img_8 } from "./ResortsPage/Marcs/Place/marcs_place_img_8.webp";
+export { default as marcs_place_img_9 } from "./ResortsPage/Marcs/Place/marcs_place_img_9.webp";
+export { default as marcs_place_img_10 } from "./ResortsPage/Marcs/Place/marcs_place_img_10.webp";
+export { default as marcs_place_img_11 } from "./ResortsPage/Marcs/Place/marcs_place_img_11.webp";
+export { default as marcs_place_img_12 } from "./ResortsPage/Marcs/Place/marcs_place_img_12.webp";
+export { default as marcs_place_img_13 } from "./ResortsPage/Marcs/Place/marcs_place_img_13.webp";
+export { default as marcs_place_img_14 } from "./ResortsPage/Marcs/Place/marcs_place_img_14.webp";
+export { default as marcs_place_img_15 } from "./ResortsPage/Marcs/Place/marcs_place_img_15.webp";
+export { default as marcs_place_img_16 } from "./ResortsPage/Marcs/Place/marcs_place_img_16.webp";
+export { default as marcs_place_img_17 } from "./ResortsPage/Marcs/Place/marcs_place_img_17.webp";
+//----PLACE
+//----PRICE
+export { default as marcs_price_img_0 } from "./ResortsPage/Marcs/Price/marcs_price_img_0.webp";
+//----PRICE
+//--MARC'S AND MARCY'S POOL & BEACH RESORT
 //RESORTS PAGE
