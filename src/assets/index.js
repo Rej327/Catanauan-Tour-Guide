@@ -1016,7 +1016,7 @@ export { default as karba_place_img_13 } from "./ResortsPage/Karba/Place/karba_p
 export { default as karba_place_img_14 } from "./ResortsPage/Karba/Place/karba_place_img_14.webp";
 //----PLACE
 //--KARBA BEACH RESORT
-//--LAS CASA GARCIA BEACH RESORT
+//--LAS CASAS GARCIA BEACH RESORT
 //----PLACE
 export { default as casas_place_img_0 } from "./ResortsPage/LasCasas/Place/casas_place_img_0.webp";
 export { default as casas_place_img_1 } from "./ResortsPage/LasCasas/Place/casas_place_img_1.webp";
@@ -1028,7 +1028,7 @@ export { default as casas_place_img_6 } from "./ResortsPage/LasCasas/Place/casas
 export { default as casas_place_img_7 } from "./ResortsPage/LasCasas/Place/casas_place_img_7.webp";
 export { default as casas_place_img_8 } from "./ResortsPage/LasCasas/Place/casas_place_img_8.webp";
 //----PLACE
-//--LAS CASA GARCIA BEACH RESORT
+//--LAS CASAS GARCIA BEACH RESORT
 //--LEOBELLAS FARM & POOL RESORT
 //----PLACE
 export { default as leobellas_place_img_0 } from "./ResortsPage/Leobellas/Place/leobellas_place_img_0.webp";
@@ -1072,4 +1072,18 @@ export { default as marcs_place_img_17 } from "./ResortsPage/Marcs/Place/marcs_p
 export { default as marcs_price_img_0 } from "./ResortsPage/Marcs/Price/marcs_price_img_0.webp";
 //----PRICE
 //--MARC'S AND MARCY'S POOL & BEACH RESORT
+//--MARGA SELINA`S PLACE AND RESORT
+//----PLACE
+export { default as marga_place_img_0 } from "./ResortsPage/Marga/Place/marga_place_img_0.webp";
+export { default as marga_place_img_1 } from "./ResortsPage/Marga/Place/marga_place_img_1.webp";
+export { default as marga_place_img_2 } from "./ResortsPage/Marga/Place/marga_place_img_2.webp";
+export { default as marga_place_img_3 } from "./ResortsPage/Marga/Place/marga_place_img_3.webp";
+export { default as marga_place_img_4 } from "./ResortsPage/Marga/Place/marga_place_img_4.webp";
+export { default as marga_place_img_5 } from "./ResortsPage/Marga/Place/marga_place_img_5.webp";
+export { default as marga_place_img_6 } from "./ResortsPage/Marga/Place/marga_place_img_6.webp";
+export { default as marga_place_img_7 } from "./ResortsPage/Marga/Place/marga_place_img_7.webp";
+export { default as marga_place_img_8 } from "./ResortsPage/Marga/Place/marga_place_img_8.webp";
+export { default as marga_place_img_9 } from "./ResortsPage/Marga/Place/marga_place_img_9.webp";
+//----PLACE
+//--MARGA SELINA`S PLACE AND RESORT
 //RESORTS PAGE
