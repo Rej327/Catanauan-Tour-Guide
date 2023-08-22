@@ -1016,4 +1016,17 @@ export { default as karba_place_img_13 } from "./ResortsPage/Karba/Place/karba_p
 export { default as karba_place_img_14 } from "./ResortsPage/Karba/Place/karba_place_img_14.webp";
 //----PLACE
 //--KARBA BEACH RESORT
+//--LAS CASA GARCIA BEACH RESORT
+//----PLACE
+export { default as casas_place_img_0 } from "./ResortsPage/LasCasas/Place/casas_place_img_0.webp";
+export { default as casas_place_img_1 } from "./ResortsPage/LasCasas/Place/casas_place_img_1.webp";
+export { default as casas_place_img_2 } from "./ResortsPage/LasCasas/Place/casas_place_img_2.webp";
+export { default as casas_place_img_3 } from "./ResortsPage/LasCasas/Place/casas_place_img_3.webp";
+export { default as casas_place_img_4 } from "./ResortsPage/LasCasas/Place/casas_place_img_4.webp";
+export { default as casas_place_img_5 } from "./ResortsPage/LasCasas/Place/casas_place_img_5.webp";
+export { default as casas_place_img_6 } from "./ResortsPage/LasCasas/Place/casas_place_img_6.webp";
+export { default as casas_place_img_7 } from "./ResortsPage/LasCasas/Place/casas_place_img_7.webp";
+export { default as casas_place_img_8 } from "./ResortsPage/LasCasas/Place/casas_place_img_8.webp";
+//----PLACE
+//--LAS CASA GARCIA BEACH RESORT
 //RESORTS PAGE
