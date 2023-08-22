@@ -740,6 +740,22 @@ import {
   jrhens_place_img_2,
   jrhens_place_img_1,
   jrhens_place_img_0,
+  karba_cover,
+  karba_place_img_14,
+  karba_place_img_13,
+  karba_place_img_12,
+  karba_place_img_11,
+  karba_place_img_10,
+  karba_place_img_9,
+  karba_place_img_8,
+  karba_place_img_7,
+  karba_place_img_6,
+  karba_place_img_5,
+  karba_place_img_4,
+  karba_place_img_3,
+  karba_place_img_2,
+  karba_place_img_1,
+  karba_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2701,6 +2717,129 @@ export const en = {
           },
           {
             img: jrhens_place_img_15,
+          },
+        ],
+      },
+    },
+    //karba beach resort
+    {
+      id: 11,
+      img: karba_cover,
+      category: "Beach",
+      title: "KARBA (Katuparan Agrarian Reform Beneficiary Association)",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 935-766-5961",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 935-766-5961",
+      fb_link: "https://www.facebook.com/profile.php?id=100067841294659",
+      loc_link: "https://goo.gl/maps/E72Ar1PtNx3TaEQC8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BM38+KarBa+Camping+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Boating, Island hopping, Videoke 700 24hrs.",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description:
+            "Double deck 2.5k 10pax, day 1k, 1.5k-700 overnight 3cottages, maliliit 5h, aircon 3k-2k 10pax, single 1k 2pax",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 10.00 - 24 hours ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: karba_place_img_0,
+          },
+          {
+            img: karba_place_img_1,
+          },
+          {
+            img: karba_place_img_2,
+          },
+          {
+            img: karba_place_img_3,
+          },
+          {
+            img: karba_place_img_4,
+          },
+          {
+            img: karba_place_img_5,
+          },
+          {
+            img: karba_place_img_6,
+          },
+          {
+            img: karba_place_img_7,
+          },
+          {
+            img: karba_place_img_8,
+          },
+          {
+            img: karba_place_img_9,
+          },
+          {
+            img: karba_place_img_10,
+          },
+          {
+            img: karba_place_img_11,
+          },
+          {
+            img: karba_place_img_12,
+          },
+          {
+            img: karba_place_img_13,
+          },
+          {
+            img: karba_place_img_14,
           },
         ],
       },
