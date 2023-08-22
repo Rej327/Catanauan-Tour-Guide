@@ -723,6 +723,23 @@ import {
   iyanas_place_img_15,
   iyanas_place_img_16,
   iyanas_place_img_17,
+  jayrhens_cover,
+  jrhens_place_img_15,
+  jrhens_place_img_14,
+  jrhens_place_img_13,
+  jrhens_place_img_12,
+  jrhens_place_img_11,
+  jrhens_place_img_10,
+  jrhens_place_img_9,
+  jrhens_place_img_8,
+  jrhens_place_img_7,
+  jrhens_place_img_6,
+  jrhens_place_img_5,
+  jrhens_place_img_4,
+  jrhens_place_img_3,
+  jrhens_place_img_2,
+  jrhens_place_img_1,
+  jrhens_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2501,6 +2518,189 @@ export const en = {
           },
           {
             img: iyanas_place_img_17,
+          },
+        ],
+      },
+    },
+    //jay rhens beach resort
+    {
+      id: 10,
+      img: jayrhens_cover,
+      category: "Beach",
+      title: "Jay Rhen`s Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 909-227-8540",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 909-227-8540",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100075902782824&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/uhuSVHPTWqmDJcqTA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J646%2B8WR+Jay-Rhen+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Videoke.",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description: " 4 family room 10 pax 4500,  4k 10 pax.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description:
+            "2 - 60015pax, 1k 15pax, 2.5k 22hrs 3pax, 350 umbrella 6pax, 22hrs 1500.",
+        },
+        {
+          title: "Function Hall: ",
+          description: "3.5k - 22 hours.",
+        },
+        {
+          title: "Menu: ",
+        },
+        {
+          description: "Pork Sisig",
+        },
+        {
+          description: "Bangus Sisig",
+        },
+        {
+          description: "Beef Sisig",
+        },
+        {
+          description: "Sizzling Hotdog",
+        },
+        {
+          description: "Sizzling Corn",
+        },
+        {
+          description: "Kropek",
+        },
+        {
+          description: "French Fries",
+        },
+        {
+          description: "Bagnet",
+        },
+        {
+          title: "Also Available",
+        },
+        {
+          description: "Alfonso",
+        },
+        {
+          description: "San Mig Apple / Light",
+        },
+        {
+          description: "Emperador",
+        },
+        {
+          description: "Red Horse",
+        },
+        {
+          description: "Soft Drinks",
+        },
+        {
+          description: "Mineral Water",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "Day ₱ 20.00, Night ₱ 50.00 ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: jrhens_place_img_0,
+          },
+          {
+            img: jrhens_place_img_1,
+          },
+          {
+            img: jrhens_place_img_2,
+          },
+          {
+            img: jrhens_place_img_3,
+          },
+          {
+            img: jrhens_place_img_4,
+          },
+          {
+            img: jrhens_place_img_5,
+          },
+          {
+            img: jrhens_place_img_6,
+          },
+          {
+            img: jrhens_place_img_7,
+          },
+          {
+            img: jrhens_place_img_8,
+          },
+          {
+            img: jrhens_place_img_9,
+          },
+          {
+            img: jrhens_place_img_10,
+          },
+          {
+            img: jrhens_place_img_11,
+          },
+          {
+            img: jrhens_place_img_12,
+          },
+          {
+            img: jrhens_place_img_13,
+          },
+          {
+            img: jrhens_place_img_14,
+          },
+          {
+            img: jrhens_place_img_15,
           },
         ],
       },
