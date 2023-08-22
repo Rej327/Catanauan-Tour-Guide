@@ -977,4 +977,24 @@ export { default as iyanas_place_img_17 } from "./ResortsPage/Iyanas/Place/iyana
 export { default as iyanas_menu_img_0 } from "./ResortsPage/Iyanas/Menu/iyanas_menu_img_0.webp";
 //----MENU
 //--IYANAS BEACH RESORT
+//--JAY RHENS BEACH RESORT
+//----PLACE
+export { default as jrhens_place_img_0 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_0.webp";
+export { default as jrhens_place_img_1 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_1.webp";
+export { default as jrhens_place_img_2 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_2.webp";
+export { default as jrhens_place_img_3 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_3.webp";
+export { default as jrhens_place_img_4 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_4.webp";
+export { default as jrhens_place_img_5 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_5.webp";
+export { default as jrhens_place_img_6 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_6.webp";
+export { default as jrhens_place_img_7 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_7.webp";
+export { default as jrhens_place_img_8 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_8.webp";
+export { default as jrhens_place_img_9 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_9.webp";
+export { default as jrhens_place_img_10 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_10.webp";
+export { default as jrhens_place_img_11 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_11.webp";
+export { default as jrhens_place_img_12 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_12.webp";
+export { default as jrhens_place_img_13 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_13.webp";
+export { default as jrhens_place_img_14 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_14.webp";
+export { default as jrhens_place_img_15 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_15.webp";
+//----PLACE
+//--JAY RHENS BEACH RESORT
 //RESORTS PAGE
