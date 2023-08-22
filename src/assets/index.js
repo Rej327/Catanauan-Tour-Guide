@@ -997,4 +997,23 @@ export { default as jrhens_place_img_14 } from "./ResortsPage/Jayrhens/Place/jrh
 export { default as jrhens_place_img_15 } from "./ResortsPage/Jayrhens/Place/jrhens_place_img_15.webp";
 //----PLACE
 //--JAY RHENS BEACH RESORT
+//--KARBA BEACH RESORT
+//----PLACE
+export { default as karba_place_img_0 } from "./ResortsPage/Karba/Place/karba_place_img_0.webp";
+export { default as karba_place_img_1 } from "./ResortsPage/Karba/Place/karba_place_img_1.webp";
+export { default as karba_place_img_2 } from "./ResortsPage/Karba/Place/karba_place_img_2.webp";
+export { default as karba_place_img_3 } from "./ResortsPage/Karba/Place/karba_place_img_3.webp";
+export { default as karba_place_img_4 } from "./ResortsPage/Karba/Place/karba_place_img_4.webp";
+export { default as karba_place_img_5 } from "./ResortsPage/Karba/Place/karba_place_img_5.webp";
+export { default as karba_place_img_6 } from "./ResortsPage/Karba/Place/karba_place_img_6.webp";
+export { default as karba_place_img_7 } from "./ResortsPage/Karba/Place/karba_place_img_7.webp";
+export { default as karba_place_img_8 } from "./ResortsPage/Karba/Place/karba_place_img_8.webp";
+export { default as karba_place_img_9 } from "./ResortsPage/Karba/Place/karba_place_img_9.webp";
+export { default as karba_place_img_10 } from "./ResortsPage/Karba/Place/karba_place_img_10.webp";
+export { default as karba_place_img_11 } from "./ResortsPage/Karba/Place/karba_place_img_11.webp";
+export { default as karba_place_img_12 } from "./ResortsPage/Karba/Place/karba_place_img_12.webp";
+export { default as karba_place_img_13 } from "./ResortsPage/Karba/Place/karba_place_img_13.webp";
+export { default as karba_place_img_14 } from "./ResortsPage/Karba/Place/karba_place_img_14.webp";
+//----PLACE
+//--KARBA BEACH RESORT
 //RESORTS PAGE
