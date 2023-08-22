@@ -756,6 +756,17 @@ import {
   karba_place_img_2,
   karba_place_img_1,
   karba_place_img_0,
+  casas_cover,
+  casas_place_img_8,
+  casas_place_img_7,
+  casas_place_img_6,
+  casas_place_img_5,
+  casas_place_img_4,
+  casas_place_img_3,
+  casas_place_img_2,
+  casas_place_img_1,
+  casas_place_img_0,
+  leobellas_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -2840,6 +2851,125 @@ export const en = {
           },
           {
             img: karba_place_img_14,
+          },
+        ],
+      },
+    },
+    //las casas gardcia beach resort
+    {
+      id: 12,
+      img: casas_cover,
+      category: "Beach",
+      title: "Las Casas Garcia Beach ",
+      location: "Sitio Buhanginan, Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 995-432-8074",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 995-432-8074",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100083122637424&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/JyNdYXMbxVVh2X6F8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Las+Casas+Garcia+Beach+Resort,+Brgy,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Volleyball,  basketball, table tennis, badminton,  dart, board games, atv for rental 700 half hour, island hopping monpong at maniwaya, kiddie pool",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description:
+            "transient 2 ac rooms 12-14pax 20 max 10k 2 days 1 night, 200 per bed.",
+        },
+        {
+          title: "Cottage and pax: ",
+          description: "Day 800 12pax, night 1.5k, no.5 room 2pax.",
+        },
+        {
+          title: "Check In: ",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Overnight: ",
+          description: "2:00pm - 11:00am, 22 hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 30.00 Day, ₱ 50.00 Night",
+          },
+          {
+            title: "Kids (Below 5 years old)",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: casas_place_img_0,
+          },
+          {
+            img: casas_place_img_1,
+          },
+          {
+            img: casas_place_img_2,
+          },
+          {
+            img: casas_place_img_3,
+          },
+          {
+            img: casas_place_img_4,
+          },
+          {
+            img: casas_place_img_5,
+          },
+          {
+            img: casas_place_img_6,
+          },
+          {
+            img: casas_place_img_7,
+          },
+          {
+            img: casas_place_img_8,
           },
         ],
       },
