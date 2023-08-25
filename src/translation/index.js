@@ -869,6 +869,31 @@ import {
   nasugbo_place_img_28,
   nasugbo_place_img_29,
   nasugbo_place_img_30,
+  punta_menu_img_0,
+  punta_place_img_22,
+  punta_place_img_21,
+  punta_place_img_20,
+  punta_place_img_19,
+  punta_place_img_18,
+  punta_place_img_17,
+  punta_place_img_16,
+  punta_place_img_15,
+  punta_place_img_14,
+  punta_place_img_13,
+  punta_place_img_12,
+  punta_place_img_11,
+  punta_place_img_10,
+  punta_place_img_9,
+  punta_place_img_8,
+  punta_place_img_7,
+  punta_place_img_6,
+  punta_place_img_5,
+  punta_place_img_4,
+  punta_place_img_3,
+  punta_place_img_2,
+  punta_place_img_1,
+  punta_place_img_0,
+  punta_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -3176,7 +3201,7 @@ export const en = {
         ],
       },
     },
-    //leobellas farm & resort resort
+    //marcs and marcys pool and beach resort
     {
       id: 14,
       img: marcs_cover,
@@ -3413,7 +3438,6 @@ export const en = {
         ],
       },
     },
-
     //nasugbo paradise resort
     {
       id: 16,
@@ -3790,6 +3814,163 @@ export const en = {
           },
           {
             img: nasugbo_room_img_18,
+          },
+        ],
+      },
+    },
+    //punta tierra blanca beach resort
+    {
+      id: 17,
+      img: punta_cover,
+      category: "Beach",
+      title: "Punta Tierra Blanca Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 917-897-1960",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 917-897-1960",
+      fb_link:
+        "https://www.facebook.com/TierraBlancaBeachResort?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/v2AeNiTfYw3vxDfd8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Punta+Tierra+Blanca+Beach+Resort,+Brgy,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping 3ksand bar rock formation, banana boat 3.5k 10pax, etski 4k 1hr, kayaking 200, rystal kayak 500per hr, every Saturday live band 15pax +additional fee, volleyball",
+        },
+        {
+          title: "Schedule: ",
+          description: "Check in 2pm, check out 12nn ",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids 3 - 6 years old",
+            fee: "₱ 100.00 overnight, no entrance fee",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: punta_place_img_0,
+          },
+          {
+            img: punta_place_img_1,
+          },
+          {
+            img: punta_place_img_2,
+          },
+          {
+            img: punta_place_img_3,
+          },
+          {
+            img: punta_place_img_4,
+          },
+          {
+            img: punta_place_img_5,
+          },
+          {
+            img: punta_place_img_6,
+          },
+          {
+            img: punta_place_img_7,
+          },
+          {
+            img: punta_place_img_8,
+          },
+          {
+            img: punta_place_img_9,
+          },
+          {
+            img: punta_place_img_10,
+          },
+          {
+            img: punta_place_img_11,
+          },
+          {
+            img: punta_place_img_12,
+          },
+          {
+            img: punta_place_img_13,
+          },
+          {
+            img: punta_place_img_14,
+          },
+          {
+            img: punta_place_img_15,
+          },
+          {
+            img: punta_place_img_16,
+          },
+          {
+            img: punta_place_img_17,
+          },
+          {
+            img: punta_place_img_18,
+          },
+          {
+            img: punta_place_img_19,
+          },
+          {
+            img: punta_place_img_20,
+          },
+          {
+            img: punta_place_img_21,
+          },
+          {
+            img: punta_place_img_22,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        menu: [
+          {
+            img: punta_menu_img_0,
           },
         ],
       },
