@@ -810,6 +810,65 @@ import {
   marga_place_img_2,
   marga_place_img_1,
   marga_place_img_0,
+  nasugbo_cover,
+  nasugbo_price_img_0,
+  nasugbo_price_img_1,
+  nasugbo_price_img_2,
+  nasugbo_price_img_3,
+  nasugbo_price_img_4,
+  nasugbo_price_img_5,
+  nasugbo_price_img_6,
+  nasugbo_price_img_7,
+  nasugbo_price_img_8,
+  nasugbo_room_img_13,
+  nasugbo_room_img_12,
+  nasugbo_room_img_11,
+  nasugbo_room_img_10,
+  nasugbo_room_img_9,
+  nasugbo_room_img_8,
+  nasugbo_room_img_7,
+  nasugbo_room_img_6,
+  nasugbo_room_img_5,
+  nasugbo_room_img_4,
+  nasugbo_room_img_3,
+  nasugbo_room_img_2,
+  nasugbo_room_img_1,
+  nasugbo_room_img_18,
+  nasugbo_room_img_17,
+  nasugbo_room_img_16,
+  nasugbo_room_img_15,
+  nasugbo_room_img_14,
+  nasugbo_place_img_12,
+  nasugbo_place_img_11,
+  nasugbo_place_img_10,
+  nasugbo_place_img_9,
+  nasugbo_place_img_8,
+  nasugbo_place_img_7,
+  nasugbo_place_img_6,
+  nasugbo_place_img_5,
+  nasugbo_place_img_4,
+  nasugbo_place_img_3,
+  nasugbo_place_img_2,
+  nasugbo_place_img_1,
+  nasugbo_place_img_0,
+  nasugbo_place_img_13,
+  nasugbo_place_img_14,
+  nasugbo_place_img_15,
+  nasugbo_place_img_16,
+  nasugbo_place_img_17,
+  nasugbo_place_img_18,
+  nasugbo_place_img_19,
+  nasugbo_place_img_20,
+  nasugbo_place_img_21,
+  nasugbo_place_img_22,
+  nasugbo_place_img_23,
+  nasugbo_place_img_24,
+  nasugbo_place_img_25,
+  nasugbo_place_img_26,
+  nasugbo_place_img_27,
+  nasugbo_place_img_28,
+  nasugbo_place_img_29,
+  nasugbo_place_img_30,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -3350,6 +3409,387 @@ export const en = {
           },
           {
             img: marga_place_img_9,
+          },
+        ],
+      },
+    },
+
+    //nasugbo paradise resort
+    {
+      id: 16,
+      img: nasugbo_cover,
+      category: "Pool & Beach",
+      title: "Nasugbo Paradise Resort (is a beach front with private pool)",
+      location: "Matandang Sabang Kanluran Catanauan, Quezon",
+      number: "(+63) 963-369-9423",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 963-369-9423",
+      fb_link: "https://www.facebook.com/NasugboParadiseResort",
+      loc_link: "https://goo.gl/maps/scjQRKU4DWmBpaJPA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Nasugbo+Paradise+Resort,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Operating Hours: ",
+        },
+        {
+          description: "Overnight (Check In 1:00 pm to Check Out 11:00 am)",
+        },
+        {
+          description: "Day Tour ( 8:00 am to 8:00 pm)",
+        },
+        {
+          title: "Other Informations: ",
+        },
+        {
+          title: "Walk-ins Policy",
+          description: "Walk-ins are allowed but depend on availability",
+        },
+        {
+          title: "Reservation Policy",
+          description: "We require a reservation fee for overnight guests",
+        },
+        {
+          title: "Pet Policy",
+          description: "Pets are not allowed",
+        },
+        {
+          title: "Food and Drink Policy",
+          description: "Guests can bring their own food and drinks",
+        },
+        {
+          title: "WiFi Access",
+          description: "Guests can have free access to wifi",
+        },
+        {
+          title: "Convenience Store",
+          description: "We have a convenient store inside the resort",
+        },
+        {
+          title: "Kayak Rental",
+          description: "Guests can rent a kayak (₱200 per hour)",
+        },
+        {
+          title: "Grillers Policy",
+          description: "Grillers can be provided for free upon request",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee: ",
+          },
+          {
+            title: "Kids 10 y/o - 3 y/o",
+            fee: "P100",
+          },
+          {
+            title: "Adult",
+            fee: "P150",
+          },
+          {
+            title: "Senior Citizen",
+            fee: "P100",
+          },
+          {
+            title: "PWD",
+            fee: "P100",
+          },
+          {
+            title: "Kids 2 y/o below",
+            fee: "FREE",
+          },
+          {
+            title: "Cottage Rates: ",
+          },
+          {
+            title: "Umbrella (Good for 4-6pax)",
+            fee: "₱300",
+          },
+          {
+            title: "Canopy (Good for 10pax)",
+            fee: "₱800",
+          },
+          {
+            title: "Nipa Hut (Good for 15pax)",
+            fee: "₱1,500",
+          },
+          {
+            title: "Cabana (Good for 20-25 pax)",
+            fee: "₱3,000",
+          },
+          {
+            title: "Resort Rates: ",
+          },
+          {
+            fee: "Villa- (Good for 15-20pax) -18,000",
+          },
+          {
+            fee: "Room 1 (Good for 2 pax)- 2,500",
+          },
+          {
+            fee: "Room 2 (Good for 4 pax) - 3,000",
+          },
+          {
+            fee: "Room 3 (Good for 4 pax) - 3,000",
+          },
+          {
+            fee: "Package for Room 123( Good for 10 pax)- 8,000",
+          },
+          {
+            fee: "Family Room 1 (Good for 6pax)- 4,000",
+          },
+          {
+            fee: "Family Room 2( Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 2( Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 3 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 3 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 4 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 5 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 6 (Good for 6 pax)- 4,000",
+          },
+          {
+            fee: "Barko Room 1 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Barko Room 2 (Good for 4 pax)- 3,500",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        price: [
+          {
+            img: nasugbo_price_img_0,
+          },
+          {
+            img: nasugbo_price_img_1,
+          },
+        ],
+
+        cottage: [
+          {
+            img: nasugbo_price_img_2,
+          },
+          {
+            img: nasugbo_price_img_3,
+          },
+          {
+            img: nasugbo_price_img_4,
+          },
+          {
+            img: nasugbo_price_img_5,
+          },
+          {
+            img: nasugbo_price_img_6,
+          },
+          {
+            img: nasugbo_price_img_7,
+          },
+          {
+            img: nasugbo_price_img_8,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: nasugbo_place_img_0,
+          },
+          {
+            img: nasugbo_place_img_1,
+          },
+          {
+            img: nasugbo_place_img_2,
+          },
+          {
+            img: nasugbo_place_img_3,
+          },
+          {
+            img: nasugbo_place_img_4,
+          },
+          {
+            img: nasugbo_place_img_5,
+          },
+          {
+            img: nasugbo_place_img_6,
+          },
+          {
+            img: nasugbo_place_img_7,
+          },
+          {
+            img: nasugbo_place_img_8,
+          },
+          {
+            img: nasugbo_place_img_9,
+          },
+          {
+            img: nasugbo_place_img_10,
+          },
+          {
+            img: nasugbo_place_img_11,
+          },
+          {
+            img: nasugbo_place_img_12,
+          },
+          {
+            img: nasugbo_place_img_13,
+          },
+          {
+            img: nasugbo_place_img_14,
+          },
+          {
+            img: nasugbo_place_img_15,
+          },
+          {
+            img: nasugbo_place_img_16,
+          },
+          {
+            img: nasugbo_place_img_17,
+          },
+          {
+            img: nasugbo_place_img_18,
+          },
+          {
+            img: nasugbo_place_img_19,
+          },
+          {
+            img: nasugbo_place_img_20,
+          },
+          {
+            img: nasugbo_place_img_21,
+          },
+          {
+            img: nasugbo_place_img_22,
+          },
+          {
+            img: nasugbo_place_img_23,
+          },
+          {
+            img: nasugbo_place_img_24,
+          },
+          {
+            img: nasugbo_place_img_25,
+          },
+          {
+            img: nasugbo_place_img_26,
+          },
+          {
+            img: nasugbo_place_img_27,
+          },
+          {
+            img: nasugbo_place_img_28,
+          },
+          {
+            img: nasugbo_place_img_29,
+          },
+          {
+            img: nasugbo_place_img_30,
+          },
+        ],
+        rooms: [
+          {
+            img: nasugbo_room_img_1,
+          },
+          {
+            img: nasugbo_room_img_2,
+          },
+          {
+            img: nasugbo_room_img_3,
+          },
+          {
+            img: nasugbo_room_img_4,
+          },
+          {
+            img: nasugbo_room_img_5,
+          },
+          {
+            img: nasugbo_room_img_6,
+          },
+          {
+            img: nasugbo_room_img_7,
+          },
+          {
+            img: nasugbo_room_img_8,
+          },
+          {
+            img: nasugbo_room_img_9,
+          },
+          {
+            img: nasugbo_room_img_10,
+          },
+          {
+            img: nasugbo_room_img_11,
+          },
+          {
+            img: nasugbo_room_img_12,
+          },
+          {
+            img: nasugbo_room_img_13,
+          },
+          {
+            img: nasugbo_room_img_13,
+          },
+          {
+            img: nasugbo_room_img_14,
+          },
+          {
+            img: nasugbo_room_img_15,
+          },
+          {
+            img: nasugbo_room_img_16,
+          },
+          {
+            img: nasugbo_room_img_17,
+          },
+          {
+            img: nasugbo_room_img_18,
           },
         ],
       },
