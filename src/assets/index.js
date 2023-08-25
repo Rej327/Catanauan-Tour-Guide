@@ -1086,4 +1086,70 @@ export { default as marga_place_img_8 } from "./ResortsPage/Marga/Place/marga_pl
 export { default as marga_place_img_9 } from "./ResortsPage/Marga/Place/marga_place_img_9.webp";
 //----PLACE
 //--MARGA SELINA`S PLACE AND RESORT
+//--NASUGBO PARDISE RESORT
+//----PLACE
+export { default as nasugbo_place_img_0 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_0.webp";
+export { default as nasugbo_place_img_1 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_1.webp";
+export { default as nasugbo_place_img_2 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_2.webp";
+export { default as nasugbo_place_img_3 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_3.webp";
+export { default as nasugbo_place_img_4 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_4.webp";
+export { default as nasugbo_place_img_5 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_5.webp";
+export { default as nasugbo_place_img_6 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_6.webp";
+export { default as nasugbo_place_img_7 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_7.webp";
+export { default as nasugbo_place_img_8 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_8.webp";
+export { default as nasugbo_place_img_9 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_9.webp";
+export { default as nasugbo_place_img_10 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_10.webp";
+export { default as nasugbo_place_img_11 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_11.webp";
+export { default as nasugbo_place_img_12 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_12.webp";
+export { default as nasugbo_place_img_13 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_13.webp";
+export { default as nasugbo_place_img_14 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_14.webp";
+export { default as nasugbo_place_img_15 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_15.webp";
+export { default as nasugbo_place_img_16 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_16.webp";
+export { default as nasugbo_place_img_17 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_17.webp";
+export { default as nasugbo_place_img_18 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_18.webp";
+export { default as nasugbo_place_img_19 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_19.webp";
+export { default as nasugbo_place_img_20 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_20.webp";
+export { default as nasugbo_place_img_21 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_21.webp";
+export { default as nasugbo_place_img_22 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_22.webp";
+export { default as nasugbo_place_img_23 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_23.webp";
+export { default as nasugbo_place_img_24 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_24.webp";
+export { default as nasugbo_place_img_25 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_25.webp";
+export { default as nasugbo_place_img_26 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_26.webp";
+export { default as nasugbo_place_img_27 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_27.webp";
+export { default as nasugbo_place_img_28 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_28.webp";
+export { default as nasugbo_place_img_29 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_29.webp";
+export { default as nasugbo_place_img_30 } from "./ResortsPage/Nasugbo/Place/nasugbo_place_img_30.webp";
+//----PLACE
+//----ROOM
+export { default as nasugbo_room_img_1 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_1.webp";
+export { default as nasugbo_room_img_2 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_2.webp";
+export { default as nasugbo_room_img_3 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_3.webp";
+export { default as nasugbo_room_img_4 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_4.webp";
+export { default as nasugbo_room_img_5 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_5.webp";
+export { default as nasugbo_room_img_6 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_6.webp";
+export { default as nasugbo_room_img_7 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_7.webp";
+export { default as nasugbo_room_img_8 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_8.webp";
+export { default as nasugbo_room_img_9 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_9.webp";
+export { default as nasugbo_room_img_10 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_10.webp";
+export { default as nasugbo_room_img_11 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_11.webp";
+export { default as nasugbo_room_img_12 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_12.webp";
+export { default as nasugbo_room_img_13 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_13.webp";
+export { default as nasugbo_room_img_14 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_14.webp";
+export { default as nasugbo_room_img_15 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_15.webp";
+export { default as nasugbo_room_img_16 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_16.webp";
+export { default as nasugbo_room_img_17 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_17.webp";
+export { default as nasugbo_room_img_18 } from "./ResortsPage/Nasugbo/Room/nasugbo_room_img_18.webp";
+//----ROOM
+//----PRICE
+export { default as nasugbo_price_img_0 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_0.webp";
+export { default as nasugbo_price_img_1 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_1.webp";
+export { default as nasugbo_price_img_2 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_2.webp";
+export { default as nasugbo_price_img_3 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_3.webp";
+export { default as nasugbo_price_img_4 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_4.webp";
+export { default as nasugbo_price_img_5 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_5.webp";
+export { default as nasugbo_price_img_6 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_6.webp";
+export { default as nasugbo_price_img_7 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_7.webp";
+export { default as nasugbo_price_img_8 } from "./ResortsPage/Nasugbo/Price/nasugbo_price_img_8.webp";
+//----PRICE
+//--NASUGBO PARDISE RESORT
 //RESORTS PAGE
