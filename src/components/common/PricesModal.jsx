@@ -73,6 +73,16 @@ const PricesModal = ({ dataInfo }) => {
                 </div>
               )}
 
+              {dataInfo?.prices?.price && (
+                <div className="w-full py-2">
+                  <p className="text-2xl tracking-widest mt-5 mb-2">
+                    {" "}
+                    - Price's
+                  </p>
+                  <WSPGallery setData={dataInfo?.prices?.price} />
+                </div>
+              )}
+
               {dataInfo?.prices?.hotel && (
                 <div className="w-full py-2">
                   <p className="text-2xl tracking-widest mt-5 mb-2">
