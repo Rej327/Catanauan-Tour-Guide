@@ -10,8 +10,10 @@ import ResortsPricesModal from "../../common/PricesModal";
 
 const ResortItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
+  const [show_1, setShow_1] = useState(false);
 
   const handleToggle = () => setShow(!show);
+  const handleToggle_1 = () => setShow_1(!show_1);
 
   const { language } = useContext(LangContext);
 
@@ -25,15 +27,32 @@ const ResortItemContent_1 = ({ dataInfo }) => {
   return (
     <div className="max-w-[800px] mx-2 flex flex-col gap-4 text-lg">
       {dataInfo?.entrance?.types && (
-        <div>
-          {dataInfo?.entrance?.types.map((data) => (
-            <div className="flex flex-col py-2">
-              <p className="text-lg font-bold">{data.title}</p>
-              <p className="text-lg">{data.fee}</p>
-            </div>
-          ))}
-        </div>
+        <Collapse
+          className="font-body bodyColor "
+          startingHeight={100}
+          in={show_1}
+        >
+          <div>
+            {dataInfo?.entrance?.types.map((data) => (
+              <div className="flex flex-col py-2">
+                <p className="text-lg font-bold">{data.title}</p>
+                <p className="text-lg">{data.fee}</p>
+              </div>
+            ))}
+          </div>
+        </Collapse>
       )}
+
+      {dataInfo?.entrance?.types && (
+        <p
+          className="cursor-pointer w-fit text-base"
+          onClick={handleToggle_1}
+          mt="1rem"
+        >
+          {show_1 ? "- Read Less" : "+ Read More"}
+        </p>
+      )}
+
       {dataInfo?.content && (
         <Collapse
           className="font-body bodyColor "
