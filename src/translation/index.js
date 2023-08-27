@@ -954,6 +954,24 @@ import {
   tuhian_place_img_1,
   tuhian_place_img_0,
   tuhian_cover,
+  andrea_cover,
+  villa_place_img_6,
+  villa_place_img_5,
+  villa_place_img_4,
+  villa_place_img_3,
+  villa_place_img_2,
+  villa_place_img_1,
+  villa_place_img_0,
+  villa_menu_img_0,
+  villa_room_img_0,
+  villa_room_img_1,
+  villa_room_img_2,
+  villa_room_img_3,
+  villa_price_img_0,
+  villa_price_img_1,
+  villa_price_img_2,
+  villa_price_img_3,
+  villa_price_img_4,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -4437,6 +4455,119 @@ export const en = {
           },
           {
             img: tuhian_place_img_11,
+          },
+        ],
+      },
+    },
+
+    //villa andrea beach resort
+    {
+      id: 21,
+      img: andrea_cover,
+      category: "Beach",
+      title: "Villa Andrea Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 931-111-9999",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 931-111-9999",
+      website: "https://www.villaandreabeachresort.com/",
+      fb_link: "https://www.facebook.com/villaandreabeach",
+      loc_link: "https://goo.gl/maps/GZ4iyQQ4iD2v5Hav5",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Villa+Andrea+Beach+Resort+Catanauan+Quezon,+Gatasan+Road,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: villa_place_img_0,
+          },
+          {
+            img: villa_place_img_1,
+          },
+          {
+            img: villa_place_img_2,
+          },
+          {
+            img: villa_place_img_3,
+          },
+          {
+            img: villa_place_img_4,
+          },
+          {
+            img: villa_place_img_5,
+          },
+          {
+            img: villa_place_img_6,
+          },
+        ],
+      },
+
+      //prices
+      prices: {
+        menu: [
+          {
+            img: villa_menu_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: villa_room_img_0,
+          },
+          {
+            img: villa_room_img_1,
+          },
+          {
+            img: villa_room_img_2,
+          },
+          {
+            img: villa_room_img_3,
+          },
+        ],
+
+        price: [
+          {
+            img: villa_price_img_0,
+          },
+          {
+            img: villa_price_img_1,
+          },
+          {
+            img: villa_price_img_2,
+          },
+          {
+            img: villa_price_img_3,
+          },
+          {
+            img: villa_price_img_4,
           },
         ],
       },
