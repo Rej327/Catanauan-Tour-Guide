@@ -941,6 +941,19 @@ import {
   seaguy_price_img_3,
   seaguy_price_img_4,
   seaguy_price_img_5,
+  tuhian_place_img_11,
+  tuhian_place_img_10,
+  tuhian_place_img_9,
+  tuhian_place_img_8,
+  tuhian_place_img_7,
+  tuhian_place_img_6,
+  tuhian_place_img_5,
+  tuhian_place_img_4,
+  tuhian_place_img_3,
+  tuhian_place_img_2,
+  tuhian_place_img_1,
+  tuhian_place_img_0,
+  tuhian_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -4306,6 +4319,124 @@ export const en = {
           },
           {
             img: seaguy_price_img_5,
+          },
+        ],
+      },
+    },
+
+    //tuhian beach camp
+    {
+      id: 20,
+      img: tuhian_cover,
+      category: "Camp Site & Beach",
+      title: "Tuhian Beach Camp",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 908-644-6205",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-644-6205",
+      fb_link: "https://www.facebook.com/TuhianBeachCamp?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/66ngHRDuZasyoJWA6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BRGM+Tuhian+Beach+Camp,+Sitio+Labak+Barangay,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Boating, island hopping, volleyball, ",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "1.5k day 2pax",
+        },
+        {
+          title: "Cottages & pax: ",
+          description: "1.5k overnight 1k day 20pax, kubo same price",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "Day 20 night 30",
+          },
+          {
+            title: "10 Years old below",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: tuhian_place_img_0,
+          },
+          {
+            img: tuhian_place_img_1,
+          },
+          {
+            img: tuhian_place_img_2,
+          },
+          {
+            img: tuhian_place_img_3,
+          },
+          {
+            img: tuhian_place_img_4,
+          },
+          {
+            img: tuhian_place_img_5,
+          },
+          {
+            img: tuhian_place_img_6,
+          },
+          {
+            img: tuhian_place_img_7,
+          },
+          {
+            img: tuhian_place_img_8,
+          },
+          {
+            img: tuhian_place_img_9,
+          },
+          {
+            img: tuhian_place_img_10,
+          },
+          {
+            img: tuhian_place_img_11,
           },
         ],
       },
