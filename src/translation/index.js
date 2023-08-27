@@ -913,6 +913,34 @@ import {
   rosbal_place_img_2,
   rosbal_place_img_1,
   rosbal_place_img_0,
+  seaguy_cover,
+  seaguy_place_img_9,
+  seaguy_place_img_8,
+  seaguy_place_img_7,
+  seaguy_place_img_6,
+  seaguy_place_img_5,
+  seaguy_place_img_4,
+  seaguy_place_img_3,
+  seaguy_place_img_2,
+  seaguy_place_img_1,
+  seaguy_place_img_0,
+  seaguy_menu_img_0,
+  seaguy_room_img_0,
+  seaguy_room_img_1,
+  seaguy_room_img_2,
+  seaguy_room_img_3,
+  seaguy_room_img_4,
+  seaguy_room_img_5,
+  seaguy_room_img_6,
+  seaguy_room_img_7,
+  seaguy_room_img_8,
+  seaguy_room_img_9,
+  seaguy_price_img_0,
+  seaguy_price_img_1,
+  seaguy_price_img_2,
+  seaguy_price_img_3,
+  seaguy_price_img_4,
+  seaguy_price_img_5,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -4119,6 +4147,165 @@ export const en = {
           },
           {
             img: rosbal_place_img_17,
+          },
+        ],
+      },
+    },
+    //sea guy paradise pool & beach resort
+    {
+      id: 19,
+      img: seaguy_cover,
+      category: "Pool & Beach",
+      title: "Seaguy Paradise Pool & Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 908-863-8721",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-863-8721",
+      fb_link:
+        "https://www.facebook.com/SeaGuyParadiseBeachResort?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/Qp2NPyP2AEQNcn5H9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H6XM%2BMMG+Sea+Guy+Paradise+Pool+And+Beach+Resort,+Unnamed+Rd,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 100.00 day | ₱ 130.00 night",
+          },
+          {
+            title: "3 Years old below",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: seaguy_place_img_0,
+          },
+          {
+            img: seaguy_place_img_1,
+          },
+          {
+            img: seaguy_place_img_2,
+          },
+          {
+            img: seaguy_place_img_3,
+          },
+          {
+            img: seaguy_place_img_4,
+          },
+          {
+            img: seaguy_place_img_5,
+          },
+          {
+            img: seaguy_place_img_6,
+          },
+          {
+            img: seaguy_place_img_7,
+          },
+          {
+            img: seaguy_place_img_8,
+          },
+          {
+            img: seaguy_place_img_9,
+          },
+        ],
+      },
+
+      //prices
+      prices: {
+        menu: [
+          {
+            img: seaguy_menu_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: seaguy_room_img_0,
+          },
+          {
+            img: seaguy_room_img_1,
+          },
+          {
+            img: seaguy_room_img_2,
+          },
+          {
+            img: seaguy_room_img_3,
+          },
+          {
+            img: seaguy_room_img_4,
+          },
+          {
+            img: seaguy_room_img_5,
+          },
+          {
+            img: seaguy_room_img_6,
+          },
+          {
+            img: seaguy_room_img_7,
+          },
+          {
+            img: seaguy_room_img_8,
+          },
+          {
+            img: seaguy_room_img_9,
+          },
+        ],
+
+        price: [
+          {
+            img: seaguy_price_img_0,
+          },
+          {
+            img: seaguy_price_img_1,
+          },
+          {
+            img: seaguy_price_img_2,
+          },
+          {
+            img: seaguy_price_img_3,
+          },
+          {
+            img: seaguy_price_img_4,
+          },
+          {
+            img: seaguy_price_img_5,
           },
         ],
       },
