@@ -78,9 +78,16 @@ const ResortItemContent_1 = ({ dataInfo }) => {
         </p>
       )}
 
-      <div className="mb-5 flex gap-4">
+      <div className="mb-5 flex flex-wrap gap-4">
         {dataInfo.prices && <ResortsPricesModal dataInfo={dataInfo} />}
         <GalleryModal dataInfo={dataInfo} />
+        {dataInfo.website && (
+          <Link to={dataInfo.website} target="_blank">
+            <button className="bg-none w-[150px] border-[1px] border-[#f1be66] rounded-full px-4 py-2 hover:bg-[#f1be66] duration-300 delay-75">
+              <p className="text-base">Visit Website &#8594;</p>
+            </button>
+          </Link>
+        )}
       </div>
       <div className="max-lg:hidden mt-2 py-5 border-t-[1px] border-gray-300">
         <p className="font-bold text-2xl my-2">You may also like : </p>
