@@ -1241,4 +1241,20 @@ export { default as seaguy_room_img_9 } from "./ResortsPage/Seaguy/Room/seaguy_r
 export { default as seaguy_menu_img_0 } from "./ResortsPage/Seaguy/Menu/seaguy_menu_img_0.webp";
 //----MENU
 //--SEA GUY PARADISE POOL AND BEACH RESORT
+//--TUHIAN BEACH CAMP
+//----PLACE
+export { default as tuhian_place_img_0 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_0.webp";
+export { default as tuhian_place_img_1 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_1.webp";
+export { default as tuhian_place_img_2 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_2.webp";
+export { default as tuhian_place_img_3 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_3.webp";
+export { default as tuhian_place_img_4 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_4.webp";
+export { default as tuhian_place_img_5 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_5.webp";
+export { default as tuhian_place_img_6 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_6.webp";
+export { default as tuhian_place_img_7 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_7.webp";
+export { default as tuhian_place_img_8 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_8.webp";
+export { default as tuhian_place_img_9 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_9.webp";
+export { default as tuhian_place_img_10 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_10.webp";
+export { default as tuhian_place_img_11 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_11.webp";
+//----PLACE
+//--TUHIAN BEACH CAMP
 //RESORTS PAGE
