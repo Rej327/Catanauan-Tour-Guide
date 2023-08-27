@@ -894,6 +894,25 @@ import {
   punta_place_img_1,
   punta_place_img_0,
   punta_cover,
+  rosbal_cover,
+  rosbal_place_img_17,
+  rosbal_place_img_16,
+  rosbal_place_img_15,
+  rosbal_place_img_14,
+  rosbal_place_img_13,
+  rosbal_place_img_12,
+  rosbal_place_img_11,
+  rosbal_place_img_10,
+  rosbal_place_img_9,
+  rosbal_place_img_8,
+  rosbal_place_img_7,
+  rosbal_place_img_6,
+  rosbal_place_img_5,
+  rosbal_place_img_4,
+  rosbal_place_img_3,
+  rosbal_place_img_2,
+  rosbal_place_img_1,
+  rosbal_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -3971,6 +3990,135 @@ export const en = {
         menu: [
           {
             img: punta_menu_img_0,
+          },
+        ],
+      },
+    },
+    //rosbal beach resort
+    {
+      id: 18,
+      img: rosbal_cover,
+      category: "Beach",
+      title: "Rosbal Beach Resort",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 945-567-3364",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 945-567-3364",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100063857918429&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/EpgfQPmDAVnmeRbt8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J636%2BV89+RosBal+Family+Resort,+Brgy,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "Aircon 4k 10pax, aircon 6k 16pax, 1500 overnight 1k 5pax, 5h 6cottages 15pax, function hall ",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 25.00 +",
+          },
+          {
+            title: "7 up to 24 years old",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: rosbal_place_img_0,
+          },
+          {
+            img: rosbal_place_img_1,
+          },
+          {
+            img: rosbal_place_img_2,
+          },
+          {
+            img: rosbal_place_img_3,
+          },
+          {
+            img: rosbal_place_img_4,
+          },
+          {
+            img: rosbal_place_img_5,
+          },
+          {
+            img: rosbal_place_img_6,
+          },
+          {
+            img: rosbal_place_img_7,
+          },
+          {
+            img: rosbal_place_img_8,
+          },
+          {
+            img: rosbal_place_img_9,
+          },
+          {
+            img: rosbal_place_img_10,
+          },
+          {
+            img: rosbal_place_img_11,
+          },
+          {
+            img: rosbal_place_img_12,
+          },
+          {
+            img: rosbal_place_img_13,
+          },
+          {
+            img: rosbal_place_img_14,
+          },
+          {
+            img: rosbal_place_img_15,
+          },
+          {
+            img: rosbal_place_img_16,
+          },
+          {
+            img: rosbal_place_img_17,
           },
         ],
       },
