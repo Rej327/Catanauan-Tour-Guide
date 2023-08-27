@@ -994,6 +994,28 @@ import {
   grency_place_img_2,
   grency_place_img_1,
   grency_place_img_0,
+  villaiyana_cover,
+  iyana_place_img_4,
+  iyana_place_img_3,
+  iyana_place_img_2,
+  iyana_place_img_1,
+  iyana_place_img_0,
+  iyana_room_img_14,
+  iyana_room_img_13,
+  iyana_room_img_12,
+  iyana_room_img_11,
+  iyana_room_img_10,
+  iyana_room_img_9,
+  iyana_room_img_8,
+  iyana_room_img_7,
+  iyana_room_img_6,
+  iyana_room_img_5,
+  iyana_room_img_4,
+  iyana_room_img_3,
+  iyana_room_img_2,
+  iyana_room_img_1,
+  iyana_room_img_0,
+  iyana_price_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -4731,20 +4753,21 @@ export const en = {
     },
     //villa iyanas pool & beach resort
     {
-      id: 22,
-      img: grency_cover,
-      category: "Pool & Beach",
-      title: "Villa Grency Pool and Beach Resort",
-      location: "Barangay Madulao, Catanauan, Quezon",
-      number: "(+63) 919-529-4243",
+      id: 23,
+      img: villaiyana_cover,
+      category: "Beach",
+      title: "Villa Iyana Beach Resort",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 977-757-6785",
       btn_txt: "More",
 
       //links
-      dial_num: "tel: (+63) 919-529-4243",
-      fb_link: "https://www.facebook.com/villagrency",
-      loc_link: "https://goo.gl/maps/EpgfQPmDAVnmeRbt8",
+      dial_num: "tel: (+63) 977-757-6785",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100089543997473&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/eLqnzTV2f486WjgS8",
       direction:
-        "https://www.google.com/maps/dir/{{value}}/J636%2BV89+RosBal+Family+Resort,+Brgy,+Quezon",
+        "https://www.google.com/maps/dir/{{value}}/Villa+Iyana+Beach+Resort,+Brgy.+Gatasan,+Catanauan,+4311+Quezon+Province",
 
       //schedule
       schedule: [
@@ -4771,6 +4794,136 @@ export const en = {
         },
       ],
 
+      //content
+      content: [
+        {
+          title: "Acivities: ",
+          description:
+            "Island hopping, boating, snorkeling kayak, jet ski, banana boat",
+        },
+        {
+          title: "Day Tour",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour",
+          description: "22 Hours",
+        },
+        {
+          title: "Barko (3 rooms)",
+        },
+        {
+          description: "1st room good for 15pax-12,500 22hrs",
+        },
+        {
+          description: "2nd & 3rd rooms 7500-8pax 22hrs",
+        },
+        {
+          title: "Building 1 & 2",
+          description: "2 rooms 9500 - 10pax",
+        },
+        {
+          title: "Building 3",
+          description: "3 rooms 9500 - 10pax",
+        },
+        {
+          description: "Taas 10ax 8500, 8500, baba 8pax, 7500",
+        },
+        {
+          title: "Building 4",
+          description: "30pax 24k ",
+        },
+        {
+          title: "Bungalow: ",
+          description: "3rooms 6pax 6500 isang kwarto",
+        },
+        {
+          description:
+            "8pax 1k, kubo1500 hat isang kwarto good for 2pax 3k, kubo 1500 10pax",
+        },
+        {
+          title: "Menu: ",
+        },
+        {
+          title: "COMBO-A",
+        },
+        {
+          description: "BREAK FAST HOTDOG",
+        },
+        {
+          description: "SUNNY SIDE UP",
+        },
+        {
+          description: "DRIED FISH",
+        },
+        {
+          description: "SNACK-TURON",
+        },
+        {
+          title: "LUNCH",
+        },
+        {
+          description: "SWEET & SOUR CHOPSUEY",
+        },
+        {
+          description: "TINOLANG MANOK",
+        },
+        {
+          description: "SNACK-BIHON",
+        },
+        {
+          title: "DINNER",
+        },
+        {
+          description: "CHICKEN BBQ",
+        },
+        {
+          description: "MIXED SEAFOOD GRILLED BANGUS",
+        },
+        {
+          title: "COMBO-B",
+        },
+        {
+          title: "BREAK FAST",
+        },
+        {
+          description: "TORTANG TALONG",
+        },
+        {
+          description: "MEAT LOAF",
+        },
+        {
+          description: "SALTED EGG",
+        },
+        {
+          description: "SNACK-KAMOTE FRIES",
+        },
+        {
+          title: "LUNCH",
+        },
+        {
+          description: "SINIGANG NA BABOY FRIED CHICKEN",
+        },
+        {
+          description: "FISH FILLET",
+        },
+        {
+          description: "SNACK-CHAMI",
+        },
+        {
+          title: "DINNER",
+        },
+        {
+          description: "GRILLED LIEMPO",
+        },
+        {
+          description: "GINATAANG KALABASA GRILLED BANGUS",
+        },
+        {
+          description: "750 PER HEAD",
+        },
+      ],
+
       //entrance
       entrance: {
         types: [
@@ -4779,17 +4932,11 @@ export const en = {
           },
           {
             title: "Adult",
-            fee: "₱ 150.00",
+            fee: "₱ 200.00",
           },
           {
-            title: "Child",
+            title: "Kids (3 - 7 years old)",
             fee: "₱ 100.00",
-          },
-          {
-            title: "Hotel Rates: ",
-          },
-          {
-            fee: "Depends on number of guests",
           },
         ],
       },
@@ -4798,67 +4945,75 @@ export const en = {
       gallery: {
         places: [
           {
-            img: grency_place_img_0,
+            img: iyana_place_img_0,
           },
           {
-            img: grency_place_img_1,
+            img: iyana_place_img_1,
           },
           {
-            img: grency_place_img_2,
+            img: iyana_place_img_2,
           },
           {
-            img: grency_place_img_3,
+            img: iyana_place_img_3,
           },
           {
-            img: grency_place_img_4,
+            img: iyana_place_img_4,
+          },
+        ],
+        rooms: [
+          {
+            img: iyana_room_img_0,
           },
           {
-            img: grency_place_img_5,
+            img: iyana_room_img_1,
           },
           {
-            img: grency_place_img_6,
+            img: iyana_room_img_2,
           },
           {
-            img: grency_place_img_7,
+            img: iyana_room_img_3,
           },
           {
-            img: grency_place_img_8,
+            img: iyana_room_img_4,
           },
           {
-            img: grency_place_img_9,
+            img: iyana_room_img_5,
           },
           {
-            img: grency_place_img_10,
+            img: iyana_room_img_6,
           },
           {
-            img: grency_place_img_11,
+            img: iyana_room_img_7,
           },
           {
-            img: grency_place_img_12,
+            img: iyana_room_img_8,
           },
           {
-            img: grency_place_img_13,
+            img: iyana_room_img_9,
           },
           {
-            img: grency_place_img_14,
+            img: iyana_room_img_10,
           },
           {
-            img: grency_place_img_15,
+            img: iyana_room_img_11,
           },
           {
-            img: grency_place_img_16,
+            img: iyana_room_img_12,
           },
           {
-            img: grency_place_img_17,
+            img: iyana_room_img_13,
           },
           {
-            img: grency_place_img_18,
+            img: iyana_room_img_14,
           },
+        ],
+      },
+
+      //price
+      prices: {
+        price: [
           {
-            img: grency_place_img_19,
-          },
-          {
-            img: grency_place_img_20,
+            img: iyana_price_img_0,
           },
         ],
       },
