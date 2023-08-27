@@ -1257,4 +1257,31 @@ export { default as tuhian_place_img_10 } from "./ResortsPage/Tuhian/Place/tuhia
 export { default as tuhian_place_img_11 } from "./ResortsPage/Tuhian/Place/tuhian_place_img_11.webp";
 //----PLACE
 //--TUHIAN BEACH CAMP
+//--VILLA ANDREA BEACH RESORT
+//----PLACE
+export { default as villa_place_img_0 } from "./ResortsPage/Villa/Place/villa_place_img_0.webp";
+export { default as villa_place_img_1 } from "./ResortsPage/Villa/Place/villa_place_img_1.webp";
+export { default as villa_place_img_2 } from "./ResortsPage/Villa/Place/villa_place_img_2.webp";
+export { default as villa_place_img_3 } from "./ResortsPage/Villa/Place/villa_place_img_3.webp";
+export { default as villa_place_img_4 } from "./ResortsPage/Villa/Place/villa_place_img_4.webp";
+export { default as villa_place_img_5 } from "./ResortsPage/Villa/Place/villa_place_img_5.webp";
+export { default as villa_place_img_6 } from "./ResortsPage/Villa/Place/villa_place_img_6.webp";
+//----PLACE
+//----ROOM
+export { default as villa_room_img_0 } from "./ResortsPage/Villa/Room/villa_room_img_0.webp";
+export { default as villa_room_img_1 } from "./ResortsPage/Villa/Room/villa_room_img_1.webp";
+export { default as villa_room_img_2 } from "./ResortsPage/Villa/Room/villa_room_img_2.webp";
+export { default as villa_room_img_3 } from "./ResortsPage/Villa/Room/villa_room_img_3.webp";
+//----ROOM
+//----PRICE
+export { default as villa_price_img_0 } from "./ResortsPage/Villa/Price/villa_price_img_0.webp";
+export { default as villa_price_img_1 } from "./ResortsPage/Villa/Price/villa_price_img_1.webp";
+export { default as villa_price_img_2 } from "./ResortsPage/Villa/Price/villa_price_img_2.webp";
+export { default as villa_price_img_3 } from "./ResortsPage/Villa/Price/villa_price_img_3.webp";
+export { default as villa_price_img_4 } from "./ResortsPage/Villa/Price/villa_price_img_4.webp";
+//----PRICE
+//----MENU
+export { default as villa_menu_img_0 } from "./ResortsPage/Villa/Menu/villa_menu_img_0.webp";
+//----MENU
+//--VILLA ANDREA BEACH RESORT
 //RESORTS PAGE
