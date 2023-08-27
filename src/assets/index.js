@@ -1284,4 +1284,29 @@ export { default as villa_price_img_4 } from "./ResortsPage/Villa/Price/villa_pr
 export { default as villa_menu_img_0 } from "./ResortsPage/Villa/Menu/villa_menu_img_0.webp";
 //----MENU
 //--VILLA ANDREA BEACH RESORT
+//--VILLA GRENCY POOL & BEACH RESORT
+//----PLACE
+export { default as grency_place_img_0 } from "./ResortsPage/Villagrency/Place/grency_place_img_0.webp";
+export { default as grency_place_img_1 } from "./ResortsPage/Villagrency/Place/grency_place_img_1.webp";
+export { default as grency_place_img_2 } from "./ResortsPage/Villagrency/Place/grency_place_img_2.webp";
+export { default as grency_place_img_3 } from "./ResortsPage/Villagrency/Place/grency_place_img_3.webp";
+export { default as grency_place_img_4 } from "./ResortsPage/Villagrency/Place/grency_place_img_4.webp";
+export { default as grency_place_img_5 } from "./ResortsPage/Villagrency/Place/grency_place_img_5.webp";
+export { default as grency_place_img_6 } from "./ResortsPage/Villagrency/Place/grency_place_img_6.webp";
+export { default as grency_place_img_7 } from "./ResortsPage/Villagrency/Place/grency_place_img_7.webp";
+export { default as grency_place_img_8 } from "./ResortsPage/Villagrency/Place/grency_place_img_8.webp";
+export { default as grency_place_img_9 } from "./ResortsPage/Villagrency/Place/grency_place_img_9.webp";
+export { default as grency_place_img_10 } from "./ResortsPage/Villagrency/Place/grency_place_img_10.webp";
+export { default as grency_place_img_11 } from "./ResortsPage/Villagrency/Place/grency_place_img_11.webp";
+export { default as grency_place_img_12 } from "./ResortsPage/Villagrency/Place/grency_place_img_12.webp";
+export { default as grency_place_img_13 } from "./ResortsPage/Villagrency/Place/grency_place_img_13.webp";
+export { default as grency_place_img_14 } from "./ResortsPage/Villagrency/Place/grency_place_img_14.webp";
+export { default as grency_place_img_15 } from "./ResortsPage/Villagrency/Place/grency_place_img_15.webp";
+export { default as grency_place_img_16 } from "./ResortsPage/Villagrency/Place/grency_place_img_16.webp";
+export { default as grency_place_img_17 } from "./ResortsPage/Villagrency/Place/grency_place_img_17.webp";
+export { default as grency_place_img_18 } from "./ResortsPage/Villagrency/Place/grency_place_img_18.webp";
+export { default as grency_place_img_19 } from "./ResortsPage/Villagrency/Place/grency_place_img_19.webp";
+export { default as grency_place_img_20 } from "./ResortsPage/Villagrency/Place/grency_place_img_20.webp";
+//----PLACE
+//--VILLA GRENCY POOL & BEACH RESORT
 //RESORTS PAGE
