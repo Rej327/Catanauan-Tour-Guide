@@ -1182,4 +1182,26 @@ export { default as punta_place_img_22 } from "./ResortsPage/Punta/Place/punta_p
 export { default as punta_menu_img_0 } from "./ResortsPage/Punta/Menu/punta_menu_img_0.webp";
 //----MENU
 //--PUNTA TIERRA BLANCA BEACH RESORT
+//--ROSBAL BEACH RESORT
+//----PLACE
+export { default as rosbal_place_img_0 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_0.webp";
+export { default as rosbal_place_img_1 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_1.webp";
+export { default as rosbal_place_img_2 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_2.webp";
+export { default as rosbal_place_img_3 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_3.webp";
+export { default as rosbal_place_img_4 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_4.webp";
+export { default as rosbal_place_img_5 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_5.webp";
+export { default as rosbal_place_img_6 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_6.webp";
+export { default as rosbal_place_img_7 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_7.webp";
+export { default as rosbal_place_img_8 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_8.webp";
+export { default as rosbal_place_img_9 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_9.webp";
+export { default as rosbal_place_img_10 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_10.webp";
+export { default as rosbal_place_img_11 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_11.webp";
+export { default as rosbal_place_img_12 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_12.webp";
+export { default as rosbal_place_img_13 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_13.webp";
+export { default as rosbal_place_img_14 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_14.webp";
+export { default as rosbal_place_img_15 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_15.webp";
+export { default as rosbal_place_img_16 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_16.webp";
+export { default as rosbal_place_img_17 } from "./ResortsPage/Rosbal/Place/rosbal_place_img_17.webp";
+//----PLACE
+//--ROSBAL BEACH RESORT
 //RESORTS PAGE
