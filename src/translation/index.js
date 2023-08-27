@@ -972,6 +972,28 @@ import {
   villa_price_img_2,
   villa_price_img_3,
   villa_price_img_4,
+  grency_cover,
+  grency_place_img_20,
+  grency_place_img_19,
+  grency_place_img_18,
+  grency_place_img_17,
+  grency_place_img_16,
+  grency_place_img_15,
+  grency_place_img_14,
+  grency_place_img_13,
+  grency_place_img_12,
+  grency_place_img_11,
+  grency_place_img_10,
+  grency_place_img_9,
+  grency_place_img_8,
+  grency_place_img_7,
+  grency_place_img_6,
+  grency_place_img_5,
+  grency_place_img_4,
+  grency_place_img_3,
+  grency_place_img_2,
+  grency_place_img_1,
+  grency_place_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -4568,6 +4590,275 @@ export const en = {
           },
           {
             img: villa_price_img_4,
+          },
+        ],
+      },
+    },
+
+    //villa grency pool & beach resort
+    {
+      id: 22,
+      img: grency_cover,
+      category: "Pool & Beach",
+      title: "Villa Grency Pool and Beach Resort",
+      location: "Barangay Madulao, Catanauan, Quezon",
+      number: "(+63) 919-529-4243",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 919-529-4243",
+      fb_link: "https://www.facebook.com/villagrency",
+      loc_link: "https://goo.gl/maps/R5MP1VkbPwbg6CTq6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Villa+Grency,+Barangay+Madulao,+Catanauan,+Quezon+Catanauan,+Quezon+Province,+R4A,+Catanauan,+R4A+Quezon+Province",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 150.00",
+          },
+          {
+            title: "Child",
+            fee: "₱ 100.00",
+          },
+          {
+            title: "Hotel Rates: ",
+          },
+          {
+            fee: "Depends on number of guests",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: grency_place_img_0,
+          },
+          {
+            img: grency_place_img_1,
+          },
+          {
+            img: grency_place_img_2,
+          },
+          {
+            img: grency_place_img_3,
+          },
+          {
+            img: grency_place_img_4,
+          },
+          {
+            img: grency_place_img_5,
+          },
+          {
+            img: grency_place_img_6,
+          },
+          {
+            img: grency_place_img_7,
+          },
+          {
+            img: grency_place_img_8,
+          },
+          {
+            img: grency_place_img_9,
+          },
+          {
+            img: grency_place_img_10,
+          },
+          {
+            img: grency_place_img_11,
+          },
+          {
+            img: grency_place_img_12,
+          },
+          {
+            img: grency_place_img_13,
+          },
+          {
+            img: grency_place_img_14,
+          },
+          {
+            img: grency_place_img_15,
+          },
+          {
+            img: grency_place_img_16,
+          },
+          {
+            img: grency_place_img_17,
+          },
+          {
+            img: grency_place_img_18,
+          },
+          {
+            img: grency_place_img_19,
+          },
+          {
+            img: grency_place_img_20,
+          },
+        ],
+      },
+    },
+    //villa iyanas pool & beach resort
+    {
+      id: 22,
+      img: grency_cover,
+      category: "Pool & Beach",
+      title: "Villa Grency Pool and Beach Resort",
+      location: "Barangay Madulao, Catanauan, Quezon",
+      number: "(+63) 919-529-4243",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 919-529-4243",
+      fb_link: "https://www.facebook.com/villagrency",
+      loc_link: "https://goo.gl/maps/EpgfQPmDAVnmeRbt8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J636%2BV89+RosBal+Family+Resort,+Brgy,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 150.00",
+          },
+          {
+            title: "Child",
+            fee: "₱ 100.00",
+          },
+          {
+            title: "Hotel Rates: ",
+          },
+          {
+            fee: "Depends on number of guests",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: grency_place_img_0,
+          },
+          {
+            img: grency_place_img_1,
+          },
+          {
+            img: grency_place_img_2,
+          },
+          {
+            img: grency_place_img_3,
+          },
+          {
+            img: grency_place_img_4,
+          },
+          {
+            img: grency_place_img_5,
+          },
+          {
+            img: grency_place_img_6,
+          },
+          {
+            img: grency_place_img_7,
+          },
+          {
+            img: grency_place_img_8,
+          },
+          {
+            img: grency_place_img_9,
+          },
+          {
+            img: grency_place_img_10,
+          },
+          {
+            img: grency_place_img_11,
+          },
+          {
+            img: grency_place_img_12,
+          },
+          {
+            img: grency_place_img_13,
+          },
+          {
+            img: grency_place_img_14,
+          },
+          {
+            img: grency_place_img_15,
+          },
+          {
+            img: grency_place_img_16,
+          },
+          {
+            img: grency_place_img_17,
+          },
+          {
+            img: grency_place_img_18,
+          },
+          {
+            img: grency_place_img_19,
+          },
+          {
+            img: grency_place_img_20,
           },
         ],
       },
