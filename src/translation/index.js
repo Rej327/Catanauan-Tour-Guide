@@ -1280,6 +1280,114 @@ export const en = {
         ],
       },
     },
+    //getting here
+    getting_here: {
+      by_bus: {
+        title: "Getting to Catanauan by Bus - Barney Auto Lines Philippines",
+        content:
+          "How to get to Catanauan by bus, with a special mention of the Barney Auto Lines Philippines route! If you're looking for a convenient and comfortable way to travel to this beautiful destination, read on for all the details you need.",
+        //other content
+        sub_title_0: "Exploring Catanauan: ",
+        sub_content_0:
+          "Once you've arrived in Catanauan, get ready to explore the stunning landscapes, local culture, and warm hospitality the area has to offer. Whether you're interested in the serene beaches, lush mountains, or vibrant local markets, Catanauan has something for every type of traveler.",
+        sub_title_1: "Conclusion: ",
+        sub_content_1:
+          "Traveling to Catanauan by bus, especially with Barney Auto Lines Philippines, is a fantastic choice for a comfortable and enjoyable journey. With their reliable service and commitment to passenger satisfaction, you can focus on enjoying the travel experience and immersing yourself in the beauty of Catanauan. Book your tickets with Barney Auto Lines Philippines and get ready for an unforgettable adventure!",
+        other_title:
+          "Click on any of the links to learn more about the specific bus routes:",
+        //routes links
+        routes_links: [
+          {
+            routes: "Agdangan-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000259&b=00000271",
+          },
+          {
+            routes: "Alabang-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000015&b=00000271",
+          },
+          {
+            routes: "Alaminos-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000134&b=00000271",
+          },
+          {
+            routes: "Candelaria-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000062&b=00000271",
+          },
+          {
+            routes: "General Luna(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000229&b=00000271",
+          },
+          {
+            routes: "Lucena(Grand Terminal)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000014&b=00000271",
+          },
+          {
+            routes: "Macalelon(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000223&b=00000271",
+          },
+          {
+            routes: "Mallicboy(Jct via UNISAN)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000032&b=00000271",
+          },
+          {
+            routes: "Mulanay(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000288&b=00000271",
+          },
+          {
+            routes: "PITX-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000351&b=00000271",
+          },
+          {
+            routes: "Padre Burgos-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000248&b=00000271",
+          },
+          {
+            routes: "Pagbilao-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000029&b=00000271",
+          },
+          {
+            routes: "Pitogo(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000214&b=00000271",
+          },
+          {
+            routes: "Pototanin-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000330&b=00000271",
+          },
+          {
+            routes: "San Andres-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000305&b=00000271",
+          },
+          {
+            routes: "San Narciso(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000294&b=00000271",
+          },
+          {
+            routes: "San Pablo-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000124&b=00000271",
+          },
+          {
+            routes: "Sariaya-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000054&b=00000271",
+          },
+          {
+            routes: "Sto. Tomas-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000143&b=00000271",
+          },
+          {
+            routes: "Tiaong(Diversion)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000070&b=00000271",
+          },
+          {
+            routes: "Turbina-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000142&b=00000271",
+          },
+          {
+            routes: "Unisan-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000262&b=00000271",
+          },
+        ],
+      },
+    },
   },
 
   beaches: [
@@ -7771,6 +7879,114 @@ export const fil = {
             title: "Punyal sa Catanauan",
             content:
               "Ang mga archaeological na paghuhukay ng Catanauan Archeological and Heritage Project (CAHP) ay nakahukay ng isang natatanging bakal na punyal na may masalimuot na inukit na puluhan ng buto na natagpuan sa isang jar burial site sa munisipyo na nakaharap sa Marinduque sa tapat ng tubig ng Mompog Pass. May katibayan na ang mga gawi sa paglilibing ng Catanauan ay nagsimula noong hindi bababa sa 2,000 taon, na ginawa itong bahagi ng isang sinaunang kaugalian ng paglilibing ng mga Pilipino na natagpuan sa silangang bahagi ng gitnang Pilipinas. Ang malalaking banga ng lupa ay ibinaon sa tabi ng mabuhanging baybayin at tinakpan ng mga slab ng coralline o bulkan na bato upang mapanatili ang mga katawan. Ang mga libingan, alinman sa mga personal na pag-aari o mga handog para sa kabilang buhay, ay inilibing sa tabi ng namatay. Noong Mayo 18, 2022, ang punyal ay nakalagay ngayon sa National Museum of Natural History sa Manila, Philippines, bilang bahagi ng koleksyon ng iba pang artifact ng museo.",
+          },
+        ],
+      },
+    },
+    //getting here
+    getting_here: {
+      by_bus: {
+        title:
+          "Paano Pumunta ng Catanauan gamit ang Bus - Barney Auto Lines Philippines",
+        content:
+          "Paano pumunta ng Catanauan gamit ang bus, na may espesyal na pagbanggit sa ruta ng Barney Auto Lines Philippines! Kung ikaw ay naghahanap ng maginhawang at komportableng paraan ng paglalakbay patungo sa magandang destinasyong ito, magpatuloy sa pagbasa para sa lahat ng mga detalye na kailangan mo.",
+        sub_title_0: "Paglilibot sa Catanauan:",
+        sub_content_0:
+          "Pagdating mo sa Catanauan, maging handa ka na para ilibot ang kahanga-hangang mga tanawin, kultura ng lokal, at mainit na pagtanggap na iniaalok ng lugar. Sa mga magagandang beach, luntiang bundok, o makulay na lokal na palengke, mayroong isang bagay ang Catanauan para sa bawat uri ng manlalakbay.",
+        sub_title_1: "Konklusyon:",
+        sub_content_1:
+          "Ang paglalakbay patungo sa Catanauan gamit ang bus, lalo na sa pamamagitan ng Barney Auto Lines Philippines, ay isang napakagandang pagpipilian para sa kumportableng at masayang paglalakbay. Sa kanilang mapagkakatiwalaang serbisyo at dedikasyon sa kasiyahan ng mga pasahero, maaari kang mag-focus sa pag-ee-enjoy ng karanasan sa paglalakbay at pagpapasiklab sa kagandahan ng Catanauan. Mag-book na ng iyong tiket sa Barney Auto Lines Philippines at maging handa para sa isang hindi malilimutang pakikipagsapalaran!",
+        other_title:
+          "I-click ang alinman sa mga link para matuto nang higit pa tungkol sa mga tiyak na ruta ng bus:",
+        //routes links
+        routes_links: [
+          {
+            routes: "Agdangan-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000259&b=00000271",
+          },
+          {
+            routes: "Alabang-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000015&b=00000271",
+          },
+          {
+            routes: "Alaminos-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000134&b=00000271",
+          },
+          {
+            routes: "Candelaria-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000062&b=00000271",
+          },
+          {
+            routes: "General Luna(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000229&b=00000271",
+          },
+          {
+            routes: "Lucena(Grand Terminal)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000014&b=00000271",
+          },
+          {
+            routes: "Macalelon(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000223&b=00000271",
+          },
+          {
+            routes: "Mallicboy(Jct via UNISAN)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000032&b=00000271",
+          },
+          {
+            routes: "Mulanay(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000288&b=00000271",
+          },
+          {
+            routes: "PITX-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000351&b=00000271",
+          },
+          {
+            routes: "Padre Burgos-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000248&b=00000271",
+          },
+          {
+            routes: "Pagbilao-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000029&b=00000271",
+          },
+          {
+            routes: "Pitogo(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000214&b=00000271",
+          },
+          {
+            routes: "Pototanin-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000330&b=00000271",
+          },
+          {
+            routes: "San Andres-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000305&b=00000271",
+          },
+          {
+            routes: "San Narciso(Crossing)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000294&b=00000271",
+          },
+          {
+            routes: "San Pablo-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000124&b=00000271",
+          },
+          {
+            routes: "Sariaya-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000054&b=00000271",
+          },
+          {
+            routes: "Sto. Tomas-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000143&b=00000271",
+          },
+          {
+            routes: "Tiaong(Diversion)-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000070&b=00000271",
+          },
+          {
+            routes: "Turbina-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000142&b=00000271",
+          },
+          {
+            routes: "Unisan-Catanauan",
+            links: "http://barneyautolines.com/trips/tpt?a=00000262&b=00000271",
           },
         ],
       },
