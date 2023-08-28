@@ -8,6 +8,7 @@ import {
   Tabs,
 } from "@chakra-ui/react";
 import BusContent from "./Bus/BusContent";
+import VanContent from "./Van/VanContent";
 
 const TabsBody = () => {
   return (
@@ -19,12 +20,6 @@ const TabsBody = () => {
           </Tab>
           <Tab>
             <p className="font-bold">Van</p>
-          </Tab>
-          <Tab>
-            <p className="font-bold">Jeep</p>
-          </Tab>
-          <Tab>
-            <p className="font-bold">Sea</p>
           </Tab>
         </TabList>
         <TabIndicator
@@ -38,13 +33,7 @@ const TabsBody = () => {
             <BusContent />
           </TabPanel>
           <TabPanel>
-            <p>By Van!</p>
-          </TabPanel>
-          <TabPanel>
-            <p>By Jeep!</p>
-          </TabPanel>
-          <TabPanel>
-            <p>By Sea!</p>
+            <VanContent />
           </TabPanel>
         </TabPanels>
       </Tabs>
