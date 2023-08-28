@@ -1387,6 +1387,76 @@ export const en = {
           },
         ],
       },
+      by_van: {
+        head: "Getting to Catanauan by Van with Decena Van Transport Association Inc.",
+        sub_head: "For Inquries & Questions Pls Contact:",
+        set_number_0: [
+          {
+            num: "(+63) 939-833-1848 | (Tuklaw)",
+            dial_num: "tel: (+63) 939-833-1848",
+          },
+          {
+            num: "(+63) 939-518-4280 | (Bitoy)",
+            dial_num: "tel: (+63) 939-518-4280",
+          },
+          {
+            num: "(+63) 951-052-2518 | (Macmac)",
+            dial_num: "tel: (+63) 951-052-2518",
+          },
+        ],
+        set_number_1: [
+          {
+            num: "(+63) 909-791-1612 | (Onie)",
+            dial_num: "tel: (+63) 909-791-1612",
+          },
+          {
+            num: "(+63) 939-571-9795 | (Estoy)",
+            dial_num: "tel: (+63) 939-571-9795",
+          },
+        ],
+
+        context: [
+          {
+            content:
+              "As you set out on your journey to Catanauan, you'll find that Decena Van Transport Association Inc. offers more than just a mode of transportation; it's an experience in itself. With a fleet of well-maintained vans designed for both comfort and convenience, your journey becomes a seamless blend of relaxation and anticipation.",
+          },
+          {
+            title: "Comfortable Travel:",
+            content:
+              "The vans provided by Decena Van Transport Association Inc. are equipped with spacious seating and ample legroom, ensuring that you can sit back and enjoy the ride in utmost comfort. Whether you're traveling solo, with family, or in a group, the vans offer a cozy and enjoyable environment.",
+          },
+          {
+            title: "Safety First:",
+            content:
+              "Your safety is the top priority for Decena Van Transport Association Inc. The vans are regularly inspected and maintained to the highest standards, and experienced drivers with impeccable records are at the helm, ensuring a secure journey throughout. Sit back, relax, and enjoy the stunning views with peace of mind.",
+          },
+          {
+            title: "Scenic Views En Route:",
+            content:
+              "As you make your way to Catanauan, the route is adorned with breathtaking vistas that showcase the beauty of the Philippines. Rolling hills, lush greenery, and charming towns will accompany you on your journey, making the ride as much a part of the adventure as the destination itself.",
+          },
+          {
+            title: "Cultural Immersion:",
+            content:
+              "Along the way, you'll have the chance to experience the local culture and way of life. The friendly drivers might share interesting anecdotes and insights about the places you pass, enriching your understanding of the region.",
+          },
+          {
+            title: "Arriving in Catanauan:",
+            content:
+              "As your van nears Catanauan, the excitement builds. You'll be dropped off at your chosen destination, whether it's a cozy bed-and-breakfast, a charming inn, or a local resort. With Decena Van Transport Association Inc., your journey doesn't end when you arrive; it's seamlessly integrated into your overall travel experience.",
+          },
+          {
+            title: "Booking Your Journey:",
+            content:
+              "Ready to set out on your adventure to Catanauan with Decena Van Transport Association Inc.? Booking your seats is a breeze. Simply visit their user-friendly website or give them a call to make your reservation. The courteous staff will assist you every step of the way, ensuring that your travel plans are smooth and hassle-free.",
+          },
+          {
+            title: "In Conclusion:",
+            content:
+              "Traveling to Catanauan with Decena Van Transport Association Inc. is more than just a ride; it's an experience that sets the tone for your entire journey. With their commitment to comfort, safety, and customer satisfaction, you're in for a memorable trip that combines the joy of exploration with the pleasure of relaxation. Get ready to create lasting memories as you traverse the scenic landscapes on your way to the captivating town of Catanauan.",
+          },
+        ],
+      },
     },
   },
 
@@ -7987,6 +8057,77 @@ export const fil = {
           {
             routes: "Unisan-Catanauan",
             links: "http://barneyautolines.com/trips/tpt?a=00000262&b=00000271",
+          },
+        ],
+      },
+      by_van: {
+        head: "Paglalakbay Patungo sa Catanauan gamit ang Van ng Decena Van Transport Association Inc.",
+        sub_head:
+          "Para sa mga Tanong at Katanungan, Mangyaring Makipag-ugnay sa:",
+        set_number_0: [
+          {
+            num: "(+63) 939-833-1848 | (Tuklaw)",
+            dial_num: "tel: (+63) 939-833-1848",
+          },
+          {
+            num: "(+63) 939-518-4280 | (Bitoy)",
+            dial_num: "tel: (+63) 939-518-4280",
+          },
+          {
+            num: "(+63) 951-052-2518 | (Macmac)",
+            dial_num: "tel: (+63) 951-052-2518",
+          },
+        ],
+        set_number_1: [
+          {
+            num: "(+63) 909-791-1612 | (Onie)",
+            dial_num: "tel: (+63) 909-791-1612",
+          },
+          {
+            num: "(+63) 939-571-9795 | (Estoy)",
+            dial_num: "tel: (+63) 939-571-9795",
+          },
+        ],
+
+        context: [
+          {
+            content:
+              "Sa paglalakbay mo patungo sa Catanauan, makikita mo na ang Decena Van Transport Association Inc. ay nag-aalok ng higit pa sa pagiging mode ng transportasyon; ito ay isang karanasan mismo. Sa may kumpletong flotang mga van na maayos ang pag-aalaga para sa kaginhawaan at kaginhawahan, ang iyong paglalakbay ay nagiging isang magaan at kasabay na halong pagpapahinga at pag-asa.",
+          },
+          {
+            title: "Kumportableng Paglalakbay:",
+            content:
+              "Ang mga van na iniaalok ng Decena Van Transport Association Inc. ay may maluwag na upuan at sapat na espasyo para sa iyong mga binti, na nag-aasikaso na maupo ka at masiyahan sa biyahe sa pinakamalaking kaginhawahan. Hindi mahalaga kung mag-isa ka, kasama ang pamilya, o kasama ang grupo, ang mga van ay nag-aalok ng maginhawang kapaligiran.",
+          },
+          {
+            title: "Kaligtasan Una:",
+            content:
+              "Ang iyong kaligtasan ang nasa tuktok na prayoridad para sa Decena Van Transport Association Inc. Ang mga van ay regular na sinusuri at inaayos ayon sa pinakamataas na pamantayan, at ang mga may karanasan at walang talaan ng anumang aksidente na mga driver ay nasa pamamahala, tiyak na nag-aalaga ng ligtas na paglalakbay sa buong biyahe. Maupo lang, mag-relax, at tamasahin ang kahanga-hangang tanawin nang may kapayapaan ng isip.",
+          },
+          {
+            title: "Magagandang Tanawin sa Daan:",
+            content:
+              "Sa iyong pagtungo sa Catanauan, ang ruta ay dinisenyo ng mga kamangha-manghang tanawin na nagpapakita ng kagandahan ng Pilipinas. Mga umuugong na burol, sariwang kagubatan, at kaakit-akit na mga bayan ang magpapaligaya sa iyo sa iyong paglalakbay, ginagawang bahagi ng karanasan ang biyahe patungo sa destinasyon mismo.",
+          },
+          {
+            title: "Pamamuhay sa Kultura:",
+            content:
+              "Sa paglipas ng daan, magkakaroon ka ng pagkakataon na masilayan ang lokal na kultura at pamumuhay. Maaring ibahagi ng mga magalang na driver ang mga kwento at kaalaman tungkol sa mga lugar na dadaanan mo, pinalalalim ang iyong pag-unawa sa rehiyon.",
+          },
+          {
+            title: "Pagdating sa Catanauan:",
+            content:
+              "Kapag malapit na ang van mo sa Catanauan, lalong tumitindi ang iyong kasiyahan. Ihuhulog ka sa iyong napiling destinasyon, maging ito ay isang maaliwalas na bed-and-breakfast, isang kaakit-akit na inn, o isang pook pasyalan. Sa tulong ng Decena Van Transport Association Inc., hindi natatapos ang iyong biyahe pagdating mo; ito'y magiging bahagi ng iyong kabuuang karanasan sa paglalakbay.",
+          },
+          {
+            title: "Pagtukoy ng Iyong Biyahe:",
+            content:
+              "Handa ka na bang magtungo sa iyong pakikipagsapalaran sa Catanauan gamit ang Decena Van Transport Association Inc.? Madali lang mag-book ng iyong mga upuan. Bisitahin lamang ang kanilang madaling gamiting website o tawagan sila para mag-reserba. Ang magalang na tauhan ay tutulong sa bawat hakbang ng iyong biyahe, tiyakin na ang iyong plano sa paglalakbay ay magiging magaan at walang abala.",
+          },
+          {
+            title: "Sa Buong Pagwawakas:",
+            content:
+              "Ang paglalakbay patungo sa Catanauan gamit ang Decena Van Transport Association Inc. ay higit pa sa isang biyahe; ito ay isang karanasan na nagtatakda ng tono para sa iyong kabuuang paglalakbay. Sa kanilang dedikasyon sa kaginhawaan, kaligtasan, at kasiyahan ng mga customer, siguradong magiging memorable ang iyong biyahe na nagpapagsama ng kasiyahan sa pagsasaliksik at kasiyahan sa pagpapahinga. Maghanda na upang lumikha ng mga huling alaala habang dadaan ka sa magandang mga tanawin sa iyong pagtungo sa nakamamanghang bayan ng Catanauan.",
           },
         ],
       },
