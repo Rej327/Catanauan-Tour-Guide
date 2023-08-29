@@ -4,6 +4,8 @@ import Footer from "../components/common/Footer";
 import GettingAroundHeader from "../components/planahead_item_page/gettingarround_page/GettingAroundHeader";
 import Market from "../components/planahead_item_page/gettingarround_page/Market";
 import GettingAroundSubHead from "../components/planahead_item_page/gettingarround_page/GettingAroundSubHead";
+import BodyHeader from "../components/planahead_item_page/gettingarround_page/BodyHeader";
+import Delicasies from "../components/planahead_item_page/gettingarround_page/Delicasies";
 
 const GettingAroundPage = () => {
   useEffect(() => {
@@ -16,7 +18,11 @@ const GettingAroundPage = () => {
       <div>
         <GettingAroundHeader />
         <GettingAroundSubHead />
-        <Market />
+        <div className="w-full bg-[#FEFEFF] ">
+          <BodyHeader />
+          <Delicasies />
+          <Market />
+        </div>
       </div>
       <Footer />
     </div>
