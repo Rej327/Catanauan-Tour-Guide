@@ -6,6 +6,8 @@ import Market from "../components/planahead_item_page/gettingarround_page/Market
 import GettingAroundSubHead from "../components/planahead_item_page/gettingarround_page/GettingAroundSubHead";
 import Delicasies from "../components/planahead_item_page/gettingarround_page/Delicasies";
 import LocalFlavorsHeader from "../components/planahead_item_page/gettingarround_page/LocalFlavorsHeader";
+import FinancialHeader from "../components/planahead_item_page/gettingarround_page/FinancialHeader";
+import Banks from "../components/planahead_item_page/gettingarround_page/Banks";
 
 const GettingAroundPage = () => {
   useEffect(() => {
@@ -22,6 +24,8 @@ const GettingAroundPage = () => {
           <LocalFlavorsHeader />
           <Delicasies />
           <Market />
+          <FinancialHeader />
+          <Banks />
         </div>
       </div>
       <Footer />
