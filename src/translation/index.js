@@ -1017,6 +1017,9 @@ import {
   iyana_room_img_0,
   iyana_price_img_0,
   market,
+  landbank,
+  coop,
+  bdo,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1514,6 +1517,33 @@ export const en = {
           direction:
             "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
         },
+        //banks
+        banks: [
+          {
+            img: landbank,
+            title: "LandBank of the Philippines",
+            location: "Brgy. 04 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/ZeRddeoAhFdjzkZq6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/4+(Pob.),+Catanauan,+Quezon",
+          },
+          {
+            img: coop,
+            title: "Cooperative Bank of Quezon Province",
+            location: "Brgy. 09 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/yf5Q1sHaighQMUHC6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Cooperative+Bank+of+Quezon+Province+-+Catanauan,+Don+Abella+Drive,+Barangay+9,+Catanauan,+4311,+Quezon+Province",
+          },
+          {
+            img: bdo,
+            title: "BDO Network Bank",
+            location: "Brgy. 09 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+        ],
       },
     },
   },
@@ -8244,6 +8274,33 @@ export const fil = {
           direction:
             "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
         },
+        //banks
+        banks: [
+          {
+            img: landbank,
+            title: "LandBank of the Philippines",
+            location: "Brgy. 04 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/ZeRddeoAhFdjzkZq6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/4+(Pob.),+Catanauan,+Quezon",
+          },
+          {
+            img: coop,
+            title: "Cooperative Bank of Quezon Province",
+            location: "Brgy. 09 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/yf5Q1sHaighQMUHC6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Cooperative+Bank+of+Quezon+Province+-+Catanauan,+Don+Abella+Drive,+Barangay+9,+Catanauan,+4311,+Quezon+Province",
+          },
+          {
+            img: bdo,
+            title: "BDO Network Bank",
+            location: "Brgy. 09 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+        ],
       },
     },
   },
