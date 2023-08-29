@@ -7,9 +7,6 @@ import { getDirection } from "../../helper";
 
 const Market = ({ className }) => {
   const { language, startingPoint } = useContext(LangContext);
-
-  console.log(language?.plan_page?.getting_around?.content_item?.market);
-
   return (
     <div className={`w-full px-4 bg-[#FEFEFF] ${className}`}>
       <div className="max-w-[1250px] px-4 flex flex-col mx-auto">
