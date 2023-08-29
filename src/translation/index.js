@@ -7557,7 +7557,7 @@ export const en = {
         id: 9,
         title: "Contact Us:",
         content:
-          "If you have any questions, concerns, or feedback regarding these Terms of Use or our website, please contact us at [your email address].",
+          "If you have any questions, concerns, or feedback regarding these Terms of Use or our website, please contact us at catanauanquezon.slsu@gmail.com.",
       },
     ],
     id: 2,
@@ -7620,7 +7620,7 @@ export const en = {
         id: 10,
         title: "Contact Us:",
         content:
-          "Your feedback and suggestions regarding the accessibility of our website are essential to us. If you encounter any barriers or have difficulty accessing any part of our website, please contact us at [your email address]. We will work diligently to address your concerns and ensure that everyone can enjoy a positive experience on our tour guide content website. Thank you for your support and commitment to accessibility.",
+          "Your feedback and suggestions regarding the accessibility of our website are essential to us. If you encounter any barriers or have difficulty accessing any part of our website, please contact us at catanauanquezon.slsu@gmail.com. We will work diligently to address your concerns and ensure that everyone can enjoy a positive experience on our tour guide content website. Thank you for your support and commitment to accessibility.",
       },
     ],
     id: 3,
@@ -7671,7 +7671,7 @@ export const en = {
         id: 8,
         title: "Contact Us",
         content:
-          "If you have any questions or concerns about this Cookie Policy, please contact us at [your email address]. Thank you for choosing our subscription service, and we hope you enjoy your experience on our website!",
+          "If you have any questions or concerns about this Cookie Policy, please contact us at catanauanquezon.slsu@gmail.com. Thank you for choosing our subscription service, and we hope you enjoy your experience on our website!",
       },
     ],
   },
@@ -10512,7 +10512,7 @@ export const fil = {
         id: 9,
         title: " Makipag-ugnayan sa Amin:",
         content:
-          "Kung mayroon kayong mga katanungan, alalahanin, o puna tungkol sa Mga Tuntunin ng Paggamit na ito o sa aming website, mangyaring makipag-ugnayan sa amin sa [iyong email address].",
+          "Kung mayroon kayong mga katanungan, alalahanin, o puna tungkol sa Mga Tuntunin ng Paggamit na ito o sa aming website, mangyaring makipag-ugnayan sa amin sa catanauanquezon.slsu@gmail.com.",
       },
     ],
     id: 2,
@@ -10575,7 +10575,7 @@ export const fil = {
         id: 10,
         title: "Makipag-ugnayan sa Amin:",
         content:
-          "Mahalaga sa amin ang iyong feedback at mga mungkahi tungkol sa accessibility ng aming website. Kung mayroon kang anumang mga hadlang o nahihirapang ma-access ang anumang bahagi ng aming website, mangyaring makipag-ugnayan sa amin sa [iyong email address]. Magsisikap kaming tugunan ang iyong mga alalahanin at matiyak na ang lahat ay makakaranas ng positibong karanasan sa aming tour guide content website. Salamat sa inyong suporta at dedikasyon sa accessibility.",
+          "Mahalaga sa amin ang iyong feedback at mga mungkahi tungkol sa accessibility ng aming website. Kung mayroon kang anumang mga hadlang o nahihirapang ma-access ang anumang bahagi ng aming website, mangyaring makipag-ugnayan sa amin sa catanauanquezon.slsu@gmail.com. Magsisikap kaming tugunan ang iyong mga alalahanin at matiyak na ang lahat ay makakaranas ng positibong karanasan sa aming tour guide content website. Salamat sa inyong suporta at dedikasyon sa accessibility.",
       },
     ],
     id: 3,
@@ -10626,7 +10626,7 @@ export const fil = {
         id: 8,
         title: "Makipag-ugnayan sa Amin",
         content:
-          "Kung mayroon kang anumang mga tanong o alalahanin tungkol sa Patakaran sa Cookies na ito, mangyaring makipag-ugnayan sa amin sa [iyong email address]. Salamat sa pagpili mo sa aming subscription service, at umaasa kami na magugustuhan mo ang iyong karanasan sa aming website!",
+          "Kung mayroon kang anumang mga tanong o alalahanin tungkol sa Patakaran sa Cookies na ito, mangyaring makipag-ugnayan sa amin sa catanauanquezon.slsu@gmail.com. Salamat sa pagpili mo sa aming subscription service, at umaasa kami na magugustuhan mo ang iyong karanasan sa aming website!",
       },
     ],
   },
