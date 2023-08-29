@@ -1016,6 +1016,7 @@ import {
   iyana_room_img_1,
   iyana_room_img_0,
   iyana_price_img_0,
+  market,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1456,6 +1457,25 @@ export const en = {
               "Traveling to Catanauan with Decena Van Transport Association Inc. is more than just a ride; it's an experience that sets the tone for your entire journey. With their commitment to comfort, safety, and customer satisfaction, you're in for a memorable trip that combines the joy of exploration with the pleasure of relaxation. Get ready to create lasting memories as you traverse the scenic landscapes on your way to the captivating town of Catanauan.",
           },
         ],
+      },
+    },
+    //getting around
+    getting_around: {
+      header: "Navigating the Charms of Catanauan, Quezon",
+      head_content:
+        "Discovering the heart and soul of Catanauan begins with understanding its nooks and crannies, its bustling streets and hidden gems. Whether you're a curious traveler or a local looking to uncover new corners, we're here to guide you on how to navigate the enchanting pathways of our beloved town. From historic landmarks to cozy cafés, bustling markets to serene parks, we'll show you the best ways to get around and soak in the vibrant atmosphere that makes Catanauan truly special.",
+
+      //getting around item data
+      content_item: {
+        //market
+        market: {
+          img: market,
+          title: "Catanauan, Public Market",
+          location: "Brgy. Madulao, Catanauan Quezon",
+          loc_link: "https://goo.gl/maps/VqKRhSEczAZK1KiV6",
+          direction:
+            "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
+        },
       },
     },
   },
