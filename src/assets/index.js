@@ -36,6 +36,9 @@ export { default as history_2 } from "./PlanAHeadPage/TravelerGuides/history_2.j
 export { default as history_3 } from "./PlanAHeadPage/TravelerGuides/history_3.png";
 export { default as history_4 } from "./PlanAHeadPage/TravelerGuides/history_4.jpg";
 export { default as market } from "./PlanAHeadPage/GettingAround/Market/market.webp";
+export { default as bdo } from "./PlanAHeadPage/GettingAround/Banks/bdo.webp";
+export { default as coop } from "./PlanAHeadPage/GettingAround/Banks/coop.webp";
+export { default as landbank } from "./PlanAHeadPage/GettingAround/Banks/landbank.webp";
 // PLAN A HEAD PAGE IMAGES
 
 //TRANSPORTATIONS PAGE//
