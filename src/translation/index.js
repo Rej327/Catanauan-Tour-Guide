@@ -1467,10 +1467,48 @@ export const en = {
 
       //getting around item data
       content_item: {
+        //delicasies
+        delicasies: [
+          {
+            title: "Catanauan Kinilaw",
+            content:
+              "A refreshing appetizer made from fresh raw fish or seafood, marinated in vinegar, lime juice, and various spices.",
+          },
+          {
+            title: "Ginataang Kuhol",
+            content:
+              "A delectable dish made from snails cooked in coconut milk with spices, creating a creamy and flavorful treat.",
+          },
+          {
+            title: "Seafood Kare-Kare",
+            content:
+              "A local version of the popular Filipino Kare-Kare, this dish uses seafood like shrimps, crabs, or fish instead of the usual meat, accompanied by a peanut-based sauce.",
+          },
+          {
+            title: "Sinalab",
+            content:
+              "Is originally made of inaw or starch of Uraro you can put Saging saba , coconut and leftover rice then put sugar to add taste you can cook this in your pan with the low heat and wait until it gets golden brown it means its already cooked and you can share this with your family and friends it is perfect for snacks.",
+          },
+          {
+            title: "Uraro",
+            content:
+              "Is indeed well-known delicacy from Catanauan, Quezon Province. This is also known a arrowroot cookies, uraro is a sweet and delicate treat made from arrowroot starch, sugar, and coconut milk. The cookies molded into various shapes often circular or oval and are enjoyed for their melt in your mouth texture and subtles sweetness. This uraro cookies is made of arrowroot a starchy plant that is abundant in Catanauan. Uraro has has become an iconic representation of Catanauan culinary heritage highlighting the towns resourcefulnes. Uraro Cookies are not only popular among locals but also seek to be a souvenir for the tourist who visited in Catanauan. Many tourist or visitors make this an excellent souvenir because of the unique flavor a d delicate texture of Uraro Cookies.",
+          },
+          {
+            title: "Bukayo",
+            content:
+              "A coconut -based treat that satisfies cravings for something sweet and chewy. Bukayo is made of grated coconut and sugar caramelized, then molded into small bite sized pieces that are easy to enjoy this delightful treat serves as a reminder of the town abundance of coconut trees and the resourcefulnes of its people making delicious dessert.",
+          },
+          {
+            title: "Nipa Vinegar or Sukang Paumbong",
+            content:
+              "This vinegar is made from the sap of nipa palm flowers and famous for its unique flavor and aroma. It is used in various dishes and adds a distinct tanginess to sauce,dips and marinade. This Nipa Vinegar is perfect souvenir for your family and friends.",
+          },
+        ],
         //market
         market: {
           img: market,
-          title: "Catanauan, Public Market",
+          title: "Catanauan Public Market",
           location: "Brgy. Madulao, Catanauan Quezon",
           loc_link: "https://goo.gl/maps/VqKRhSEczAZK1KiV6",
           direction:
@@ -8150,6 +8188,62 @@ export const fil = {
               "Ang paglalakbay patungo sa Catanauan gamit ang Decena Van Transport Association Inc. ay higit pa sa isang biyahe; ito ay isang karanasan na nagtatakda ng tono para sa iyong kabuuang paglalakbay. Sa kanilang dedikasyon sa kaginhawaan, kaligtasan, at kasiyahan ng mga customer, siguradong magiging memorable ang iyong biyahe na nagpapagsama ng kasiyahan sa pagsasaliksik at kasiyahan sa pagpapahinga. Maghanda na upang lumikha ng mga huling alaala habang dadaan ka sa magandang mga tanawin sa iyong pagtungo sa nakamamanghang bayan ng Catanauan.",
           },
         ],
+      },
+    },
+    //getting around
+    getting_around: {
+      header: "Pag-navigate sa Kagandahan ng Catanauan, Quezon",
+      head_content:
+        "Ang pagtuklas sa puso at kaluluwa ng Catanauan ay nagsisimula sa pag-unawa sa mga sulok nito, ang mga abalang kalsada at mga nakatagong yaman. Maging ikaw ay isang curious na manlalakbay o isang lokal na naghahanap na matuklasan ang mga bagong kanto, nandito kami upang gabayan ka kung paano lalakbayin ang mga makahulugang landasin ng aming minamahal na bayan. Mula sa makasaysayang mga landmark hanggang sa mga maaliwalas na kapehan, sa mga abalang pamilihan hanggang sa mga tahimik na parke, ipapakita namin sa iyo ang mga pinakamahusay na paraan kung paano mag-ikot at masilayan ang masiglang atmospera na nagbibigay buhay sa Catanauan ng tunay na espesyal.",
+      //getting around content data
+      content_item: {
+        //delicasies
+        delicasies: [
+          {
+            title: "Catanauan Kinilaw",
+            content:
+              "Isang nakakapreskong pampagana na gawa mula sa sariwang hilaw na isda o seafood, marinated sa suka, katas ng kalamansi, at iba't ibang mga pampalasa.",
+          },
+          {
+            title: "Ginataang Kuhol",
+            content:
+              "Isang pampagana na putahe na gawa mula sa kuhol na niluto sa gata ng niyog at mga pampalasa, nagbibigay-buhay sa isang malapot at masarap na pampatikim.",
+          },
+          {
+            title: "Seafood Kare-Kare",
+            content:
+              "Ang lokal na bersyon ng sikat na Filipino Kare-Kare, ang putaheng ito ay gumagamit ng mga seafood tulad ng hipon, alimango, o isda sa halip na karne, at may kasamang sawsawang may base sa mani.",
+          },
+          {
+            title: "Sinalab",
+            content:
+              "Gawa ito sa inaw o almidon ng Uraro, maaari mong ilagay ang Saging saba, niyog, at natirang kanin at lagyan ng asukal para sa karagdagang lasa. Maari itong lutuin sa kawali gamit ang mahinang apoy hanggang sa maging kulay ginto, ibig sabihin ay luto na ito at pwede mo itong ibahagi sa pamilya at mga kaibigan. Ito'y perpektong pampalasa sa oras ng meryenda.",
+          },
+          {
+            title: "Uraro",
+            content:
+              "Ito ay isa sa mga kilalang kalakal mula sa Catanauan, Lalawigan ng Quezon. Ito rin ay kilala bilang arrowroot cookies, ang Uraro ay isang matamis at magaan na pagkain gawa mula sa arrowroot starch, asukal, at gata ng niyog. Ang mga kookies ay nilalagyan ng iba't ibang hugis, karaniwan ay bilog o oval at ini-enjoy dahil sa kanilang pagkabasag sa bibig at subtel na tamis. Ang Uraro Cookies ay gawa sa arrowroot, isang uri ng halaman na sagana sa Catanauan. Ang Uraro ay nagiging simbolo ng kulturang kulinariya ng Catanauan na nagpapakita ng kahusayan at kagalingan ng mga taga-bayan. Ang Uraro Cookies ay hindi lamang sikat sa mga lokal kundi ito rin ay napakagandang souvenir para sa mga turista na nagpunta sa Catanauan. Maraming turista o bisita ang nagpapabalik-balik para bumili nito bilang pasalubong dahil sa kakaibang lasa at malutong na texture ng Uraro Cookies.",
+          },
+          {
+            title: "Bukayo",
+            content:
+              "Isang pampatamis na gawa mula sa niyog na pampatagilid. Ang Bukayo ay binubuo ng ginadgad na niyog at asukal na inihaw, at hinuhulma sa maliit na pira-piraso na madaling kainin. Ang masarap na pampatamis na ito ay nagpapahiwatig ng kasaganaan ng bayan ng mga puno ng niyog at kahusayan ng mga tao sa paggawa ng masarap na panghimagas.",
+          },
+          {
+            title: "Nipa Vinegar o Sukang Paumbong",
+            content:
+              "Ang suka na ito ay gawa mula sa katas ng mga bulaklak ng punong nipa at sikat sa kakaibang lasa at amoy nito. Ito ay ginagamit sa iba't ibang putahe at nagbibigay ng natatanging asim sa mga sawsawan at marinade. Ang Nipa Vinegar ay isang perpektong souvenir para sa iyong pamilya at mga kaibigan.",
+          },
+        ],
+        //market
+        market: {
+          img: market,
+          title: "Catanauan Pampublikong Pamilihan",
+          location: "Brgy. Madulao, Catanauan, Quezon",
+          loc_link: "https://goo.gl/maps/VqKRhSEczAZK1KiV6",
+          direction:
+            "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
+        },
       },
     },
   },
