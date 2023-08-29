@@ -12,11 +12,6 @@ const Market = ({ className }) => {
 
   return (
     <div className={`w-full px-4 bg-[#FEFEFF] ${className}`}>
-      <div className="max-w-[1300px] mx-auto">
-        <p className="text-3xl pt-[3rem]  opacity-90 font-extrabold">
-          — A JOURNEY THROUGH LOCAL FLAVORS
-        </p>
-      </div>
       <div className="max-w-[1250px] px-4 flex flex-col mx-auto">
         <div className="flex flex-col gap-4 my-10 px-4">
           <ul>
