@@ -4,8 +4,8 @@ import Footer from "../components/common/Footer";
 import GettingAroundHeader from "../components/planahead_item_page/gettingarround_page/GettingAroundHeader";
 import Market from "../components/planahead_item_page/gettingarround_page/Market";
 import GettingAroundSubHead from "../components/planahead_item_page/gettingarround_page/GettingAroundSubHead";
-import BodyHeader from "../components/planahead_item_page/gettingarround_page/BodyHeader";
 import Delicasies from "../components/planahead_item_page/gettingarround_page/Delicasies";
+import LocalFlavorsHeader from "../components/planahead_item_page/gettingarround_page/LocalFlavorsHeader";
 
 const GettingAroundPage = () => {
   useEffect(() => {
@@ -19,7 +19,7 @@ const GettingAroundPage = () => {
         <GettingAroundHeader />
         <GettingAroundSubHead />
         <div className="w-full bg-[#FEFEFF] ">
-          <BodyHeader />
+          <LocalFlavorsHeader />
           <Delicasies />
           <Market />
         </div>

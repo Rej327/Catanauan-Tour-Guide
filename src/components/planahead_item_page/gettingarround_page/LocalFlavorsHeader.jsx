@@ -1,6 +1,6 @@
 import React from "react";
 
-const BodyHeader = () => {
+const LocalFlavorsHeader = () => {
   return (
     <div className="w-full bg-[#FEFEFF]">
       <div className="max-w-[1300px] mx-auto">
@@ -12,4 +12,4 @@ const BodyHeader = () => {
   );
 };
 
-export default BodyHeader;
+export default LocalFlavorsHeader;
