@@ -20,6 +20,7 @@ export { default as accesibility } from "./LegalPage/accesibility.svg";
 export { default as cookie } from "./LegalPage/cookie.svg";
 export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
 export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
+export { default as gettingAroundCover } from "./PlanAHeadPage/GettingAround/gettingAroundCover.jpg";
 export { default as falls } from "./PageCover/falls.jpg";
 
 // PLAN A HEAD PAGE IMAGES
@@ -34,6 +35,7 @@ export { default as history_1 } from "./PlanAHeadPage/TravelerGuides/history_1.j
 export { default as history_2 } from "./PlanAHeadPage/TravelerGuides/history_2.jpg";
 export { default as history_3 } from "./PlanAHeadPage/TravelerGuides/history_3.png";
 export { default as history_4 } from "./PlanAHeadPage/TravelerGuides/history_4.jpg";
+export { default as market } from "./PlanAHeadPage/GettingAround/Market/market.webp";
 // PLAN A HEAD PAGE IMAGES
 
 //TRANSPORTATIONS PAGE//
