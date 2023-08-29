@@ -16,9 +16,7 @@ const GettingAroundPage = () => {
       <div>
         <GettingAroundHeader />
         <GettingAroundSubHead />
-        <div className="px-4">
-          <Market />
-        </div>
+        <Market />
       </div>
       <Footer />
     </div>
