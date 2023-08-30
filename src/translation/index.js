@@ -1021,6 +1021,58 @@ import {
   coop,
   bdo,
   vNv_cover,
+  silogan_cover,
+  silogan_menu_0,
+  silogan_menu_1,
+  fornestea_cover,
+  fornestea_menu_0,
+  fornestea_menu_1,
+  fornestea_menu_2,
+  lebrons_cover,
+  lebrons_menu,
+  khassaraf_cover,
+  khassaraf_menu_0,
+  khassaraf_menu_1,
+  khassaraf_menu_2,
+  khassaraf_menu_3,
+  khassaraf_menu_4,
+  khassaraf_menu_5,
+  khassaraf_menu_6,
+  khassaraf_menu_7,
+  buslogan_cover,
+  buslogan_menu_0,
+  buslogan_menu_1,
+  buslogan_menu_2,
+  buslogan_menu_3,
+  buslogan_menu_4,
+  pizzaveria_cover,
+  pizzaveria_menu_0,
+  pizzaveria_menu_1,
+  pizzaveria_menu_2,
+  pizzaveria_menu_3,
+  pizzaveria_menu_4,
+  pizzaveria_menu_5,
+  maxmango_cover,
+  maxmango_menu_0,
+  maxmango_menu_1,
+  alon_cover,
+  alon_menu,
+  njs_cover,
+  njs_menu_0,
+  njs_menu_1,
+  njs_menu_2,
+  vNv_menu_0,
+  vNv_menu_1,
+  vNv_menu_2,
+  milestone_cover,
+  milestone_menu,
+  takoyaki_cover,
+  takoyaki_menu_0,
+  takoyaki_menu_1,
+  takoyaki_menu_2,
+  alacob_cover,
+  alacob_menu,
+  pizzarap_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1548,24 +1600,318 @@ export const en = {
         //foodhub
         food_hub: [
           {
-            img: vNv_cover,
-            title: "V&V Pizza",
-            schedule: "8:00AM - 7:00PM",
-            location: "Bgry. 9 Nabatasan St. Catanauan, Quezon",
-            loc_link: "https://goo.gl/maps/oMZJ7ehpytrS1mLF7",
+            img: silogan_cover,
+            title: "Silogan sa Tumbok",
+            schedule: "11:00AM-11:00PM | Mon - Sun",
+            location:
+              "Don Manuel St. Brgy 8, Madriaga's Bldg. 3rd Floor, Catanauan Quezon.",
+            loc_link: "https://goo.gl/maps/KrdLWnFCjPcsTPsK6",
             direction:
-              "https://www.google.com/maps/dir/{{value}}/13.594051,122.323732",
+              "https://www.google.com/maps/dir/{{value}}/Silogan+Sa+Tumbok,+In+front+of+Bondoc+Peninsula+Hospital,+Brgy.+8,+Catanauan",
             //menu
             menu: {
               item: [
                 {
-                  img: vNv_cover,
+                  img: silogan_menu_0,
                 },
                 {
-                  img: vNv_cover,
+                  img: silogan_menu_1,
+                },
+              ],
+            },
+          },
+          {
+            img: fornestea_cover,
+            title: "FornesTea Food & Shakes",
+            schedule: "9:00Am-9:00PM | Mon - Fri, Sun, Closed: Sat ",
+            location: "Brgy 10, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/wnfaHKeLZ5FEndRw9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.595832,122.32415",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: fornestea_menu_0,
                 },
                 {
-                  img: vNv_cover,
+                  img: fornestea_menu_1,
+                },
+                {
+                  img: fornestea_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: lebrons_cover,
+            title: "Lebron`s CoffeeJelly ",
+            schedule: "1:00PM - 9:00PM | Mon - Sun",
+            location: "Brgy 5, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/Jih612xoZCzHMesr6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/LeBrons+CoffeeJelly,+20+Boncan+St,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: lebrons_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: khassaraf_cover,
+            title: "Khassaraf FoodCorner",
+            schedule: "10:00AM - 9:00PM | Mon - Sun",
+            location: "Brgy 9, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/UHL6ShQ8N54hb4bw5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.594698,122.324553",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: khassaraf_menu_0,
+                },
+                {
+                  img: khassaraf_menu_1,
+                },
+                {
+                  img: khassaraf_menu_2,
+                },
+                {
+                  img: khassaraf_menu_3,
+                },
+                {
+                  img: khassaraf_menu_4,
+                },
+                {
+                  img: khassaraf_menu_5,
+                },
+                {
+                  img: khassaraf_menu_6,
+                },
+                {
+                  img: khassaraf_menu_7,
+                },
+              ],
+            },
+          },
+          {
+            img: buslogan_cover,
+            title: "Buslogan sa Catanauan",
+            schedule: "8:00AM - 10:00PM | Mon - Sun",
+            location: "Unknown",
+            loc_link: "",
+            direction: "",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: buslogan_menu_0,
+                },
+                {
+                  img: buslogan_menu_1,
+                },
+                {
+                  img: buslogan_menu_2,
+                },
+                {
+                  img: buslogan_menu_3,
+                },
+                {
+                  img: buslogan_menu_4,
+                },
+              ],
+            },
+          },
+          {
+            img: pizzaveria_cover,
+            title: "PizzAveria",
+            schedule: "9:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 4 Poblacion Bonifacio St.",
+            loc_link: "https://goo.gl/maps/VZDJ7u95Fesjr2kK9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Pizzaveria,+Province,+Quezon+Avenue,+corner+A.+Bonifacio+St,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: pizzaveria_menu_0,
+                },
+                {
+                  img: pizzaveria_menu_1,
+                },
+                {
+                  img: pizzaveria_menu_2,
+                },
+                {
+                  img: pizzaveria_menu_3,
+                },
+                {
+                  img: pizzaveria_menu_4,
+                },
+                {
+                  img: pizzaveria_menu_5,
+                },
+              ],
+            },
+          },
+          {
+            img: maxmango_cover,
+            title: "Max Mango",
+            schedule: "Unknown",
+            location: "Brgy. 4 Poblacion, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/z6vbQjwPQWPdyouB9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8WF%2B94F+Max+Mango,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: maxmango_menu_0,
+                },
+                {
+                  img: maxmango_menu_1,
+                },
+              ],
+            },
+          },
+          {
+            img: alon_cover,
+            title: "Alon Cafe",
+            schedule:
+              "10:30AM - 10:00PM | Mon - Sat, 12:00NN - 9:00PM | Sunday",
+            location: "Brgy. 9, Poblacion Don Abella Drive, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/J6LvriEUxJWw6gG28",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Alon+Cafe+Catanauan,+Don+Manuel+Abella+Dr,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alon_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: njs_cover,
+            title: "NJ`S Snack Corner (Mango Madness)",
+            schedule: "8:00 - 7:00PM | Mon - Sun",
+            location: "Brgy. 9 Poblacion Bonifacio St.",
+            loc_link: "https://goo.gl/maps/KH9cfXu9WCGDNvYz5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.594926,122.32401",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: njs_menu_0,
+                },
+                {
+                  img: njs_menu_1,
+                },
+                {
+                  img: njs_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: vNv_cover,
+            title: "V&V Pizza",
+            schedule: "8:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 9 Poblacion Nabatasan St.",
+            loc_link: "https://goo.gl/maps/VhLcpA7sDzvN1YFK9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VF%2BJFF+Eatzlicediner,+Nabatasan+St,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: vNv_menu_0,
+                },
+                {
+                  img: vNv_menu_1,
+                },
+                {
+                  img: vNv_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: milestone_cover,
+            title: "Milestone Pizza",
+            schedule: "8:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 6 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/EB5mHxGwgq3PLTAr5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Milestone+Pizza,+Quezon+Ave,+Poblacion+6,+Catanauan,+Quezon+Province",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: milestone_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: takoyaki_cover,
+            title: "ZZ Japanesse Takoyaki",
+            schedule: "10:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 4 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/TmshifiipZS9Mj6H6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.593579,122.322202",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: takoyaki_menu_0,
+                },
+                {
+                  img: takoyaki_menu_1,
+                },
+                {
+                  img: takoyaki_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: alacob_cover,
+            title: "Alcob FoodHub | Shawarmahan",
+            schedule: "11:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 5 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/jygfRqAjV8GbiBuf7",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VC%2B3PQ+Hearts+flowershop+catanauan,+Quezon+Ave,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alacob_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: pizzarap_cover,
+            title: "Pizzarap Mulanay",
+            schedule: "8:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 4, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/YE7PETv4Modh8oGw5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.595016,122.322814",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alacob_menu,
                 },
               ],
             },
@@ -8326,6 +8672,326 @@ export const fil = {
             loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
             direction:
               "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+        ],
+        //foodhub
+        food_hub: [
+          {
+            img: silogan_cover,
+            title: "Silogan sa Tumbok",
+            schedule: "11:00AM-11:00PM | Mon - Sun",
+            location:
+              "Don Manuel St. Brgy 8, Madriaga's Bldg. 3rd Floor, Catanauan Quezon.",
+            loc_link: "https://goo.gl/maps/KrdLWnFCjPcsTPsK6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Silogan+Sa+Tumbok,+In+front+of+Bondoc+Peninsula+Hospital,+Brgy.+8,+Catanauan",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: silogan_menu_0,
+                },
+                {
+                  img: silogan_menu_1,
+                },
+              ],
+            },
+          },
+          {
+            img: fornestea_cover,
+            title: "FornesTea Food & Shakes",
+            schedule: "9:00Am-9:00PM | Mon - Fri, Sun, Closed: Sat ",
+            location: "Brgy 10, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/wnfaHKeLZ5FEndRw9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.595832,122.32415",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: fornestea_menu_0,
+                },
+                {
+                  img: fornestea_menu_1,
+                },
+                {
+                  img: fornestea_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: lebrons_cover,
+            title: "Lebron`s CoffeeJelly ",
+            schedule: "1:00PM - 9:00PM | Mon - Sun",
+            location: "Brgy 5, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/Jih612xoZCzHMesr6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/LeBrons+CoffeeJelly,+20+Boncan+St,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: lebrons_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: khassaraf_cover,
+            title: "Khassaraf FoodCorner",
+            schedule: "10:00AM - 9:00PM | Mon - Sun",
+            location: "Brgy 9, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/UHL6ShQ8N54hb4bw5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.594698,122.324553",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: khassaraf_menu_0,
+                },
+                {
+                  img: khassaraf_menu_1,
+                },
+                {
+                  img: khassaraf_menu_2,
+                },
+                {
+                  img: khassaraf_menu_3,
+                },
+                {
+                  img: khassaraf_menu_4,
+                },
+                {
+                  img: khassaraf_menu_5,
+                },
+                {
+                  img: khassaraf_menu_6,
+                },
+                {
+                  img: khassaraf_menu_7,
+                },
+              ],
+            },
+          },
+          {
+            img: buslogan_cover,
+            title: "Buslogan sa Catanauan",
+            schedule: "8:00AM - 10:00PM | Mon - Sun",
+            location: "Unknown",
+            loc_link: "",
+            direction: "",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: buslogan_menu_0,
+                },
+                {
+                  img: buslogan_menu_1,
+                },
+                {
+                  img: buslogan_menu_2,
+                },
+                {
+                  img: buslogan_menu_3,
+                },
+                {
+                  img: buslogan_menu_4,
+                },
+              ],
+            },
+          },
+          {
+            img: pizzaveria_cover,
+            title: "PizzAveria",
+            schedule: "9:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 4 Poblacion Bonifacio St.",
+            loc_link: "https://goo.gl/maps/VZDJ7u95Fesjr2kK9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Pizzaveria,+Province,+Quezon+Avenue,+corner+A.+Bonifacio+St,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: pizzaveria_menu_0,
+                },
+                {
+                  img: pizzaveria_menu_1,
+                },
+                {
+                  img: pizzaveria_menu_2,
+                },
+                {
+                  img: pizzaveria_menu_3,
+                },
+                {
+                  img: pizzaveria_menu_4,
+                },
+                {
+                  img: pizzaveria_menu_5,
+                },
+              ],
+            },
+          },
+          {
+            img: maxmango_cover,
+            title: "Max Mango",
+            schedule: "Unknown",
+            location: "Brgy. 4 Poblacion, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/z6vbQjwPQWPdyouB9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8WF%2B94F+Max+Mango,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: maxmango_menu_0,
+                },
+                {
+                  img: maxmango_menu_1,
+                },
+              ],
+            },
+          },
+          {
+            img: alon_cover,
+            title: "Alon Cafe",
+            schedule:
+              "10:30AM - 10:00PM | Mon - Sat, 12:00NN - 9:00PM | Sunday",
+            location: "Brgy. 9, Poblacion Don Abella Drive, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/J6LvriEUxJWw6gG28",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Alon+Cafe+Catanauan,+Don+Manuel+Abella+Dr,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alon_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: njs_cover,
+            title: "NJ`S Snack Corner (Mango Madness)",
+            schedule: "8:00 - 7:00PM | Mon - Sun",
+            location: "Brgy. 9 Poblacion Bonifacio St.",
+            loc_link: "https://goo.gl/maps/KH9cfXu9WCGDNvYz5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.594926,122.32401",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: njs_menu_0,
+                },
+                {
+                  img: njs_menu_1,
+                },
+                {
+                  img: njs_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: vNv_cover,
+            title: "V&V Pizza",
+            schedule: "8:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 9 Poblacion Nabatasan St.",
+            loc_link: "https://goo.gl/maps/VhLcpA7sDzvN1YFK9",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VF%2BJFF+Eatzlicediner,+Nabatasan+St,+Catanauan,+4311+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: vNv_menu_0,
+                },
+                {
+                  img: vNv_menu_1,
+                },
+                {
+                  img: vNv_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: milestone_cover,
+            title: "Milestone Pizza",
+            schedule: "8:00AM - 7:00PM | Mon - Sun",
+            location: "Brgy. 6 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/EB5mHxGwgq3PLTAr5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/Milestone+Pizza,+Quezon+Ave,+Poblacion+6,+Catanauan,+Quezon+Province",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: milestone_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: takoyaki_cover,
+            title: "ZZ Japanesse Takoyaki",
+            schedule: "10:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 4 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/TmshifiipZS9Mj6H6",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.593579,122.322202",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: takoyaki_menu_0,
+                },
+                {
+                  img: takoyaki_menu_1,
+                },
+                {
+                  img: takoyaki_menu_2,
+                },
+              ],
+            },
+          },
+          {
+            img: alacob_cover,
+            title: "Alcob FoodHub | Shawarmahan",
+            schedule: "11:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 5 Poblacion Avenue St.",
+            loc_link: "https://goo.gl/maps/jygfRqAjV8GbiBuf7",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VC%2B3PQ+Hearts+flowershop+catanauan,+Quezon+Ave,+Catanauan,+Quezon",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alacob_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: pizzarap_cover,
+            title: "Pizzarap Mulanay",
+            schedule: "8:00AM - 8:00PM | Mon - Sun",
+            location: "Brgy. 4, Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/YE7PETv4Modh8oGw5",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.595016,122.322814",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: alacob_menu,
+                },
+              ],
+            },
           },
         ],
       },
