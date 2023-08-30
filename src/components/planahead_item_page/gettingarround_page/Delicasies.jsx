@@ -13,7 +13,7 @@ const Delicasies = ({ className }) => {
   const { language } = useContext(LangContext);
 
   return (
-    <div className={`w-full px-4 bg-[#FEFEFF] ${className}`}>
+    <div className={`w-full px-4 ${className}`}>
       <div className="max-w-[1250px] px-4 mx-auto">
         <div className="my-10 px-4">
           <ul>

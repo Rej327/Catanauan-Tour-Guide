@@ -8,7 +8,7 @@ import { getDirection } from "../../helper";
 const Market = ({ className }) => {
   const { language, startingPoint } = useContext(LangContext);
   return (
-    <div className={`w-full px-4 bg-[#FEFEFF] ${className}`}>
+    <div className={`w-full px-4 ${className}`}>
       <div className="max-w-[1250px] px-4 flex flex-col mx-auto">
         <div className="flex flex-col gap-4 mt-10 mb-5 px-4">
           <ul>
