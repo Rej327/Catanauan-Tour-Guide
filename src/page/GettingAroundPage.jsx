@@ -8,6 +8,7 @@ import Delicasies from "../components/planahead_item_page/gettingarround_page/De
 import LocalFlavorsHeader from "../components/planahead_item_page/gettingarround_page/LocalFlavorsHeader";
 import FinancialHeader from "../components/planahead_item_page/gettingarround_page/FinancialHeader";
 import Banks from "../components/planahead_item_page/gettingarround_page/Banks";
+import FoodHub from "../components/planahead_item_page/gettingarround_page/FoodHub";
 
 const GettingAroundPage = () => {
   useEffect(() => {
@@ -20,10 +21,11 @@ const GettingAroundPage = () => {
       <div>
         <GettingAroundHeader />
         <GettingAroundSubHead />
-        <div className="w-full bg-[#FEFEFF] ">
+        <div className="w-full bg-[#FFFAF2] ">
           <LocalFlavorsHeader />
           <Delicasies />
           <Market />
+          <FoodHub />
           <FinancialHeader />
           <Banks />
         </div>
