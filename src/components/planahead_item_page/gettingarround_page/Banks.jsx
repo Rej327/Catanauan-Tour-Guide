@@ -20,7 +20,7 @@ const Banks = ({ className }) => {
           <div className="w-full flex justify-between flex-wrap bg-[#FCE9CB gap-5 mx-auto">
             {language?.plan_page?.getting_around?.content_item?.banks?.map(
               (data) => (
-                <div className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto">
+                <div className="bg-[#FEFEFF] rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto">
                   <div className="overflow-hidden rounded-lg">
                     <img
                       src={data.img}
@@ -28,7 +28,7 @@ const Banks = ({ className }) => {
                       className=" rounded-lg w-[350px] h-[300px] "
                     />
                   </div>
-                  <div className="my-2">
+                  <div className="my-2 px-2">
                     <p className="text-lg font-bold pl-5">{data.title}</p>
                     <div className="w-fit my-2 flex gap-1 items-center">
                       <p>
