@@ -58,6 +58,54 @@ export { default as ribhouse_cover } from "./PlanAHeadPage/GettingAround/FoodHub
 export { default as silogan_cover } from "./PlanAHeadPage/GettingAround/FoodHub/silogan_cover.webp";
 export { default as takoyaki_cover } from "./PlanAHeadPage/GettingAround/FoodHub/takoyaki_cover.webp";
 export { default as vNv_cover } from "./PlanAHeadPage/GettingAround/FoodHub/v&v_cover.webp";
+//--MENU
+export { default as alacob_menu } from "./PlanAHeadPage/GettingAround/Menu/alacob_menu.webp";
+export { default as alon_menu } from "./PlanAHeadPage/GettingAround/Menu/alon_menu.webp";
+export { default as buslogan_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/buslogan_menu_0.webp";
+export { default as buslogan_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/buslogan_menu_1.webp";
+export { default as buslogan_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/buslogan_menu_2.webp";
+export { default as buslogan_menu_3 } from "./PlanAHeadPage/GettingAround/Menu/buslogan_menu_3.webp";
+export { default as buslogan_menu_4 } from "./PlanAHeadPage/GettingAround/Menu/buslogan_menu_4.webp";
+export { default as foodism_menu } from "./PlanAHeadPage/GettingAround/Menu/foodism_menu.webp";
+export { default as fornestea_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/fornestea_menu_0.webp";
+export { default as fornestea_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/fornestea_menu_1.webp";
+export { default as fornestea_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/fornestea_menu_2.webp";
+export { default as khassaraf_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_0.webp";
+export { default as khassaraf_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_1.webp";
+export { default as khassaraf_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_2.webp";
+export { default as khassaraf_menu_3 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_3.webp";
+export { default as khassaraf_menu_4 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_4.webp";
+export { default as khassaraf_menu_5 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_5.webp";
+export { default as khassaraf_menu_6 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_6.webp";
+export { default as khassaraf_menu_7 } from "./PlanAHeadPage/GettingAround/Menu/khassaraf_menu_7.webp";
+export { default as lebrons_menu } from "./PlanAHeadPage/GettingAround/Menu/lebrons_menu.webp";
+export { default as maxmango_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/maxmango_menu_0.webp";
+export { default as maxmango_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/maxmango_menu_1.webp";
+export { default as milestone_menu } from "./PlanAHeadPage/GettingAround/Menu/milestone_menu.webp";
+export { default as njs_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/njs_menu_0.webp";
+export { default as njs_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/njs_menu_1.webp";
+export { default as njs_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/njs_menu_2.webp";
+export { default as papatea_menu } from "./PlanAHeadPage/GettingAround/Menu/papatea_menu.webp";
+export { default as pizzarap_menu } from "./PlanAHeadPage/GettingAround/Menu/pizzamulanay_menu.webp";
+export { default as pizzaveria_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_0.webp";
+export { default as pizzaveria_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_1.webp";
+export { default as pizzaveria_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_2.webp";
+export { default as pizzaveria_menu_3 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_3.webp";
+export { default as pizzaveria_menu_4 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_4.webp";
+export { default as pizzaveria_menu_5 } from "./PlanAHeadPage/GettingAround/Menu/pizzaveria_menu_5.webp";
+export { default as ribhouse_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/ribhouse_menu_0.webp";
+export { default as ribhouse_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/ribhouse_menu_1.webp";
+export { default as ribhouse_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/ribhouse_menu_2.webp";
+export { default as ribhouse_menu_3 } from "./PlanAHeadPage/GettingAround/Menu/ribhouse_menu_3.webp";
+export { default as silogan_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/silogan_menu_0.webp";
+export { default as silogan_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/silogan_menu_1.webp";
+export { default as takoyaki_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/takoyaki_menu_0.webp";
+export { default as takoyaki_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/takoyaki_menu_1.webp";
+export { default as takoyaki_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/takoyaki_menu_2.webp";
+export { default as vNv_menu_0 } from "./PlanAHeadPage/GettingAround/Menu/v&v_menu_0.webp";
+export { default as vNv_menu_1 } from "./PlanAHeadPage/GettingAround/Menu/v&v_menu_1.webp";
+export { default as vNv_menu_2 } from "./PlanAHeadPage/GettingAround/Menu/v&v_menu_2.webp";
+//--MENU
 //----FOODHUB
 //----GETTING AROUND
 // PLAN A HEAD PAGE IMAGES
