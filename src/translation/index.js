@@ -1020,6 +1020,7 @@ import {
   landbank,
   coop,
   bdo,
+  vNv_cover,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1542,6 +1543,32 @@ export const en = {
             loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
             direction:
               "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+        ],
+        //foodhub
+        food_hub: [
+          {
+            img: vNv_cover,
+            title: "V&V Pizza",
+            schedule: "8:00AM - 7:00PM",
+            location: "Bgry. 9 Nabatasan St. Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/oMZJ7ehpytrS1mLF7",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.594051,122.323732",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: vNv_cover,
+                },
+                {
+                  img: vNv_cover,
+                },
+                {
+                  img: vNv_cover,
+                },
+              ],
+            },
           },
         ],
       },

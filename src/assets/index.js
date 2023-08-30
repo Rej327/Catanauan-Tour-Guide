@@ -39,6 +39,27 @@ export { default as market } from "./PlanAHeadPage/GettingAround/Market/market.w
 export { default as bdo } from "./PlanAHeadPage/GettingAround/Banks/bdo.webp";
 export { default as coop } from "./PlanAHeadPage/GettingAround/Banks/coop.webp";
 export { default as landbank } from "./PlanAHeadPage/GettingAround/Banks/landbank.webp";
+//--GETTING AROUND
+//----FOODHUB
+export { default as alacob_cover } from "./PlanAHeadPage/GettingAround/FoodHub/alacob_cover.webp";
+export { default as alon_cover } from "./PlanAHeadPage/GettingAround/FoodHub/alon_cover.webp";
+export { default as buslogan_cover } from "./PlanAHeadPage/GettingAround/FoodHub/buslogan_cover.webp";
+export { default as foodism_cover } from "./PlanAHeadPage/GettingAround/FoodHub/foodism_cover.webp";
+export { default as fornestea_cover } from "./PlanAHeadPage/GettingAround/FoodHub/fornestea_cover.webp";
+export { default as khassaraf_cover } from "./PlanAHeadPage/GettingAround/FoodHub/khassaraf_cover.webp";
+export { default as lebrons_cover } from "./PlanAHeadPage/GettingAround/FoodHub/lebrons_cover.webp";
+export { default as maxmango_cover } from "./PlanAHeadPage/GettingAround/FoodHub/maxmango_cover.webp";
+export { default as milestone_cover } from "./PlanAHeadPage/GettingAround/FoodHub/milestone_cover.webp";
+export { default as njs_cover } from "./PlanAHeadPage/GettingAround/FoodHub/njs_cover.webp";
+export { default as papatea_cover } from "./PlanAHeadPage/GettingAround/FoodHub/papatea_cover.webp";
+export { default as pizzarap_cover } from "./PlanAHeadPage/GettingAround/FoodHub/pizzarap_cover.webp";
+export { default as pizzaveria_cover } from "./PlanAHeadPage/GettingAround/FoodHub/pizzaveria_cover.webp";
+export { default as ribhouse_cover } from "./PlanAHeadPage/GettingAround/FoodHub/ribhouse_cover.webp";
+export { default as silogan_cover } from "./PlanAHeadPage/GettingAround/FoodHub/silogan_cover.webp";
+export { default as takoyaki_cover } from "./PlanAHeadPage/GettingAround/FoodHub/takoyaki_cover.webp";
+export { default as vNv_cover } from "./PlanAHeadPage/GettingAround/FoodHub/v&v_cover.webp";
+//----FOODHUB
+//----GETTING AROUND
 // PLAN A HEAD PAGE IMAGES
 
 //TRANSPORTATIONS PAGE//
