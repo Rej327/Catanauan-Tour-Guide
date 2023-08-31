@@ -23,7 +23,7 @@ const Resorts = ({ className, id }) => {
       setLoading(false);
     }, 999999);
 
-    const imgPromises = language?.resorts_page?.(0, 3).map((data) => {
+    const imgPromises = language?.resorts_page?.slice(0, 3).map((data) => {
       return new Promise((resolve) => {
         const img = new Image();
         img.src = data.img;
