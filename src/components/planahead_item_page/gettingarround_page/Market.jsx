@@ -17,7 +17,7 @@ const Market = ({ className }) => {
             </li>
           </ul>
           <div className="w-full flex flex-wrap bg-[#FCE9CB gap-5 mx-auto">
-            <div className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] max-sm:mx-auto">
+            <div className="bg-[#FEFEFF] rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] max-sm:mx-auto">
               <div className="overflow-hidden rounded-lg">
                 <img
                   src={
@@ -27,7 +27,7 @@ const Market = ({ className }) => {
                   className=" rounded-lg w-[350px] h-[300px] "
                 />
               </div>
-              <div className="my-2">
+              <div className="my-2 px-2">
                 <p className="text-lg font-bold pl-5">
                   {language.plan_page.getting_around.content_item.market.title}
                 </p>
