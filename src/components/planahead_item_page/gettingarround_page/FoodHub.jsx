@@ -38,7 +38,7 @@ const FoodHub = ({ className }) => {
                         className=" rounded-lg w-[350px] h-[300px] "
                       />
                     </div>
-                    <div className="my-2 px-2">
+                    <div className="my-2 p-2">
                       <p className="text-lg font-bold pl-5">{data.title}</p>
                       <div className="w-fit my-2 flex gap-1 items-center">
                         <p>
