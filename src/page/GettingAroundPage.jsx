@@ -21,7 +21,7 @@ const GettingAroundPage = () => {
       <div>
         <GettingAroundHeader />
         <GettingAroundSubHead />
-        <div className="w-full bg-[#FFFAF2] ">
+        <div className="w-full mb-5 bg-[#FFFAF2] ">
           <LocalFlavorsHeader />
           <Delicasies />
           <Market />
