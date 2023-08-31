@@ -12,7 +12,7 @@ const FoodHub = ({ className }) => {
 
   return (
     <div className={`w-full px-4 ${className}`}>
-      <div className="max-w-[1250px] px-4 flex flex-col mx-auto">
+      <div className="max-w-[1250px] flex flex-col mx-auto">
         <div className="flex flex-col gap-4 my-5 px-4">
           <ul>
             <li className="list-disc text-[#013D7A]">

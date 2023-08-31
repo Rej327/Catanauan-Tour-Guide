@@ -14,8 +14,8 @@ const Delicasies = ({ className }) => {
 
   return (
     <div className={`w-full px-4 ${className}`}>
-      <div className="max-w-[1250px] px-4 mx-auto">
-        <div className="my-10 px-4">
+      <div className="max-w-[1250px] px-2 mx-auto">
+        <div className="my-10 px-2">
           <ul>
             <li className="list-disc text-[#013D7A]">
               <p className="text-2xl font-bold">Delicasies</p>
