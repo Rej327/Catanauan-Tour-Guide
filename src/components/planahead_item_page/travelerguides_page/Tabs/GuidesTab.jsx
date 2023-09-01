@@ -17,12 +17,12 @@ const GuidesTab = () => {
           <Tab>
             <p className="font-bold">History</p>
           </Tab>
-          <Tab>
+          {/* <Tab>
             <p className="font-bold">Events</p>
           </Tab>
           <Tab>
             <p className="font-bold">Locals</p>
-          </Tab>
+          </Tab> */}
         </TabList>
         <TabIndicator
           mt="2.5px"
@@ -35,12 +35,12 @@ const GuidesTab = () => {
             {/* Tab 1 */}
             <HistoryContent />
           </TabPanel>
-          <TabPanel>
+          {/* <TabPanel>
             <p>two!</p>
           </TabPanel>
           <TabPanel>
             <p>three!</p>
-          </TabPanel>
+          </TabPanel> */}
         </TabPanels>
       </Tabs>
     </div>
