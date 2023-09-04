@@ -170,7 +170,12 @@ const Footer = ({ className }) => {
                 <p className="font-bold tracking-widest">
                   FIND AND FOLLOW DISCOVER CATANAUAN
                 </p>
-                <CiFacebook className="text-[3rem] text-[#012854] md:mx-auto   lg:mb-o hover:text-blue-700 duration-300 delay-75 cursor-pointer hover:translate-y-1" />
+                <Link
+                  to="https://www.facebook.com/LGUCatanauanQuezon4311"
+                  target="_blank"
+                >
+                  <CiFacebook className="text-[3rem] text-[#012854] md:mx-auto   lg:mb-o hover:text-blue-700 duration-300 delay-75 cursor-pointer hover:translate-y-1" />
+                </Link>
               </div>
             </div>
           </div>
