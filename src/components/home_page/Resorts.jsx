@@ -115,9 +115,11 @@ const Resorts = ({ className, id }) => {
                           {data.location}
                         </p>
                       </div>
-                      <p className="mt-auto ml-[6rem] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
-                        {data.btn_txt}
-                      </p>
+                      <Link to={`/resorts/${data.id}`}>
+                        <p className="mt-auto ml-[6rem] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
+                          {data.btn_txt}
+                        </p>
+                      </Link>
                     </div>
                   </div>
                 ))}
