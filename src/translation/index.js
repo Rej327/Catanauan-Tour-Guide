@@ -9982,6 +9982,3725 @@ export const fil = {
     },
   ],
 
+  //RESORTS PAGE
+  resorts_page: [
+    //amandos camp site
+    {
+      id: 1,
+      img: amandos_cover,
+      category: "Beach",
+      title: "Amandos Camp Site",
+      location: "Brgy. Gatasan, Catanauan, Quezon",
+      number: "(+63) 938-881-0628",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 938-881-0628",
+      fb_link: "https://www.facebook.com/Kuyaallancampsite?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/JA6Ude4xzKifc77g7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Amando's+Campsite,+Bridge,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping munpong and maniwaya 10 person 3k,  team building, kayak 1hr 200, banana boat 3k 10-12 person 1 tour, volleyball, rental videoke per hour.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "Tent only good for 2 person, 200 pesos, when yuou bring, 100 pesos fee. Good for 4 is 400 pesos, when you bring, 200 pesos fee",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1000 pesos overnight, 500 pesos day tour.",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "50 pesos with Band & 70 pesos every Saturday",
+          },
+          {
+            title: "Kids",
+            fee: "3 years old below is free",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: amandos_price_img_0,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: amandos_place_img_0,
+          },
+          {
+            img: amandos_place_img_2,
+          },
+          {
+            img: amandos_place_img_3,
+          },
+          {
+            img: amandos_place_img_4,
+          },
+          {
+            img: amandos_place_img_5,
+          },
+          {
+            img: amandos_place_img_6,
+          },
+          {
+            img: amandos_place_img_7,
+          },
+          {
+            img: amandos_place_img_8,
+          },
+          {
+            img: amandos_place_img_9,
+          },
+          {
+            img: amandos_place_img_10,
+          },
+          {
+            img: amandos_place_img_11,
+          },
+          {
+            img: amandos_place_img_12,
+          },
+          {
+            img: amandos_place_img_13,
+          },
+          {
+            img: amandos_place_img_14,
+          },
+          {
+            img: amandos_place_img_15,
+          },
+          {
+            img: amandos_place_img_16,
+          },
+          {
+            img: amandos_place_img_17,
+          },
+          {
+            img: amandos_place_img_18,
+          },
+          {
+            img: amandos_place_img_19,
+          },
+          {
+            img: amandos_place_img_20,
+          },
+          {
+            img: amandos_place_img_21,
+          },
+          {
+            img: amandos_place_img_22,
+          },
+          {
+            img: amandos_place_img_23,
+          },
+          {
+            img: amandos_place_img_24,
+          },
+          {
+            img: amandos_place_img_25,
+          },
+        ],
+      },
+    },
+    //apple paradize resort
+    {
+      id: 2,
+      img: appleparadize_cover,
+      category: "Pool",
+      title: "Apple Paradize Resort",
+      location: "Brgy. Tuhian, Catanauan Quezon",
+      number: "(+63) 945-641-6671",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: 945-641-6671",
+      fb_link: "https://www.facebook.com/Applesparadizeresort",
+      loc_link: "https://goo.gl/maps/C7Kxc85ra9wNqqij7",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Apple's+paradize+resort,+Barangay+tuhian,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: apple_place_img_0,
+          },
+          {
+            img: apple_place_img_1,
+          },
+          {
+            img: apple_place_img_2,
+          },
+          {
+            img: apple_place_img_3,
+          },
+          {
+            img: apple_place_img_4,
+          },
+          {
+            img: apple_place_img_5,
+          },
+          {
+            img: apple_place_img_6,
+          },
+          {
+            img: apple_place_img_7,
+          },
+          {
+            img: apple_place_img_8,
+          },
+          {
+            img: apple_place_img_9,
+          },
+          {
+            img: apple_place_img_10,
+          },
+          {
+            img: apple_place_img_11,
+          },
+          {
+            img: apple_place_img_12,
+          },
+          {
+            img: apple_place_img_13,
+          },
+          {
+            img: apple_place_img_14,
+          },
+          {
+            img: apple_place_img_15,
+          },
+          {
+            img: apple_place_img_16,
+          },
+          {
+            img: apple_place_img_17,
+          },
+          {
+            img: apple_place_img_18,
+          },
+          {
+            img: apple_place_img_19,
+          },
+          {
+            img: apple_place_img_20,
+          },
+          {
+            img: apple_place_img_21,
+          },
+          {
+            img: apple_place_img_22,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: apple_price_img_0,
+          },
+        ],
+      },
+    },
+    //butch resort
+    {
+      id: 3,
+      img: butch_cover,
+      category: "Beach",
+      title: "Butch Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 955-358-3338",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 955-358-3338",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100069189401877&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/EnDH61qwsAvM3F4FA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BF36+Butch+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Island hopping",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "Dilaw 3k with cottage 20 pax",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1k-700 12hrs, 24hrs 1.5k",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "None",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: butch_place_img_0,
+          },
+          {
+            img: butch_place_img_1,
+          },
+          {
+            img: butch_place_img_2,
+          },
+          {
+            img: butch_place_img_3,
+          },
+          {
+            img: butch_place_img_4,
+          },
+          {
+            img: butch_place_img_5,
+          },
+          {
+            img: butch_place_img_6,
+          },
+          {
+            img: butch_place_img_7,
+          },
+          {
+            img: butch_place_img_8,
+          },
+          {
+            img: butch_place_img_9,
+          },
+          {
+            img: butch_place_img_10,
+          },
+        ],
+      },
+    },
+    //casa joros resort
+    {
+      id: 4,
+      img: casa_cover,
+      category: "Pool & Beach",
+      title: "Casa Joros Mendenilla Resort",
+      location:
+        "Sitio Camagong Tuhian, Catanauan, Quezon, Catanauan, Philippines",
+      number: "(+63) 977-051-4535",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 977-051-4535",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100063614118981&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/hge6cD6cv24A4d3B6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/CASA+JOROS+MENDENILLA+BEACH+RESORT,+Sitio+Camagong+Barangay+Tuhian,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping, Kayak 350 1hr, 1k rent 8hrs, Maniwaya, Monpong, Sandbar",
+        },
+        {
+          title: "Day Tour: ",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour: ",
+          description: "2:00pm - 11:00am",
+        },
+        {
+          title: "Night Swim: ",
+          description: "5:00pm - 12:00mn",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 150.00",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: casa_entrance_img_0,
+          },
+        ],
+
+        menu: [
+          {
+            img: casa_menu_img_0,
+          },
+          {
+            img: casa_menu_img_1,
+          },
+          {
+            img: casa_menu_img_2,
+          },
+          {
+            img: casa_menu_img_3,
+          },
+        ],
+
+        cottage: [
+          {
+            img: casa_cottage_img_0,
+          },
+          {
+            img: casa_cottage_img_1,
+          },
+          {
+            img: casa_cottage_img_2,
+          },
+          {
+            img: casa_cottage_img_3,
+          },
+          {
+            img: casa_cottage_img_4,
+          },
+          {
+            img: casa_cottage_img_5,
+          },
+          {
+            img: casa_cottage_img_6,
+          },
+          {
+            img: casa_cottage_img_7,
+          },
+          {
+            img: casa_cottage_img_8,
+          },
+          {
+            img: casa_cottage_img_9,
+          },
+          {
+            img: casa_cottage_img_10,
+          },
+          {
+            img: casa_cottage_img_11,
+          },
+          {
+            img: casa_cottage_img_12,
+          },
+          {
+            img: casa_cottage_img_13,
+          },
+          {
+            img: casa_cottage_img_14,
+          },
+          {
+            img: casa_cottage_img_15,
+          },
+          {
+            img: casa_cottage_img_16,
+          },
+          {
+            img: casa_cottage_img_17,
+          },
+        ],
+
+        room: [
+          {
+            img: casa_room_img_0,
+          },
+          {
+            img: casa_room_img_1,
+          },
+          {
+            img: casa_room_img_2,
+          },
+          {
+            img: casa_room_img_3,
+          },
+          {
+            img: casa_room_img_4,
+          },
+          {
+            img: casa_room_img_5,
+          },
+          {
+            img: casa_room_img_6,
+          },
+          {
+            img: casa_room_img_7,
+          },
+          {
+            img: casa_room_img_8,
+          },
+          {
+            img: casa_room_img_9,
+          },
+          {
+            img: casa_room_img_10,
+          },
+          {
+            img: casa_room_img_11,
+          },
+          {
+            img: casa_room_img_12,
+          },
+          {
+            img: casa_room_img_13,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: casa_place_img_0,
+          },
+          {
+            img: casa_place_img_1,
+          },
+          {
+            img: casa_place_img_2,
+          },
+          {
+            img: casa_place_img_3,
+          },
+          {
+            img: casa_place_img_4,
+          },
+          {
+            img: casa_place_img_5,
+          },
+          {
+            img: casa_place_img_6,
+          },
+          {
+            img: casa_place_img_7,
+          },
+          {
+            img: casa_place_img_8,
+          },
+          {
+            img: casa_place_img_9,
+          },
+          {
+            img: casa_place_img_10,
+          },
+          {
+            img: casa_place_img_11,
+          },
+          {
+            img: casa_place_img_12,
+          },
+        ],
+        terms: [
+          {
+            img: casa_terms_img_0,
+          },
+          {
+            img: casa_terms_img_1,
+          },
+          {
+            img: casa_terms_img_2,
+          },
+        ],
+      },
+    },
+    //cinco beach resort
+    {
+      id: 5,
+      img: cinco_cover,
+      category: "Beach",
+      title: "Cinco Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 9672-558-188",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 9672-558-188",
+      fb_link: "https://www.facebook.com/5incobeachresort?mibextid=ZbWKwL",
+      loc_link:
+        "https://www.google.com/maps/place/13%C2%B036'25.8%22N+122%C2%B012'49.1%22E/@13.6071753,122.2130003,19z/data=!3m1!4b1!4m4!3m3!8m2!3d13.607174!4d122.213644?entry=ttu",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.607174,122.213644",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Kayak - 200 pesos per hour.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "2 aircon, 8pax - 2500 pesos.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "1k overnight, 1.5k 10pax, 1.3k 8pax",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 20.00",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: cinco_place_img_0,
+          },
+          {
+            img: cinco_place_img_1,
+          },
+          {
+            img: cinco_place_img_2,
+          },
+          {
+            img: cinco_place_img_3,
+          },
+          {
+            img: cinco_place_img_4,
+          },
+          {
+            img: cinco_place_img_5,
+          },
+          {
+            img: cinco_place_img_6,
+          },
+          {
+            img: cinco_place_img_7,
+          },
+          {
+            img: cinco_place_img_8,
+          },
+          {
+            img: cinco_place_img_9,
+          },
+          {
+            img: cinco_place_img_10,
+          },
+        ],
+      },
+    },
+    //decena vista marina beach resort
+    {
+      id: 6,
+      img: decenas_cover,
+      category: "Beach",
+      title: "Decena`s Vista Marina",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 949-888-8746",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 949-888-8746",
+      fb_link: "https://www.facebook.com/decenavistamarina?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/7KjEAQzL8TQbJ7BR9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.6068056,122.2128333",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Island hopping,  banana boat, jetski.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "Unknown.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description: "Unknown",
+        },
+        {
+          title: "Menu: ",
+          description: "Upon request",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ Unknown",
+          },
+          {
+            title: "Kids",
+            fee: "₱ Unknown",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: decena_place_img_0,
+          },
+          {
+            img: decena_place_img_1,
+          },
+          {
+            img: decena_place_img_2,
+          },
+          {
+            img: decena_place_img_3,
+          },
+          {
+            img: decena_place_img_4,
+          },
+          {
+            img: decena_place_img_5,
+          },
+          {
+            img: decena_place_img_6,
+          },
+          {
+            img: decena_place_img_7,
+          },
+        ],
+      },
+    },
+    //duyann beach resort
+    {
+      id: 7,
+      img: duyan_cover,
+      category: "Beach",
+      title: "Duyann Catanauan Shores",
+      location: "Brgy. Cutcutan, Catanauan, Quezon",
+      number: "(+63) 938-583-6363",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 938-583-6363",
+      fb_link: "https://www.facebook.com/Duyanncatanauanshores",
+      loc_link: "https://goo.gl/maps/cabY6VH9nVsreqRm9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Duyann+Catanauan+Shores,+Brgy+Cutcutan,+Alvaran+Estates+Catanauan+Quezon,+Catanauan,+4311+Quezon+Province",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping 6.5k 10 pax 7hrs sandbar, kayaking 1hr 500, volleyball, videoke 1k 12 hrs, floating cottages 3.5k rent pag per head 200.",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "4.5k 5pax, 8k 10 pax, 4 kubo 5pax 1.8k-2.5k, 10rooms, 4k 7pax, 2k 5pax, tent 300 pag rent 700 6pax on, 2pax 5h, 3h pag may dala.",
+        },
+        {
+          title: "Schedule: ",
+          description: "2pm in out 12nn",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 150 day & ₱ 100 night ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 75.00",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        room: [
+          {
+            img: duyan_price_img_1,
+          },
+        ],
+
+        menu: [
+          {
+            img: duyan_menu_img_0,
+          },
+          {
+            img: duyan_menu_img_1,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: duyan_price_img_0,
+          },
+          {
+            img: duyan_place_img_0,
+          },
+          {
+            img: duyan_place_img_1,
+          },
+          {
+            img: duyan_place_img_2,
+          },
+          {
+            img: duyan_place_img_3,
+          },
+          {
+            img: duyan_place_img_4,
+          },
+          {
+            img: duyan_place_img_5,
+          },
+          {
+            img: duyan_place_img_6,
+          },
+          {
+            img: duyan_place_img_7,
+          },
+          {
+            img: duyan_place_img_8,
+          },
+          {
+            img: duyan_place_img_9,
+          },
+          {
+            img: duyan_place_img_10,
+          },
+          {
+            img: duyan_place_img_11,
+          },
+          {
+            img: duyan_place_img_12,
+          },
+          {
+            img: duyan_place_img_13,
+          },
+          {
+            img: duyan_place_img_14,
+          },
+          {
+            img: duyan_place_img_15,
+          },
+          {
+            img: duyan_place_img_16,
+          },
+          {
+            img: duyan_place_img_17,
+          },
+          {
+            img: duyan_place_img_18,
+          },
+          {
+            img: duyan_place_img_19,
+          },
+          {
+            img: duyan_place_img_20,
+          },
+          {
+            img: duyan_place_img_21,
+          },
+          {
+            img: duyan_place_img_22,
+          },
+        ],
+      },
+    },
+    //eyns beach resort
+    {
+      id: 8,
+      img: eynsresort_cover,
+      category: "Hotel & Beach",
+      title: "Eyns Beach Resort",
+      location: "Brgy. Madulao, Catanauan, Quezon",
+      number: "(+63) 908-904-0040",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-904-0040",
+      fb_link: "https://www.facebook.com/eynsresort.since88",
+      loc_link: "https://goo.gl/maps/7gBc5bc47pihJdvPA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H8MJ%2B9HV+Eyns'+Beach+Resort+-+Madulao,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+        {
+          hrs: "7:00am - 9:00pm",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Hotel Rates",
+        },
+        {
+          title: "Beach Front:",
+          description:
+            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
+        },
+        {
+          title: "Cabana:",
+          description:
+            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
+        },
+        {
+          title: "Dorm:",
+          description:
+            "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
+        },
+        {
+          title: "Cabin:",
+          description:
+            "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
+        },
+      ],
+
+      //hotel rates
+      entrance: {
+        types: [
+          {
+            title: "Events: ",
+            fee: "Cater, Birthday Party, Wedding",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        hotel: [
+          {
+            img: eynsresort_price_img_0,
+          },
+        ],
+
+        menu: [
+          {
+            img: eynsresort_menu_img_0,
+          },
+          {
+            img: eynsresort_menu_img_1,
+          },
+          {
+            img: eynsresort_menu_img_2,
+          },
+          {
+            img: eynsresort_menu_img_3,
+          },
+          {
+            img: eynsresort_menu_img_4,
+          },
+          {
+            img: eynsresort_menu_img_5,
+          },
+          {
+            img: eynsresort_menu_img_6,
+          },
+          {
+            img: eynsresort_menu_img_7,
+          },
+          {
+            img: eynsresort_menu_img_8,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: eynsresort_place_img_0,
+          },
+          {
+            img: eynsresort_place_img_1,
+          },
+          {
+            img: eynsresort_place_img_2,
+          },
+          {
+            img: eynsresort_place_img_3,
+          },
+          {
+            img: eynsresort_place_img_4,
+          },
+          {
+            img: eynsresort_place_img_5,
+          },
+          {
+            img: eynsresort_place_img_6,
+          },
+          {
+            img: eynsresort_place_img_7,
+          },
+          {
+            img: eynsresort_place_img_8,
+          },
+          {
+            img: eynsresort_place_img_9,
+          },
+          {
+            img: eynsresort_place_img_10,
+          },
+          {
+            img: eynsresort_place_img_11,
+          },
+          {
+            img: eynsresort_place_img_12,
+          },
+          {
+            img: eynsresort_place_img_13,
+          },
+          {
+            img: eynsresort_place_img_14,
+          },
+          {
+            img: eynsresort_place_img_15,
+          },
+          {
+            img: eynsresort_place_img_16,
+          },
+        ],
+        foods: [
+          {
+            img: eynsresort_food_img_0,
+          },
+          {
+            img: eynsresort_food_img_1,
+          },
+          {
+            img: eynsresort_food_img_2,
+          },
+          {
+            img: eynsresort_food_img_3,
+          },
+          {
+            img: eynsresort_food_img_4,
+          },
+          {
+            img: eynsresort_food_img_5,
+          },
+          {
+            img: eynsresort_food_img_6,
+          },
+          {
+            img: eynsresort_food_img_7,
+          },
+          {
+            img: eynsresort_food_img_9,
+          },
+          {
+            img: eynsresort_food_img_10,
+          },
+          {
+            img: eynsresort_food_img_11,
+          },
+          {
+            img: eynsresort_food_img_12,
+          },
+        ],
+
+        rooms: [
+          {
+            img: eynsresort_hotel_img_0,
+          },
+          {
+            img: eynsresort_hotel_img_1,
+          },
+          {
+            img: eynsresort_hotel_img_2,
+          },
+          {
+            img: eynsresort_hotel_img_3,
+          },
+          {
+            img: eynsresort_hotel_img_4,
+          },
+          {
+            img: eynsresort_hotel_img_5,
+          },
+          {
+            img: eynsresort_hotel_img_6,
+          },
+          {
+            img: eynsresort_hotel_img_7,
+          },
+          {
+            img: eynsresort_hotel_img_8,
+          },
+          {
+            img: eynsresort_hotel_img_9,
+          },
+          {
+            img: eynsresort_hotel_img_10,
+          },
+        ],
+      },
+    },
+    //iyanas beach resort
+    {
+      id: 9,
+      img: iyanas_cover,
+      category: "Beach",
+      title: "Iyanas Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 977-757-6785",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 977-757-6785",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100089543997473&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/W2WGk5JC37MtRVPT6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Iyana's+Beach+Resort,+Brgy,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping, boating, snorkeling, kayak, jet ski, banana boat.",
+        },
+        {
+          title: "Rooms: ",
+        },
+        {
+          title: "Barko (1st room)",
+          description: "Good for 15 pax ₱12,500 for 22 hours.",
+        },
+        {
+          title: "Barko (2nd & 3rd room)",
+          description: "Good for 8 pax ₱7,500 for 22 hours.",
+        },
+        {
+          title: "Building 1 (2 rooms)",
+          description: "Good for 40 pax ₱25,500.",
+        },
+        {
+          title: "Building 3 (3 rooms)",
+          description: "Good for 40 pax ₱25,500.",
+        },
+        {
+          title: "High Ground",
+          description: "Good for 10 pax ₱8,500.",
+        },
+        {
+          title: "Low Ground",
+          description: "Good for 8 pax ₱7,500.",
+        },
+        {
+          title: "Building 4",
+          description: "Good for 30 pax ₱24,000.",
+        },
+        {
+          title: "Bungalow (3 rooms)",
+          description: "Good for 6 pax ₱6,500 per room.",
+        },
+        {
+          title: "Kubo",
+          description: "Good for 8 pax ₱1000.",
+        },
+        {
+          description: "Good for 10 pax ₱1500.",
+        },
+        {
+          description: "1 room, Good for 2 pax ₱3000.",
+        },
+        {
+          title: "Day Tour",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour",
+          description: "22 hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids (3 - 7 yrs old)",
+            description: "₱ 100.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: iyanas_place_img_0,
+          },
+          {
+            img: iyanas_place_img_1,
+          },
+          {
+            img: iyanas_place_img_2,
+          },
+          {
+            img: iyanas_place_img_3,
+          },
+          {
+            img: iyanas_place_img_4,
+          },
+          {
+            img: iyanas_place_img_5,
+          },
+          {
+            img: iyanas_place_img_6,
+          },
+          {
+            img: iyanas_place_img_7,
+          },
+          {
+            img: iyanas_place_img_8,
+          },
+          {
+            img: iyanas_place_img_9,
+          },
+          {
+            img: iyanas_place_img_10,
+          },
+          {
+            img: iyanas_place_img_11,
+          },
+          {
+            img: iyanas_place_img_12,
+          },
+          {
+            img: iyanas_place_img_13,
+          },
+          {
+            img: iyanas_place_img_14,
+          },
+          {
+            img: iyanas_place_img_15,
+          },
+          {
+            img: iyanas_place_img_16,
+          },
+          {
+            img: iyanas_place_img_17,
+          },
+        ],
+      },
+    },
+    //jay rhens beach resort
+    {
+      id: 10,
+      img: jayrhens_cover,
+      category: "Beach",
+      title: "Jay Rhen`s Beach Resort",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 909-227-8540",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 909-227-8540",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100075902782824&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/uhuSVHPTWqmDJcqTA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J646%2B8WR+Jay-Rhen+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Videoke.",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description: " 4 family room 10 pax 4500,  4k 10 pax.",
+        },
+        {
+          title: "Cottage & Pax: ",
+          description:
+            "2 - 60015pax, 1k 15pax, 2.5k 22hrs 3pax, 350 umbrella 6pax, 22hrs 1500.",
+        },
+        {
+          title: "Function Hall: ",
+          description: "3.5k - 22 hours.",
+        },
+        {
+          title: "Menu: ",
+        },
+        {
+          description: "Pork Sisig",
+        },
+        {
+          description: "Bangus Sisig",
+        },
+        {
+          description: "Beef Sisig",
+        },
+        {
+          description: "Sizzling Hotdog",
+        },
+        {
+          description: "Sizzling Corn",
+        },
+        {
+          description: "Kropek",
+        },
+        {
+          description: "French Fries",
+        },
+        {
+          description: "Bagnet",
+        },
+        {
+          title: "Also Available",
+        },
+        {
+          description: "Alfonso",
+        },
+        {
+          description: "San Mig Apple / Light",
+        },
+        {
+          description: "Emperador",
+        },
+        {
+          description: "Red Horse",
+        },
+        {
+          description: "Soft Drinks",
+        },
+        {
+          description: "Mineral Water",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "Day ₱ 20.00, Night ₱ 50.00 ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: jrhens_place_img_0,
+          },
+          {
+            img: jrhens_place_img_1,
+          },
+          {
+            img: jrhens_place_img_2,
+          },
+          {
+            img: jrhens_place_img_3,
+          },
+          {
+            img: jrhens_place_img_4,
+          },
+          {
+            img: jrhens_place_img_5,
+          },
+          {
+            img: jrhens_place_img_6,
+          },
+          {
+            img: jrhens_place_img_7,
+          },
+          {
+            img: jrhens_place_img_8,
+          },
+          {
+            img: jrhens_place_img_9,
+          },
+          {
+            img: jrhens_place_img_10,
+          },
+          {
+            img: jrhens_place_img_11,
+          },
+          {
+            img: jrhens_place_img_12,
+          },
+          {
+            img: jrhens_place_img_13,
+          },
+          {
+            img: jrhens_place_img_14,
+          },
+          {
+            img: jrhens_place_img_15,
+          },
+        ],
+      },
+    },
+    //karba beach resort
+    {
+      id: 11,
+      img: karba_cover,
+      category: "Beach",
+      title: "KARBA (Katuparan Agrarian Reform Beneficiary Association)",
+      location: "Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 935-766-5961",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 935-766-5961",
+      fb_link: "https://www.facebook.com/profile.php?id=100067841294659",
+      loc_link: "https://goo.gl/maps/E72Ar1PtNx3TaEQC8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BM38+KarBa+Camping+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Boating, Island hopping, Videoke 700 24hrs.",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description:
+            "Double deck 2.5k 10pax, day 1k, 1.5k-700 overnight 3cottages, maliliit 5h, aircon 3k-2k 10pax, single 1k 2pax",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 10.00 - 24 hours ",
+          },
+          {
+            title: "Kids",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: karba_place_img_0,
+          },
+          {
+            img: karba_place_img_1,
+          },
+          {
+            img: karba_place_img_2,
+          },
+          {
+            img: karba_place_img_3,
+          },
+          {
+            img: karba_place_img_4,
+          },
+          {
+            img: karba_place_img_5,
+          },
+          {
+            img: karba_place_img_6,
+          },
+          {
+            img: karba_place_img_7,
+          },
+          {
+            img: karba_place_img_8,
+          },
+          {
+            img: karba_place_img_9,
+          },
+          {
+            img: karba_place_img_10,
+          },
+          {
+            img: karba_place_img_11,
+          },
+          {
+            img: karba_place_img_12,
+          },
+          {
+            img: karba_place_img_13,
+          },
+          {
+            img: karba_place_img_14,
+          },
+        ],
+      },
+    },
+    //las casas gardcia beach resort
+    {
+      id: 12,
+      img: casas_cover,
+      category: "Beach",
+      title: "Las Casas Garcia Beach ",
+      location: "Sitio Buhanginan, Brgy. Tuhian, Catanauan, Quezon",
+      number: "(+63) 995-432-8074",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 995-432-8074",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100083122637424&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/JyNdYXMbxVVh2X6F8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Las+Casas+Garcia+Beach+Resort,+Brgy,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Volleyball,  basketball, table tennis, badminton,  dart, board games, atv for rental 700 half hour, island hopping monpong at maniwaya, kiddie pool",
+        },
+        {
+          title: "Price of rooms and pax: ",
+          description:
+            "transient 2 ac rooms 12-14pax 20 max 10k 2 days 1 night, 200 per bed.",
+        },
+        {
+          title: "Cottage and pax: ",
+          description: "Day 800 12pax, night 1.5k, no.5 room 2pax.",
+        },
+        {
+          title: "Check In: ",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Overnight: ",
+          description: "2:00pm - 11:00am, 22 hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 30.00 Day, ₱ 50.00 Night",
+          },
+          {
+            title: "Kids (Below 5 years old)",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: casas_place_img_0,
+          },
+          {
+            img: casas_place_img_1,
+          },
+          {
+            img: casas_place_img_2,
+          },
+          {
+            img: casas_place_img_3,
+          },
+          {
+            img: casas_place_img_4,
+          },
+          {
+            img: casas_place_img_5,
+          },
+          {
+            img: casas_place_img_6,
+          },
+          {
+            img: casas_place_img_7,
+          },
+          {
+            img: casas_place_img_8,
+          },
+        ],
+      },
+    },
+    //leobellas farm & resort
+    {
+      id: 13,
+      img: leobellas_cover,
+      category: "Farm & Pool",
+      title: "Leobella`s Farm & Resort",
+      location: "Sitio Tambon, Barangay Madulao, Catanauan, Quezon",
+      number: "(+63) 995-333-1396",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 995-333-1396",
+      fb_link: "https://www.facebook.com/LeobellasFarmandResort",
+      loc_link: "https://goo.gl/maps/YtBJBwYbiPwS31G36",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H9H2%2BHC5+Leobella's+Farm+%26+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      entrance: {
+        types: [
+          {
+            title: "Activities: ",
+            fee: "Videoke & Private Events",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: leobellas_place_img_0,
+          },
+          {
+            img: leobellas_place_img_1,
+          },
+          {
+            img: leobellas_place_img_2,
+          },
+          {
+            img: leobellas_place_img_3,
+          },
+          {
+            img: leobellas_place_img_4,
+          },
+          {
+            img: leobellas_place_img_5,
+          },
+          {
+            img: leobellas_place_img_6,
+          },
+          {
+            img: leobellas_place_img_7,
+          },
+          {
+            img: leobellas_place_img_8,
+          },
+          {
+            img: leobellas_place_img_9,
+          },
+          {
+            img: leobellas_place_img_10,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: leobellas_price_img_0,
+          },
+        ],
+      },
+    },
+    //marcs and marcys pool and beach resort
+    {
+      id: 14,
+      img: marcs_cover,
+      category: "Pool & Beach",
+      title: "Marc`s and Marcy`s Pool & Beach Resort",
+      location: "Sitio Kanlagkit Barangay Matandang Sabang Kanluran",
+      number: "09392078789 / 09152714081",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 915-271-4081",
+      fb_link: "https://www.facebook.com/profile.php?id=100083170726902",
+      loc_link: "https://goo.gl/maps/TPDZHNP8YKVfEm7b8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Marc's+%26+Marcy's+Pool+and+Beach+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+      ],
+
+      //content
+      entrance: {
+        types: [
+          {
+            title: "Events: ",
+            fee: "Birthday Party, Wedding Receptions",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: marcs_place_img_0,
+          },
+          {
+            img: marcs_place_img_1,
+          },
+          {
+            img: marcs_place_img_2,
+          },
+          {
+            img: marcs_place_img_3,
+          },
+          {
+            img: marcs_place_img_4,
+          },
+          {
+            img: marcs_place_img_5,
+          },
+          {
+            img: marcs_place_img_6,
+          },
+          {
+            img: marcs_place_img_7,
+          },
+          {
+            img: marcs_place_img_8,
+          },
+          {
+            img: marcs_place_img_9,
+          },
+          {
+            img: marcs_place_img_10,
+          },
+          {
+            img: marcs_place_img_11,
+          },
+          {
+            img: marcs_place_img_12,
+          },
+          {
+            img: marcs_place_img_13,
+          },
+          {
+            img: marcs_place_img_14,
+          },
+          {
+            img: marcs_place_img_15,
+          },
+          {
+            img: marcs_place_img_16,
+          },
+          {
+            img: marcs_place_img_17,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        fee: [
+          {
+            img: marcs_price_img_0,
+          },
+        ],
+      },
+    },
+    //las casas gardcia beach resort
+    {
+      id: 15,
+      img: marga_cover,
+      category: "Pool & Place",
+      title: "Marga Selina's Place & Resort",
+      location: "Barangay Matandang Sabang Silangan",
+      number: "(+63) 907-585-6409",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 907-585-6409",
+      fb_link: "https://www.facebook.com/profile.php?id=100063930440028",
+      loc_link: "https://goo.gl/maps/BvYH5sJ8q4UGLJmR6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J73W%2B97F+Marga+Selina's+Place+%26+Resort,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Birthday Party, Wedding, Activities (Team Building), Seminar",
+        },
+        {
+          title: "Cottage: ",
+          description: "₱ 500.00 | ₱ 700.00 | ₱ 2500.00",
+        },
+        {
+          title: "Rooms: ",
+          description: "₱ 4000.00 | ₱ 5000.00",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Senior",
+            fee: "₱ 150.00",
+          },
+          {
+            title: "Child",
+            fee: "₱ 100.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: marga_place_img_0,
+          },
+          {
+            img: marga_place_img_1,
+          },
+          {
+            img: marga_place_img_2,
+          },
+          {
+            img: marga_place_img_3,
+          },
+          {
+            img: marga_place_img_4,
+          },
+          {
+            img: marga_place_img_5,
+          },
+          {
+            img: marga_place_img_6,
+          },
+          {
+            img: marga_place_img_7,
+          },
+          {
+            img: marga_place_img_8,
+          },
+          {
+            img: marga_place_img_9,
+          },
+        ],
+      },
+    },
+    //nasugbo paradise resort
+    {
+      id: 16,
+      img: nasugbo_cover,
+      category: "Pool & Beach",
+      title: "Nasugbo Paradise Resort (is a beach front with private pool)",
+      location: "Matandang Sabang Kanluran Catanauan, Quezon",
+      number: "(+63) 963-369-9423",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 963-369-9423",
+      fb_link: "https://www.facebook.com/NasugboParadiseResort",
+      loc_link: "https://goo.gl/maps/scjQRKU4DWmBpaJPA",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Nasugbo+Paradise+Resort,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+        {
+          hrs: "8:00am - 10:00pm",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Operating Hours: ",
+        },
+        {
+          description: "Overnight (Check In 1:00 pm to Check Out 11:00 am)",
+        },
+        {
+          description: "Day Tour ( 8:00 am to 8:00 pm)",
+        },
+        {
+          title: "Other Informations: ",
+        },
+        {
+          title: "Walk-ins Policy",
+          description: "Walk-ins are allowed but depend on availability",
+        },
+        {
+          title: "Reservation Policy",
+          description: "We require a reservation fee for overnight guests",
+        },
+        {
+          title: "Pet Policy",
+          description: "Pets are not allowed",
+        },
+        {
+          title: "Food and Drink Policy",
+          description: "Guests can bring their own food and drinks",
+        },
+        {
+          title: "WiFi Access",
+          description: "Guests can have free access to wifi",
+        },
+        {
+          title: "Convenience Store",
+          description: "We have a convenient store inside the resort",
+        },
+        {
+          title: "Kayak Rental",
+          description: "Guests can rent a kayak (₱200 per hour)",
+        },
+        {
+          title: "Grillers Policy",
+          description: "Grillers can be provided for free upon request",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee: ",
+          },
+          {
+            title: "Kids 10 y/o - 3 y/o",
+            fee: "P100",
+          },
+          {
+            title: "Adult",
+            fee: "P150",
+          },
+          {
+            title: "Senior Citizen",
+            fee: "P100",
+          },
+          {
+            title: "PWD",
+            fee: "P100",
+          },
+          {
+            title: "Kids 2 y/o below",
+            fee: "FREE",
+          },
+          {
+            title: "Cottage Rates: ",
+          },
+          {
+            title: "Umbrella (Good for 4-6pax)",
+            fee: "₱300",
+          },
+          {
+            title: "Canopy (Good for 10pax)",
+            fee: "₱800",
+          },
+          {
+            title: "Nipa Hut (Good for 15pax)",
+            fee: "₱1,500",
+          },
+          {
+            title: "Cabana (Good for 20-25 pax)",
+            fee: "₱3,000",
+          },
+          {
+            title: "Resort Rates: ",
+          },
+          {
+            fee: "Villa- (Good for 15-20pax) -18,000",
+          },
+          {
+            fee: "Room 1 (Good for 2 pax)- 2,500",
+          },
+          {
+            fee: "Room 2 (Good for 4 pax) - 3,000",
+          },
+          {
+            fee: "Room 3 (Good for 4 pax) - 3,000",
+          },
+          {
+            fee: "Package for Room 123( Good for 10 pax)- 8,000",
+          },
+          {
+            fee: "Family Room 1 (Good for 6pax)- 4,000",
+          },
+          {
+            fee: "Family Room 2( Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 2( Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 3 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 3 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 4 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 5 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Family Room 6 (Good for 6 pax)- 4,000",
+          },
+          {
+            fee: "Barko Room 1 (Good for 4 pax)- 3,500",
+          },
+          {
+            fee: "Barko Room 2 (Good for 4 pax)- 3,500",
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        price: [
+          {
+            img: nasugbo_price_img_0,
+          },
+          {
+            img: nasugbo_price_img_1,
+          },
+        ],
+
+        cottage: [
+          {
+            img: nasugbo_price_img_2,
+          },
+          {
+            img: nasugbo_price_img_3,
+          },
+          {
+            img: nasugbo_price_img_4,
+          },
+          {
+            img: nasugbo_price_img_5,
+          },
+          {
+            img: nasugbo_price_img_6,
+          },
+          {
+            img: nasugbo_price_img_7,
+          },
+          {
+            img: nasugbo_price_img_8,
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: nasugbo_place_img_0,
+          },
+          {
+            img: nasugbo_place_img_1,
+          },
+          {
+            img: nasugbo_place_img_2,
+          },
+          {
+            img: nasugbo_place_img_3,
+          },
+          {
+            img: nasugbo_place_img_4,
+          },
+          {
+            img: nasugbo_place_img_5,
+          },
+          {
+            img: nasugbo_place_img_6,
+          },
+          {
+            img: nasugbo_place_img_7,
+          },
+          {
+            img: nasugbo_place_img_8,
+          },
+          {
+            img: nasugbo_place_img_9,
+          },
+          {
+            img: nasugbo_place_img_10,
+          },
+          {
+            img: nasugbo_place_img_11,
+          },
+          {
+            img: nasugbo_place_img_12,
+          },
+          {
+            img: nasugbo_place_img_13,
+          },
+          {
+            img: nasugbo_place_img_14,
+          },
+          {
+            img: nasugbo_place_img_15,
+          },
+          {
+            img: nasugbo_place_img_16,
+          },
+          {
+            img: nasugbo_place_img_17,
+          },
+          {
+            img: nasugbo_place_img_18,
+          },
+          {
+            img: nasugbo_place_img_19,
+          },
+          {
+            img: nasugbo_place_img_20,
+          },
+          {
+            img: nasugbo_place_img_21,
+          },
+          {
+            img: nasugbo_place_img_22,
+          },
+          {
+            img: nasugbo_place_img_23,
+          },
+          {
+            img: nasugbo_place_img_24,
+          },
+          {
+            img: nasugbo_place_img_25,
+          },
+          {
+            img: nasugbo_place_img_26,
+          },
+          {
+            img: nasugbo_place_img_27,
+          },
+          {
+            img: nasugbo_place_img_28,
+          },
+          {
+            img: nasugbo_place_img_29,
+          },
+          {
+            img: nasugbo_place_img_30,
+          },
+        ],
+        rooms: [
+          {
+            img: nasugbo_room_img_1,
+          },
+          {
+            img: nasugbo_room_img_2,
+          },
+          {
+            img: nasugbo_room_img_3,
+          },
+          {
+            img: nasugbo_room_img_4,
+          },
+          {
+            img: nasugbo_room_img_5,
+          },
+          {
+            img: nasugbo_room_img_6,
+          },
+          {
+            img: nasugbo_room_img_7,
+          },
+          {
+            img: nasugbo_room_img_8,
+          },
+          {
+            img: nasugbo_room_img_9,
+          },
+          {
+            img: nasugbo_room_img_10,
+          },
+          {
+            img: nasugbo_room_img_11,
+          },
+          {
+            img: nasugbo_room_img_12,
+          },
+          {
+            img: nasugbo_room_img_13,
+          },
+          {
+            img: nasugbo_room_img_13,
+          },
+          {
+            img: nasugbo_room_img_14,
+          },
+          {
+            img: nasugbo_room_img_15,
+          },
+          {
+            img: nasugbo_room_img_16,
+          },
+          {
+            img: nasugbo_room_img_17,
+          },
+          {
+            img: nasugbo_room_img_18,
+          },
+        ],
+      },
+    },
+    //punta tierra blanca beach resort
+    {
+      id: 17,
+      img: punta_cover,
+      category: "Beach",
+      title: "Punta Tierra Blanca Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 917-897-1960",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 917-897-1960",
+      fb_link:
+        "https://www.facebook.com/TierraBlancaBeachResort?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/v2AeNiTfYw3vxDfd8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Punta+Tierra+Blanca+Beach+Resort,+Brgy,+Catanauan,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+        {
+          hrs: "2:00pm - 12:00nn",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description:
+            "Island hopping 3ksand bar rock formation, banana boat 3.5k 10pax, etski 4k 1hr, kayaking 200, rystal kayak 500per hr, every Saturday live band 15pax +additional fee, volleyball",
+        },
+        {
+          title: "Schedule: ",
+          description: "Check in 2pm, check out 12nn ",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids 3 - 6 years old",
+            fee: "₱ 100.00 overnight, no entrance fee",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: punta_place_img_0,
+          },
+          {
+            img: punta_place_img_1,
+          },
+          {
+            img: punta_place_img_2,
+          },
+          {
+            img: punta_place_img_3,
+          },
+          {
+            img: punta_place_img_4,
+          },
+          {
+            img: punta_place_img_5,
+          },
+          {
+            img: punta_place_img_6,
+          },
+          {
+            img: punta_place_img_7,
+          },
+          {
+            img: punta_place_img_8,
+          },
+          {
+            img: punta_place_img_9,
+          },
+          {
+            img: punta_place_img_10,
+          },
+          {
+            img: punta_place_img_11,
+          },
+          {
+            img: punta_place_img_12,
+          },
+          {
+            img: punta_place_img_13,
+          },
+          {
+            img: punta_place_img_14,
+          },
+          {
+            img: punta_place_img_15,
+          },
+          {
+            img: punta_place_img_16,
+          },
+          {
+            img: punta_place_img_17,
+          },
+          {
+            img: punta_place_img_18,
+          },
+          {
+            img: punta_place_img_19,
+          },
+          {
+            img: punta_place_img_20,
+          },
+          {
+            img: punta_place_img_21,
+          },
+          {
+            img: punta_place_img_22,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        menu: [
+          {
+            img: punta_menu_img_0,
+          },
+        ],
+      },
+    },
+    //rosbal beach resort
+    {
+      id: 18,
+      img: rosbal_cover,
+      category: "Beach",
+      title: "Rosbal Beach Resort",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 945-567-3364",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 945-567-3364",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100063857918429&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/EpgfQPmDAVnmeRbt8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J636%2BV89+RosBal+Family+Resort,+Brgy,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Price of rooms & pax: ",
+          description:
+            "Aircon 4k 10pax, aircon 6k 16pax, 1500 overnight 1k 5pax, 5h 6cottages 15pax, function hall ",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 25.00 +",
+          },
+          {
+            title: "7 up to 24 years old",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: rosbal_place_img_0,
+          },
+          {
+            img: rosbal_place_img_1,
+          },
+          {
+            img: rosbal_place_img_2,
+          },
+          {
+            img: rosbal_place_img_3,
+          },
+          {
+            img: rosbal_place_img_4,
+          },
+          {
+            img: rosbal_place_img_5,
+          },
+          {
+            img: rosbal_place_img_6,
+          },
+          {
+            img: rosbal_place_img_7,
+          },
+          {
+            img: rosbal_place_img_8,
+          },
+          {
+            img: rosbal_place_img_9,
+          },
+          {
+            img: rosbal_place_img_10,
+          },
+          {
+            img: rosbal_place_img_11,
+          },
+          {
+            img: rosbal_place_img_12,
+          },
+          {
+            img: rosbal_place_img_13,
+          },
+          {
+            img: rosbal_place_img_14,
+          },
+          {
+            img: rosbal_place_img_15,
+          },
+          {
+            img: rosbal_place_img_16,
+          },
+          {
+            img: rosbal_place_img_17,
+          },
+        ],
+      },
+    },
+    //sea guy paradise pool & beach resort
+    {
+      id: 19,
+      img: seaguy_cover,
+      category: "Pool & Beach",
+      title: "Seaguy Paradise Pool & Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 908-863-8721",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-863-8721",
+      fb_link:
+        "https://www.facebook.com/SeaGuyParadiseBeachResort?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/Qp2NPyP2AEQNcn5H9",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/H6XM%2BMMG+Sea+Guy+Paradise+Pool+And+Beach+Resort,+Unnamed+Rd,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 100.00 day | ₱ 130.00 night",
+          },
+          {
+            title: "3 Years old below",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: seaguy_place_img_0,
+          },
+          {
+            img: seaguy_place_img_1,
+          },
+          {
+            img: seaguy_place_img_2,
+          },
+          {
+            img: seaguy_place_img_3,
+          },
+          {
+            img: seaguy_place_img_4,
+          },
+          {
+            img: seaguy_place_img_5,
+          },
+          {
+            img: seaguy_place_img_6,
+          },
+          {
+            img: seaguy_place_img_7,
+          },
+          {
+            img: seaguy_place_img_8,
+          },
+          {
+            img: seaguy_place_img_9,
+          },
+        ],
+      },
+
+      //prices
+      prices: {
+        menu: [
+          {
+            img: seaguy_menu_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: seaguy_room_img_0,
+          },
+          {
+            img: seaguy_room_img_1,
+          },
+          {
+            img: seaguy_room_img_2,
+          },
+          {
+            img: seaguy_room_img_3,
+          },
+          {
+            img: seaguy_room_img_4,
+          },
+          {
+            img: seaguy_room_img_5,
+          },
+          {
+            img: seaguy_room_img_6,
+          },
+          {
+            img: seaguy_room_img_7,
+          },
+          {
+            img: seaguy_room_img_8,
+          },
+          {
+            img: seaguy_room_img_9,
+          },
+        ],
+
+        price: [
+          {
+            img: seaguy_price_img_0,
+          },
+          {
+            img: seaguy_price_img_1,
+          },
+          {
+            img: seaguy_price_img_2,
+          },
+          {
+            img: seaguy_price_img_3,
+          },
+          {
+            img: seaguy_price_img_4,
+          },
+          {
+            img: seaguy_price_img_5,
+          },
+        ],
+      },
+    },
+
+    //tuhian beach camp
+    {
+      id: 20,
+      img: tuhian_cover,
+      category: "Camp Site & Beach",
+      title: "Tuhian Beach Camp",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 908-644-6205",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 908-644-6205",
+      fb_link: "https://www.facebook.com/TuhianBeachCamp?mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/66ngHRDuZasyoJWA6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/J647%2BRGM+Tuhian+Beach+Camp,+Sitio+Labak+Barangay,+4311+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Activities: ",
+          description: "Boating, island hopping, volleyball, ",
+        },
+        {
+          title: "Price of rooms & pax: ",
+          description: "1.5k day 2pax",
+        },
+        {
+          title: "Cottages & pax: ",
+          description: "1.5k overnight 1k day 20pax, kubo same price",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "Day 20 night 30",
+          },
+          {
+            title: "10 Years old below",
+            fee: "₱ 0.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: tuhian_place_img_0,
+          },
+          {
+            img: tuhian_place_img_1,
+          },
+          {
+            img: tuhian_place_img_2,
+          },
+          {
+            img: tuhian_place_img_3,
+          },
+          {
+            img: tuhian_place_img_4,
+          },
+          {
+            img: tuhian_place_img_5,
+          },
+          {
+            img: tuhian_place_img_6,
+          },
+          {
+            img: tuhian_place_img_7,
+          },
+          {
+            img: tuhian_place_img_8,
+          },
+          {
+            img: tuhian_place_img_9,
+          },
+          {
+            img: tuhian_place_img_10,
+          },
+          {
+            img: tuhian_place_img_11,
+          },
+        ],
+      },
+    },
+
+    //villa andrea beach resort
+    {
+      id: 21,
+      img: andrea_cover,
+      category: "Beach",
+      title: "Villa Andrea Beach Resort",
+      location: "Barangay Gatasan, Catanauan, Quezon",
+      number: "(+63) 931-111-9999",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 931-111-9999",
+      website: "https://www.villaandreabeachresort.com/",
+      fb_link: "https://www.facebook.com/villaandreabeach",
+      loc_link: "https://goo.gl/maps/GZ4iyQQ4iD2v5Hav5",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Villa+Andrea+Beach+Resort+Catanauan+Quezon,+Gatasan+Road,+Catanauan,+Quezon",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: villa_place_img_0,
+          },
+          {
+            img: villa_place_img_1,
+          },
+          {
+            img: villa_place_img_2,
+          },
+          {
+            img: villa_place_img_3,
+          },
+          {
+            img: villa_place_img_4,
+          },
+          {
+            img: villa_place_img_5,
+          },
+          {
+            img: villa_place_img_6,
+          },
+        ],
+      },
+
+      //prices
+      prices: {
+        menu: [
+          {
+            img: villa_menu_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: villa_room_img_0,
+          },
+          {
+            img: villa_room_img_1,
+          },
+          {
+            img: villa_room_img_2,
+          },
+          {
+            img: villa_room_img_3,
+          },
+        ],
+
+        price: [
+          {
+            img: villa_price_img_0,
+          },
+          {
+            img: villa_price_img_1,
+          },
+          {
+            img: villa_price_img_2,
+          },
+          {
+            img: villa_price_img_3,
+          },
+          {
+            img: villa_price_img_4,
+          },
+        ],
+      },
+    },
+
+    //villa grency pool & beach resort
+    {
+      id: 22,
+      img: grency_cover,
+      category: "Pool & Beach",
+      title: "Villa Grency Pool and Beach Resort",
+      location: "Barangay Madulao, Catanauan, Quezon",
+      number: "(+63) 919-529-4243",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 919-529-4243",
+      fb_link: "https://www.facebook.com/villagrency",
+      loc_link: "https://goo.gl/maps/R5MP1VkbPwbg6CTq6",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Villa+Grency,+Barangay+Madulao,+Catanauan,+Quezon+Catanauan,+Quezon+Province,+R4A,+Catanauan,+R4A+Quezon+Province",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 150.00",
+          },
+          {
+            title: "Child",
+            fee: "₱ 100.00",
+          },
+          {
+            title: "Hotel Rates: ",
+          },
+          {
+            fee: "Depends on number of guests",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: grency_place_img_0,
+          },
+          {
+            img: grency_place_img_1,
+          },
+          {
+            img: grency_place_img_2,
+          },
+          {
+            img: grency_place_img_3,
+          },
+          {
+            img: grency_place_img_4,
+          },
+          {
+            img: grency_place_img_5,
+          },
+          {
+            img: grency_place_img_6,
+          },
+          {
+            img: grency_place_img_7,
+          },
+          {
+            img: grency_place_img_8,
+          },
+          {
+            img: grency_place_img_9,
+          },
+          {
+            img: grency_place_img_10,
+          },
+          {
+            img: grency_place_img_11,
+          },
+          {
+            img: grency_place_img_12,
+          },
+          {
+            img: grency_place_img_13,
+          },
+          {
+            img: grency_place_img_14,
+          },
+          {
+            img: grency_place_img_15,
+          },
+          {
+            img: grency_place_img_16,
+          },
+          {
+            img: grency_place_img_17,
+          },
+          {
+            img: grency_place_img_18,
+          },
+          {
+            img: grency_place_img_19,
+          },
+          {
+            img: grency_place_img_20,
+          },
+        ],
+      },
+    },
+    //villa iyanas pool & beach resort
+    {
+      id: 23,
+      img: villaiyana_cover,
+      category: "Beach",
+      title: "Villa Iyana Beach Resort",
+      location: "Barangay Tuhian, Catanauan, Quezon",
+      number: "(+63) 977-757-6785",
+      btn_txt: "More",
+
+      //links
+      dial_num: "tel: (+63) 977-757-6785",
+      fb_link:
+        "https://www.facebook.com/profile.php?id=100089543997473&mibextid=ZbWKwL",
+      loc_link: "https://goo.gl/maps/eLqnzTV2f486WjgS8",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/Villa+Iyana+Beach+Resort,+Brgy.+Gatasan,+Catanauan,+4311+Quezon+Province",
+
+      //schedule
+      schedule: [
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+        {
+          hrs: "24 Hours",
+        },
+      ],
+
+      //content
+      content: [
+        {
+          title: "Acivities: ",
+          description:
+            "Island hopping, boating, snorkeling kayak, jet ski, banana boat",
+        },
+        {
+          title: "Day Tour",
+          description: "8:00am - 5:00pm",
+        },
+        {
+          title: "Night Tour",
+          description: "22 Hours",
+        },
+        {
+          title: "Barko (3 rooms)",
+        },
+        {
+          description: "1st room good for 15pax-12,500 22hrs",
+        },
+        {
+          description: "2nd & 3rd rooms 7500-8pax 22hrs",
+        },
+        {
+          title: "Building 1 & 2",
+          description: "2 rooms 9500 - 10pax",
+        },
+        {
+          title: "Building 3",
+          description: "3 rooms 9500 - 10pax",
+        },
+        {
+          description: "Taas 10ax 8500, 8500, baba 8pax, 7500",
+        },
+        {
+          title: "Building 4",
+          description: "30pax 24k ",
+        },
+        {
+          title: "Bungalow: ",
+          description: "3rooms 6pax 6500 isang kwarto",
+        },
+        {
+          description:
+            "8pax 1k, kubo1500 hat isang kwarto good for 2pax 3k, kubo 1500 10pax",
+        },
+        {
+          title: "Menu: ",
+        },
+        {
+          title: "COMBO-A",
+        },
+        {
+          description: "BREAK FAST HOTDOG",
+        },
+        {
+          description: "SUNNY SIDE UP",
+        },
+        {
+          description: "DRIED FISH",
+        },
+        {
+          description: "SNACK-TURON",
+        },
+        {
+          title: "LUNCH",
+        },
+        {
+          description: "SWEET & SOUR CHOPSUEY",
+        },
+        {
+          description: "TINOLANG MANOK",
+        },
+        {
+          description: "SNACK-BIHON",
+        },
+        {
+          title: "DINNER",
+        },
+        {
+          description: "CHICKEN BBQ",
+        },
+        {
+          description: "MIXED SEAFOOD GRILLED BANGUS",
+        },
+        {
+          title: "COMBO-B",
+        },
+        {
+          title: "BREAK FAST",
+        },
+        {
+          description: "TORTANG TALONG",
+        },
+        {
+          description: "MEAT LOAF",
+        },
+        {
+          description: "SALTED EGG",
+        },
+        {
+          description: "SNACK-KAMOTE FRIES",
+        },
+        {
+          title: "LUNCH",
+        },
+        {
+          description: "SINIGANG NA BABOY FRIED CHICKEN",
+        },
+        {
+          description: "FISH FILLET",
+        },
+        {
+          description: "SNACK-CHAMI",
+        },
+        {
+          title: "DINNER",
+        },
+        {
+          description: "GRILLED LIEMPO",
+        },
+        {
+          description: "GINATAANG KALABASA GRILLED BANGUS",
+        },
+        {
+          description: "750 PER HEAD",
+        },
+      ],
+
+      //entrance
+      entrance: {
+        types: [
+          {
+            title: "Entrance Fee:",
+          },
+          {
+            title: "Adult",
+            fee: "₱ 200.00",
+          },
+          {
+            title: "Kids (3 - 7 years old)",
+            fee: "₱ 100.00",
+          },
+        ],
+      },
+
+      //gallery
+      gallery: {
+        places: [
+          {
+            img: iyana_place_img_0,
+          },
+          {
+            img: iyana_place_img_1,
+          },
+          {
+            img: iyana_place_img_2,
+          },
+          {
+            img: iyana_place_img_3,
+          },
+          {
+            img: iyana_place_img_4,
+          },
+        ],
+        rooms: [
+          {
+            img: iyana_room_img_0,
+          },
+          {
+            img: iyana_room_img_1,
+          },
+          {
+            img: iyana_room_img_2,
+          },
+          {
+            img: iyana_room_img_3,
+          },
+          {
+            img: iyana_room_img_4,
+          },
+          {
+            img: iyana_room_img_5,
+          },
+          {
+            img: iyana_room_img_6,
+          },
+          {
+            img: iyana_room_img_7,
+          },
+          {
+            img: iyana_room_img_8,
+          },
+          {
+            img: iyana_room_img_9,
+          },
+          {
+            img: iyana_room_img_10,
+          },
+          {
+            img: iyana_room_img_11,
+          },
+          {
+            img: iyana_room_img_12,
+          },
+          {
+            img: iyana_room_img_13,
+          },
+          {
+            img: iyana_room_img_14,
+          },
+        ],
+      },
+
+      //price
+      prices: {
+        price: [
+          {
+            img: iyana_price_img_0,
+          },
+        ],
+      },
+    },
+  ],
+
   //HOTELS PAGE
   hotels_page: [
     //Alfredos Hotel and Restaurant
