@@ -9,6 +9,19 @@ const ResortsBody = () => {
   const [loading, setLoading] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(0);
 
+  const handleClick = () => {
+    const isScrolledToTop = this.state.isScrolledToTop;
+
+    if (!isScrolledToTop) {
+      window.scrollTo({
+        top: 0,
+      });
+      this.setState({
+        isScrolledToTop: true,
+      });
+    }
+  };
+
   const handleImageLoad = () => {
     setImagesLoaded(imagesLoaded + 1);
 
@@ -80,7 +93,9 @@ const ResortsBody = () => {
                   </p>
                 </div>
                 <p className="absolute bottom-5 left-[45%] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
-                  <Link to={`/resorts/${data.id}`}>{data.btn_txt}</Link>
+                  <Link onClick={handleClick} to={`/resorts/${data.id}`}>
+                    {data.btn_txt}
+                  </Link>
                 </p>
               </>
             )}

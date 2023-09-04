@@ -12,6 +12,19 @@ const RestoBody = () => {
   const [loading, setLoading] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(0);
 
+  const handleClick = () => {
+    const isScrolledToTop = this.state.isScrolledToTop;
+
+    if (!isScrolledToTop) {
+      window.scrollTo({
+        top: 0,
+      });
+      this.setState({
+        isScrolledToTop: true,
+      });
+    }
+  };
+
   const handleImageLoad = () => {
     setImagesLoaded(imagesLoaded + 1);
 
@@ -57,7 +70,7 @@ const RestoBody = () => {
             ) : (
               <>
                 <p className="text-lg text-[#fefeff]">{data.title}</p>
-                <Link to={`/restaurants/${data.id}`}>
+                <Link onClick={handleClick} to={`/restaurants/${data.id}`}>
                   <p className="text-[#f9dba9] text-base hover:underline underline-offset-8 hover:cursor-pointer">
                     {data.btn_txt}
                   </p>

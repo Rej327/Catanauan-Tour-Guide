@@ -11,6 +11,19 @@ const HotelBody = () => {
   const [loading, setLoading] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(0);
 
+  const handleClick = () => {
+    const isScrolledToTop = this.state.isScrolledToTop;
+
+    if (!isScrolledToTop) {
+      window.scrollTo({
+        top: 0,
+      });
+      this.setState({
+        isScrolledToTop: true,
+      });
+    }
+  };
+
   const handleImageLoad = () => {
     setImagesLoaded(imagesLoaded + 1);
 
@@ -107,7 +120,7 @@ const HotelBody = () => {
                         {data.btn_visit_txt}
                       </p>
                     </Link>
-                    <Link to={`/hotels/${data.id}`}>
+                    <Link onClick={handleClick} to={`/hotels/${data.id}`}>
                       <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
                         {data.btn_more_txt}
                       </p>
