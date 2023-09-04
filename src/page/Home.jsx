@@ -23,7 +23,7 @@ const Home = () => {
       <Navigation />
       <Hero />
       <PlanAhead className="py-6 md:py-12 md:mt-12 px-2" />
-      <Adventure className="py-6 md:py-12 px-2" />
+      {/* <Adventure className="py-6 md:py-12 px-2" /> */}
       <SetupInto className="py-6 md:py-12" />
       <Resorts id="resorts" className="py-6 md:py-12" />
       <HotelAndRestoDesktop
