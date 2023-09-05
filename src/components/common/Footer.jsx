@@ -33,7 +33,7 @@ const Footer = ({ className }) => {
             </div>
             <div className="w-fit md:mt-auto">
               <a
-                class="ml-onclick-form"
+                className="ml-onclick-form"
                 href="javascript:void(0)"
                 onclick="ml('show', '70WJjv', true)"
               >
