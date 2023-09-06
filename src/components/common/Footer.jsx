@@ -32,14 +32,9 @@ const Footer = ({ className }) => {
               </p>
             </div>
             <div className="w-fit md:mt-auto">
-              <a
-                className="ml-onclick-form"
-                href="javascript:void(0)"
-                onclick="ml('show', '70WJjv', true)"
-              >
+              <a href="#mailmunch-pop-1127834">
                 <Button
-                  className="bg-[#F9DBA9] ml-onclick-form text-black tracking-wider px-6 pt-4 pb-2"
-                  onclick="ml('show', '70WJjv', true)"
+                  className="bg-[#F9DBA9] text-black tracking-wider px-6 pt-4 pb-2"
                   label="Subscribe"
                 />
               </a>
