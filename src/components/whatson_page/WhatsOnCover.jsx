@@ -32,31 +32,13 @@ const WhatsOnCover = () => {
           <div className="">
             <TextCarousel className="mx-auto max-w-[290px] md:max-w-[600px] lg:max-w-[900px] text-lg">
               <div className="max-w-[800px]">
-                <p>
-                  Explore a variety of outstanding accommodations in the
-                  charming town of Catanauan. From cozy bed and breakfasts to
-                  luxurious resorts, theres a perfect place to stay for every
-                  traveler's taste and preference.
-                </p>
+                <p> {language.whats_on_page?.data.data_0}</p>
               </div>
               <div className="max-w-[800px]">
-                <p>
-                  The town's art gallery is hosting a captivating exhibition
-                  showcasing the works of talented local artists. Immerse
-                  yourself in a world of creativity and explore various artistic
-                  styles and mediums. The exhibition will be open throughout the
-                  month, so drop by and let the artwork inspire you.
-                </p>
+                <p> {language.whats_on_page?.data.data_1}</p>
               </div>
               <div className="max-w-[800px]">
-                <p>
-                  Mark your calendars for our annual Family Fun Day on the 25th
-                  of July. Bring the whole family for a day filled with games,
-                  inflatables, face painting, and delicious food. There will be
-                  live performances, interactive shows, and surprises for all
-                  ages. It's a wonderful opportunity to create lasting memories
-                  with your loved ones.
-                </p>
+                <p> {language.whats_on_page?.data.data_2}</p>
               </div>
             </TextCarousel>
           </div>
