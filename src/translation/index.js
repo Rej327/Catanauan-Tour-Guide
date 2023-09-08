@@ -1088,6 +1088,13 @@ export const en = {
     accommodation: "Accommodation",
   },
 
+  //SUBSCRIBE SECTION
+  subscribe: {
+    title: "Travel Inspiration in your inbox?",
+    description:
+      "Subscribe now to receive destination, inspiration, travel tips, upcoming events and all the best things to do around Catanauan.",
+  },
+
   //HOME PAGE | ADVENTURE
   home_adv_section: {
     header: "Your next adventure starts here!",
@@ -8007,6 +8014,12 @@ export const en = {
   ],
 
   // LEGAL PAGE
+  legal_items: {
+    terms: "Terms of Use",
+    cookie: "Cookie Policy",
+    access: "Accesibilty",
+  },
+
   legal: {
     id: 1,
     term_of_use: [
@@ -8197,6 +8210,13 @@ export const fil = {
     whats: "Ano ang Meron",
     nearby: "Ano ang malapit dito",
     accommodation: "Akomodasyon",
+  },
+
+  //SUBSCRIBE SECTION
+  subscribe: {
+    title: "Inspirasyon sa Paglalakbay sa Inyong Inbox?",
+    description:
+      "Mag-subscribe na ngayon upang makatanggap ng mga destinasyon, inspirasyon, mga tip sa paglalakbay, mga darating na kaganapan, at lahat ng magagandang bagay na pwedeng gawin sa paligid ng Catanauan.",
   },
 
   //HOME PAGE | ADVENTURE
@@ -15128,6 +15148,11 @@ export const fil = {
   ],
 
   // LEGAL PAGE
+  legal_items: {
+    terms: "Mga Tuntunin ng Paggamit",
+    cookie: "Polisiya Tungkol sa Cookies",
+    access: "Kakayahan sa Pag-a-access",
+  },
   legal: {
     id: 1,
     term_of_use: [
