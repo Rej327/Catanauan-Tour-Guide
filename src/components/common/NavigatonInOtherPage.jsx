@@ -1,10 +1,12 @@
-import React from "react";
+import React, { useContext } from "react";
 import FooterButton from "./FooterButton";
 import SearchBar from "./SearchBar";
 import NavigationToogle from "./NavigationToogle";
 import { Link } from "react-router-dom";
+import { LangContext } from "../../App";
 
 const NavigatonInOtherPage = () => {
+  const { language } = useContext(LangContext);
   return (
     <div>
       <div className="w-full bg-[#FCE9CB] rounded-b-2xl pb-2 mb-2">
@@ -21,7 +23,7 @@ const NavigatonInOtherPage = () => {
             <div className="flex gap-5 items-center">
               <Link to="https://goo.gl/maps/cUbvaPVpQQsL4dqe8" target="_blank">
                 <FooterButton className="hidden lg:flex">
-                  What's Nearby
+                  {language.navigation?.nearby}
                 </FooterButton>
               </Link>
               <NavigationToogle />

@@ -1078,6 +1078,16 @@ import {
 //ENGLISH TRANSLATION
 
 export const en = {
+  //NAVIGATION
+  navigation: {
+    home: "Home",
+    discover: "Discover",
+    plan: "Plan A Head",
+    whats: "What's On",
+    nearby: "Whats' Nearby",
+    accommodation: "Accommodation",
+  },
+
   //HOME PAGE | ADVENTURE
   home_adv_section: {
     header: "Your next adventure starts here!",
@@ -8155,6 +8165,16 @@ export const en = {
 //FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION FILIPINO TRANSLATION
 
 export const fil = {
+  //NAVIGATION
+  navigation: {
+    home: "Home",
+    discover: "Tuklasin",
+    plan: "Mag Plano",
+    whats: "Ano ang Meron",
+    nearby: "Ano ang malapit dito",
+    accommodation: "Akomodasyon",
+  },
+
   //HOME PAGE | ADVENTURE
   home_adv_section: {
     header: "Nagsisimula ang iyong susunod na kaganapan dito!",
