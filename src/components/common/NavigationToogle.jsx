@@ -52,10 +52,6 @@ const NavigationToogle = ({ iconColor }) => {
                   {language.navigation?.accommodation}
                 </FooterButton>
               </Link>
-              <div className="flex gap-1 items-center">
-                <LangToggle />
-                <p className="text-body text-base text-[#012854]">en/fil</p>
-              </div>
             </div>
           </DrawerBody>
         </DrawerContent>
