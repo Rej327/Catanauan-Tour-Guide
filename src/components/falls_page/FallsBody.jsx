@@ -126,7 +126,7 @@ const FallsBody = () => {
                       target="_blank"
                     >
                       <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
-                        Get Direction
+                        {data.direction_txt}
                       </p>
                     </Link>
                   </div>

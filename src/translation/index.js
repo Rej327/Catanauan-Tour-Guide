@@ -7939,7 +7939,8 @@ export const en = {
       loc_link: "https://goo.gl/maps/F7svoEGSzTsm67VC8",
       direction:
         "https://www.google.com/maps/dir/{{value}}/J7MC%2BJG5+Tagabas+Waterfall,+Catanauan,+Quezon",
-      dial_number: "",
+        dial_number: "",
+        direction_txt: "Get Direction"
     },
     {
       id: 2,
@@ -7954,7 +7955,8 @@ export const en = {
       loc_link: "https://goo.gl/maps/CJdqEQxzcedE2RsK6",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Canculajao,+Catanauan,+Quezon",
-      dial_number: "tel:(+63) 970-866-8663",
+        dial_number: "tel:(+63) 970-866-8663",
+        direction_txt: "Get Direction"
     },
     {
       id: 3,
@@ -7969,7 +7971,8 @@ export const en = {
       loc_link: "https://goo.gl/maps/QA2Lm3xVgEhzZfQM9",
       direction:
         "https://www.google.com/maps/dir/{{value}}/M7G3%2BV74+San+Vicente+Kanluran+Barangay+Hall,+Catanauan,+Quezon",
-      dial_number: "tel:(+63) 910-479-0247",
+        dial_number: "tel:(+63) 910-479-0247",
+        direction_txt: "Get Direction"
     },
     {
       id: 4,
@@ -7984,7 +7987,8 @@ export const en = {
       loc_link: "https://goo.gl/maps/XctpacNgbAHs2Mn59",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Tagabas+Ilaya,+Catanauan,+Quezon",
-      dial_number: "tel:(+63) 999-348-8767",
+        dial_number: "tel:(+63) 999-348-8767",
+        direction_txt: "Get Direction"
     },
   ],
 
@@ -15042,7 +15046,8 @@ export const fil = {
       loc_link: "https://goo.gl/maps/F7svoEGSzTsm67VC8",
       direction:
         "https://www.google.com/maps/dir/{{value}}/J7MC%2BJG5+Tagabas+Waterfall,+Catanauan,+Quezon",
-      dial_number: "",
+        dial_number: "",
+        direction_txt: "Kumuha ng Direksyon"
     },
     {
       id: 2,
@@ -15057,7 +15062,8 @@ export const fil = {
       loc_link: "https://goo.gl/maps/CJdqEQxzcedE2RsK6",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Canculajao,+Catanauan,+Quezon",
-      dial_number: "",
+        dial_number: "",
+        direction_txt: "Kumuha ng Direksyon"
     },
     {
       id: 3,
@@ -15072,7 +15078,8 @@ export const fil = {
       loc_link: "https://goo.gl/maps/QA2Lm3xVgEhzZfQM9",
       direction:
         "https://www.google.com/maps/dir/{{value}}/M7G3%2BV74+San+Vicente+Kanluran+Barangay+Hall,+Catanauan,+Quezon",
-      dial_number: "tel:(+63) 910-479-0247",
+        dial_number: "tel:(+63) 910-479-0247",
+        direction_txt: "Kumuha ng Direksyon"
     },
     {
       id: 4,
@@ -15087,7 +15094,8 @@ export const fil = {
       loc_link: "https://goo.gl/maps/XctpacNgbAHs2Mn59",
       direction:
         "https://www.google.com/maps/dir/{{value}}/Tagabas+Ilaya,+Catanauan,+Quezon",
-      dial_number: "tel:(+63) 999-348-8767",
+        dial_number: "tel:(+63) 999-348-8767",
+        direction_txt: "Kumuha ng Direksyon"
     },
   ],
 
