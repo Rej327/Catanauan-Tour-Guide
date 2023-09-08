@@ -1289,6 +1289,12 @@ export const en = {
 
       content_1:
         "The landscape of Catanauan is described as hilly, rolling and mountainous with isolated flat lands. The existing rivers and creeks serve as potential for effective drainage, more especially the Catanauan River. Catanauan is politically subdivided into 46 barangays. Each barangay consists of puroks and some have sitios. When it comes to econmy one of the major agricultural trades by the populace is copra buying and selling.",
+
+        other_content: {
+          title: "Where History Comes Alive!",
+          head_1: "Something in 18th century",
+          head_2: "Catanauan, Quezon Now!",
+        }
     },
     //cultures
     cultures: {
@@ -8386,6 +8392,12 @@ export const fil = {
 
       content_1:
         "Ang tanawin ng Catanauan ay inilalarawan bilang maburol, gumugulong at bulubundukin na may hiwalay na patag na lupain. Ang mga kasalukuyang ilog at sapa ay nagsisilbing potensyal para sa mabisang pagpapatuyo, lalo na ang Ilog Catanauan. Ang bayan ng Catanauan ay nahahati sa 46 na mga barangay. Bawat barangay ay binubuo ng mga purok at may mga sitio. Pagdating sa ekonomiya ang isa sa mga pangunahing kalakalan ng agrikultura ng mga tao ay ang pagbili at pagbebenta ng copra.",
+
+          other_content: {
+          title: "Kung Saan Buhay ang Kasaysayan!",
+          head_1: "Isa sa Ika-18 Siglo",
+          head_2: "Catanauan, Quezon Ngayon!",
+        }
     },
     //cultures
     cultures: {

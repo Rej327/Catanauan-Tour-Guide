@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
 import {
   history_0,
   history_1,
@@ -6,12 +6,14 @@ import {
   history_4,
 } from "../../../../../assets";
 import { Skeleton } from "@chakra-ui/react";
+import { LangContext } from "../../../../../App";
 
 const OtherContent = () => {
   const [imagesLoaded, setImagesLoaded] = useState(0);
   const [showSkeletons, setShowSkeletons] = useState(true);
 
   const images = [history_0, history_1, history_2, history_4];
+  const { language } = useContext(LangContext);
 
   useEffect(() => {
     const imgPromises = images.map((src) => {
@@ -35,7 +37,9 @@ const OtherContent = () => {
 
   return (
     <div className="w-full md:w-[300px] lg:w-[400px] bg-[#FCE9CB] flex flex-col gap-4 p-6 mx-auto">
-      <p className="font-bold text-lg">Where History Comes Alive!</p>
+      <p className="font-bold text-lg">
+        {language?.plan_page?.traveler_guides?.other_content?.title}
+      </p>
       <p className="text-lg">Something In 18th Century</p>
       {showSkeletons && (
         <Skeleton
