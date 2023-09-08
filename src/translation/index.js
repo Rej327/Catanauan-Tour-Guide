@@ -1290,11 +1290,11 @@ export const en = {
       content_1:
         "The landscape of Catanauan is described as hilly, rolling and mountainous with isolated flat lands. The existing rivers and creeks serve as potential for effective drainage, more especially the Catanauan River. Catanauan is politically subdivided into 46 barangays. Each barangay consists of puroks and some have sitios. When it comes to econmy one of the major agricultural trades by the populace is copra buying and selling.",
 
-        other_content: {
-          title: "Where History Comes Alive!",
-          head_1: "Something in 18th century",
-          head_2: "Catanauan, Quezon Now!",
-        }
+      other_content: {
+        title: "Where History Comes Alive!",
+        head_1: "Something in 18th century",
+        head_2: "Catanauan, Quezon Now!",
+      },
     },
     //cultures
     cultures: {
@@ -8393,11 +8393,11 @@ export const fil = {
       content_1:
         "Ang tanawin ng Catanauan ay inilalarawan bilang maburol, gumugulong at bulubundukin na may hiwalay na patag na lupain. Ang mga kasalukuyang ilog at sapa ay nagsisilbing potensyal para sa mabisang pagpapatuyo, lalo na ang Ilog Catanauan. Ang bayan ng Catanauan ay nahahati sa 46 na mga barangay. Bawat barangay ay binubuo ng mga purok at may mga sitio. Pagdating sa ekonomiya ang isa sa mga pangunahing kalakalan ng agrikultura ng mga tao ay ang pagbili at pagbebenta ng copra.",
 
-          other_content: {
-          title: "Kung Saan Buhay ang Kasaysayan!",
-          head_1: "Isa sa Ika-18 Siglo",
-          head_2: "Catanauan, Quezon Ngayon!",
-        }
+      other_content: {
+        title: "Kung Saan Buhay ang Kasaysayan!",
+        head_1: "Isa sa Ika-18 Siglo",
+        head_2: "Catanauan, Quezon Ngayon!",
+      },
     },
     //cultures
     cultures: {
@@ -10044,7 +10044,7 @@ export const fil = {
       title: "Amandos Camp Site",
       location: "Brgy. Gatasan, Catanauan, Quezon",
       number: "(+63) 938-881-0628",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 938-881-0628",
@@ -10211,7 +10211,7 @@ export const fil = {
       title: "Apple Paradize Resort",
       location: "Brgy. Tuhian, Catanauan Quezon",
       number: "(+63) 945-641-6671",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: 945-641-6671",
@@ -10337,7 +10337,7 @@ export const fil = {
       title: "Butch Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 955-358-3338",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 955-358-3338",
@@ -10448,7 +10448,7 @@ export const fil = {
       location:
         "Sitio Camagong Tuhian, Catanauan, Quezon, Catanauan, Philippines",
       number: "(+63) 977-051-4535",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 977-051-4535",
@@ -10711,7 +10711,7 @@ export const fil = {
       title: "Cinco Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 9672-558-188",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 9672-558-188",
@@ -10826,7 +10826,7 @@ export const fil = {
       title: "Decena`s Vista Marina",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 949-888-8746",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 949-888-8746",
@@ -10935,7 +10935,7 @@ export const fil = {
       title: "Duyann Catanauan Shores",
       location: "Brgy. Cutcutan, Catanauan, Quezon",
       number: "(+63) 938-583-6363",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 938-583-6363",
@@ -11108,7 +11108,7 @@ export const fil = {
       title: "Eyns Beach Resort",
       location: "Brgy. Madulao, Catanauan, Quezon",
       number: "(+63) 908-904-0040",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 908-904-0040",
@@ -11357,7 +11357,7 @@ export const fil = {
       title: "Iyanas Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 977-757-6785",
@@ -11539,7 +11539,7 @@ export const fil = {
       title: "Jay Rhen`s Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 909-227-8540",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 909-227-8540",
@@ -11722,7 +11722,7 @@ export const fil = {
       title: "KARBA (Katuparan Agrarian Reform Beneficiary Association)",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 935-766-5961",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 935-766-5961",
@@ -11845,7 +11845,7 @@ export const fil = {
       title: "Las Casas Garcia Beach ",
       location: "Sitio Buhanginan, Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 995-432-8074",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 995-432-8074",
@@ -11964,7 +11964,7 @@ export const fil = {
       title: "Leobella`s Farm & Resort",
       location: "Sitio Tambon, Barangay Madulao, Catanauan, Quezon",
       number: "(+63) 995-333-1396",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 995-333-1396",
@@ -12064,7 +12064,7 @@ export const fil = {
       title: "Marc`s and Marcy`s Pool & Beach Resort",
       location: "Sitio Kanlagkit Barangay Matandang Sabang Kanluran",
       number: "09392078789 / 09152714081",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 915-271-4081",
@@ -12185,7 +12185,7 @@ export const fil = {
       title: "Marga Selina's Place & Resort",
       location: "Barangay Matandang Sabang Silangan",
       number: "(+63) 907-585-6409",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 907-585-6409",
@@ -12301,7 +12301,7 @@ export const fil = {
       title: "Nasugbo Paradise Resort (is a beach front with private pool)",
       location: "Matandang Sabang Kanluran Catanauan, Quezon",
       number: "(+63) 963-369-9423",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 963-369-9423",
@@ -12681,7 +12681,7 @@ export const fil = {
       title: "Punta Tierra Blanca Beach Resort",
       location: "Barangay Gatasan, Catanauan, Quezon",
       number: "(+63) 917-897-1960",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 917-897-1960",
@@ -12838,7 +12838,7 @@ export const fil = {
       title: "Rosbal Beach Resort",
       location: "Barangay Tuhian, Catanauan, Quezon",
       number: "(+63) 945-567-3364",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 945-567-3364",
@@ -12967,7 +12967,7 @@ export const fil = {
       title: "Seaguy Paradise Pool & Beach Resort",
       location: "Barangay Gatasan, Catanauan, Quezon",
       number: "(+63) 908-863-8721",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 908-863-8721",
@@ -13127,7 +13127,7 @@ export const fil = {
       title: "Tuhian Beach Camp",
       location: "Barangay Tuhian, Catanauan, Quezon",
       number: "(+63) 908-644-6205",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 908-644-6205",
@@ -13245,7 +13245,7 @@ export const fil = {
       title: "Villa Andrea Beach Resort",
       location: "Barangay Gatasan, Catanauan, Quezon",
       number: "(+63) 931-111-9999",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 931-111-9999",
@@ -13358,7 +13358,7 @@ export const fil = {
       title: "Villa Grency Pool and Beach Resort",
       location: "Barangay Madulao, Catanauan, Quezon",
       number: "(+63) 919-529-4243",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 919-529-4243",
@@ -13492,7 +13492,7 @@ export const fil = {
       title: "Villa Iyana Beach Resort",
       location: "Barangay Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",
-      btn_txt: "More",
+      btn_txt: "Iba pa",
 
       //links
       dial_num: "tel: (+63) 977-757-6785",
