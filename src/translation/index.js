@@ -1090,8 +1090,18 @@ export const en = {
     header: "What's On",
     sub_header: "What heppening in Catanauan",
     content:
-      "Discover the fantastic events taking place across Dublin right now. Ranging from theatre, music and literature to family friendly workshops, there's so much to experience.",
+      "Discover the fantastic events taking place across Catanauan right now. Ranging from theatre, music and literature to family friendly workshops, there's so much to experience.",
     btn_txt: "Discover Catanauan",
+    data: {
+      data_0:
+        "Explore a variety of outstanding accommodations in the charming town of Catanauan. From cozy bed and breakfasts to luxurious resorts, theres a perfect place to stay for every traveler's taste and preference.",
+
+      data_1:
+        "In support of the 123rd Philippine Civil Service Anniversary (PCSA), the Local Government will be organizing a Fun Run 2023 on September 27th, open to all employees of various agencies and departments in our town.",
+
+      data_2:
+        "The Local Government Unit of Catanauan under the leadership of Municipal Mayor Ramon A. Orfanel joins the Philippine Civil Service Commission (CSC) and the entire nation in celebrating the 123rd Anniversary of the Philippine Civil Service with the theme: `Transforming Public Service in the Next Decade: Honing Agile and Future-Ready Servants-Heroes.`",
+    },
   },
 
   //PAGE COVERS
@@ -8157,8 +8167,18 @@ export const fil = {
     header: "Ano ang Meron",
     sub_header: "Ano ang nangyayari sa Catanauan?",
     content:
-      "Tuklasin ang mga kamangha-manghang kaganapan na nagaganap sa buong Dublin sa kasalukuyan. Mula sa teatro, musika, at panitikan hanggang sa mga pamilya-friendly na mga workshop, marami kang pwedeng maranasan.",
+      "Tuklasin ang mga kamangha-manghang kaganapan na nagaganap sa buong Catanauan sa kasalukuyan. Mula sa teatro, musika, at panitikan hanggang sa mga pamilya-friendly na mga workshop, marami kang pwedeng maranasan.",
     btn_txt: "Tuklasin ang Catanauan",
+    data: {
+      data_0:
+        "Mag-explore ng iba't-ibang magagandang akomodasyon sa kaakit-akit na bayan ng Catanauan. Mula sa maaliwalas na mga bed and breakfast hanggang sa mga mararangyang resort, mayroong tamang lugar na mapupuntahan para sa bawat panlasa at kagustuhan ng mga manlalakbay.",
+
+      data_1:
+        "Bilang suporta sa ika-123 taon ng Philippine Civil Service Anniversary (PCSA), ang Lokal na Pamahalaan ay magkakaroon ng Fun Run 2023 sa ika-27 ng Setyembre, bukas para sa lahat ng mga kawani ng iba't-ibang ahensya at departamento sa ating bayan.",
+
+      data_2:
+        "Ang Local Government Unit ng Catanauan sa ilalim ng pamumuno ng Punong Bayan na si Ramon A. Orfanel ay sumasali sa Philippine Civil Service Commission (CSC) at ang buong bansa sa pagdiriwang ng ika-123 Anibersaryo ng Philippine Civil Service na may temang: `Pagbabago sa Pampublikong Serbisyo sa mga Susunod na Sampung Taon: Pagpapahusay sa mga Lingkod-Bayani na Handa sa Kinabukasan.`",
+    },
   },
 
   //PAGE COVERS
