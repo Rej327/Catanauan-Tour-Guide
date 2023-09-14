@@ -39,6 +39,9 @@ export { default as market } from "./PlanAHeadPage/GettingAround/Market/market.w
 export { default as bdo } from "./PlanAHeadPage/GettingAround/Banks/bdo.webp";
 export { default as coop } from "./PlanAHeadPage/GettingAround/Banks/coop.webp";
 export { default as landbank } from "./PlanAHeadPage/GettingAround/Banks/landbank.webp";
+export { default as church1 } from "./PlanAHeadPage/GettingAround/Church/church1.webp";
+export { default as church2 } from "./PlanAHeadPage/GettingAround/Church/church2.webp";
+export { default as church3 } from "./PlanAHeadPage/GettingAround/Church/church3.webp";
 //--GETTING AROUND
 //----FOODHUB
 export { default as alacob_cover } from "./PlanAHeadPage/GettingAround/FoodHub/alacob_cover.webp";
