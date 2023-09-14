@@ -55,13 +55,13 @@ const Banks = ({ className }) => {
               <p className="text-2xl font-bold">Banks</p>
             </li>
           </ul>
-          <div className="w-full flex justify-between flex-wrap bg-[#FCE9CB gap-5 max-sm:mx-auto">
+          <div className="w-full flex justify-between flex-wrap bg-[#FCE9CB gap-5 mx-auto">
             {loading
               ? language?.plan_page?.getting_around?.content_item?.banks?.map(
                   (_, index) => (
                     <div
                       key={index}
-                      className="bg-[#FEFEFF] rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
+                      className="bg-[#FEFEFF] rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] max-sm:mx-auto"
                     >
                       <Skeleton
                         width="350px"
