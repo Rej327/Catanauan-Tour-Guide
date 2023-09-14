@@ -1073,6 +1073,9 @@ import {
   alacob_cover,
   alacob_menu,
   pizzarap_cover,
+  church1,
+  church2,
+  church3,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1601,8 +1604,31 @@ export const en = {
           location: "Brgy. Madulao, Catanauan Quezon",
           loc_link: "https://goo.gl/maps/VqKRhSEczAZK1KiV6",
           direction:
-            "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
+            "https://www.google.com/maps/dir/{{value}}/H8RC%2BXC8+Immaculate+Conception+Parish+Church,+Catanauan,+Quezon",
         },
+
+        //church
+        church: [
+          {
+            img: church1,
+            title: "Immaculate Conception Parish Church",
+            location: "Brgy. 05, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/v1AdWjyRMtgDE1bT8",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8RC%2BXC8+Immaculate+Conception+Parish+Church,+Catanauan,+Quezon",
+
+            //gallery
+            gallery: [
+              {
+                img: church2,
+              },
+              {
+                img: church3,
+              },
+            ],
+          },
+        ],
+
         //banks
         banks: [
           {
@@ -8737,6 +8763,29 @@ export const fil = {
           direction:
             "https://www.google.com/maps/dir/{{value}}/H8QJ%2B22Q+Catanauan+Public+Market,+Gumaca+-+Pitogo+-+Mulanay+-+San+Narciso+Rd,+Catanauan,+Quezon",
         },
+
+        //church
+        church: [
+          {
+            img: church1,
+            title: "Immaculate Conception Parish Church",
+            location: "Brgy. 05, Catanauan Quezon",
+            loc_link: "https://goo.gl/maps/v1AdWjyRMtgDE1bT8",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8RC%2BXC8+Immaculate+Conception+Parish+Church,+Catanauan,+Quezon",
+
+            //gallery
+            gallery: [
+              {
+                img: church2,
+              },
+              {
+                img: church3,
+              },
+            ],
+          },
+        ],
+
         //banks
         banks: [
           {
