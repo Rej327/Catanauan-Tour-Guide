@@ -1076,6 +1076,7 @@ import {
   church1,
   church2,
   church3,
+  qcrb,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1654,6 +1655,14 @@ export const en = {
             loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
             direction:
               "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+          {
+            img: qcrb,
+            title: "Quezon Capital Rural Bank Catanauan Branch",
+            location: "Brgy. 06 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/pQAfwX6j94kFThQGA",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VF%2BVFF+Quezon+Capital+Rural+Bank+Catanauan+Branch,+Nabatasan+St,+Catanauan,+Quezon",
           },
         ],
         //foodhub
@@ -8811,6 +8820,14 @@ export const fil = {
             loc_link: "https://goo.gl/maps/JjPea5UfnxW2rBYs9",
             direction:
               "https://www.google.com/maps/dir/{{value}}/H8RH%2BJJM+BDO+Network+Bank,+Catanauan,+Quezon",
+          },
+          {
+            img: qcrb,
+            title: "Quezon Capital Rural Bank Catanauan Branch",
+            location: "Brgy. 06 Catanauan, Quezon",
+            loc_link: "https://goo.gl/maps/pQAfwX6j94kFThQGA",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/H8VF%2BVFF+Quezon+Capital+Rural+Bank+Catanauan+Branch,+Nabatasan+St,+Catanauan,+Quezon",
           },
         ],
         //foodhub
