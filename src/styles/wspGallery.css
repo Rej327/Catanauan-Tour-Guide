@@ -33,19 +33,22 @@
 
 .sliderWrap .btnClose {
   top: 40px;
-  right: 5px;
+  background-color: rgba(0, 0, 0, 0.404);
+  right: 25px;
 }
 
 .sliderWrap .btnPrev {
   top: 50%;
+  background-color: black;
   transform: translateY(-50%);
-  left: 5px;
+  left: 25px;
 }
 
 .sliderWrap .btnNext {
   top: 50%;
+  background-color: black;
   transform: translateY(-50%);
-  right: 5px;
+  right: 25px;
 }
 
 .fullScreenImage {
