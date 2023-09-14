@@ -1077,6 +1077,11 @@ import {
   church2,
   church3,
   qcrb,
+  papatea_cover,
+  papatea_menu,
+  pizzarap_menu,
+  foodism_cover,
+  foodism_menu,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -1689,9 +1694,26 @@ export const en = {
             },
           },
           {
+            img: foodism_cover,
+            title: "Foodism",
+            schedule: "1:00PM-9:00PM | Mon - Sat",
+            location: "Bayo de Sol Bldg. Quezon Avenue Barangay 09 ",
+            loc_link: "https://goo.gl/maps/oYfSKSJoEGhUdaCN8",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.59419,122.322748",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: foodism_menu,
+                },
+              ],
+            },
+          },
+          {
             img: fornestea_cover,
             title: "FornesTea Food & Shakes",
-            schedule: "9:00Am-9:00PM | Mon - Fri, Sun, Closed: Sat ",
+            schedule: "9:00AM-9:00PM | Mon - Fri, Sun, Closed: Sat ",
             location: "Brgy 10, Catanauan Quezon",
             loc_link: "https://goo.gl/maps/wnfaHKeLZ5FEndRw9",
             direction:
@@ -1829,7 +1851,7 @@ export const en = {
           {
             img: maxmango_cover,
             title: "Max Mango",
-            schedule: "Unknown",
+            schedule: "7:30AM - 8:00PM | Mon - Sun",
             location: "Brgy. 4 Poblacion, Catanauan, Quezon",
             loc_link: "https://goo.gl/maps/z6vbQjwPQWPdyouB9",
             direction:
@@ -1979,7 +2001,24 @@ export const en = {
             menu: {
               item: [
                 {
-                  img: alacob_menu,
+                  img: pizzarap_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: papatea_cover,
+            title: "Papa Tea",
+            schedule: "12:00NN - 10:00PM | Mon - Sun",
+            location: "Barangay 03 Paterno St. Catanauan",
+            loc_link: "https://goo.gl/maps/QzaCF3s6rKbB754J7",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.593173,122.320084",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: papatea_menu,
                 },
               ],
             },
@@ -8854,9 +8893,26 @@ export const fil = {
             },
           },
           {
+            img: foodism_cover,
+            title: "Foodism",
+            schedule: "1:00PM-9:00PM | Mon - Sat",
+            location: "Bayo de Sol Bldg. Quezon Avenue Barangay 09 ",
+            loc_link: "https://goo.gl/maps/oYfSKSJoEGhUdaCN8",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.59419,122.322748",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: foodism_menu,
+                },
+              ],
+            },
+          },
+          {
             img: fornestea_cover,
             title: "FornesTea Food & Shakes",
-            schedule: "9:00Am-9:00PM | Mon - Fri, Sun, Closed: Sat ",
+            schedule: "9:00AM-9:00PM | Mon - Fri, Sun, Closed: Sat ",
             location: "Brgy 10, Catanauan Quezon",
             loc_link: "https://goo.gl/maps/wnfaHKeLZ5FEndRw9",
             direction:
@@ -8994,7 +9050,7 @@ export const fil = {
           {
             img: maxmango_cover,
             title: "Max Mango",
-            schedule: "Unknown",
+            schedule: "7:30AM - 8:00PM | Mon - Sun",
             location: "Brgy. 4 Poblacion, Catanauan, Quezon",
             loc_link: "https://goo.gl/maps/z6vbQjwPQWPdyouB9",
             direction:
@@ -9144,7 +9200,24 @@ export const fil = {
             menu: {
               item: [
                 {
-                  img: alacob_menu,
+                  img: pizzarap_menu,
+                },
+              ],
+            },
+          },
+          {
+            img: papatea_cover,
+            title: "Papa Tea",
+            schedule: "12:00NN - 10:00PM | Mon - Sun",
+            location: "Barangay 03 Paterno St. Catanauan",
+            loc_link: "https://goo.gl/maps/QzaCF3s6rKbB754J7",
+            direction:
+              "https://www.google.com/maps/dir/{{value}}/13.593173,122.320084",
+            //menu
+            menu: {
+              item: [
+                {
+                  img: papatea_menu,
                 },
               ],
             },
