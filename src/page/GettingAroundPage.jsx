@@ -9,6 +9,8 @@ import LocalFlavorsHeader from "../components/planahead_item_page/gettingarround
 import FinancialHeader from "../components/planahead_item_page/gettingarround_page/FinancialHeader";
 import Banks from "../components/planahead_item_page/gettingarround_page/Banks";
 import FoodHub from "../components/planahead_item_page/gettingarround_page/FoodHub";
+import Church from "../components/planahead_item_page/gettingarround_page/Church";
+import ChurchHeader from "../components/planahead_item_page/gettingarround_page/ChurchHeader";
 
 const GettingAroundPage = () => {
   useEffect(() => {
@@ -26,6 +28,8 @@ const GettingAroundPage = () => {
           <Delicasies />
           <Market />
           <FoodHub />
+          <ChurchHeader />
+          <Church />
           <FinancialHeader />
           <Banks />
         </div>
