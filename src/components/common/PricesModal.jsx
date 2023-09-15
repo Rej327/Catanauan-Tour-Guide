@@ -7,17 +7,32 @@ import {
   ModalHeader,
   ModalOverlay,
   useDisclosure,
+  useToast,
 } from "@chakra-ui/react";
 import React from "react";
 import WSPGallery from "./WSPGallery";
 
 const PricesModal = ({ dataInfo }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
+  const toast = useToast();
+  const displayWarningToast = () => {
+    toast({
+      title: "Notice",
+      description: "Price increase without prior notice.",
+      status: "info",
+      duration: 5000, // Toast will disappear after 5 seconds
+      isClosable: true,
+      position: "top",
+    });
+  };
   return (
     <>
       <button
         className="px-4 py-2 rounded-2xl bg-[#F9DBA9] hover:scale-105 duration-300"
-        onClick={onOpen}
+        onClick={() => {
+          onOpen();
+          displayWarningToast(); // Display the warning toast when the modal is opened
+        }}
       >
         <p>Check Prices</p>
       </button>
