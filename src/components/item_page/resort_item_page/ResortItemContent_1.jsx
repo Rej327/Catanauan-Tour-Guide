@@ -36,6 +36,9 @@ const ResortItemContent_1 = ({ dataInfo }) => {
             {dataInfo?.entrance?.types.map((data) => (
               <div className="flex flex-col py-2">
                 <p className="text-lg font-bold">{data.title}</p>
+                <p className="text-lg italic">
+                  Notice: Price increase without prior notice.
+                </p>
                 <p className="text-lg">{data.fee}</p>
               </div>
             ))}
