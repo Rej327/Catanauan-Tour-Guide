@@ -126,13 +126,6 @@ import {
   place_img_6,
   emmas_menu_img_0,
   emmas_menu_img_1,
-  centro_menu_img_0,
-  centro_menu_img_1,
-  centro_menu_img_2,
-  centro_menu_img_3,
-  centro_menu_img_4,
-  centro_menu_img_5,
-  centro_menu_img_6,
   centro_foods_img_0,
   centro_foods_img_1,
   centro_foods_img_2,
@@ -291,12 +284,6 @@ import {
   zoe_place_img_1,
   centro_menu_rates_img_0,
   centro_menu_rates_img_1,
-  centro_menu_rates_img_2,
-  centro_menu_rates_img_3,
-  centro_menu_rates_img_4,
-  centro_menu_rates_img_5,
-  centro_menu_rates_img_6,
-  centro_menu_rates_img_7,
   centro_room_rates_img_0,
   centro_room_rates_img_1,
   centro_room_rates_img_2,
@@ -1082,6 +1069,11 @@ import {
   pizzarap_menu,
   foodism_cover,
   foodism_menu,
+  seacret_menu_img_0,
+  seacret_menu_img_1,
+  seacret_menu_img_2,
+  seacret_menu_img_3,
+  seacret_menu_img_4,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -6158,49 +6150,10 @@ export const en = {
       menu: {
         foods: [
           {
-            img: centro_menu_img_0,
-          },
-          {
-            img: centro_menu_img_1,
-          },
-          {
-            img: centro_menu_img_2,
-          },
-          {
-            img: centro_menu_img_3,
-          },
-          {
-            img: centro_menu_img_4,
-          },
-          {
-            img: centro_menu_img_5,
-          },
-          {
-            img: centro_menu_img_6,
-          },
-          {
             img: centro_menu_rates_img_0,
           },
           {
             img: centro_menu_rates_img_1,
-          },
-          {
-            img: centro_menu_rates_img_2,
-          },
-          {
-            img: centro_menu_rates_img_3,
-          },
-          {
-            img: centro_menu_rates_img_4,
-          },
-          {
-            img: centro_menu_rates_img_5,
-          },
-          {
-            img: centro_menu_rates_img_6,
-          },
-          {
-            img: centro_menu_rates_img_7,
           },
         ],
         hotel: [
@@ -7849,13 +7802,25 @@ export const en = {
       },
 
       //PRICES
-      // menu: {
-      //   foods: [
-      //     {
-      //       img: presko_menu_img_0,
-      //     },
-      //   ],
-      // },
+      menu: {
+        foods: [
+          {
+            img: seacret_menu_img_0,
+          },
+          {
+            img: seacret_menu_img_1,
+          },
+          {
+            img: seacret_menu_img_2,
+          },
+          {
+            img: seacret_menu_img_3,
+          },
+          {
+            img: seacret_menu_img_4,
+          },
+        ],
+      },
     },
     //v&v dinner
     {
@@ -10054,14 +10019,26 @@ export const fil = {
         ],
       },
 
-      //PRICES
-      // menu: {
-      //   foods: [
-      //     {
-      //       img: presko_menu_img_0,
-      //     },
-      //   ],
-      // },
+      // PRICES
+      menu: {
+        foods: [
+          {
+            img: seacret_menu_img_0,
+          },
+          {
+            img: seacret_menu_img_1,
+          },
+          {
+            img: seacret_menu_img_2,
+          },
+          {
+            img: seacret_menu_img_3,
+          },
+          {
+            img: seacret_menu_img_4,
+          },
+        ],
+      },
     },
     //v&v dinner
     {
@@ -14336,49 +14313,10 @@ export const fil = {
       menu: {
         foods: [
           {
-            img: centro_menu_img_0,
-          },
-          {
-            img: centro_menu_img_1,
-          },
-          {
-            img: centro_menu_img_2,
-          },
-          {
-            img: centro_menu_img_3,
-          },
-          {
-            img: centro_menu_img_4,
-          },
-          {
-            img: centro_menu_img_5,
-          },
-          {
-            img: centro_menu_img_6,
-          },
-          {
             img: centro_menu_rates_img_0,
           },
           {
             img: centro_menu_rates_img_1,
-          },
-          {
-            img: centro_menu_rates_img_2,
-          },
-          {
-            img: centro_menu_rates_img_3,
-          },
-          {
-            img: centro_menu_rates_img_4,
-          },
-          {
-            img: centro_menu_rates_img_5,
-          },
-          {
-            img: centro_menu_rates_img_6,
-          },
-          {
-            img: centro_menu_rates_img_7,
           },
         ],
         hotel: [

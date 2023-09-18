@@ -39,7 +39,7 @@ const NavListAcc = () => {
               </Link>
               <Link to="/restaurants">
                 <p className="list-inside capitalize font-bold hover:translate-x-1 duration-200 w-fit">
-                  {language.category?.resorts}
+                  {language.category?.restaurants}
                 </p>
               </Link>
               <Link to="/falls">

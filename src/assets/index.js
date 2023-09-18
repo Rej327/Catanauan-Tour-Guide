@@ -278,7 +278,11 @@ export { default as presko_place_img_11 } from "./RestaurantsPage/PreskoBrews/Pl
 
 //SEACRET AVENUE
 //----MENU
-// export { default as presko_menu_img_0 } from "./RestaurantsPage/PreskoBrews/Menu/presko_menu_img_0.webp";
+export { default as seacret_menu_img_0 } from "./RestaurantsPage/SeacretAve/Menu/seacret_menu_img_0.png";
+export { default as seacret_menu_img_1 } from "./RestaurantsPage/SeacretAve/Menu/seacret_menu_img_1.jpg";
+export { default as seacret_menu_img_2 } from "./RestaurantsPage/SeacretAve/Menu/seacret_menu_img_2.jpg";
+export { default as seacret_menu_img_3 } from "./RestaurantsPage/SeacretAve/Menu/seacret_menu_img_3.jpg";
+export { default as seacret_menu_img_4 } from "./RestaurantsPage/SeacretAve/Menu/seacret_menu_img_4.jpg";
 //----MENU
 //----FOODS
 export { default as seacret_food_img_0 } from "./RestaurantsPage/SeacretAve/Foods/seacret_food_img_0.webp";
@@ -544,28 +548,15 @@ export { default as centro_foods_img_32 } from "./HotelAndResto/Centropen/Foods/
 export { default as centro_foods_img_33 } from "./HotelAndResto/Centropen/Foods/centro_foods_img_33.webp";
 //----FOODS
 //----MENU
-export { default as centro_menu_img_0 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_0.webp";
-export { default as centro_menu_img_1 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_1.webp";
-export { default as centro_menu_img_2 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_2.webp";
-export { default as centro_menu_img_3 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_3.webp";
-export { default as centro_menu_img_4 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_4.webp";
-export { default as centro_menu_img_5 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_5.webp";
-export { default as centro_menu_img_6 } from "./HotelAndResto/Centropen/Menu/centro_menu_img_6.webp";
-export { default as centro_menu_rates_img_0 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_0.png";
-export { default as centro_menu_rates_img_1 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_1.png";
-export { default as centro_menu_rates_img_2 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_2.png";
-export { default as centro_menu_rates_img_3 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_3.png";
-export { default as centro_menu_rates_img_4 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_4.png";
-export { default as centro_menu_rates_img_5 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_5.png";
-export { default as centro_menu_rates_img_6 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_6.png";
-export { default as centro_menu_rates_img_7 } from "./HotelAndResto/Centropen/Menu/cento_menu_rates_img_7.png";
+export { default as centro_menu_rates_img_0 } from "./HotelAndResto/Centropen/Menu/centro_menu_rates_img_0.webp";
+export { default as centro_menu_rates_img_1 } from "./HotelAndResto/Centropen/Menu/centro_menu_rates_img_1.webp";
 //----MENU
 //----ROOM RATES
-export { default as centro_room_rates_img_0 } from "./HotelAndResto/Centropen/Rooms/cento_room_rates_img_0.png";
-export { default as centro_room_rates_img_1 } from "./HotelAndResto/Centropen/Rooms/cento_room_rates_img_1.png";
-export { default as centro_room_rates_img_2 } from "./HotelAndResto/Centropen/Rooms/cento_room_rates_img_2.png";
-export { default as centro_room_rates_img_3 } from "./HotelAndResto/Centropen/Rooms/cento_room_rates_img_3.png";
-export { default as centro_room_rates_img_4 } from "./HotelAndResto/Centropen/Rooms/cento_room_rates_img_4.png";
+export { default as centro_room_rates_img_0 } from "./HotelAndResto/Centropen/Rooms/centro_room_rates_img_0.jpg";
+export { default as centro_room_rates_img_1 } from "./HotelAndResto/Centropen/Rooms/centro_room_rates_img_1.jpg";
+export { default as centro_room_rates_img_2 } from "./HotelAndResto/Centropen/Rooms/centro_room_rates_img_2.jpg";
+export { default as centro_room_rates_img_3 } from "./HotelAndResto/Centropen/Rooms/centro_room_rates_img_3.jpg";
+export { default as centro_room_rates_img_4 } from "./HotelAndResto/Centropen/Rooms/centro_room_rates_img_4.jpg";
 //----ROOM RATES
 //CENTROPEN HOTEL AND RESTAURANT//
 //EYNS HOTEL AND RESTAURANT//
