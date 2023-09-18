@@ -982,16 +982,10 @@ import {
   grency_place_img_1,
   grency_place_img_0,
   villaiyana_cover,
-  iyana_place_img_4,
   iyana_place_img_3,
   iyana_place_img_2,
   iyana_place_img_1,
   iyana_place_img_0,
-  iyana_room_img_14,
-  iyana_room_img_13,
-  iyana_room_img_12,
-  iyana_room_img_11,
-  iyana_room_img_10,
   iyana_room_img_9,
   iyana_room_img_8,
   iyana_room_img_7,
@@ -1002,7 +996,6 @@ import {
   iyana_room_img_2,
   iyana_room_img_1,
   iyana_room_img_0,
-  iyana_price_img_0,
   market,
   landbank,
   coop,
@@ -1074,6 +1067,13 @@ import {
   seacret_menu_img_2,
   seacret_menu_img_3,
   seacret_menu_img_4,
+  iyana_place_img_5,
+  iyana_place_img_6,
+  iyana_place_img_7,
+  iyana_entrance_img_0,
+  iyana_room_rates_img_2,
+  iyana_room_rates_img_1,
+  iyana_room_rates_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -5695,7 +5695,13 @@ export const en = {
             img: iyana_place_img_3,
           },
           {
-            img: iyana_place_img_4,
+            img: iyana_place_img_5,
+          },
+          {
+            img: iyana_place_img_6,
+          },
+          {
+            img: iyana_place_img_7,
           },
         ],
         rooms: [
@@ -5729,29 +5735,26 @@ export const en = {
           {
             img: iyana_room_img_9,
           },
-          {
-            img: iyana_room_img_10,
-          },
-          {
-            img: iyana_room_img_11,
-          },
-          {
-            img: iyana_room_img_12,
-          },
-          {
-            img: iyana_room_img_13,
-          },
-          {
-            img: iyana_room_img_14,
-          },
         ],
       },
 
       //price
       prices: {
-        price: [
+        fee: [
           {
-            img: iyana_price_img_0,
+            img: iyana_entrance_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: iyana_room_rates_img_0,
+          },
+          {
+            img: iyana_room_rates_img_1,
+          },
+          {
+            img: iyana_room_rates_img_2,
           },
         ],
       },
@@ -13858,7 +13861,13 @@ export const fil = {
             img: iyana_place_img_3,
           },
           {
-            img: iyana_place_img_4,
+            img: iyana_place_img_5,
+          },
+          {
+            img: iyana_place_img_6,
+          },
+          {
+            img: iyana_place_img_7,
           },
         ],
         rooms: [
@@ -13892,29 +13901,26 @@ export const fil = {
           {
             img: iyana_room_img_9,
           },
-          {
-            img: iyana_room_img_10,
-          },
-          {
-            img: iyana_room_img_11,
-          },
-          {
-            img: iyana_room_img_12,
-          },
-          {
-            img: iyana_room_img_13,
-          },
-          {
-            img: iyana_room_img_14,
-          },
         ],
       },
 
       //price
       prices: {
-        price: [
+        fee: [
           {
-            img: iyana_price_img_0,
+            img: iyana_entrance_img_0,
+          },
+        ],
+
+        room: [
+          {
+            img: iyana_room_rates_img_0,
+          },
+          {
+            img: iyana_room_rates_img_1,
+          },
+          {
+            img: iyana_room_rates_img_2,
           },
         ],
       },

@@ -1385,6 +1385,9 @@ export { default as iyana_place_img_1 } from "./ResortsPage/Villaiyana/Place/iya
 export { default as iyana_place_img_2 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_2.webp";
 export { default as iyana_place_img_3 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_3.webp";
 export { default as iyana_place_img_4 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_4.webp";
+export { default as iyana_place_img_5 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_5.webp";
+export { default as iyana_place_img_6 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_6.webp";
+export { default as iyana_place_img_7 } from "./ResortsPage/Villaiyana/Place/iyanas_place_img_7.webp";
 //----PLACE
 //----ROOM
 export { default as iyana_room_img_0 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_0.webp";
@@ -1397,14 +1400,12 @@ export { default as iyana_room_img_6 } from "./ResortsPage/Villaiyana/Room/iyana
 export { default as iyana_room_img_7 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_7.webp";
 export { default as iyana_room_img_8 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_8.webp";
 export { default as iyana_room_img_9 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_9.webp";
-export { default as iyana_room_img_10 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_10.webp";
-export { default as iyana_room_img_11 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_11.webp";
-export { default as iyana_room_img_12 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_12.webp";
-export { default as iyana_room_img_13 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_13.webp";
-export { default as iyana_room_img_14 } from "./ResortsPage/Villaiyana/Room/iyanas_room_img_14.webp";
 //----ROOM
 //----PRICE
-export { default as iyana_price_img_0 } from "./ResortsPage/Villaiyana/Price/iyanas_price_img_0.webp";
+export { default as iyana_entrance_img_0 } from "./ResortsPage/Villaiyana/Price/iyanas_entrance_img_0.webp";
+export { default as iyana_room_rates_img_0 } from "./ResortsPage/Villaiyana/Price/iyanas_room_rates_img_0.webp";
+export { default as iyana_room_rates_img_1 } from "./ResortsPage/Villaiyana/Price/iyanas_room_rates_img_1.webp";
+export { default as iyana_room_rates_img_2 } from "./ResortsPage/Villaiyana/Price/iyanas_room_rates_img_2.webp";
 //----PRICE
 //--VILLA IYANA BEACH RESORT
 //RESORTS PAGE
