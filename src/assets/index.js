@@ -956,7 +956,6 @@ export { default as duyan_price_img_1 } from "./ResortsPage/Duyann/Price/duyan_p
 //----PRICE
 //----MENU
 export { default as duyan_menu_img_0 } from "./ResortsPage/Duyann/Menu/duyan_menu_img_0.webp";
-export { default as duyan_menu_img_1 } from "./ResortsPage/Duyann/Menu/duyan_menu_img_1.webp";
 //----MENU
 //--DUYANN CATANAUAN SHORES
 //--EYNS BEACH RESORT

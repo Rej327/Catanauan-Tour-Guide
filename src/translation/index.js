@@ -637,7 +637,6 @@ import {
   duyan_place_img_21,
   duyan_place_img_22,
   duyan_menu_img_0,
-  duyan_menu_img_1,
   duyan_price_img_0,
   duyan_price_img_1,
   eynsresort_price_img_0,
@@ -3020,9 +3019,6 @@ export const en = {
         menu: [
           {
             img: duyan_menu_img_0,
-          },
-          {
-            img: duyan_menu_img_1,
           },
         ],
       },
@@ -11186,9 +11182,6 @@ export const fil = {
         menu: [
           {
             img: duyan_menu_img_0,
-          },
-          {
-            img: duyan_menu_img_1,
           },
         ],
       },
