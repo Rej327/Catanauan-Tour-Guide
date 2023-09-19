@@ -90,7 +90,7 @@ const FallsBody = () => {
                   <p className="text-lg">{data.content}</p>
 
                   {data.contact ? (
-                    <p className="text-base">
+                    <p className="text-lg">
                       Contact Person:{" "}
                       <Link
                         to={data.dial_number}
@@ -101,21 +101,21 @@ const FallsBody = () => {
                       </Link>
                     </p>
                   ) : (
-                    <p className="text-base">
+                    <p className="text-lg">
                       Contact Person:
                       <span className=" hover:cursor-not-allowed">
                         {data.unavail}
                       </span>
                     </p>
                   )}
-                  <p className="text-base">Travel Time: {data.travel_time}</p>
+                  <p className="text-lg">Travel Time: {data.travel_time}</p>
                 </div>
                 <div className="w-full flex flex-col md:flex-row gap-4 justify-between">
                   <div className="w-fit flex gap-1 items-center">
                     <ImLocation className="text-[#f1be66]" />
 
                     <Link to={data.loc_link} target="_blank">
-                      <p className="text-sm hover:underline underline-offset-8 cursor-pointer">
+                      <p className="text-base hover:underline underline-offset-8 cursor-pointer">
                         {data.location}
                       </p>
                     </Link>
