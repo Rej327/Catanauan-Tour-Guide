@@ -3147,27 +3147,8 @@ export const en = {
       //content
       content: [
         {
-          title: "Hotel Rates",
-        },
-        {
-          title: "Beach Front:",
-          description:
-            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
-        },
-        {
-          title: "Cabana:",
-          description:
-            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
-        },
-        {
-          title: "Dorm:",
-          description:
-            "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
-        },
-        {
-          title: "Cabin:",
-          description:
-            "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
+          title: "Events: ",
+          description: "Cater, Birthday Party, Wedding",
         },
       ],
 
@@ -3175,8 +3156,23 @@ export const en = {
       entrance: {
         types: [
           {
-            title: "Events: ",
-            fee: "Cater, Birthday Party, Wedding",
+            title: "Hotel Rates",
+          },
+          {
+            title: "Beach Front:",
+            fee: "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
+          },
+          {
+            title: "Cabana:",
+            fee: "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
+          },
+          {
+            title: "Dorm:",
+            fee: "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
+          },
+          {
+            title: "Cabin:",
+            fee: "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
           },
         ],
       },
@@ -4001,14 +3997,12 @@ export const en = {
       ],
 
       //content
-      entrance: {
-        types: [
-          {
-            title: "Activities: ",
-            fee: "Videoke & Private Events",
-          },
-        ],
-      },
+      content: [
+        {
+          title: "Activities: ",
+          description: "Videoke & Private Events",
+        },
+      ],
 
       //gallery
       gallery: {
@@ -4101,14 +4095,12 @@ export const en = {
       ],
 
       //content
-      entrance: {
-        types: [
-          {
-            title: "Events: ",
-            fee: "Birthday Party, Wedding Receptions",
-          },
-        ],
-      },
+      content: [
+        {
+          title: "Events: ",
+          description: "Birthday Party, Wedding Receptions",
+        },
+      ],
 
       //gallery
       gallery: {
@@ -11336,27 +11328,8 @@ export const fil = {
       //content
       content: [
         {
-          title: "Hotel Rates",
-        },
-        {
-          title: "Beach Front:",
-          description:
-            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
-        },
-        {
-          title: "Cabana:",
-          description:
-            "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
-        },
-        {
-          title: "Dorm:",
-          description:
-            "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
-        },
-        {
-          title: "Cabin:",
-          description:
-            "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
+          title: "Events: ",
+          description: "Cater, Birthday Party, Wedding",
         },
       ],
 
@@ -11364,8 +11337,23 @@ export const fil = {
       entrance: {
         types: [
           {
-            title: "Events: ",
-            fee: "Cater, Birthday Party, Wedding",
+            title: "Hotel Rates",
+          },
+          {
+            title: "Beach Front:",
+            fee: "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1200.00",
+          },
+          {
+            title: "Cabana:",
+            fee: "2 pax - AirConditiond, Hot Shower, Cable TV - ₱ 1500.00",
+          },
+          {
+            title: "Dorm:",
+            fee: "5 pax - AirConditiond, Hot Shower, Cable TV - ₱ 2500.00",
+          },
+          {
+            title: "Cabin:",
+            fee: "5 pax - AirConditiond, Hot Shower, Cable TV, Kitchen Equipped, with mini ref, Microwave Oven, Induction Cooker - ₱ 3500.00",
           },
         ],
       },
