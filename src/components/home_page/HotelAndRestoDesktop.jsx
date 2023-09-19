@@ -3,8 +3,6 @@ import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 import { Link, useNavigate } from "react-router-dom";
 import { LangContext } from "../../App";
-import Button from "../common/Button";
-import SlideArrow from "../common/SlideArrow";
 
 const HotelAndRestoDesktop = () => {
   const { language } = useContext(LangContext);
@@ -76,7 +74,7 @@ const HotelAndRestoDesktop = () => {
             </p>
             <Link to="/hotels">
               <p className="mt-10 text-xl text-[#ececec] underline underline-offset-8 hover:no-underline">
-                Go to Hotels
+                {language?.hotel_resto_section?.btn_txt_hotel}
               </p>
             </Link>
           </div>
@@ -98,7 +96,7 @@ const HotelAndRestoDesktop = () => {
             </p>
             <Link to="/restaurants">
               <p className="mt-10 text-xl text-[#ececec] underline underline-offset-8 hover:no-underline">
-                Go to Restaurants
+                {language?.hotel_resto_section?.btn_txt_resto}
               </p>
             </Link>
           </div>

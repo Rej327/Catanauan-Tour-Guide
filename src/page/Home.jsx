@@ -7,9 +7,7 @@ import Adventure from "../components/home_page/Adventure";
 import SetupInto from "../components/home_page/SetupInto";
 import Resorts from "../components/home_page/Resorts";
 import HotelAndRestoDesktop from "../components/home_page/HotelAndRestoDesktop";
-import HotelAndRestoMobile from "../components/home_page/HotelAndRestoMobile";
 import Falls from "../components/home_page/Falls";
-import Banks from "../components/home_page/Tranportation";
 import Footer from "../components/common/Footer";
 import Transportations from "../components/home_page/Tranportation";
 
