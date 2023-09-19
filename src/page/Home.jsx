@@ -30,10 +30,6 @@ const Home = () => {
         id="hotelandresto"
         className="hidden lg:block my-12"
       />
-      <HotelAndRestoMobile
-        id="hotelandrestomobile"
-        className="mt-[30%] md:mt-[15%] lg:hidden"
-      />
       <Falls id="falls" className="pt-12 pb-6 md:py-6" />
       <Transportations id="transportation" className="py-6 md:py-24" />
       <Footer className="pt-6" />
