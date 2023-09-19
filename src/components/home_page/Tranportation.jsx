@@ -3,8 +3,8 @@ import { LangContext } from "../../App";
 import Carousel from "../common/Carousel";
 import Button from "../common/Button";
 import { Link } from "react-router-dom";
-import { ImLocation } from "react-icons/im";
-import { Skeleton, SkeletonText, Tooltip } from "@chakra-ui/react";
+import { ImLocation, ImNotification } from "react-icons/im";
+import { Skeleton, SkeletonText, Tooltip, useToast } from "@chakra-ui/react";
 import { SiAlwaysdata } from "react-icons/si";
 import { PiHandCoinsDuotone } from "react-icons/pi";
 import { getDirection } from "../helper";
@@ -13,6 +13,18 @@ const Transportations = ({ className, id }) => {
   const { language, startingPoint } = useContext(LangContext);
   const [loading, setLoading] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(0);
+  const toast = useToast();
+
+  const displayWarningToast = () => {
+    toast({
+      title: "Notice",
+      description: "Price increase without prior notice.",
+      status: "error",
+      duration: 5000, // Toast will disappear after 5 seconds
+      isClosable: true,
+      position: "top",
+    });
+  };
 
   const handleImageLoad = () => {
     setImagesLoaded(imagesLoaded + 1);
@@ -47,6 +59,7 @@ const Transportations = ({ className, id }) => {
 
     return () => clearTimeout(loadingTimeout);
   }, []);
+
   return (
     <div id={id} className={`w-full ${className}`}>
       <div className="w-full flex">
@@ -153,7 +166,18 @@ const Transportations = ({ className, id }) => {
                       <PiHandCoinsDuotone className="text-[#f1be66]" />
                       <Tooltip label="Fare" placement="bottom">
                         <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-                          ₱ {data.fare}
+                          ₱ {data.fare}{" "}
+                        </p>
+                      </Tooltip>
+                      <Tooltip
+                        label="Price increase without prior notice."
+                        placement="bottom"
+                      >
+                        <p
+                          className="my-auto ml-2"
+                          onClick={displayWarningToast}
+                        >
+                          <ImNotification className="cursor-pointer text-sm text-red-600" />
                         </p>
                       </Tooltip>
                     </div>
@@ -173,27 +197,6 @@ const Transportations = ({ className, id }) => {
             </div>
           ))}
         </div>
-        {/* <div className="mx-auto max-w-[450px] lg:max-w-[1300px] -mt-5 lg:mt-0">
-          <div className="mx-auto">
-            <Carousel>
-              {language?.main?.resorts.slice(0, 3).map((data) => (
-                <div
-                  key={data.id}
-                  className="rounded-lg homeItemContainer max-w-[300px] md:max-w-[350px] lg:max-w-[350px] mx-auto"
-                >
-                  <div className="overflow-hidden rounded-lg">
-                    <img
-                      src={data.img}
-                      alt="resorts"
-                      className=" rounded-lg "
-                    />
-                  </div>
-                  <p className="text-lg px-4 py-2">Vehicle Name</p>
-                </div>
-              ))}
-            </Carousel>
-          </div>
-        </div> */}
       </div>
     </div>
   );

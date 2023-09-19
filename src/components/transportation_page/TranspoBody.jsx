@@ -1,16 +1,28 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { ImLocation } from "react-icons/im";
+import { ImLocation, ImNotification } from "react-icons/im";
 import { SiAlwaysdata } from "react-icons/si";
 import { PiHandCoinsDuotone } from "react-icons/pi";
 import { LangContext } from "../../App";
-import { Skeleton, SkeletonText, Tooltip } from "@chakra-ui/react";
+import { Skeleton, SkeletonText, Tooltip, useToast } from "@chakra-ui/react";
 import { getDirection } from "../helper";
 
 const TransportationsBody = () => {
   const { language, startingPoint } = useContext(LangContext);
   const [loading, setLoading] = useState(true);
   const [imagesLoaded, setImagesLoaded] = useState(0);
+  const toast = useToast();
+
+  const displayWarningToast = () => {
+    toast({
+      title: "Notice",
+      description: "Price increase without prior notice.",
+      status: "error",
+      duration: 5000, // Toast will disappear after 5 seconds
+      isClosable: true,
+      position: "top",
+    });
+  };
 
   const handleImageLoad = () => {
     setImagesLoaded(imagesLoaded + 1);
@@ -100,7 +112,15 @@ const TransportationsBody = () => {
                   <PiHandCoinsDuotone className="text-[#f1be66]" />
                   <Tooltip label="Fare" placement="bottom">
                     <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
-                      ₱ {data.fare}
+                      ₱ {data.fare}{" "}
+                    </p>
+                  </Tooltip>
+                  <Tooltip
+                    label="Price increase without prior notice."
+                    placement="bottom"
+                  >
+                    <p className="my-auto ml-2" onClick={displayWarningToast}>
+                      <ImNotification className="cursor-pointer text-sm text-red-600" />
                     </p>
                   </Tooltip>
                 </div>

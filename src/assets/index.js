@@ -129,6 +129,7 @@ export { default as mpbtoda } from "./TransportationsPage/mpbtoda.webp";
 export { default as msstoda } from "./TransportationsPage/msstoda.webp";
 export { default as tiictoda } from "./TransportationsPage/tiictoda.webp";
 export { default as titotoda } from "./TransportationsPage/titotoda.webp";
+export { default as mainstation } from "./TransportationsPage/mainstation.webp";
 //TRANSPORTATIONS PAGE//
 
 //RESTAURANTS PAGE//

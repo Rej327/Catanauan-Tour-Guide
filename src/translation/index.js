@@ -1073,6 +1073,7 @@ import {
   iyana_room_rates_img_2,
   iyana_room_rates_img_1,
   iyana_room_rates_img_0,
+  mainstation,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -6995,6 +6996,19 @@ export const en = {
   //TRANSPORTATIONS PAGE
   transportations_page: [
     {
+      id: 0,
+      img: mainstation,
+      toda: "Tricycle Station (Main Terminal)",
+      direction_txt: "Get Direction",
+      loc: "Brgy. Poblacion 04 (Terminal) Catanauan, Quezon",
+      loc_link: "https://maps.app.goo.gl/KN1riokSZXyrg6nV9",
+      rts: "Localities",
+      rts_link: "https://maps.app.goo.gl/gnedcnsHASTwf4ZW7",
+      fare: "15.00 +",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.594743,122.322495",
+    },
+    {
       id: 1,
       img: catoda,
       toda: "CATODA",
@@ -9212,6 +9226,19 @@ export const fil = {
 
   //TRANSPORTATIONS PAGE
   transportations_page: [
+    {
+      id: 0,
+      img: mainstation,
+      toda: "Tricycle Station (Main Terminal)",
+      direction_txt: "Get Direction",
+      loc: "Brgy. Poblacion 04 (Terminal) Catanauan, Quezon",
+      loc_link: "https://maps.app.goo.gl/KN1riokSZXyrg6nV9",
+      rts: "Localities",
+      rts_link: "https://maps.app.goo.gl/gnedcnsHASTwf4ZW7",
+      fare: "15.00 +",
+      direction:
+        "https://www.google.com/maps/dir/{{value}}/13.594743,122.322495",
+    },
     {
       id: 1,
       img: catoda,
