@@ -26,7 +26,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandrestomobile")}
+          onClick={() => handleScrollClick("hotel")}
           className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
@@ -34,7 +34,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandrestomobile")}
+          onClick={() => handleScrollClick("resto")}
           className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
@@ -69,7 +69,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("hotel")}
           className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
@@ -77,7 +77,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("resto")}
           className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
@@ -113,7 +113,7 @@ const HeroCategory = () => {
         </div>
 
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("hotel")}
           className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
@@ -121,7 +121,7 @@ const HeroCategory = () => {
           </p>
         </div>
         <div
-          onClick={() => handleScrollClick("hotelandresto")}
+          onClick={() => handleScrollClick("resto")}
           className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
