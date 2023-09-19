@@ -1234,8 +1234,8 @@ export const en = {
       "Wether you're looking for a place to relax and unwind or a place to host a business meeting, we have the perfect hotel for you.",
     resto_content:
       "Wether you're in the mood for fine dining or casual fare, we have a restaurant that will satisfy your cravings.",
-    btn_txt: "View",
-    swipe_txt: "SLIDE TO VIEW",
+    btn_txt_resto: "Go to Restaurants",
+    btn_txt_hotel: "Go to Hotels",
   },
 
   //FALLS SECTION IN HOME PAGE
@@ -8404,8 +8404,8 @@ export const fil = {
       "Sa anumang pagkakataon, mahanap ang tamang lugar para magpahinga at magrelaks o maganap ng pulong pangnegosyo, mayroon kaming perpektong hotel para sa iyo.",
     resto_content:
       "Sa anumang mood mo, maging ito man ay handa o kahit casual na pagkain, mayroon kaming restaurant na tutugon sa iyong mga pagnanasa.",
-    btn_txt: "Tingnan",
-    swipe_txt: "MAG SWIPE PARA TINGNAN",
+    btn_txt_resto: "Pumunta sa mga Restawran",
+    btn_txt_hotel: "Pumunta sa mga Hotel",
   },
 
   //FALLS SECTION IN HOME PAGE
