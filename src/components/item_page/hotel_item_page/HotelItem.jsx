@@ -83,7 +83,7 @@ const HotelItem = ({ className }) => {
                     />
                   </div>
                   <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-                    <p className="w-fit text-xs text-[#f1be66] font-bold">
+                    <p className="w-fit text-base text-[#f1be66] font-bold">
                       {data.category}
                     </p>
                     <p className="text-lg font-extrabold">{data.title}</p>
