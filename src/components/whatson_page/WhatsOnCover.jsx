@@ -18,7 +18,7 @@ const WhatsOnCover = () => {
       </div>
       <div className="py-20 px-4">
         <div className="max-w-[1300px] mx-auto flex flex-col items-center justify-center gap-10 text-center ">
-          <div className="flex gap-2 text-sm">
+          <div className="flex gap-2 text-base">
             <Link to="/">
               <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
                 Home
