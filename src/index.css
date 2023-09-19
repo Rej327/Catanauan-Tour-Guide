@@ -52,3 +52,12 @@ p {
 .contentBg {
   color: #fefeff;
 }
+
+.ScrollableSection::-webkit-scrollbar {
+  display: none;
+}
+
+.ScrollableSection {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
