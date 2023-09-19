@@ -19,7 +19,7 @@ const PricesModal = ({ dataInfo }) => {
     toast({
       title: "Notice",
       description: "Price increase without prior notice.",
-      status: "info",
+      status: "error",
       duration: 5000, // Toast will disappear after 5 seconds
       isClosable: true,
       position: "top",
