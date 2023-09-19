@@ -1018,12 +1018,6 @@ import {
   khassaraf_menu_5,
   khassaraf_menu_6,
   khassaraf_menu_7,
-  buslogan_cover,
-  buslogan_menu_0,
-  buslogan_menu_1,
-  buslogan_menu_2,
-  buslogan_menu_3,
-  buslogan_menu_4,
   pizzaveria_cover,
   pizzaveria_menu_0,
   pizzaveria_menu_1,
@@ -1776,34 +1770,6 @@ export const en = {
                 },
                 {
                   img: khassaraf_menu_7,
-                },
-              ],
-            },
-          },
-          {
-            img: buslogan_cover,
-            title: "Buslogan sa Catanauan",
-            schedule: "8:00AM - 10:00PM | Mon - Sun",
-            location: "Unknown",
-            loc_link: "",
-            direction: "",
-            //menu
-            menu: {
-              item: [
-                {
-                  img: buslogan_menu_0,
-                },
-                {
-                  img: buslogan_menu_1,
-                },
-                {
-                  img: buslogan_menu_2,
-                },
-                {
-                  img: buslogan_menu_3,
-                },
-                {
-                  img: buslogan_menu_4,
                 },
               ],
             },
@@ -8957,34 +8923,7 @@ export const fil = {
               ],
             },
           },
-          {
-            img: buslogan_cover,
-            title: "Buslogan sa Catanauan",
-            schedule: "8:00AM - 10:00PM | Mon - Sun",
-            location: "Unknown",
-            loc_link: "",
-            direction: "",
-            //menu
-            menu: {
-              item: [
-                {
-                  img: buslogan_menu_0,
-                },
-                {
-                  img: buslogan_menu_1,
-                },
-                {
-                  img: buslogan_menu_2,
-                },
-                {
-                  img: buslogan_menu_3,
-                },
-                {
-                  img: buslogan_menu_4,
-                },
-              ],
-            },
-          },
+
           {
             img: pizzaveria_cover,
             title: "PizzAveria",
