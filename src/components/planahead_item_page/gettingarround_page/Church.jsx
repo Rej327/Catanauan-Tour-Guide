@@ -113,7 +113,7 @@ const Church = ({ className }) => {
                           </p>
                           <Link to={data.loc_link} target="_blank">
                             <Tooltip label="Location" placement="bottom">
-                              <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                              <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                                 {data.location}
                               </p>
                             </Tooltip>

@@ -11,7 +11,7 @@ const PlanHeader = ({ className, selectedPage, icon, category }) => {
     <div
       className={`max-w-[1300px] px-4 mx-auto flex flex-col justify-center ${className}`}
     >
-      <div className="flex gap-2 my-10 text-sm">
+      <div className="flex gap-2 my-10 text-base">
         <Link to="/">
           <p className="hover:font-bold hover:underline underline-offset-8 cursor-pointer">
             Home

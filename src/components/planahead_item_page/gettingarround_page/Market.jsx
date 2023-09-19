@@ -69,7 +69,7 @@ const Market = ({ className }) => {
                       target="_blank"
                     >
                       <Tooltip label="Location" placement="bottom">
-                        <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                        <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                           {
                             language.plan_page.getting_around.content_item
                               .market.location
