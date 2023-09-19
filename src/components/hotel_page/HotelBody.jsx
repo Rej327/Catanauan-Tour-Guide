@@ -86,7 +86,7 @@ const HotelBody = () => {
               </div>
               <div className="w-[800px] px-4 h-fit my-auto items-center flex flex-col gap-5">
                 <div className="flex flex-col mr-auto gap-4">
-                  <p className=" w-fit text-xs p-2 rounded-2xl bg-[#FCE9CB] text-[#f1be66] font-bold">
+                  <p className=" w-fit text-base p-2 rounded-2xl bg-[#FCE9CB] text-[#f1be66] font-bold">
                     {data.category}
                   </p>
                   <p className="text-2xl font-bold">{data.title}</p>
@@ -97,7 +97,7 @@ const HotelBody = () => {
                     <div className="w-fit flex gap-1 items-center justify-center">
                       <ImLocation className="text-[#f1be66]" />
                       <Link to={data.loc_link} target="_blank">
-                        <p className="text-sm hover:underline underline-offset-8 cursor-pointer">
+                        <p className="text-base hover:underline underline-offset-8 cursor-pointer">
                           {data.location}
                         </p>
                       </Link>
@@ -108,7 +108,7 @@ const HotelBody = () => {
                         to={getDirection(data.direction_link, startingPoint)}
                         target="_blank"
                       >
-                        <p className="text-sm hover:underline underline-offset-8 cursor-pointer">
+                        <p className="text-base hover:underline underline-offset-8 cursor-pointer">
                           {data.direction_txt} &#8594;
                         </p>
                       </Link>
