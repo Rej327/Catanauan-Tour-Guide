@@ -92,7 +92,7 @@ const TransportationsBody = () => {
                   <ImLocation className="text-[#f1be66]" />
                   <Link to={data.loc_link} target="_blank">
                     <Tooltip label="Location" placement="bottom">
-                      <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                      <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                         {data.loc}
                       </p>
                     </Tooltip>
@@ -102,7 +102,7 @@ const TransportationsBody = () => {
                   <SiAlwaysdata className="text-[#f1be66]" />
                   <Tooltip label="Routes" placement="bottom">
                     <Link to={data.rts_link} target="_blank">
-                      <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                      <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                         {data.rts}
                       </p>
                     </Link>
@@ -111,7 +111,7 @@ const TransportationsBody = () => {
                 <div className="w-fit flex gap-1 items-center">
                   <PiHandCoinsDuotone className="text-[#f1be66]" />
                   <Tooltip label="Fare" placement="bottom">
-                    <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                    <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                       ₱ {data.fare}{" "}
                     </p>
                   </Tooltip>
@@ -120,7 +120,7 @@ const TransportationsBody = () => {
                     placement="bottom"
                   >
                     <p className="my-auto ml-2" onClick={displayWarningToast}>
-                      <ImNotification className="cursor-pointer text-sm text-red-600" />
+                      <ImNotification className="cursor-pointer text-base text-red-600" />
                     </p>
                   </Tooltip>
                 </div>
