@@ -72,7 +72,7 @@ const Resorts = ({ className, id }) => {
           </p>
           <p className="text-xl">{language?.resorts_section?.content}</p>
           <Link to="/resorts">
-            <p className="text-[#d4a148] my-5 hover:translate-x-2 hover:font-bold duration-300">
+            <p className="text-base text-[#d4a148] my-5 hover:translate-x-2 hover:font-bold duration-300">
               {language?.resorts_section?.btn_txt}
             </p>
           </Link>
@@ -101,12 +101,12 @@ const Resorts = ({ className, id }) => {
               </div>
             </div>
           ) : (
-            <div className="mb-12 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[790px] h-[250px] right-[5%] top-[15rem]">
+            <div className="mb-24 ml-auto lg:mt-[10rem] md:max-w-[300px] lg:max-w-[790px] h-[250px] right-[5%] top-[15rem]">
               <Carousel>
                 {language?.resorts_page?.map((data) => (
                   <div
                     key={data.id}
-                    className="max-w-[250px] h-[350px] homeItemContainer flex flex-col gap-10 bg-white rounded-xl"
+                    className="ScrollableSection max-w-[250px] h-[380px] overflow-y-scroll homeItemContainer flex flex-col gap-10 bg-white rounded-xl"
                   >
                     <div className="rounded-xl w-[250px] h-[200px] overflow-hidden">
                       <img
@@ -116,7 +116,7 @@ const Resorts = ({ className, id }) => {
                       />
                     </div>
                     <div className="relative w-full h-[130px] mt-2 mb-4 px-2 flex flex-col gap-2">
-                      <p className="w-fit text-xs text-[#f1be66] font-bold">
+                      <p className="w-fit text-base text-[#f1be66] font-bold">
                         {data.category}
                       </p>
                       <p className="text-lg font-extrabold">{data.title}</p>
@@ -124,12 +124,12 @@ const Resorts = ({ className, id }) => {
                         <p>
                           <ImLocation className="text-[#f1be66]" />
                         </p>
-                        <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                        <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                           {data.location}
                         </p>
                       </div>
                       <Link onClick={handleClick} to={`/resorts/${data.id}`}>
-                        <p className="mt-auto ml-[6rem] text-sm hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
+                        <p className="mt-auto mb-4 ml-[6rem] text-base hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
                           {data.btn_txt}
                         </p>
                       </Link>

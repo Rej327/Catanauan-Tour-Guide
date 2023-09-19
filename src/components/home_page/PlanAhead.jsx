@@ -24,7 +24,7 @@ const PlanAhead = ({ className }) => {
                 <p className="text-xl font-semibold mb-2">
                   {language.plan_section?.plan_a_head}
                 </p>
-                <p>{language.plan_section?.get_the_most}</p>
+                <p className="text-lg">{language.plan_section?.get_the_most}</p>
                 <div className="border border-[#676767] w-10 mt-3"></div>
               </div>
             </td>
@@ -117,7 +117,9 @@ const PlanAhead = ({ className }) => {
                   <p className="text-xl font-semibold max-lg:text-sm mb-2">
                     {language.plan_section?.plan_a_head}
                   </p>
-                  <p>{language.plan_section?.get_the_most}</p>
+                  <p className="text-lg">
+                    {language.plan_section?.get_the_most}
+                  </p>
                   <div className="border border-[#676767] w-10 mt-3"></div>
                 </div>
               </td>

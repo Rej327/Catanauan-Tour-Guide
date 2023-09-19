@@ -79,7 +79,7 @@ const Transportations = ({ className, id }) => {
                 {language?.transportation_section?.content}
               </p>
               <Link to="/transportations">
-                <p className="text-[#d4a148] mt-5 hover:translate-x-2 hover:font-bold duration-300">
+                <p className="text-[#d4a148] text-base mt-5 hover:translate-x-2 hover:font-bold duration-300">
                   {language?.transportation_section?.btn_txt}
                 </p>
               </Link>
@@ -139,14 +139,14 @@ const Transportations = ({ className, id }) => {
                   </>
                 ) : (
                   <>
-                    <p className="text-lg font-extrabold tracking-widest">
+                    <p className="text-xl font-extrabold tracking-widest">
                       {data.toda}
                     </p>
                     <div className="w-fit flex gap-1 items-center">
                       <ImLocation className="text-[#f1be66]" />
                       <Link to={data.loc_link} target="_blank">
                         <Tooltip label="Location" placement="bottom">
-                          <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                          <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                             {data.loc}
                           </p>
                         </Tooltip>
@@ -156,7 +156,7 @@ const Transportations = ({ className, id }) => {
                       <SiAlwaysdata className="text-[#f1be66]" />
                       <Tooltip label="Routes" placement="bottom">
                         <Link to={data.rts_link} target="_blank">
-                          <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                          <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                             {data.rts}
                           </p>
                         </Link>
@@ -165,7 +165,7 @@ const Transportations = ({ className, id }) => {
                     <div className="w-fit flex gap-1 items-center">
                       <PiHandCoinsDuotone className="text-[#f1be66]" />
                       <Tooltip label="Fare" placement="bottom">
-                        <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                        <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                           ₱ {data.fare}{" "}
                         </p>
                       </Tooltip>
@@ -177,7 +177,7 @@ const Transportations = ({ className, id }) => {
                           className="my-auto ml-2"
                           onClick={displayWarningToast}
                         >
-                          <ImNotification className="cursor-pointer text-sm text-red-600" />
+                          <ImNotification className="cursor-pointer text-base text-red-600" />
                         </p>
                       </Tooltip>
                     </div>
@@ -186,7 +186,7 @@ const Transportations = ({ className, id }) => {
                         to={getDirection(data.direction, startingPoint)}
                         target="_blank"
                       >
-                        <p className="w-auto text-[#f1be66] hover:translate-x-5 duration-300 hover:font-bold">
+                        <p className="w-auto text-base text-[#f1be66] hover:translate-x-5 duration-300 hover:font-bold">
                           {data.direction_txt} &#8594;
                         </p>
                       </Link>

@@ -24,7 +24,7 @@ const Footer = ({ className }) => {
           <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
             <div className="max-w-[400px] lg:max-w-[800px] flex flex-col gap-4">
               <p className="text-4xl font-bold">{language?.subscribe?.title}</p>
-              <p>{language?.subscribe?.description}</p>
+              <p className="text-lg">{language?.subscribe?.description}</p>
             </div>
             <div className="w-fit md:mt-auto">
               <a href="#mailmunch-pop-1127834">

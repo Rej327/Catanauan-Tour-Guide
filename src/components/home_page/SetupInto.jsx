@@ -14,7 +14,7 @@ const SetupInto = ({ className }) => {
               <p className="w-fit max-sm:mx-auto ml-auto text-white text-2xl md:text-4xl tracking-widest font-bold">
                 {language?.whats_on_section?.title}
               </p>
-              <p className="text-white text-lg my-5 max-w-[1500px]">
+              <p className="text-white text-xl my-5 max-w-[1500px]">
                 {language?.whats_on_section?.content}
               </p>
               <Link to="/whats-on">

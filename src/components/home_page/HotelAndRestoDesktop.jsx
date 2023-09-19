@@ -69,11 +69,11 @@ const HotelAndRestoDesktop = () => {
             data-aos-duration="500"
             className="mx-4 relative border-[1px] p-10 flex items-center flex-col justify-center"
           >
-            <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-3xl tracking-wide">
+            <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-2xl tracking-wide">
               {language?.hotel_resto_section?.hotel_content}
             </p>
             <Link to="/hotels">
-              <p className="mt-10 text-xl text-[#ececec] underline underline-offset-8 hover:no-underline">
+              <p className="mt-10 text-base text-[#ececec] underline underline-offset-8 hover:no-underline">
                 {language?.hotel_resto_section?.btn_txt_hotel}
               </p>
             </Link>
@@ -91,11 +91,11 @@ const HotelAndRestoDesktop = () => {
             data-aos-duration="500"
             className="mx-4 relative border-[1px] p-10 flex items-center flex-col justify-center"
           >
-            <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-3xl tracking-wide">
+            <p className="font-title max-w-[700px] px-2 text-center text-[#ececec] text-2xl tracking-wide">
               {language?.hotel_resto_section?.resto_content}
             </p>
             <Link to="/restaurants">
-              <p className="mt-10 text-xl text-[#ececec] underline underline-offset-8 hover:no-underline">
+              <p className="mt-10 text-base text-[#ececec] underline underline-offset-8 hover:no-underline">
                 {language?.hotel_resto_section?.btn_txt_resto}
               </p>
             </Link>

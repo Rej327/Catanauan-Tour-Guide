@@ -108,14 +108,14 @@ const Falls = ({ className, id }) => {
                   </>
                 ) : (
                   <>
-                    <p className="text-lg font-bold pl-5">{data.title}</p>
+                    <p className="text-xl my-1 font-bold pl-5">{data.title}</p>
                     <div className="w-fit flex gap-1 items-center">
                       <p>
                         <ImLocation className="text-[#f1be66]" />
                       </p>
                       <Link to={data.loc_link} target="_blank">
                         <Tooltip label="Location" placement="bottom">
-                          <p className="text-sm hover:text-[#be8624] duration-200 cursor-pointer">
+                          <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                             {data.location}
                           </p>
                         </Tooltip>
@@ -131,7 +131,7 @@ const Falls = ({ className, id }) => {
         <div className="w-fit mt-10 h-fit mx-auto ">
           <Link to="/falls">
             <Button
-              className="mx-auto w-fit text-black px-4 pt-2 text-lg bg-[#FCE9CB]"
+              className="mx-auto w-fit text-black px-4 pt-2 text-base bg-[#FCE9CB]"
               label={language.falls_section?.btn_txt}
             />
           </Link>
