@@ -33,7 +33,7 @@ const PlanAhead = ({ className }) => {
             <td className="w-[400px] h-[7rem] border border-[#676767]">
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
-                  <img src={guides} alt="icon" className="w-16" />
+                  <img src={guides} alt="icon" className="w-20" />
                   <p className="text-xl font-semibold">
                     {language.plan_section?.traveler_guides}
                   </p>
@@ -48,7 +48,7 @@ const PlanAhead = ({ className }) => {
             <td className="w-[400px] h-[7rem] border border-[#676767]">
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
-                  <img src={gettingHere} alt="icon" className="w-16" />
+                  <img src={gettingHere} alt="icon" className="w-20" />
                   <p className="text-xl font-semibold">
                     {language.plan_section?.getting_here}
                   </p>
@@ -63,7 +63,7 @@ const PlanAhead = ({ className }) => {
             <td className="w-[400px] h-[7rem] border border-[#676767]">
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
-                  <img src={gettingAround} alt="icon" className="w-16" />
+                  <img src={gettingAround} alt="icon" className="w-20" />
                   <p className="text-xl font-semibold">
                     {language.plan_section?.getting_around}
                   </p>
@@ -78,7 +78,7 @@ const PlanAhead = ({ className }) => {
             <td className="w-[400px] h-[7rem] border border-[#676767]">
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
-                  <img src={culture} alt="icon" className="w-16" />
+                  <img src={culture} alt="icon" className="w-20" />
                   <p className="text-xl font-semibold">
                     {language.plan_section?.cultures}
                   </p>
@@ -93,7 +93,7 @@ const PlanAhead = ({ className }) => {
             <td className="w-[400px] h-[7rem] border border-[#676767]">
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
-                  <img src={accomodation} alt="icon" className="w-16" />
+                  <img src={accomodation} alt="icon" className="w-20" />
                   <p className="text-xl font-semibold">
                     {language.plan_section?.accomodations}
                   </p>
@@ -126,7 +126,7 @@ const PlanAhead = ({ className }) => {
               <td className="w-[400px] h-[7rem] border border-[#676767]">
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
-                    <img src={guides} alt="icon" className="w-16" />
+                    <img src={guides} alt="icon" className="w-20" />
                     <p className="text-xl font-semibold max-lg:text-sm">
                       {language.plan_section?.traveler_guides}
                     </p>
@@ -139,7 +139,7 @@ const PlanAhead = ({ className }) => {
               <td className="w-[400px] h-[7rem] border border-[#676767]">
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
-                    <img src={gettingHere} alt="icon" className="w-16" />
+                    <img src={gettingHere} alt="icon" className="w-20" />
                     <p className="text-xl font-semibold max-lg:text-sm">
                       {language.plan_section?.getting_here}
                     </p>
@@ -154,7 +154,7 @@ const PlanAhead = ({ className }) => {
               <td className="w-[400px] h-[7rem] border border-[#676767]">
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
-                    <img src={gettingAround} alt="icon" className="w-16" />
+                    <img src={gettingAround} alt="icon" className="w-20" />
                     <p className="text-xl font-semibold max-lg:text-sm">
                       {language.plan_section?.getting_around}
                     </p>
@@ -167,7 +167,7 @@ const PlanAhead = ({ className }) => {
               <td className="w-[400px] h-[7rem] border border-[#676767]">
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
-                    <img src={culture} alt="icon" className="w-16" />
+                    <img src={culture} alt="icon" className="w-20" />
                     <p className="text-xl font-semibold max-lg:text-sm">
                       {language.plan_section?.cultures}
                     </p>
@@ -180,7 +180,7 @@ const PlanAhead = ({ className }) => {
               <td className="w-[400px] h-[7rem] border border-[#676767]">
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
-                    <img src={accomodation} alt="icon" className="w-16" />
+                    <img src={accomodation} alt="icon" className="w-20" />
                     <p className="text-xl font-semibold max-lg:text-sm">
                       {language.plan_section?.accomodations}
                     </p>
