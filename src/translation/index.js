@@ -1265,6 +1265,15 @@ export const en = {
     getting_around: "Getting Around",
     cultures: "Culture",
     accomodations: "Accommodation",
+    inside_data: {
+      inside_traveler_guides: "(History)",
+      inside_getting_here: "(Bus, Van)",
+      inside_getting_around: "(Delicasies, ",
+      inside_getting_around_more: "Public Market, Foodhub, Church, Banks",
+      inside_cultures: "(Festival, ",
+      inside_cultures_more: "Fiesta, Catanauan Excavations",
+      inside_accomodations: "(Hotel)",
+    },
   },
 
   // PLAN A HEAD PAGES
@@ -8408,6 +8417,16 @@ export const fil = {
     getting_around: "Paglilibot",
     cultures: "Kultura",
     accomodations: "Akomodasyon",
+    inside_data: {
+      inside_traveler_guides: "(Kasaysayan)",
+      inside_getting_here: "(Bus / Van)",
+      inside_getting_around: "(Kakanin,",
+      inside_getting_around_more:
+        "Pampublikong Palengke, Foodhub, Simbahan, Bangko",
+      inside_cultures: "(Pista,",
+      inside_cultures_more: "Fiesta, Pag-aararo sa Catanauan",
+      inside_accomodations: "(Ang Hotel)",
+    },
   },
 
   // PLAN A HEAD PAGES

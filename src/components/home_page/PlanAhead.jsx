@@ -9,6 +9,7 @@ import {
 import ArrowButton from "../common/ArrowButton";
 import { LangContext } from "../../App";
 import { Link } from "react-router-dom";
+import PopOver from "../common/PopOver";
 
 const PlanAhead = ({ className }) => {
   const { language } = useContext(LangContext);
@@ -34,9 +35,14 @@ const PlanAhead = ({ className }) => {
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
                   <img src={guides} alt="icon" className="w-20" />
-                  <p className="text-xl font-semibold">
-                    {language.plan_section?.traveler_guides}
-                  </p>
+                  <div className="flex flex-col gap-0">
+                    <p className="text-xl font-semibold">
+                      {language.plan_section?.traveler_guides}
+                    </p>
+                    <p className="text-base">
+                      {language.plan_section?.inside_data?.traveler_guides}
+                    </p>
+                  </div>
                 </div>
                 <Link to="/traveler-guides">
                   <ArrowButton className="ml-auto" />
@@ -49,9 +55,14 @@ const PlanAhead = ({ className }) => {
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
                   <img src={gettingHere} alt="icon" className="w-20" />
-                  <p className="text-xl font-semibold">
-                    {language.plan_section?.getting_here}
-                  </p>
+                  <div className="flex flex-col gap-0">
+                    <p className="text-xl font-semibold">
+                      {language.plan_section?.getting_here}
+                    </p>
+                    <p className="text-base">
+                      {language.plan_section?.inside_data?.inside_getting_here}
+                    </p>
+                  </div>
                 </div>
                 <Link to="/getting-here">
                   <ArrowButton className="ml-auto" />
@@ -64,9 +75,25 @@ const PlanAhead = ({ className }) => {
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
                   <img src={gettingAround} alt="icon" className="w-20" />
-                  <p className="text-xl font-semibold">
-                    {language.plan_section?.getting_around}
-                  </p>
+                  <div className="flex flex-col gap-0">
+                    <p className="text-xl font-semibold">
+                      {language.plan_section?.getting_around}
+                    </p>
+                    <div className="flex gap-0">
+                      <p className="text-base">
+                        {
+                          language.plan_section?.inside_data
+                            ?.inside_getting_around
+                        }
+                      </p>
+                      <PopOver
+                        content={
+                          language.plan_section?.inside_data
+                            ?.inside_getting_around_more
+                        }
+                      />
+                    </div>
+                  </div>
                 </div>
                 <Link to="/getting-around">
                   <ArrowButton className="ml-auto" />
@@ -79,9 +106,22 @@ const PlanAhead = ({ className }) => {
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
                   <img src={culture} alt="icon" className="w-20" />
-                  <p className="text-xl font-semibold">
-                    {language.plan_section?.cultures}
-                  </p>
+                  <div className="flex flex-col gap-0">
+                    <p className="text-xl font-semibold">
+                      {language.plan_section?.cultures}
+                    </p>
+                    <div className="flex gap-0">
+                      <p className="text-base">
+                        {language.plan_section?.inside_data?.inside_cultures}
+                      </p>
+                      <PopOver
+                        content={
+                          language.plan_section?.inside_data
+                            ?.inside_cultures_more
+                        }
+                      />
+                    </div>
+                  </div>
                 </div>
                 <Link to="/culture">
                   <ArrowButton className="ml-auto" />
@@ -94,9 +134,14 @@ const PlanAhead = ({ className }) => {
               <div className="w-full px-5 flex justify-between items-center">
                 <div className="flex pr-10 gap-4 items-center">
                   <img src={accomodation} alt="icon" className="w-20" />
-                  <p className="text-xl font-semibold">
-                    {language.plan_section?.accomodations}
-                  </p>
+                  <div className="flex flex-col gap-0">
+                    <p className="text-xl font-semibold">
+                      {language.plan_section?.accomodations}
+                    </p>
+                    <p className="text-base">
+                      {language.plan_section?.inside_data?.inside_accomodations}
+                    </p>
+                  </div>
                 </div>
                 <Link to="/accommodation">
                   <ArrowButton className="ml-auto" />
@@ -127,9 +172,17 @@ const PlanAhead = ({ className }) => {
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
                     <img src={guides} alt="icon" className="w-20" />
-                    <p className="text-xl font-semibold max-lg:text-sm">
-                      {language.plan_section?.traveler_guides}
-                    </p>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-xl font-semibold max-lg:text-sm">
+                        {language.plan_section?.traveler_guides}
+                      </p>
+                      <p className="text-base">
+                        {
+                          language.plan_section?.inside_data
+                            ?.inside_traveler_guides
+                        }
+                      </p>
+                    </div>
                   </div>
                   <Link to="/traveler-guides">
                     <ArrowButton className="ml-auto" />
@@ -140,9 +193,17 @@ const PlanAhead = ({ className }) => {
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
                     <img src={gettingHere} alt="icon" className="w-20" />
-                    <p className="text-xl font-semibold max-lg:text-sm">
-                      {language.plan_section?.getting_here}
-                    </p>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-xl font-semibold max-lg:text-sm">
+                        {language.plan_section?.getting_here}
+                      </p>
+                      <p className="text-base">
+                        {
+                          language.plan_section?.inside_data
+                            ?.inside_getting_here
+                        }
+                      </p>
+                    </div>
                   </div>
                   <Link to="/getting-here">
                     <ArrowButton className="ml-auto" />
@@ -155,9 +216,25 @@ const PlanAhead = ({ className }) => {
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
                     <img src={gettingAround} alt="icon" className="w-20" />
-                    <p className="text-xl font-semibold max-lg:text-sm">
-                      {language.plan_section?.getting_around}
-                    </p>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-xl font-semibold">
+                        {language.plan_section?.getting_around}
+                      </p>
+                      <div className="flex gap-0">
+                        <p className="text-base">
+                          {
+                            language.plan_section?.inside_data
+                              ?.inside_getting_around
+                          }
+                        </p>
+                        <PopOver
+                          content={
+                            language.plan_section?.inside_data
+                              ?.inside_getting_around_more
+                          }
+                        />
+                      </div>
+                    </div>
                   </div>
                   <Link to="/getting-around">
                     <ArrowButton className="ml-auto" />
@@ -168,9 +245,22 @@ const PlanAhead = ({ className }) => {
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
                     <img src={culture} alt="icon" className="w-20" />
-                    <p className="text-xl font-semibold max-lg:text-sm">
-                      {language.plan_section?.cultures}
-                    </p>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-xl font-semibold max-lg:text-sm">
+                        {language.plan_section?.cultures}
+                      </p>
+                      <div className="flex gap-0">
+                        <p className="text-base">
+                          {language.plan_section?.inside_data?.inside_cultures}
+                        </p>
+                        <PopOver
+                          content={
+                            language.plan_section?.inside_data
+                              ?.inside_cultures_more
+                          }
+                        />
+                      </div>
+                    </div>
                   </div>
                   <Link to="/culture">
                     <ArrowButton className="ml-auto" />
@@ -181,9 +271,17 @@ const PlanAhead = ({ className }) => {
                 <div className="w-full px-5 flex justify-between items-center">
                   <div className="flex pr-10 gap-4 items-center">
                     <img src={accomodation} alt="icon" className="w-20" />
-                    <p className="text-xl font-semibold max-lg:text-sm">
-                      {language.plan_section?.accomodations}
-                    </p>
+                    <div className="flex flex-col gap-0">
+                      <p className="text-xl font-semibold max-lg:text-sm">
+                        {language.plan_section?.accomodations}
+                      </p>
+                      <p className="text-base">
+                        {
+                          language.plan_section?.inside_data
+                            ?.inside_accomodations
+                        }
+                      </p>
+                    </div>
                   </div>
                   <Link to="/accommodation">
                     <ArrowButton className="ml-auto" />
