@@ -43,10 +43,10 @@ const AccSection_2 = ({ className }) => {
             {language.plan_page?.accomodation?.sub_content_0}
           </p>
           <p className="text-lg">
-            {language.plan_page?.accomodation?.sub_content_0}.
+            {language.plan_page?.accomodation?.sub_content_1}.
           </p>
           <p className="text-lg">
-            {language.plan_page?.accomodation?.sub_content_0}
+            {language.plan_page?.accomodation?.sub_content_2}
           </p>
           {showSkeletons && (
             <Skeleton variant="image" width="100%" height="70vh" />
