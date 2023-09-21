@@ -40,7 +40,10 @@ const PlanAhead = ({ className }) => {
                       {language.plan_section?.traveler_guides}
                     </p>
                     <p className="text-base">
-                      {language.plan_section?.inside_data?.traveler_guides}
+                      {
+                        language.plan_section?.inside_data
+                          ?.inside_traveler_guides
+                      }
                     </p>
                   </div>
                 </div>
