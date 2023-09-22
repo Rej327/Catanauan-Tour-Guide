@@ -1,11 +1,6 @@
 export { default as hero } from "./HeroSection/hero.jpg";
 export { default as logo } from "./logo.png";
 export { default as mail } from "./mail.svg";
-export { default as guides } from "./PlanAheadSection/guides.svg";
-export { default as gettingHere } from "./PlanAheadSection/gettingHere.svg";
-export { default as gettingAround } from "./PlanAheadSection/gettingAround.svg";
-export { default as culture } from "./PlanAheadSection/culture.svg";
-export { default as accomodation } from "./PlanAheadSection/accomodation.svg";
 export { default as adv } from "./AdventureSection/adv.jpg";
 export { default as adv1 } from "./AdventureSection/adv1.jpg";
 export { default as stepinto } from "./StepInto/stepinto.jpg";
@@ -22,6 +17,12 @@ export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
 export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
 export { default as gettingAroundCover } from "./PlanAHeadPage/GettingAround/gettingAroundCover.jpg";
 export { default as falls } from "./PageCover/falls.jpg";
+// PLAN A HEAD ICON
+export { default as guides } from "./PlanAheadSection/OtherIcon/guides.png";
+export { default as gettingHere } from "./PlanAheadSection/OtherIcon/gettingHere.png";
+export { default as gettingAround } from "./PlanAheadSection/OtherIcon/gettingAround.png";
+export { default as culture } from "./PlanAheadSection/OtherIcon/culture.png";
+export { default as accomodation } from "./PlanAheadSection/OtherIcon/accomodation.png";
 
 // PLAN A HEAD PAGE IMAGES
 export { default as festival_0 } from "./PlanAHeadPage/Cultures/festival_0.jpg";
