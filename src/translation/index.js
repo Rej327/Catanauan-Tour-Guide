@@ -1068,6 +1068,7 @@ import {
   iyana_room_rates_img_1,
   iyana_room_rates_img_0,
   mainstation,
+  raki_price_img_0,
 } from "../assets";
 
 //ENGLISH TRANSLATION
@@ -6861,6 +6862,13 @@ export const en = {
         ],
       },
       //PRICES
+      menu: {
+        hotel: [
+          {
+            img: raki_price_img_0,
+          },
+        ],
+      },
     },
     //Zoes Hotel
     {
@@ -15029,6 +15037,14 @@ export const fil = {
         ],
       },
       //PRICES
+      //PRICES
+      menu: {
+        hotel: [
+          {
+            img: raki_price_img_0,
+          },
+        ],
+      },
     },
     //Zoes Hotel
     {

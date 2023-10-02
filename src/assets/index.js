@@ -675,6 +675,9 @@ export { default as raki_place_img_9 } from "./HotelAndResto/Raki/Places/raki_pl
 export { default as raki_place_img_10 } from "./HotelAndResto/Raki/Places/raki_place_img_10.webp";
 export { default as raki_place_img_11 } from "./HotelAndResto/Raki/Places/raki_place_img_11.webp";
 //----PLACES
+//----PRICE
+export { default as raki_price_img_0 } from "./HotelAndResto/Raki/Price/raki_price_img_0.webp";
+//----PRICE
 //----ROOMS
 export { default as raki_room_img_0 } from "./HotelAndResto/Raki/Rooms/raki_room_img_0.webp";
 export { default as raki_room_img_1 } from "./HotelAndResto/Raki/Rooms/raki_room_img_1.webp";
