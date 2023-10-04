@@ -8,8 +8,8 @@ import Under from "./components/Under.jsx";
 ReactDOM.render(
   <React.StrictMode>
     <ChakraProvider>
-      <App />
-      {/* <Under /> */}
+      {/* <App /> */}
+      <Under />
     </ChakraProvider>
   </React.StrictMode>,
 
