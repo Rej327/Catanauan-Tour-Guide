@@ -89,7 +89,7 @@ const TransportationsBody = () => {
                   {data.toda}
                 </p>
                 <div className="w-fit flex gap-1 items-center">
-                  <ImLocation className="text-[#f1be66]" />
+                  <ImLocation className="text-[#ffb029] text-xl" />
                   <Link to={data.loc_link} target="_blank">
                     <Tooltip label="Location" placement="bottom">
                       <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
@@ -99,7 +99,7 @@ const TransportationsBody = () => {
                   </Link>
                 </div>
                 <div className="w-fit flex gap-1 items-center">
-                  <SiAlwaysdata className="text-[#f1be66]" />
+                  <SiAlwaysdata className="text-[#ffb029] text-xl" />
                   <Tooltip label="Routes" placement="bottom">
                     <Link to={data.rts_link} target="_blank">
                       <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
@@ -109,7 +109,7 @@ const TransportationsBody = () => {
                   </Tooltip>
                 </div>
                 <div className="w-fit flex gap-1 items-center">
-                  <PiHandCoinsDuotone className="text-[#f1be66]" />
+                  <PiHandCoinsDuotone className="text-[#ffb029] text-xl" />
                   <Tooltip label="Fare" placement="bottom">
                     <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                       ₱ {data.fare}{" "}
@@ -129,7 +129,7 @@ const TransportationsBody = () => {
                     to={getDirection(data.direction, startingPoint)}
                     target="_blank"
                   >
-                    <p className="w-auto text-[#f1be66] hover:translate-x-5 duration-300 hover:font-bold">
+                    <p className="w-auto text-[#ffb029] hover:translate-x-5 duration-300 hover:font-bold">
                       {data.direction_txt} &#8594;
                     </p>
                   </Link>

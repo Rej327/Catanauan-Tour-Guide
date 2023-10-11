@@ -112,7 +112,7 @@ const FallsBody = () => {
                 </div>
                 <div className="w-full flex flex-col md:flex-row gap-4 justify-between">
                   <div className="w-fit flex gap-1 items-center">
-                    <ImLocation className="text-[#f1be66]" />
+                    <ImLocation className="text-[#ffa50a] text-xl" />
 
                     <Link to={data.loc_link} target="_blank">
                       <p className="text-base hover:underline underline-offset-8 cursor-pointer">

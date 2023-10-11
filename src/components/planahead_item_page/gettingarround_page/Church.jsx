@@ -109,7 +109,7 @@ const Church = ({ className }) => {
                         <p className="text-lg font-bold pl-5">{data.title}</p>
                         <div className="w-fit my-2 flex gap-1 items-center">
                           <p>
-                            <ImLocation className="text-[#f1be66]" />
+                            <ImLocation className="text-[#ffb029] text-xl" />
                           </p>
                           <Link to={data.loc_link} target="_blank">
                             <Tooltip label="Location" placement="bottom">
@@ -123,7 +123,7 @@ const Church = ({ className }) => {
                           {data?.gallery && (
                             <GalleryModal dataInfo={data?.gallery} />
                           )}
-                          <p className="w-auto text-[#f1be66] text-center hover:text-[#be8624]">
+                          <p className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624]">
                             <Link
                               to={getDirection(data.direction, startingPoint)}
                               target="_blank"

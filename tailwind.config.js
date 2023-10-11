@@ -16,7 +16,7 @@ export default {
     extend: {
       fontFamily: {
         title: ["CatchyMager-Normal", "sans-serif"],
-        header: ["Mistrully", "sans-serif"],
+        header: ["SimpleHandmade", "sans-serif"],
         body: ["Josefin Sans", "sans-serif"],
       },
     },

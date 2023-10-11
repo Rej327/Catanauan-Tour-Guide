@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
 import { Link, useNavigate } from "react-router-dom";
 import { LangContext } from "../../App";
+import { AiOutlineArrowRight } from "react-icons/ai";
 
 const HotelAndRestoDesktop = () => {
   const { language } = useContext(LangContext);
@@ -73,9 +74,12 @@ const HotelAndRestoDesktop = () => {
               {language?.hotel_resto_section?.hotel_content}
             </p>
             <Link to="/hotels">
-              <p className="mt-10 text-base text-[#ececec] underline underline-offset-8 hover:no-underline">
-                {language?.hotel_resto_section?.btn_txt_hotel}
-              </p>
+              <div className="mt-10 flex gap-1 items-center justify-center hover:gap-4 duration-300">
+                <p className="text-xl text-[#ececec] underline underline-offset-8 ">
+                  {language?.hotel_resto_section?.btn_txt_hotel}
+                </p>
+                <AiOutlineArrowRight className="text-xl text-[#ececec]" />
+              </div>
             </Link>
           </div>
         </div>
@@ -95,9 +99,12 @@ const HotelAndRestoDesktop = () => {
               {language?.hotel_resto_section?.resto_content}
             </p>
             <Link to="/restaurants">
-              <p className="mt-10 text-base text-[#ececec] underline underline-offset-8 hover:no-underline">
-                {language?.hotel_resto_section?.btn_txt_resto}
-              </p>
+              <div className="mt-10 flex gap-1 items-center justify-center hover:gap-4 duration-300">
+                <p className="text-xl text-[#ececec] underline underline-offset-8 ">
+                  {language?.hotel_resto_section?.btn_txt_resto}
+                </p>
+                <AiOutlineArrowRight className="text-xl text-[#ececec]" />
+              </div>
             </Link>
           </div>
         </div>

@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="bg-[url(./assets/HeroSection/heroCover.webp)] bg-cover bg-center h-screen">
         <div className="bg-black bg-opacity-40 w-full h-screen flex items-center flex-col justify-evenly pt-[10rem] ">
           <p className="w-full text-white text-8xl text-center font-title subBodyColor leading-[6rem] tracking-wider max-sm:text-4xl max-md:text-6xl">
-            <span className="font-body text-xl tracking-widest max-md:text-sm">
+            <span className="font-body text-3xl tracking-widest max-md:text-xl">
               WELCOME TO <br />
             </span>
             Catanauan, Quezon
