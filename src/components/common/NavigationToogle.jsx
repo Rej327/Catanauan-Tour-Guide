@@ -37,7 +37,7 @@ const NavigationToogle = ({ iconColor }) => {
                 </p>
               </Link>
               <NavListAcc />
-              <Link to="whats-on">
+              <Link to="/whats-on">
                 <p className="text-lg font-bold px-4 hover:bg-[#F5F5F5] delay-75 duration-75 py-[9px]">
                   {language.navigation?.whats}
                 </p>
