@@ -20,7 +20,7 @@ const Footer = ({ className }) => {
     <div className={`w-full ${className}`}>
       <div className="w-full bg-[#FCE9CB] rounded-t-2xl">
         <div className="max-w-[1300px] px-2 py-10 mx-auto flex flex-wrap gap-10 items-center justify-center">
-          <img src={mail} alt="mail.svg" className="w-[70px] mb-auto" />
+          <img src={mail} alt="mail.svg" className="w-[90px] mb-auto" />
           <div className="flex flex-wrap justify-center items-center gap-5 lg:gap-10">
             <div className="max-w-[400px] lg:max-w-[800px] flex flex-col gap-4">
               <p className="text-4xl font-bold">{language?.subscribe?.title}</p>

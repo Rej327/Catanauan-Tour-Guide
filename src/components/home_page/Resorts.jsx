@@ -122,7 +122,7 @@ const Resorts = ({ className, id }) => {
                       <p className="text-lg font-extrabold">{data.title}</p>
                       <div className="w-fit flex gap-1 items-center">
                         <p>
-                          <ImLocation className="text-[#f1be66]" />
+                          <ImLocation className="text-[#ffb534] text-xl" />
                         </p>
                         <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
                           {data.location}

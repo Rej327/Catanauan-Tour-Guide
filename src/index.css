@@ -9,6 +9,14 @@
   src: url("./fonts/Mistrully.ttf");
 }
 @font-face {
+  font-family: "Perfect-Beloved";
+  src: url("./fonts/Perfect-Beloved.otf");
+}
+@font-face {
+  font-family: "SimpleHandmade";
+  src: url("./fonts/SimpleHandmade.otf");
+}
+@font-face {
   font-family: "CatchyMager-Normal";
   src: url("./fonts/CatchyMager-Normal.ttf");
 }

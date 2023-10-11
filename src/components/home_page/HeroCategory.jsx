@@ -19,7 +19,7 @@ const HeroCategory = () => {
       <div className="flex flex-wrap px-2 text-center gap-2 mx-auto h-[15rem] justify-center sm:hidden">
         <div
           onClick={() => handleScrollClick("resorts")}
-          className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[4rem] bg-[#F9DBA9] bg-opacity-80 rounded-md flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.resorts}
@@ -27,7 +27,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("hotel")}
-          className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[4rem] bg-[#F9DBA9] bg-opacity-80 rounded-md flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.hotels}
@@ -35,7 +35,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("resto")}
-          className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[4rem] bg-[#F9DBA9] bg-opacity-80 rounded-md flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.restaurants}
@@ -43,7 +43,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("falls")}
-          className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[4rem] bg-[#F9DBA9] bg-opacity-80 rounded-md flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.falls}
@@ -51,7 +51,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("transportation")}
-          className="w-[7rem] h-[4rem] bg-white bg-opacity-60 rounded-md flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[4rem] bg-[#F9DBA9] bg-opacity-80 rounded-md flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.transportation}
@@ -62,7 +62,7 @@ const HeroCategory = () => {
       <div className="flex text-center gap-2 mx-auto h-[15rem] justify-evenly lg:hidden max-sm:hidden">
         <div
           onClick={() => handleScrollClick("resorts")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
+          className="w-[7rem] h-[7rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.resorts}
@@ -70,7 +70,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("hotel")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
+          className="w-[7rem] h-[7rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.hotels}
@@ -78,7 +78,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("resto")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[7rem] h-[7rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.restaurants}
@@ -86,7 +86,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("falls")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
+          className="w-[7rem] h-[7rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-[3.8rem]"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.falls}
@@ -94,7 +94,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("transportation")}
-          className="w-[7rem] h-[7rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
+          className="w-[7rem] h-[7rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.transportation}
@@ -105,7 +105,7 @@ const HeroCategory = () => {
       <div className="flex text-center gap-2 w-[1200px] h-[15rem] justify-evenly max-lg:hidden">
         <div
           onClick={() => handleScrollClick("resorts")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
+          className="w-[8rem] h-[8rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.resorts}
@@ -114,7 +114,7 @@ const HeroCategory = () => {
 
         <div
           onClick={() => handleScrollClick("hotel")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
+          className="w-[8rem] h-[8rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-10"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.hotels}
@@ -122,7 +122,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("resto")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer"
+          className="w-[8rem] h-[8rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.restaurants}
@@ -130,7 +130,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("falls")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-10"
+          className="w-[8rem] h-[8rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-10"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.falls}
@@ -138,7 +138,7 @@ const HeroCategory = () => {
         </div>
         <div
           onClick={() => handleScrollClick("transportation")}
-          className="w-[8rem] h-[8rem] bg-white bg-opacity-60 rounded-full flex items-center justify-center hover:bg-opacity-80 duration-300 delay-75 cursor-pointer mt-auto"
+          className="w-[8rem] h-[8rem] bg-[#F9DBA9] bg-opacity-80 rounded-full flex items-center justify-center hover:bg-opacity-100 hover:-translate-y-1 duration-300 delay-75 cursor-pointer mt-auto"
         >
           <p className="font-body uppercase text-black w-[100px] text-base font-bold tracking-widest">
             {language.category?.transportation}

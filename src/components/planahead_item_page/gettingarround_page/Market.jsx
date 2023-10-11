@@ -59,7 +59,7 @@ const Market = ({ className }) => {
                   </p>
                   <div className="w-fit my-2 flex gap-1 items-center">
                     <p>
-                      <ImLocation className="text-[#f1be66]" />
+                      <ImLocation className="text-[#ffb029] text-xl" />
                     </p>
                     <Link
                       to={
@@ -78,7 +78,7 @@ const Market = ({ className }) => {
                       </Tooltip>
                     </Link>
                   </div>
-                  <p className="w-auto text-[#f1be66] text-center hover:text-[#be8624]">
+                  <p className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624]">
                     <Link
                       to={getDirection(
                         language.plan_page.getting_around.content_item.market

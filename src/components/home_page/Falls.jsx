@@ -111,7 +111,7 @@ const Falls = ({ className, id }) => {
                     <p className="text-xl my-1 font-bold pl-5">{data.title}</p>
                     <div className="w-fit flex gap-1 items-center">
                       <p>
-                        <ImLocation className="text-[#f1be66]" />
+                        <ImLocation className="text-[#ffb029] text-xl" />
                       </p>
                       <Link to={data.loc_link} target="_blank">
                         <Tooltip label="Location" placement="bottom">
