@@ -15,9 +15,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        title: ["CatchyMager-Normal", "sans-serif"],
+        mainTitle: ["CatchyMager-Normal", "sans-serif"],
+        title: ["Gabarito", "sans-serif"],
         header: ["SimpleHandmade", "sans-serif"],
-        body: ["Josefin Sans", "sans-serif"],
+        body: ["Lato", "sans-serif"],
       },
     },
   },

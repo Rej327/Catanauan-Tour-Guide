@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -8,14 +10,22 @@
   font-family: "Mistrully";
   src: url("./fonts/Mistrully.ttf");
 }
-@font-face {
-  font-family: "Perfect-Beloved";
-  src: url("./fonts/Perfect-Beloved.otf");
-}
+
 @font-face {
   font-family: "SimpleHandmade";
   src: url("./fonts/SimpleHandmade.otf");
 }
+
+@font-face {
+  font-family: "Gabarito";
+  src: url("./fonts/Gabarito-Medium.ttf");
+}
+@font-face {
+  color: #012854;
+  font-family: "Lato";
+  src: url("./fonts/Lato-Regular.ttf");
+}
+
 @font-face {
   font-family: "CatchyMager-Normal";
   src: url("./fonts/CatchyMager-Normal.ttf");
@@ -30,7 +40,7 @@
 
 p {
   color: #012854;
-  font-family: "Josefin Sans", "sans-serif";
+  font-family: "Lato", sans-serif;
 }
 
 .categoryColor {
