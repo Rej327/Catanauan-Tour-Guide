@@ -20,7 +20,7 @@ const ResortItemContent_2 = ({ dataInfo }) => {
           className="w-full h-[15rem] object-cover"
         />
         <div className="flex gap-2 items-center">
-          <BsPhone className="text-[#ffab19 text-xl" />
+          <BsPhone className="text-[#ffab19] text-xl" />
           <Link to={dataInfo.dial_num}>
             <p className="hover:underline underline-offset-8">
               {dataInfo.number}
@@ -28,7 +28,7 @@ const ResortItemContent_2 = ({ dataInfo }) => {
           </Link>
         </div>
         <div className="flex gap-2 items-center">
-          <ImLocation className="text-[#ffab19 text-xl" />
+          <ImLocation className="text-[#ffab19] text-xl" />
           <Link to={dataInfo.loc_link} target="_blank">
             <p className="hover:underline underline-offset-8">
               {dataInfo.location}
@@ -36,7 +36,7 @@ const ResortItemContent_2 = ({ dataInfo }) => {
           </Link>
         </div>
         <div className="flex gap-2 items-center">
-          <BsFacebook className="text-[#ffab19 text-xl" />
+          <BsFacebook className="text-[#ffab19] text-xl" />
           <Link to={dataInfo.fb_link} target="_blank">
             <p className="hover:underline underline-offset-8">Facebook Page</p>
           </Link>
