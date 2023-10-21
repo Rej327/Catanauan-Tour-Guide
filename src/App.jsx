@@ -13,6 +13,7 @@ import "./styles/itemHover.css";
 import "./styles/wspGallery.css";
 import "./styles/loader.css";
 import "./styles/scrollToTop.css";
+import "./styles/emboss.css";
 import Home from "./page/Home";
 import WhatsOn from "./page/WhatsOn";
 import Beaches from "./page/Beaches";
