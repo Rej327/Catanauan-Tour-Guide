@@ -27,8 +27,8 @@ const PlanHeader = ({ className, selectedPage, icon, category }) => {
         <p> | </p>
         <p className="font-bold underline underline-offset-8">{selectedPage}</p>
       </div>
-      <div className="flex gap-4 mb-10 items-center">
-        <img src={icon} alt="icon" className="w-20" />
+      <div className="flex gap-0   mb-10 items-center">
+        <img src={icon} alt="icon" className="w-28" />
         <p className="font-bold text-3xl md:text-4xl">{selectedPage}</p>
       </div>
     </div>
