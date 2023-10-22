@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import { hc2 } from "../../../assets";
 import { LangContext } from "../../../App";
 import { Skeleton } from "@chakra-ui/react";
+import Button from "../../common/Button";
 
 const AccSection_2 = ({ className }) => {
   const { language } = useContext(LangContext);
@@ -59,11 +60,12 @@ const AccSection_2 = ({ className }) => {
             />
           )}
 
-          <p className="text-[#d4a148] w-fit pl-2 text-lg hover:translate-x-2 hover:font-bold duration-300 ">
-            <Link to="/hotels">
-              {language.plan_page?.accomodation?.btn_txt} →
-            </Link>
-          </p>
+          <Link to="/hotels">
+            <Button
+              label={language.plan_page?.accomodation?.btn_txt}
+              className="text-sm w-auto text-black bg-[#FADEB0]"
+            ></Button>
+          </Link>
         </div>
       </div>
     </div>

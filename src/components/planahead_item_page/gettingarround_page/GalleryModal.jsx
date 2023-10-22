@@ -16,7 +16,7 @@ const GalleryModal = ({ dataInfo }) => {
   return (
     <>
       <p
-        className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624] cursor-pointer"
+        className="w-auto textCardColor cursor-pointer text-lg text-center"
         onClick={onOpen}
       >
         Gallery &#8594;

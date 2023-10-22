@@ -4,6 +4,7 @@ import { ImLocation } from "react-icons/im";
 import { getDirection } from "../helper";
 import { Link } from "react-router-dom";
 import { Skeleton, SkeletonText } from "@chakra-ui/react";
+import Button from "../common/Button";
 
 const FallsBody = () => {
   const { language, startingPoint } = useContext(LangContext);
@@ -125,9 +126,13 @@ const FallsBody = () => {
                       to={getDirection(data.direction, startingPoint)}
                       target="_blank"
                     >
-                      <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
+                      <Button
+                        label={data.direction_txt}
+                        className="flex items-center w-auto text-sm text-black bg-[#FADEB0]"
+                      ></Button>
+                      {/* <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
                         {data.direction_txt}
-                      </p>
+                      </p> */}
                     </Link>
                   </div>
                 </div>

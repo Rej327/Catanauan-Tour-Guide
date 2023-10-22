@@ -6,6 +6,7 @@ import { getDirection } from "../../helper";
 import { LangContext } from "../../../App";
 import { AiOutlineClockCircle } from "react-icons/ai";
 import PricesModal from "./PriceModal";
+import Button from "../../common/Button";
 
 const FoodHub = ({ className }) => {
   const { language, startingPoint } = useContext(LangContext);
@@ -121,7 +122,7 @@ const FoodHub = ({ className }) => {
                           <p className="text-lg font-bold pl-5">{data.title}</p>
                           <div className="w-fit my-2 flex gap-1 items-center">
                             <p>
-                              <AiOutlineClockCircle className="text-[#ffb029] text-xl" />
+                              <AiOutlineClockCircle className="iconCardColor text-xl" />
                             </p>
                             <Tooltip label="Schedule" placement="bottom">
                               <p className="text-base">{data.schedule}</p>
@@ -129,11 +130,11 @@ const FoodHub = ({ className }) => {
                           </div>
                           <div className="w-fit my-2 flex gap-1 items-center">
                             <p>
-                              <ImLocation className="text-[#ffb029] text-xl" />
+                              <ImLocation className="iconCardColor text-xl" />
                             </p>
                             <Link to={data.loc_link} target="_blank">
                               <Tooltip label="Location" placement="bottom">
-                                <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
+                                <p className="text-base hover:underline underline-offset-8 duration-200 cursor-pointer">
                                   {data.location}
                                 </p>
                               </Tooltip>
@@ -143,7 +144,7 @@ const FoodHub = ({ className }) => {
                             {data?.menu?.item && (
                               <PricesModal dataInfo={data?.menu?.item} />
                             )}
-                            <p className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624]">
+                            <p className="w-auto text-lg text-center textCardColor">
                               <Link
                                 to={getDirection(data.direction, startingPoint)}
                                 target="_blank"
@@ -160,12 +161,16 @@ const FoodHub = ({ className }) => {
           </Collapse>
 
           <div className="w-fit my-5 mx-auto">
-            <p
+            <Button
+              label={show ? "- Less" : "+ More"}
+              className="w-auto text-black text-sm bg-[#FCE8CA]"
+            ></Button>
+            {/* <p
               className="mx-auto w-fit text-black px-4 py-2 text-lg bg-[#FCE9CB] cursor-pointer rounded-full"
               onClick={handleToggle}
             >
               {show ? "- Less" : "+ More"}
-            </p>
+            </p> */}
           </div>
         </div>
       </div>

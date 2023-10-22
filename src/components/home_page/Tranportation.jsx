@@ -177,7 +177,7 @@ const Transportations = ({ className, id }) => {
                           className="my-auto ml-2"
                           onClick={displayWarningToast}
                         >
-                          <ImNotification className="cursor-pointer text-base textCardColor text-red-600" />
+                          <ImNotification className="cursor-pointer text-base text-red-600" />
                         </p>
                       </Tooltip>
                     </div>

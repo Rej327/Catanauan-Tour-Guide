@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import { SiAlwaysdata } from "react-icons/si";
 import { getDirection } from "../helper";
 import SkeletonLoader from "./SkeletonLoader";
+import Button from "../common/Button";
 
 const HotelBody = () => {
   const { language, startingPoint } = useContext(LangContext);
@@ -116,14 +117,22 @@ const HotelBody = () => {
                   </div>
                   <div className="w-fit flex gap-4">
                     <Link to={data.btn_visit_link} target="_blank">
-                      <p className="w-fit flex items-center px-4 py-2 rounded-xl border-[1px] text-[#f1be66] border-[#f1be66] hover:scale-110 duration-200 ease-in cursor-pointer">
+                      <Button
+                        label={data.btn_visit_txt}
+                        className="w-auto text-sm text-black bg-[#FADEB0]"
+                      ></Button>
+                      {/* <p className="w-fit flex items-center px-4 py-2 rounded-xl border-[1px] text-[#f1be66] border-[#f1be66] hover:scale-110 duration-200 ease-in cursor-pointer">
                         {data.btn_visit_txt}
-                      </p>
+                      </p> */}
                     </Link>
                     <Link onClick={handleClick} to={`/hotels/${data.id}`}>
-                      <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
+                      <Button
+                        label={data.btn_more_txt}
+                        className="w-auto text-sm text-black bg-[#FADEB0]"
+                      ></Button>
+                      {/* <p className="w-fit flex items-center px-4 py-2 rounded-xl bg-[#f1be66] text-white hover:scale-110 duration-200 ease-in cursor-pointer">
                         {data.btn_more_txt}
-                      </p>
+                      </p> */}
                     </Link>
                   </div>
                 </div>

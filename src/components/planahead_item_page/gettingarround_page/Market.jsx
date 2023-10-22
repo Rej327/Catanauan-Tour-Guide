@@ -59,7 +59,7 @@ const Market = ({ className }) => {
                   </p>
                   <div className="w-fit my-2 flex gap-1 items-center">
                     <p>
-                      <ImLocation className="text-[#ffb029] text-xl" />
+                      <ImLocation className="iconCardColor text-xl" />
                     </p>
                     <Link
                       to={
@@ -69,7 +69,7 @@ const Market = ({ className }) => {
                       target="_blank"
                     >
                       <Tooltip label="Location" placement="bottom">
-                        <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
+                        <p className="text-base hover:underline underline-offset-8 duration-200 cursor-pointer">
                           {
                             language.plan_page.getting_around.content_item
                               .market.location
@@ -78,7 +78,7 @@ const Market = ({ className }) => {
                       </Tooltip>
                     </Link>
                   </div>
-                  <p className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624]">
+                  <p className="w-auto textCardColor text-lg text-center">
                     <Link
                       to={getDirection(
                         language.plan_page.getting_around.content_item.market

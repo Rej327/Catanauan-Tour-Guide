@@ -101,17 +101,17 @@ const Banks = ({ className }) => {
                         <p className="text-lg font-bold pl-5">{data.title}</p>
                         <div className="w-fit my-2 flex gap-1 items-center">
                           <p>
-                            <ImLocation className="text-[#ffb029] text-xl" />
+                            <ImLocation className="iconCardColor text-xl" />
                           </p>
                           <Link to={data.loc_link} target="_blank">
                             <Tooltip label="Location" placement="bottom">
-                              <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
+                              <p className="text-base  hover:underline underline-offset-8 duration-200 cursor-pointer">
                                 {data.location}
                               </p>
                             </Tooltip>
                           </Link>
                         </div>
-                        <p className="w-auto text-[#ffb029] text-lg text-center hover:text-[#be8624]">
+                        <p className="w-auto  text-lg text-center textCardColor">
                           <Link
                             to={getDirection(data.direction, startingPoint)}
                             target="_blank"
