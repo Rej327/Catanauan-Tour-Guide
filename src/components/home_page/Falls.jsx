@@ -115,7 +115,7 @@ const Falls = ({ className, id }) => {
                       </p>
                       <Link to={data.loc_link} target="_blank">
                         <Tooltip label="Location" placement="bottom">
-                          <p className="text-base textCardColor duration-200 cursor-pointer">
+                          <p className="text-base hover:underline underline-offset-8 duration-200 cursor-pointer">
                             {data.location}
                           </p>
                         </Tooltip>
