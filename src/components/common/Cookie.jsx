@@ -22,7 +22,7 @@ const Cookie = () => {
         <div className="w-auto">
           <FaCookieBite className="text-[#E7C278] text-3xl" />
         </div>
-        <p className="text-lg">
+        <p className="text-base">
           This website uses cookies to enhance the user experience.
         </p>
       </div>
@@ -50,7 +50,7 @@ const Cookie = () => {
           paddingRight: "15px",
           paddingTop: "12px",
           paddingBottom: "12px",
-          fontFamily: "Josefin Sans",
+          fontFamily: "Lato",
           borderRadius: "15px",
           marginBottom: "0px",
           marginTop: "0px",
