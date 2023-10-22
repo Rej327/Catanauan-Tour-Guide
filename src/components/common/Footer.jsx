@@ -29,7 +29,7 @@ const Footer = ({ className }) => {
             <div className="w-fit md:mt-auto">
               <a href="#mailmunch-pop-1127834">
                 <Button
-                  className="bg-[#F9DBA9] text-black tracking-wider px-6 pt-4 pb-2"
+                  className="bg-[#F9DBA9] text-black tracking-wider"
                   label="Subscribe"
                 />
               </a>
