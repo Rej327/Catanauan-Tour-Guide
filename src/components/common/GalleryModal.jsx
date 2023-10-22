@@ -10,17 +10,17 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import WSPGallery from "./WSPGallery";
+import Button from "./Button";
 
 const GalleryModal = ({ dataInfo }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <button
-        className="px-4 py-2 rounded-2xl bg-[#F9DBA9] hover:scale-105 duration-300"
+      <Button
+        className="bg-[#F9DBA9] text-black text-base w-auto"
+        label="Gallery"
         onClick={onOpen}
-      >
-        <p>Gallery</p>
-      </button>
+      ></Button>
 
       <Modal size="full" isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />

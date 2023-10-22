@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react";
 import React from "react";
 import WSPGallery from "./WSPGallery";
+import Button from "./Button";
 
 const PricesModal = ({ dataInfo }) => {
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -27,15 +28,14 @@ const PricesModal = ({ dataInfo }) => {
   };
   return (
     <>
-      <button
-        className="px-4 py-2 rounded-2xl bg-[#F9DBA9] hover:scale-105 duration-300"
+      <Button
+        className="bg-[#F9DBA9] text-black w-auto text-base"
+        label="Check Prices"
         onClick={() => {
           onOpen();
           displayWarningToast(); // Display the warning toast when the modal is opened
         }}
-      >
-        <p>Check Prices</p>
-      </button>
+      ></Button>
 
       <Modal size="full" isOpen={isOpen} onClose={onClose}>
         <ModalOverlay />
