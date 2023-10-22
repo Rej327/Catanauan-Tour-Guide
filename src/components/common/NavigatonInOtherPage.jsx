@@ -13,7 +13,9 @@ const NavigatonInOtherPage = () => {
         <div className="w-full bg-[#F9DBA9]  rounded-b-2xl">
           <div className="max-w-[1300px] mx-auto px-2 flex justify-between items-center py-7 lg:py-14">
             <Link to="/">
-              <p className="text-3xl font-header">DiscoverCatanauan</p>
+              <p className="text-2xl md:text-3xl font-header">
+                DiscoverCatanauan
+              </p>
             </Link>
             {/* <SearchBar
               containerStyle="hidden lg:block w-[800px]"
