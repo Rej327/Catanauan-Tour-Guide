@@ -95,7 +95,7 @@ const HotelBody = () => {
                 <div className="w-full flex flex-wrap justify-between gap-10">
                   <div className="flex flex-col gap-2">
                     <div className="w-fit flex gap-1 items-center justify-center">
-                      <ImLocation className="text-[#ffa50a] text-xl" />
+                      <ImLocation className="iconCardColor text-xl" />
                       <Link to={data.loc_link} target="_blank">
                         <p className="text-base hover:underline underline-offset-8 cursor-pointer">
                           {data.location}
@@ -103,7 +103,7 @@ const HotelBody = () => {
                       </Link>
                     </div>
                     <div className="w-fit flex gap-1 items-center justify-center">
-                      <SiAlwaysdata className="text-[#ffa50a] text-xl" />
+                      <SiAlwaysdata className="iconCardColor text-xl" />
                       <Link
                         to={getDirection(data.direction_link, startingPoint)}
                         target="_blank"

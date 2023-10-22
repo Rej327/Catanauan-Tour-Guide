@@ -87,12 +87,12 @@ const ResortsBody = () => {
                 </p>
                 <p className="text-lg font-extrabold">{data.title}</p>
                 <div className="w-fit flex gap-1 items-center">
-                  <ImLocation className="text-[#f1be66]" />
-                  <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
+                  <ImLocation className="iconCardColor" />
+                  <p className="text-base hover:underline underline-offset-8 cursor-pointer">
                     {data.location}
                   </p>
                 </div>
-                <p className="text-center text-base hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
+                <p className="text-center text-base textCardColor underline cursor-pointer hover:no-underline underline-offset-8">
                   <Link onClick={handleClick} to={`/resorts/${data.id}`}>
                     {data.btn_txt}
                   </Link>

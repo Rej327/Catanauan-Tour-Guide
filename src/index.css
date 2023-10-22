@@ -79,3 +79,15 @@ p {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+
+.iconCardColor {
+  color: #2ecbe9;
+}
+
+.textCardColor {
+  color: #001f42;
+}
+
+.textCardColor:hover {
+  color: #2ecbe9;
+}

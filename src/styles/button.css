@@ -125,3 +125,27 @@
     transform: scale(1);
   }
 }
+
+.revButton {
+  --bg: #4e3201;
+  --text-color: #fff;
+  position: relative;
+  width: 150px;
+  border: none;
+  background: var(--bg);
+  color: var(--text-color);
+  padding: 1em;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.2s;
+  border-radius: 5px;
+  opacity: 0.8;
+  letter-spacing: 1px;
+  box-shadow: #6e4600 0px 7px 2px, #000 0px 8px 5px;
+}
+
+.revButton:hover {
+  top: 4px;
+  box-shadow: #6e4600 0px 3px 2px, #000 0px 3px 5px;
+  transition-duration: 300ms;
+}

@@ -19,7 +19,7 @@ const SetupInto = ({ className }) => {
               </p>
               <Link to="/whats-on">
                 <Button
-                  className="globalButton font-bold hover:text-black pt-4 pb-2 px-4 tracking-wider"
+                  className=" font-bold pt-4 tracking-wider  mx-auto w-fit text-black px-4 text-base bg-[#FCE9CB]"
                   label={language?.whats_on_section?.btn_txt}
                 />
               </Link>
