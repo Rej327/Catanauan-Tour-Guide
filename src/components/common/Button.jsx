@@ -5,7 +5,7 @@ const Button = ({ label, className }) => {
   return (
     // <buton className="bg-[#F1BE66] text-black p-4 font-body">What's On</buton>
     <div>
-      <button className={`globalButton font-body ${className}`}>{label}</button>
+      <button className={`revButton font-body ${className}`}>{label}</button>
     </div>
   );
 };

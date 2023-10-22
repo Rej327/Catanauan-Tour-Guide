@@ -122,14 +122,14 @@ const Resorts = ({ className, id }) => {
                       <p className="text-lg font-extrabold">{data.title}</p>
                       <div className="w-fit flex gap-1 items-center">
                         <p>
-                          <ImLocation className="text-[#ffb534] text-xl" />
+                          <ImLocation className="iconCardColor text-xl" />
                         </p>
-                        <p className="text-base hover:text-[#be8624] duration-200 cursor-pointer">
+                        <p className="text-base textCardColor duration-200 cursor-pointer">
                           {data.location}
                         </p>
                       </div>
                       <Link onClick={handleClick} to={`/resorts/${data.id}`}>
-                        <p className="mt-auto mb-4 ml-[6rem] text-base hover:text-[#be8624] underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
+                        <p className="mt-auto mb-4 ml-[6rem] text-base textCardColor underline duration-200 cursor-pointer hover:no-underline underline-offset-8">
                           {data.btn_txt}
                         </p>
                       </Link>

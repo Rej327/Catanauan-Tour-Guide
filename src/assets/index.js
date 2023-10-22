@@ -17,6 +17,14 @@ export { default as bybus } from "./PlanAHeadPage/GettingHere/bybus.jpg";
 export { default as busstop } from "./PlanAHeadPage/GettingHere/busstop.jpg";
 export { default as gettingAroundCover } from "./PlanAHeadPage/GettingAround/gettingAroundCover.jpg";
 export { default as falls } from "./PageCover/falls.jpg";
+
+// CATEGORY TIP IMG
+export { default as falls_tip } from "./TipImg/falls.webp";
+export { default as hotels_tip } from "./TipImg/hotels.webp";
+export { default as resorts_tip } from "./TipImg/resorts.webp";
+export { default as resto_tip } from "./TipImg/resto.webp";
+export { default as transpo_tip } from "./TipImg/transpo.webp";
+
 // PLAN A HEAD ICON
 export { default as guides } from "./PlanAheadSection/OtherIcon/guides.png";
 export { default as gettingHere } from "./PlanAheadSection/OtherIcon/gettingHere.png";
