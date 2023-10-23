@@ -124,9 +124,11 @@ const Resorts = ({ className, id }) => {
                         <p>
                           <ImLocation className="iconCardColor text-xl" />
                         </p>
-                        <p className="text-base hover:underline underline-offset-8 duration-200 cursor-pointer">
-                          {data.location}
-                        </p>
+                        <Link to={data.loc_link} target="_blank">
+                          <p className="text-base hover:underline underline-offset-8 duration-200 cursor-pointer">
+                            {data.location}
+                          </p>
+                        </Link>
                       </div>
                       <Link onClick={handleClick} to={`/resorts/${data.id}`}>
                         <p className="mt-auto mb-4 ml-[6rem] text-base textCardColor underline duration-200 cursor-pointer hover:no-underline underline-offset-8">

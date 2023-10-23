@@ -1,6 +1,7 @@
 import React from "react";
 import CookieConsent from "react-cookie-consent";
 import { FaCookieBite } from "react-icons/fa";
+import { cookie } from "../../assets";
 
 const Cookie = () => {
   const isBlockedByClient =
@@ -20,7 +21,7 @@ const Cookie = () => {
     return (
       <div className="md:absolute bottom-6 flex gap-4 items-center my-auto mt-2">
         <div className="w-auto">
-          <FaCookieBite className="text-[#E7C278] text-3xl" />
+          <img src={cookie} className="w-[2.5rem]" />
         </div>
         <p className="text-base">
           This website uses cookies to enhance the user experience.
