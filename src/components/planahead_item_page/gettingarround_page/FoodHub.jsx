@@ -163,6 +163,7 @@ const FoodHub = ({ className }) => {
           <div className="w-fit my-5 mx-auto">
             <Button
               label={show ? "- Less" : "+ More"}
+              onClick={handleToggle}
               className="w-auto text-black text-sm bg-[#FCE8CA]"
             ></Button>
             {/* <p
