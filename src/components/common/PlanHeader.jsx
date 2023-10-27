@@ -1,11 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
 const PlanHeader = ({ className, selectedPage, icon, category }) => {
   const navigate = useNavigate();
 
   const handleGoBack = () => {
-    navigate(-1);
+    navigate("/");
+
+    setTimeout(() => {
+      window.scrollTo({
+        top: window.innerHeight,
+        behavior: "smooth", // Optional: Add smooth scrolling behavior
+      });
+    }, 100); // Adjust the delay as needed
   };
   return (
     <div
