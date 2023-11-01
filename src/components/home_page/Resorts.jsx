@@ -71,11 +71,14 @@ const Resorts = ({ className, id }) => {
             {language?.resorts_section?.title}
           </p>
           <p className="text-xl">{language?.resorts_section?.content}</p>
-          <Link to="/resorts">
-            <p className="text-base text-[#d4a148] my-5 hover:translate-x-2 hover:font-bold duration-300">
-              {language?.resorts_section?.btn_txt}
-            </p>
-          </Link>
+
+          <div className="w-fit">
+            <Link to="/resorts">
+              <p className="text-base seeMore my-5 hover:translate-x-2 hover:font-bold duration-300">
+                {language?.resorts_section?.btn_txt}
+              </p>
+            </Link>
+          </div>
         </div>
         <div>
           {loading ? (
@@ -116,7 +119,7 @@ const Resorts = ({ className, id }) => {
                       />
                     </div>
                     <div className="relative w-full h-[130px] mt-2 mb-4 px-2 flex flex-col gap-2">
-                      <p className="w-fit text-base text-[#f1be66] font-bold">
+                      <p className="w-fit text-base categoryColor font-bold">
                         {data.category}
                       </p>
                       <p className="text-lg font-extrabold">{data.title}</p>

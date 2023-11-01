@@ -61,29 +61,31 @@ const RestoItemContent_1 = ({ dataInfo }) => {
         <div className="mt-4 mb-10 mx-auto w-[320px] md:w-[400px] lg:w-[800px]">
           <CarouselLike>
             {language?.restaurants_page?.map((data) => (
-              <div
-                onClick={scrollToTop}
-                key={data.id}
-                className="rounded-2xl relative restoItems w-fit h-fit"
-              >
-                <div className="absolute z-10 bottom-0 bg-black bg-opacity-50 flex px-2 flex-col justify-center items-center w-[250px] h-[75px]">
-                  <p className="text-lg text-[#fefeff] text-center">
-                    {data.title}
-                  </p>
-                  <Link to={`/restaurants/${data.id}`}>
-                    <p className="text-[#f9dba9] text-base hover:underline underline-offset-8 hover:cursor-pointer">
-                      {data.btn_txt}
+              <Link to={`/restaurants/${data.id}`}>
+                <div
+                  onClick={scrollToTop}
+                  key={data.id}
+                  className="rounded-2xl relative restoItems w-fit h-fit"
+                >
+                  <div className="absolute z-10 bottom-0 bg-black bg-opacity-50 flex px-2 flex-col justify-center items-center w-[250px] h-[75px]">
+                    <p className="text-lg text-[#fefeff] text-center">
+                      {data.title}
                     </p>
-                  </Link>
+                    <Link to={`/restaurants/${data.id}`}>
+                      <p className="text-[#f9dba9] text-base hover:underline underline-offset-8 hover:cursor-pointer">
+                        {data.btn_txt}
+                      </p>
+                    </Link>
+                  </div>
+                  <div className="w-[250px] h-[250px] overflow-hidden">
+                    <img
+                      src={data.img}
+                      alt={`${data.title} Image`}
+                      className="w-full h-full object-cover itemImg"
+                    />
+                  </div>
                 </div>
-                <div className="w-[250px] h-[250px] overflow-hidden">
-                  <img
-                    src={data.img}
-                    alt={`${data.title} Image`}
-                    className="w-full h-full object-cover itemImg"
-                  />
-                </div>
-              </div>
+              </Link>
             ))}
           </CarouselLike>
         </div>

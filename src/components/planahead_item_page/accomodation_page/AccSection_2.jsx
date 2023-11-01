@@ -1,6 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { hc2 } from "../../../assets";
+import { hc2, laican_place_img_7 } from "../../../assets";
 import { LangContext } from "../../../App";
 import { Skeleton } from "@chakra-ui/react";
 import Button from "../../common/Button";
@@ -54,18 +54,19 @@ const AccSection_2 = ({ className }) => {
           )}
           {!showSkeletons && (
             <img
-              src={hc2}
+              src={laican_place_img_7}
               alt="Accomodation Image"
-              className="h-[70vh] object-cover"
+              className="h-[70vh] object-contain"
             />
           )}
-
-          <Link to="/hotels">
-            <Button
-              label={language.plan_page?.accomodation?.btn_txt}
-              className="text-sm w-auto text-black bg-[#FADEB0]"
-            ></Button>
-          </Link>
+          <div className="w-fit mx-auto mb-5">
+            <Link to="/hotels">
+              <Button
+                label={language.plan_page?.accomodation?.btn_txt}
+                className="text-sm w-auto text-black bg-[#FADEB0]"
+              ></Button>
+            </Link>
+          </div>
         </div>
       </div>
     </div>

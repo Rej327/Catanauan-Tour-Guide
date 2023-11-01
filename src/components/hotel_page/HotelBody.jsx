@@ -87,7 +87,7 @@ const HotelBody = () => {
               </div>
               <div className="w-[800px] px-4 h-fit my-auto items-center flex flex-col gap-5">
                 <div className="flex flex-col mr-auto gap-4">
-                  <p className=" w-fit text-base p-2 rounded-2xl bg-[#FCE9CB] text-[#f1be66] font-bold">
+                  <p className=" w-fit text-base p-2 rounded-2xl categoryColor font-bold">
                     {data.category}
                   </p>
                   <p className="text-2xl font-bold">{data.title}</p>
