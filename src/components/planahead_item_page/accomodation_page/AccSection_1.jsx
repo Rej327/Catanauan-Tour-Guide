@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { hc1 } from "../../../assets";
+import { hc1, laican_rooms_img_3, laican_rooms_img_5 } from "../../../assets";
 import { LangContext } from "../../../App";
 
 const AccSection_1 = ({ className }) => {
@@ -9,7 +9,7 @@ const AccSection_1 = ({ className }) => {
       className={`w-full flex flex-col items-center gap-10 justify-center ${className}`}
     >
       <img
-        src={hc1}
+        src={laican_rooms_img_3}
         alt="Accomodation Image"
         className="w-full h-[60vh] object-cover"
       />

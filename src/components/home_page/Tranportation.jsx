@@ -99,11 +99,13 @@ const Transportations = ({ className, id }) => {
             <p className="text-xl">
               {language?.transportation_section?.content}
             </p>
-            <Link to="/transportations">
-              <p className="text-[#d4a148] mt-5 hover:translate-x-2 hover:font-bold duration-300">
-                {language?.transportation_section?.btn_txt}
-              </p>
-            </Link>
+            <div className="w-fit">
+              <Link to="/transportations">
+                <p className="seeMore mt-5 hover:translate-x-2 font-bold duration-300">
+                  {language?.transportation_section?.btn_txt}
+                </p>
+              </Link>
+            </div>
           </div>
           <div className="w-fit ml-auto pr-24">
             <p className="font-header hashColor text-4xl">

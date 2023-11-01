@@ -59,7 +59,7 @@ const ResortsBody = () => {
       {language?.resorts_page?.map((data) => (
         <div
           key={data.id}
-          className="relative max-w-[290px] ScrollableSection overflow-y-scroll h-[410px] resortItems flex flex-col gap-2 bg-white rounded-xl"
+          className="relative max-w-[290px] ScrollableSection overflow-y-scroll min-h-[450px] max-h-[490px] resortItems flex flex-col gap-2 bg-white rounded-xl"
         >
           <div className="rounded-xl w-[290px] h-[250px] overflow-hidden">
             {loading ? (
@@ -67,12 +67,12 @@ const ResortsBody = () => {
             ) : (
               <img
                 src={data.img}
-                className="w-[290px] h-[250px] itemImg  object-cover rounded-xl"
+                className="w-[290px] h-[250px] itemImg object-cover rounded-xl"
                 onLoad={handleImageLoad}
               />
             )}
           </div>
-          <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
+          <div className=" h-[130px] w-full mt-2 mb-4 px-2 flex flex-col gap-2">
             {loading ? (
               <>
                 <SkeletonText mt="4" noOfLines={1} spacing="4" />
@@ -82,17 +82,17 @@ const ResortsBody = () => {
               </>
             ) : (
               <>
-                <p className="w-fit text-base text-[#f1be66] font-bold">
+                <p className="w-fit text-base categoryColor font-bold">
                   {data.category}
                 </p>
                 <p className="text-lg font-extrabold">{data.title}</p>
                 <div className="w-fit flex gap-1 items-center">
                   <ImLocation className="iconCardColor" />
-                  <p className="text-base hover:underline underline-offset-8 cursor-pointer">
+                  <p className="w-fit text-base hover:underline underline-offset-8 cursor-pointer">
                     {data.location}
                   </p>
                 </div>
-                <p className="text-center text-base textCardColor underline cursor-pointer hover:no-underline underline-offset-8">
+                <p className="text-center pb-4 text-base textCardColor underline cursor-pointer hover:no-underline underline-offset-8">
                   <Link onClick={handleClick} to={`/resorts/${data.id}`}>
                     {data.btn_txt}
                   </Link>

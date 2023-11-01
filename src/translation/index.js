@@ -3327,7 +3327,7 @@ export const en = {
     {
       id: 9,
       img: iyanas_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Iyanas Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",
@@ -4647,7 +4647,7 @@ export const en = {
     {
       id: 17,
       img: punta_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Punta Tierra Blanca Beach Resort",
       location: "Barangay Gatasan, Catanauan, Quezon",
       number: "(+63) 917-897-1960",
@@ -5458,7 +5458,7 @@ export const en = {
     {
       id: 23,
       img: villaiyana_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Villa Iyana Beach Resort",
       location: "Barangay Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",
@@ -6973,9 +6973,9 @@ export const en = {
     {
       id: 0,
       img: mainstation,
-      toda: "Tricycle Station (Main Terminal)",
+      toda: "Main Terminal",
       direction_txt: "Get Direction",
-      loc: "Brgy. Poblacion 04 (Terminal) Catanauan, Quezon",
+      loc: "Brgy. Poblacion 04 Catanauan, Quezon",
       loc_link: "https://maps.app.goo.gl/KN1riokSZXyrg6nV9",
       rts: "Localities",
       rts_link: "https://maps.app.goo.gl/gnedcnsHASTwf4ZW7",
@@ -9187,9 +9187,9 @@ export const fil = {
     {
       id: 0,
       img: mainstation,
-      toda: "Tricycle Station (Main Terminal)",
+      toda: "Main Terminal",
       direction_txt: "Get Direction",
-      loc: "Brgy. Poblacion 04 (Terminal) Catanauan, Quezon",
+      loc: "Brgy. Poblacion 04 Catanauan, Quezon",
       loc_link: "https://maps.app.goo.gl/KN1riokSZXyrg6nV9",
       rts: "Localities",
       rts_link: "https://maps.app.goo.gl/gnedcnsHASTwf4ZW7",
@@ -11498,7 +11498,7 @@ export const fil = {
     {
       id: 9,
       img: iyanas_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Iyanas Beach Resort",
       location: "Brgy. Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",
@@ -12822,7 +12822,7 @@ export const fil = {
     {
       id: 17,
       img: punta_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Punta Tierra Blanca Beach Resort",
       location: "Barangay Gatasan, Catanauan, Quezon",
       number: "(+63) 917-897-1960",
@@ -13633,7 +13633,7 @@ export const fil = {
     {
       id: 23,
       img: villaiyana_cover,
-      category: "Beach",
+      category: "Pool & Beach",
       title: "Villa Iyana Beach Resort",
       location: "Barangay Tuhian, Catanauan, Quezon",
       number: "(+63) 977-757-6785",

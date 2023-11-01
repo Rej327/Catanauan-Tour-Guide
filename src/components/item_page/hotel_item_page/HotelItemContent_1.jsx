@@ -1,4 +1,4 @@
-import { Button, Collapse } from "@chakra-ui/react";
+import { Collapse } from "@chakra-ui/react";
 import React, { useContext, useState } from "react";
 import Carousel from "../../common/Carousel";
 import { LangContext } from "../../../App";
@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import GalleryModal from "../../common/GalleryModal";
 import HotelPricesModal from "../../common/PricesModal";
 import CarouselLike from "../../common/CarouselLike";
+import Button from "../../common/Button";
 
 const HotelItemContent_1 = ({ dataInfo }) => {
   const [show, setShow] = useState(false);
@@ -50,9 +51,10 @@ const HotelItemContent_1 = ({ dataInfo }) => {
         <GalleryModal dataInfo={dataInfo} />
         {dataInfo.web_link && (
           <Link to={dataInfo.web_link} target="_blank">
-            <button className="bg-none border-[1px] border-[#F9DBA9] rounded-full px-4 py-2 hover:bg-[#F9DBA9] duration-300 delay-75">
-              <p className="text-base w-[120px]">Visit Website &#8594;</p>
-            </button>
+            <Button
+              className="bg-[#F9DBA9] text-black w-auto text-base"
+              label="Visit Website &#8594;"
+            ></Button>
           </Link>
         )}
       </div>
@@ -75,7 +77,7 @@ const HotelItemContent_1 = ({ dataInfo }) => {
                     />
                   </div>
                   <div className="w-full mt-2 mb-4 px-2 flex flex-col gap-2">
-                    <p className="w-fit text-base text-[#f1be66] font-bold">
+                    <p className="w-fit text-base categoryColor font-bold">
                       {data.category}
                     </p>
                     <p className="text-lg font-extrabold">{data.title}</p>
