@@ -74,7 +74,7 @@ const Resorts = ({ className, id }) => {
 
           <div className="w-fit">
             <Link to="/resorts">
-              <p className="text-base seeMore my-5 hover:translate-x-2 hover:font-bold duration-300">
+              <p className="text-base seeMore my-5 hover:translate-x-2 duration-300">
                 {language?.resorts_section?.btn_txt}
               </p>
             </Link>

@@ -98,9 +98,17 @@ p {
   color: #333230;
   padding: 8px;
   border-radius: 1rem;
-  border: 2px solid #fddaa2;
+  border: 1px solid rgba(247, 219, 174, 0.847);
 }
 
 .seeMore {
-  color: #ff904d;
+  /* color: #ff904d; */
+  color: #012854;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.seeMore:hover {
+  text-decoration-line: underline;
+  text-underline-offset: 8px;
 }

@@ -79,7 +79,7 @@ const Transportations = ({ className, id }) => {
                 {language?.transportation_section?.content}
               </p>
               <Link to="/transportations">
-                <p className="text-[#d4a148] text-base mt-5 hover:translate-x-2 hover:font-bold duration-300">
+                <p className="seeMore text-base mt-5 hover:translate-x-2 duration-300">
                   {language?.transportation_section?.btn_txt}
                 </p>
               </Link>
@@ -101,7 +101,7 @@ const Transportations = ({ className, id }) => {
             </p>
             <div className="w-fit">
               <Link to="/transportations">
-                <p className="seeMore mt-5 hover:translate-x-2 font-bold duration-300">
+                <p className="seeMore text-base mt-5 hover:translate-x-2 duration-300">
                   {language?.transportation_section?.btn_txt}
                 </p>
               </Link>
